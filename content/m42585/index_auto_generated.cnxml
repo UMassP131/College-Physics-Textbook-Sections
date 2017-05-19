@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" class="introduction" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Introduction to Atomic Physics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42585/latest</md:content-url>
+  <md:content-id>m42585</md:content-id>
+  <md:title>Introduction to Atomic Physics</md:title>
+  <md:version>1.2</md:version>
+  <md:created>2012/01/18 09:25:58 -0600</md:created>
+  <md:revised>2012/06/04 16:37:22 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">cnxcap OpenStaxCollege</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>absorption spectra</md:keyword>
+    <md:keyword>Albert Einstein</md:keyword>
+    <md:keyword>alchemist</md:keyword>
+    <md:keyword>alchemy</md:keyword>
+    <md:keyword>Aleksandr Prokhorov</md:keyword>
+    <md:keyword>alpha particle</md:keyword>
+    <md:keyword>alpha ray</md:keyword>
+    <md:keyword>Amedeo Avogadro</md:keyword>
+    <md:keyword>angular momentum</md:keyword>
+    <md:keyword>angular momentum projection quantum number</md:keyword>
+    <md:keyword>angular momentum quantum number</md:keyword>
+    <md:keyword>atom</md:keyword>
+    <md:keyword>atomic de-excitation</md:keyword>
+    <md:keyword>atomic excitation</md:keyword>
+    <md:keyword>atomic number</md:keyword>
+    <md:keyword>atomic spectrum</md:keyword>
+    <md:keyword>Avogadro’s number</md:keyword>
+    <md:keyword>Balmer series</md:keyword>
+    <md:keyword>Bohr model</md:keyword>
+    <md:keyword>Bohr radius</md:keyword>
+    <md:keyword>Bohr’s atom</md:keyword>
+    <md:keyword>Bohr’s theory</md:keyword>
+    <md:keyword>bremsstrahlung</md:keyword>
+    <md:keyword>Brownian motion</md:keyword>
+    <md:keyword>cathode ray</md:keyword>
+    <md:keyword>cathode-ray tube (CRT)</md:keyword>
+    <md:keyword>Charles Townes</md:keyword>
+    <md:keyword>cloud of probability</md:keyword>
+    <md:keyword>compound</md:keyword>
+    <md:keyword>computed tomography</md:keyword>
+    <md:keyword>Democritus</md:keyword>
+    <md:keyword>Dennis Gabor</md:keyword>
+    <md:keyword>Dmitri Mendeleev</md:keyword>
+    <md:keyword>double-slit interference</md:keyword>
+    <md:keyword>electric field</md:keyword>
+    <md:keyword>electromagnetic</md:keyword>
+    <md:keyword>electron</md:keyword>
+    <md:keyword>electron interference</md:keyword>
+    <md:keyword>electron orbit</md:keyword>
+    <md:keyword>element</md:keyword>
+    <md:keyword>emission spectra</md:keyword>
+    <md:keyword>energy-level diagram</md:keyword>
+    <md:keyword>Ernest Rutherford</md:keyword>
+    <md:keyword>excited state</md:keyword>
+    <md:keyword>exclusion principle</md:keyword>
+    <md:keyword>fine structure</md:keyword>
+    <md:keyword>fluorescence</md:keyword>
+    <md:keyword>gold foil experiment</md:keyword>
+    <md:keyword>ground state</md:keyword>
+    <md:keyword>Heinrich Geissler</md:keyword>
+    <md:keyword>hologram</md:keyword>
+    <md:keyword>holography</md:keyword>
+    <md:keyword>hydrogen atom</md:keyword>
+    <md:keyword>hydrogen-like atom</md:keyword>
+    <md:keyword>hydrogen-spectrum wavelengths</md:keyword>
+    <md:keyword>intrinsic magnetic field</md:keyword>
+    <md:keyword>intrinsic spin</md:keyword>
+    <md:keyword>ion</md:keyword>
+    <md:keyword>Jean-Baptiste Perrin</md:keyword>
+    <md:keyword>J. J. Thomson</md:keyword>
+    <md:keyword>Johann Josef Loschmidt</md:keyword>
+    <md:keyword>John Dalton</md:keyword>
+    <md:keyword>kinetic theory</md:keyword>
+    <md:keyword>laser</md:keyword>
+    <md:keyword>lasing</md:keyword>
+    <md:keyword>Leucippus</md:keyword>
+    <md:keyword>light</md:keyword>
+    <md:keyword>line spectrum</md:keyword>
+    <md:keyword>Lyman series</md:keyword>
+    <md:keyword>magnet</md:keyword>
+    <md:keyword>magnetic field</md:keyword>
+    <md:keyword>Max von Laue</md:keyword>
+    <md:keyword>metastable</md:keyword>
+    <md:keyword>molecule</md:keyword>
+    <md:keyword>multi-electron atom</md:keyword>
+    <md:keyword>nanocrystal</md:keyword>
+    <md:keyword>Niels Bohr</md:keyword>
+    <md:keyword>Nikolay Basov</md:keyword>
+    <md:keyword>nuclear decay</md:keyword>
+    <md:keyword>nuclear fusion</md:keyword>
+    <md:keyword>nucleus</md:keyword>
+    <md:keyword>oil drop experiment</md:keyword>
+    <md:keyword>optical tweezers</md:keyword>
+    <md:keyword>orbital angular momentum</md:keyword>
+    <md:keyword>orbital energy</md:keyword>
+    <md:keyword>Paschen series</md:keyword>
+    <md:keyword>Pauli exclusion principle</md:keyword>
+    <md:keyword>periodic table</md:keyword>
+    <md:keyword>phosphorescence</md:keyword>
+    <md:keyword>photon</md:keyword>
+    <md:keyword>planetary model of the atom</md:keyword>
+    <md:keyword>population inversion</md:keyword>
+    <md:keyword>principal quantum number</md:keyword>
+    <md:keyword>probability cloud</md:keyword>
+    <md:keyword>proton</md:keyword>
+    <md:keyword>quantization</md:keyword>
+    <md:keyword>quantum mechanics</md:keyword>
+    <md:keyword>quantum number</md:keyword>
+    <md:keyword>radiation</md:keyword>
+    <md:keyword>radioactive</md:keyword>
+    <md:keyword>Robert Brown</md:keyword>
+    <md:keyword>Robert Millikan</md:keyword>
+    <md:keyword>Rydberg constant</md:keyword>
+    <md:keyword>scanning tunneling electron microscope</md:keyword>
+    <md:keyword>shell</md:keyword>
+    <md:keyword>space quantization</md:keyword>
+    <md:keyword>spectra</md:keyword>
+    <md:keyword>spectrum</md:keyword>
+    <md:keyword>spin quantum number</md:keyword>
+    <md:keyword>stimulated emission</md:keyword>
+    <md:keyword>subshell</md:keyword>
+    <md:keyword>ultraviolet</md:keyword>
+    <md:keyword>wave-like properties of matter</md:keyword>
+    <md:keyword>William Crookes</md:keyword>
+    <md:keyword>William Henry Bragg</md:keyword>
+    <md:keyword>William Lawrence Bragg</md:keyword>
+    <md:keyword>X-ray crystallography</md:keyword>
+    <md:keyword>X-ray diffraction</md:keyword>
+    <md:keyword>X-rays</md:keyword>
+    <md:keyword>Zeeman effect</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+    
+          <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3421885" class="splash"><media id="import-auto-id2971670" alt="View of tubular arrangement of atoms, as observed with a scanning electron microscope.">
+          <image mime-type="image/jpg" src="FIgure_31_00_01a.jpg"/>
+        </media>
+        
+      <caption>Individual carbon atoms are visible in this image of a carbon nanotube made by a scanning tunneling electron microscope. (credit: Taner Yildirim, National Institute of Standards and Technology, via Wikimedia Commons)</caption></figure><para id="import-auto-id1293174">From childhood on, we learn that atoms are a substructure of all things around us, from the air we breathe to the autumn leaves that blanket a forest trail. Invisible to the eye, the existence and properties of atoms are used to explain many phenomena—a theme found throughout this text. In this chapter, we discuss the discovery of atoms and their own substructures; we then apply quantum mechanics to the description of atoms, and their properties and interactions. Along the way, we will find, much like the scientists who made the original discoveries, that new concepts emerge with applications far beyond the boundaries of atomic physics.</para>
+   </content>
+</document>

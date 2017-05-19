@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>Introduction to Special Relativity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42525/latest</md:content-url>
+  <md:content-id>m42525</md:content-id>
+  <md:title>Introduction to Special Relativity</md:title>
+  <md:version>1.5</md:version>
+  <md:created>2012/01/17 15:37:45 -0600</md:created>
+  <md:revised>2016/02/25 15:23:35 -0600</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Classical velocity addition</md:keyword>
+    <md:keyword>Distance</md:keyword>
+    <md:keyword>Doppler shift</md:keyword>
+    <md:keyword>Einstein</md:keyword>
+    <md:keyword>Energy</md:keyword>
+    <md:keyword>Fission</md:keyword>
+    <md:keyword>Fusion</md:keyword>
+    <md:keyword>General relativity</md:keyword>
+    <md:keyword>Kinetic energy</md:keyword>
+    <md:keyword>Length contraction</md:keyword>
+    <md:keyword>Mass</md:keyword>
+    <md:keyword>Mechanics</md:keyword>
+    <md:keyword>Michelson-Morley</md:keyword>
+    <md:keyword>Momentum</md:keyword>
+    <md:keyword>Muon</md:keyword>
+    <md:keyword>Observer</md:keyword>
+    <md:keyword>Postulate</md:keyword>
+    <md:keyword>Potential energy</md:keyword>
+    <md:keyword>Proper length</md:keyword>
+    <md:keyword>Proper time</md:keyword>
+    <md:keyword>Reference frame</md:keyword>
+    <md:keyword>Relativistic Doppler effects</md:keyword>
+    <md:keyword>Relativistic energy</md:keyword>
+    <md:keyword>Relativistic mechanics</md:keyword>
+    <md:keyword>Relativistic momentum</md:keyword>
+    <md:keyword>Relativistic velocity addition</md:keyword>
+    <md:keyword>Relativity</md:keyword>
+    <md:keyword>Rest energy</md:keyword>
+    <md:keyword>Rest mass</md:keyword>
+    <md:keyword>Simultaneity</md:keyword>
+    <md:keyword>Special relativity</md:keyword>
+    <md:keyword>Speed</md:keyword>
+    <md:keyword>Time dilation</md:keyword>
+    <md:keyword>Total energy</md:keyword>
+    <md:keyword>Twin paradox</md:keyword>
+    <md:keyword>Velocity</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Social Sciences</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<?cnx.eoc class="section-summary" title="Section Summary"?>
+<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+  
+    
+    <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="fs-id953178" class="splash"><media id="fs-id3083852" alt="Night sky with bright Orion Nebula cluster in the center amongst the group of stars.">
+        <image mime-type="image/png" src="Figure_29_00_01a_D.jpg"/>
+      </media>
+
+<caption>Special relativity explains why traveling to other star systems, such as these in the Orion Nebula, is unreasonable using our current level of technology. (credit: s58y, Flickr)</caption></figure><para id="import-auto-id3155319">Have you ever looked up at the night sky and dreamed of traveling to other planets in faraway star systems? Would there be other life forms? What would other worlds look like? You might imagine that such an amazing trip would be possible if we could just travel fast enough, but you will read in this chapter why this is not true. In 1905 Albert Einstein developed the theory of special relativity. This theory explains the limit on an object’s speed and describes the consequences.</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2608833"><emphasis effect="italics"><emphasis effect="italics">Relativity</emphasis></emphasis>. The word <emphasis effect="italics"><emphasis effect="italics">relativity</emphasis></emphasis> might conjure an image of Einstein, but the idea did not begin with him. People have been exploring relativity for many centuries. Relativity is the study of how different observers measure the same event. Galileo and Newton developed the first correct version of classical relativity. Einstein developed the modern theory of relativity. Modern relativity is divided into two parts. <emphasis effect="italics"><emphasis effect="italics">Special relativity</emphasis></emphasis> deals with observers who are moving at constant velocity. <emphasis effect="italics"><emphasis effect="italics">General relativity</emphasis></emphasis> deals with observers who are undergoing acceleration. Einstein is famous because his theories of relativity made revolutionary predictions. Most importantly, his theories have been verified to great precision in a vast range of experiments, altering forever our concept of space and time.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2633240"><media id="fs-id1959437" alt="Black and white photograph of Albert Einstein.">
+        <image mime-type="image/jpg" src="Figure_29_00_02a.jpg" width="200"/>
+      </media>
+      
+        <caption>Many people think that Albert Einstein (1879–1955) was the greatest physicist of the 20th century. Not only did he develop modern relativity, thus revolutionizing our concept of the universe, he also made fundamental contributions to the foundations of quantum mechanics. (credit: The Library of Congress)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-id1364116">It is important to note that although classical mechanics, in general, and classical relativity, in particular, are limited, they are extremely good approximations for large, slow-moving objects. Otherwise, we could not use classical physics to launch satellites or build bridges. In the classical limit (objects larger than submicroscopic and moving slower than about 1% of the speed of light), relativistic mechanics becomes the same as classical mechanics. This fact will be noted at appropriate places throughout this chapter.</para></content>
+ 
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Electric Potential and Electric Energy</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42320/latest/</md:content-url>
+  <md:content-id>m42320</md:content-id>
+  <md:title>Introduction to Electric Potential and Electric Energy</md:title>
+  <md:version>1.4</md:version>
+  <md:created>2012/01/17 14:46:49 US/Central</md:created>
+  <md:revised>2012/06/20 10:20:30.266 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Battery</md:keyword>
+    <md:keyword>Capacitance</md:keyword>
+    <md:keyword>Capacitor</md:keyword>
+    <md:keyword>Charge</md:keyword>
+    <md:keyword>Defibrillator</md:keyword>
+    <md:keyword>Dielectrics</md:keyword>
+    <md:keyword>Electric field</md:keyword>
+    <md:keyword>Electric field lines</md:keyword>
+    <md:keyword>Electron volt</md:keyword>
+    <md:keyword>Energy</md:keyword>
+    <md:keyword>Equipotential lines</md:keyword>
+    <md:keyword>Equipotential surface</md:keyword>
+    <md:keyword>Gradient</md:keyword>
+    <md:keyword>Grounding</md:keyword>
+    <md:keyword>Ground potential</md:keyword>
+    <md:keyword>Insulator</md:keyword>
+    <md:keyword>Ions</md:keyword>
+    <md:keyword>Mechanical energy</md:keyword>
+    <md:keyword>Parallel</md:keyword>
+    <md:keyword>Point charge</md:keyword>
+    <md:keyword>Potential</md:keyword>
+    <md:keyword>Potential difference</md:keyword>
+    <md:keyword>Potential energy</md:keyword>
+    <md:keyword>Scalar</md:keyword>
+    <md:keyword>Series</md:keyword>
+    <md:keyword>Vector</md:keyword>
+    <md:keyword>Volt</md:keyword>
+    <md:keyword>Voltage</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+        
+        
+        <section id="fs-id2068296">
+            <title xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0"/><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1591512" class="splash"><media id="import-auto-id1338963" alt="Air Force officials practice using an automated external defibrillator (AED). Electric potential energy is stored in the defibrillator unit and sent to resuscitate the patient.">
+                <image mime-type="image/png" src="Figure_20_00_00a_D.jpg"/>
+            </media>
+                
+                <caption>Automated external defibrillator unit (AED) (credit: U.S. Defense Department photo/Tech. Sgt. Suzanne M. Day)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1544835">In <link document="m42299">Electric Charge and Electric Field</link>, we just scratched the surface (or at least rubbed it) of electrical phenomena. Two of the most familiar aspects of electricity are its energy and <emphasis effect="italics">voltage</emphasis>. We know, for example, that great amounts of electrical energy can be stored in batteries, are transmitted cross-country through power lines, and may jump from clouds to explode the sap of trees. In a similar manner, at molecular levels, <emphasis effect="italics">ions</emphasis> cross cell membranes and transfer information. We also know about voltages associated with electricity. Batteries are typically a few volts, the outlets in your home produce 120 volts, and power lines can be as high as hundreds of thousands of volts. But energy and voltage are not the same thing. A motorcycle battery, for example, is small and would not be very successful in replacing the much larger car battery, yet each has the same voltage. In this chapter, we shall examine the relationship between voltage and electrical energy and begin to explore some of the many applications of electricity.</para></section>
+    </content>
+</document>

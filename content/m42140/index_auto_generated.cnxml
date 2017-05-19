@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Uniform Circular Motion and Gravitation</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42140/latest</md:content-url>
+  <md:content-id>m42140</md:content-id>
+  <md:title>Introduction to Uniform Circular Motion and Gravitation</md:title>
+  <md:version>1.2</md:version>
+  <md:created>2011/12/28 12:47:31 -0600</md:created>
+  <md:revised>2012/04/30 16:39:38 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">cnxcap OpenStaxCollege</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Angular velocity</md:keyword>
+    <md:keyword>Arc length</md:keyword>
+    <md:keyword>Banked curves</md:keyword>
+    <md:keyword>Center of mass</md:keyword>
+    <md:keyword>Centrifugal force</md:keyword>
+    <md:keyword>Centrifuge</md:keyword>
+    <md:keyword>Centripetal acceleration</md:keyword>
+    <md:keyword>Centripetal force</md:keyword>
+    <md:keyword>Circular orbits</md:keyword>
+    <md:keyword>Coriolis force</md:keyword>
+    <md:keyword>Fictitious force</md:keyword>
+    <md:keyword>Gravitational constant</md:keyword>
+    <md:keyword>Human centrifuges</md:keyword>
+    <md:keyword>Ideal banking</md:keyword>
+    <md:keyword>Inertial frame of reference</md:keyword>
+    <md:keyword>Kepler’s laws</md:keyword>
+    <md:keyword>Microgravity</md:keyword>
+    <md:keyword>Newton’s universal law of gravitation</md:keyword>
+    <md:keyword>Non-inertial frame of reference</md:keyword>
+    <md:keyword>Pit</md:keyword>
+    <md:keyword>Planetary motion</md:keyword>
+    <md:keyword>Planets</md:keyword>
+    <md:keyword>Radians</md:keyword>
+    <md:keyword>Radius of curvature</md:keyword>
+    <md:keyword>Rotational Motion</md:keyword>
+    <md:keyword>Rotation angle</md:keyword>
+    <md:keyword>Satellite</md:keyword>
+    <md:keyword>Time period</md:keyword>
+    <md:keyword>Translational Motion</md:keyword>
+    <md:keyword>Ultra centrifuge</md:keyword>
+    <md:keyword>Uniform Circular Motion</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3121980" class="splash"><media id="import-auto-id2679274" alt="The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.">
+                    <image mime-type="image/jpg" src="Figure_07_00_01a.jpg" width="400"/>
+                </media>
+                
+            <caption>This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly—the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3130527">Many motions, such as the arc of a bird’s flight or Earth’s path around the Sun, are curved. Recall that Newton’s first law tells us that motion is along a straight line at constant speed unless there is a net external force. We will therefore study not only motion along curves, but also the forces that cause it, including gravitational forces. In some ways, this chapter is a continuation of <link document="m42129">Dynamics: Newton's Laws of Motion</link> as we study more applications of Newton’s laws of motion.</para><para id="import-auto-id3172430">This chapter deals with the simplest form of curved motion, <term id="import-auto-id1920881">uniform circular motion</term>, motion in a circular path at constant speed. Studying this topic illustrates most concepts associated with rotational motion and leads to the study of many new topics we group under the name <emphasis effect="italics">rotation</emphasis>. Pure <emphasis effect="italics">rotational motion</emphasis> occurs when points in an object move in circular paths centered on one point. Pure <emphasis effect="italics">translational motion</emphasis> is motion with no rotation. Some motion combines both types, such as a rotating hockey puck moving along ice.</para>
+
+</content>
+    <glossary>
+        <definition id="import-auto-id2679165"><term>uniform circular motion</term> <meaning id="fs-id2639919">the motion of an object in a circular path at constant speed</meaning></definition>
+    </glossary>
+</document>

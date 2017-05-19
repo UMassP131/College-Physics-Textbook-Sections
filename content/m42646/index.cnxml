@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>Introduction to Applications of Nuclear Physics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42646/latest/</md:content-url>
+  <md:content-id>m42646</md:content-id>
+  <md:title>Introduction to Applications of Nuclear Physics</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2012/01/18 10:26:09 US/Central</md:created>
+  <md:revised>2012/06/20 10:09:00.275 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>CT</md:keyword>
+    <md:keyword>Medical scanning</md:keyword>
+    <md:keyword>Nuclear physics</md:keyword>
+    <md:keyword>PET</md:keyword>
+    <md:keyword>X-rays</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract><list>
+<item>Provide examples of various nuclear physics applications.</item>
+</list></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+    <section id="fs-id3385683">
+      <title xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0"/><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2403714" class="splash"><media id="import-auto-id3063511" alt="The image shows a woman preparing for scanning of a child mummy with a cylindrical instrument.">
+        <image mime-type="image/png" src="Figure_33_00_01.jpg"/>
+      </media>
+      
+    <caption>Tori Randall, Ph.D., curator for the Department of Physical Anthropology at the San Diego Museum of Man, prepares a 550-year-old Peruvian child mummy for a CT scan at Naval Medical Center San Diego. (credit: U.S. Navy photo by Mass Communication Specialist 3rd Class Samantha A. Lewis)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1998616">Applications of nuclear physics have become an integral part of modern life. From the bone scan that detects a cancer to the radioiodine treatment that cures another, nuclear radiation has diagnostic and therapeutic effects on medicine. From the fission power reactor to the hope of controlled fusion, nuclear energy is now commonplace and is a part of our plans for the future. Yet, the destructive potential of nuclear weapons haunts us, as does the possibility of nuclear reactor accidents. Certainly, several applications of nuclear physics escape our view, as seen in <link target-id="import-auto-id2591664"/>. Not only has nuclear physics revealed secrets of nature, it has an inevitable impact based on its applications, as they are intertwined with human values. Because of its potential for alleviation of suffering, and its power as an ultimate destructor of life, nuclear physics is often viewed with ambivalence. But it provides perhaps the best example that applications can be good or evil, while knowledge itself is neither.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2591664"><media id="import-auto-id1429159" alt="Vehicles being inspected by another vehicle with a boom-type x-ray scanner attached to it.">
+        <image mime-type="image/png" src="Figure_33_00_02.jpg" width="400"/>
+      </media>
+      
+    <caption>Customs officers inspect vehicles using neutron irradiation. Cars and trucks pass through portable x-ray machines that reveal their contents. (credit: Gerald L. Nino, CBP, U.S. Dept. of Homeland Security)</caption></figure><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3354980"><media id="import-auto-id1546552" alt="Gamma-ray scanned image of two stowaways hiding inside a big truck.">
+        <image mime-type="image/png" src="Figure_33_00_03.jpg" width="400"/>
+      </media>
+      
+    <caption>This image shows two stowaways caught illegally entering the United States from Canada. (credit: U.S. Customs and Border Protection)</caption></figure></section>
+  </content>
+</document>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Electric Current, Resistance, and Ohm's Law</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/m42339/latest/</md:content-url>
+  <md:content-id>m42339</md:content-id>
+  <md:title>Introduction to Electric Current, Resistance, and Ohm's Law</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2012/01/17 14:52:08 US/Central</md:created>
+  <md:revised>2015/05/14 14:09:58.984 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>AC</md:keyword>
+    <md:keyword>Action potential</md:keyword>
+    <md:keyword>Alternating current</md:keyword>
+    <md:keyword>Amp</md:keyword>
+    <md:keyword>Ampere</md:keyword>
+    <md:keyword>Axon</md:keyword>
+    <md:keyword>Bioelectricity</md:keyword>
+    <md:keyword>Circuit</md:keyword>
+    <md:keyword>Conduction</md:keyword>
+    <md:keyword>Current</md:keyword>
+    <md:keyword>DC</md:keyword>
+    <md:keyword>Dendrite</md:keyword>
+    <md:keyword>Direct current</md:keyword>
+    <md:keyword>Drift velocity</md:keyword>
+    <md:keyword>ECG</md:keyword>
+    <md:keyword>Electric</md:keyword>
+    <md:keyword>Electric current</md:keyword>
+    <md:keyword>Electricity</md:keyword>
+    <md:keyword>Electrocardiogram</md:keyword>
+    <md:keyword>Electron</md:keyword>
+    <md:keyword>Energy</md:keyword>
+    <md:keyword>Hazard</md:keyword>
+    <md:keyword>Impermeable</md:keyword>
+    <md:keyword>Kilowatt</md:keyword>
+    <md:keyword>Kilowatt-hour</md:keyword>
+    <md:keyword>Membrane</md:keyword>
+    <md:keyword>Microshock</md:keyword>
+    <md:keyword>Nerve</md:keyword>
+    <md:keyword>Neuron</md:keyword>
+    <md:keyword>Ohm</md:keyword>
+    <md:keyword>Ohmic</md:keyword>
+    <md:keyword>Ohm’s law</md:keyword>
+    <md:keyword>Power</md:keyword>
+    <md:keyword>Resistance</md:keyword>
+    <md:keyword>resistivity</md:keyword>
+    <md:keyword>Resistivity</md:keyword>
+    <md:keyword>Root mean square</md:keyword>
+    <md:keyword>Semipermeable</md:keyword>
+    <md:keyword>Sensitive</md:keyword>
+    <md:keyword>Shock</md:keyword>
+    <md:keyword>Short</md:keyword>
+    <md:keyword>Short circuit</md:keyword>
+    <md:keyword>Simple circuit</md:keyword>
+    <md:keyword>Superconductor</md:keyword>
+    <md:keyword>Synapse</md:keyword>
+    <md:keyword>Temperature</md:keyword>
+    <md:keyword>Temperature coefficient of</md:keyword>
+    <md:keyword>Thermal</md:keyword>
+    <md:keyword>Voltage</md:keyword>
+    <md:keyword>Wave</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3255910" class="splash"><media id="import-auto-id2626526" alt="A large volume of water gushes out of the gates of a dam at a hydroelectric facility.">
+                <image mime-type="image/jpg" src="Figure_20_00_01.jpg"/>
+            </media>
+            
+        <caption>Electric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge—that is, by electric current. (credit: Chintohere, Wikimedia Commons)</caption></figure><para id="import-auto-id1579542">The flicker of numbers on a handheld calculator, nerve impulses carrying signals of vision to the brain, an ultrasound device sending a signal to a computer screen, the brain sending a message for a baby to twitch its toes, an electric train pulling its load over a mountain pass, a hydroelectric plant sending energy to metropolitan and rural users—these and many other examples of electricity involve <emphasis effect="italics">electric current, the movement of charge</emphasis>. Humankind has indeed harnessed electricity, the basis of technology, to improve our quality of life. Whereas the previous two chapters concentrated on static electricity and the fundamental force underlying its behavior, the next few chapters will be devoted to electric and magnetic phenomena involving current. In addition to exploring applications of electricity, we shall gain new insights into nature—in particular, the fact that all magnetism results from electric current.</para>
+
+
+            
+
+    </content>
+</document>

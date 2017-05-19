@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Electric Charge and Electric Field</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42299/latest</md:content-url>
+  <md:content-id>m42299</md:content-id>
+  <md:title>Introduction to Electric Charge and Electric Field</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2012/01/17 14:39:18 -0600</md:created>
+  <md:revised>2012/06/06 16:43:38 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Benjamin Franklin</md:keyword>
+    <md:keyword>charge conservation</md:keyword>
+    <md:keyword>conductor</md:keyword>
+    <md:keyword>Coulomb force</md:keyword>
+    <md:keyword>Coulomb interaction</md:keyword>
+    <md:keyword>Coulomb’s law</md:keyword>
+    <md:keyword>dipole</md:keyword>
+    <md:keyword>electric charge</md:keyword>
+    <md:keyword>electric field</md:keyword>
+    <md:keyword>electric field lines</md:keyword>
+    <md:keyword>electric field strength</md:keyword>
+    <md:keyword>electromagnetic force</md:keyword>
+    <md:keyword>electron</md:keyword>
+    <md:keyword>electrostatic equilibrium</md:keyword>
+    <md:keyword>electrostatic force</md:keyword>
+    <md:keyword>electrostatic precipitators</md:keyword>
+    <md:keyword>electrostatic repulsion</md:keyword>
+    <md:keyword>electrostatics</md:keyword>
+    <md:keyword>Faraday cage</md:keyword>
+    <md:keyword>force field</md:keyword>
+    <md:keyword>free charge</md:keyword>
+    <md:keyword>free electron</md:keyword>
+    <md:keyword>grounded</md:keyword>
+    <md:keyword>induction</md:keyword>
+    <md:keyword>insulator</md:keyword>
+    <md:keyword>ionosphere</md:keyword>
+    <md:keyword>laser printer</md:keyword>
+    <md:keyword>photoconductor</md:keyword>
+    <md:keyword>point charge</md:keyword>
+    <md:keyword>polarization</md:keyword>
+    <md:keyword>polarized</md:keyword>
+    <md:keyword>polar molecule</md:keyword>
+    <md:keyword>proton</md:keyword>
+    <md:keyword>screening</md:keyword>
+    <md:keyword>static electricity</md:keyword>
+    <md:keyword>test charge</md:keyword>
+    <md:keyword>Van de Graaff generator</md:keyword>
+    <md:keyword>vector</md:keyword>
+    <md:keyword>vector addition</md:keyword>
+    <md:keyword>xerography</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>   
+<?cnx.eoc class="section-summary" title="Section Summary"?>
+<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?> 
+   
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1697715" class="splash"><media id="import-auto-id1461910" alt="A child swoops down a plastic playground slide, his hair standing on end.">
+            <image mime-type="image/jpg" src="Figure_19_00_01a_D.jpg"/>
+        </media>
+            
+            <caption>Static electricity from this plastic slide causes the child’s hair to stand on end. The sliding motion stripped electrons away from the child’s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1799389">The image of American politician and scientist Benjamin Franklin (1706–1790) flying a kite in a thunderstorm is familiar to every schoolchild. (See <link target-id="import-auto-id1492127"/>.) In this experiment, Franklin demonstrated a connection between lightning and <term id="import-auto-id1796940">static electricity</term>. Sparks were drawn from a key hung on a kite string during an electrical storm. These sparks were like those produced by static electricity, such as the spark that jumps from your finger to a metal doorknob after you walk across a wool carpet. What Franklin demonstrated in his dangerous experiment was a connection between phenomena on two different scales: one the grand power of an electrical storm, the other an effect of more human proportions. Connections like this one reveal the underlying unity of the laws of nature, an aspect we humans find particularly appealing.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1492127"><media id="import-auto-id1104931" alt="Benjamin Franklin is shown flying a kite and lightning is observed. A metal key is attached to the string.">
+            <image mime-type="image/jpg" src="Figure_19_00_02a.jpg" width="275"/>
+        </media>
+            
+            <caption>When Benjamin Franklin demonstrated that lightning was related to static electricity, he made a connection that is now part of the evidence that all directly experienced forces except the gravitational force are manifestations of the electromagnetic force.</caption></figure><para id="import-auto-id2050222">Much has been written about Franklin. His experiments were only part of the life of a man who was a scientist, inventor, revolutionary, statesman, and writer. Franklin’s experiments were not performed in isolation, nor were they the only ones to reveal connections.</para>
+        <para id="import-auto-id2275543">For example, the Italian scientist Luigi Galvani (1737–1798) performed a series of experiments in which static electricity was used to stimulate contractions of leg muscles of dead frogs, an effect already known in humans subjected to static discharges. But Galvani also found that if he joined two metal wires (say copper and zinc) end to end and touched the other ends to muscles, he produced the same effect in frogs as static discharge. Alessandro Volta (1745–1827), partly inspired by Galvani’s work, experimented with various combinations of metals and developed the battery.</para>
+        <para id="import-auto-id2084298">During the same era, other scientists made progress in discovering fundamental connections. The periodic table was developed as the systematic properties of the elements were discovered. This influenced the development and refinement of the concept of atoms as the basis of matter. Such submicroscopic descriptions of matter also help explain a great deal more.</para>
+        <para id="import-auto-id1827540">Atomic and molecular interactions, such as the forces of friction, cohesion, and adhesion, are now known to be manifestations of the <term id="import-auto-id886042">electromagnetic force</term>. Static electricity is just one aspect of the electromagnetic force, which also includes moving electricity and magnetism.</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2096724">All the macroscopic forces that we experience directly, such as the sensations of touch and the tension in a rope, are due to the electromagnetic force, one of the four fundamental forces in nature. The gravitational force, another fundamental force, is actually sensed through the electromagnetic interaction of molecules, such as between those in our feet and those on the top of a bathroom scale. (The other two fundamental forces, the strong nuclear force and the weak nuclear force, cannot be sensed on the human scale.)</para><para id="import-auto-id1401713">This chapter begins the study of electromagnetic phenomena at a fundamental level. The next several chapters will cover static electricity, moving electricity, and magnetism—collectively known as electromagnetism. In this chapter, we begin with the study of electric phenomena due to charges that are at least temporarily stationary, called electrostatics, or static electricity.</para>
+</content>
+    <glossary>
+    <definition id="fs-id1169762484725"><term>static electricity</term> <meaning id="fs-id1169762667607">a buildup of electric charge on the surface of an object</meaning></definition>
+<definition id="fs-id1169762426538"><term>electromagnetic force</term> <meaning id="fs-id1169762385392">one of the four fundamental forces of nature; the electromagnetic force consists of static electricity, moving electricity and magnetism</meaning></definition>
+
+    </glossary>
+</document>

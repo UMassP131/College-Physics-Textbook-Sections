@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Circuits and DC Instruments</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42354/latest</md:content-url>
+  <md:content-id>m42354</md:content-id>
+  <md:title>Introduction to Circuits and DC Instruments</md:title>
+  <md:version>1.5</md:version>
+  <md:created>2012/01/17 14:58:33 -0600</md:created>
+  <md:revised>2014/02/20 10:55:23 -0600</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>AC (alternating current)</md:keyword>
+    <md:keyword>Ammeter</md:keyword>
+    <md:keyword>Analog meter</md:keyword>
+    <md:keyword>Bioelectricity</md:keyword>
+    <md:keyword>Bridge device</md:keyword>
+    <md:keyword>Capacitance</md:keyword>
+    <md:keyword>Capacitor</md:keyword>
+    <md:keyword>Circuit</md:keyword>
+    <md:keyword>Conservation laws</md:keyword>
+    <md:keyword>Current</md:keyword>
+    <md:keyword>Current sensitivity</md:keyword>
+    <md:keyword>DC (direct current)</md:keyword>
+    <md:keyword>Digital meter</md:keyword>
+    <md:keyword>Electromotive force (emf)</md:keyword>
+    <md:keyword>Full-scale deflection</md:keyword>
+    <md:keyword>Galvanometer</md:keyword>
+    <md:keyword>Internal resistance</md:keyword>
+    <md:keyword>Joule’s law</md:keyword>
+    <md:keyword>Junction rule</md:keyword>
+    <md:keyword>Kirchhoff’s rules</md:keyword>
+    <md:keyword>Loop rule</md:keyword>
+    <md:keyword>Null measurements</md:keyword>
+    <md:keyword>Ohmmeter</md:keyword>
+    <md:keyword>Ohm’s law</md:keyword>
+    <md:keyword>Parallel</md:keyword>
+    <md:keyword>Potential difference</md:keyword>
+    <md:keyword>Potentiometer</md:keyword>
+    <md:keyword>RC circuit</md:keyword>
+    <md:keyword>Resistance</md:keyword>
+    <md:keyword>Resistor</md:keyword>
+    <md:keyword>Series</md:keyword>
+    <md:keyword>Shunt resistance</md:keyword>
+    <md:keyword>Terminal voltage</md:keyword>
+    <md:keyword>Voltage</md:keyword>
+    <md:keyword>Voltage drop</md:keyword>
+    <md:keyword>Voltmeter</md:keyword>
+    <md:keyword>Wheatstone bridge</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3358908" class="splash"><media id="import-auto-id1090997" alt="Photograph of a space systems operator using several computer monitors showing various data.">
+                <image mime-type="image/png" src="Figure_22_00_01_D.jpg"/>
+            </media>
+            
+        <caption>Electric circuits in a computer allow large amounts of data to be quickly and accurately analyzed.. (credit: Airman 1st Class Mike Meares, United States Air Force)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1276109">Electric circuits are commonplace. Some are simple, such as those in flashlights. Others, such as those used in supercomputers, are extremely complex.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2971673">This collection of modules takes the topic of electric circuits a step beyond simple circuits. When the circuit is purely resistive, everything in this module applies to both DC and AC. Matters become more complex when capacitance is involved. We do consider what happens when capacitors are connected to DC voltage sources, but the interaction of capacitors and other nonresistive devices with AC is left for a later chapter. Finally, a number of important DC instruments, such as meters that measure voltage and current, are covered in this chapter.</para></content>
+</document>

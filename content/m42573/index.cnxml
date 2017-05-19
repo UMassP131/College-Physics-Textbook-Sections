@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+    <title>The Particle-Wave Duality</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42573/latest/</md:content-url>
+  <md:content-id>m42573</md:content-id>
+  <md:title>The Particle-Wave Duality</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2012/01/18 09:23:57 US/Central</md:created>
+  <md:revised>2012/06/13 15:48:15.699 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>particle-wave duality</md:keyword>
+    <md:keyword>photon</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract><list><item>Explain what the term particle-wave duality means, and why it is applied to EM radiation.</item></list></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id597805">We have long known that EM radiation is a wave, capable of interference and diffraction. We now see that light can be modeled as photons, which are massless particles. This may seem contradictory, since we ordinarily deal with large objects that never act like both wave and particle. An ocean wave, for example, looks nothing like a rock. To understand small-scale phenomena, we make analogies with the large-scale phenomena we observe directly. When we say something behaves like a wave, we mean it shows interference effects analogous to those seen in overlapping water waves. (See <link target-id="import-auto-id1477820"/>.) Two examples of waves are sound and EM radiation. When we say something behaves like a particle, we mean that it interacts as a discrete unit with no interference effects. Examples of particles include electrons, atoms, and photons of EM radiation. How do we talk about a phenomenon that acts like both a particle and a wave?</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1477820"><media id="import-auto-id1411390" alt="Part a shows interaction of light rays emerging from two slits as semicircles overlapping one another. The direction of light waves is shown using arrows. The interacting waves spread out and end on a screen where points of maximum and minimum are marked. In part b, a photon is depicted as an ellipse enclosing a wave and a sand particle is shown enlarged. An arrow is drawn between the two from the photon to the sand particle.">
+                <image mime-type="image/jpg" src="Figure 30_05_01a.jpg" width="300"/>
+            </media>
+            
+                <caption>(a) The interference pattern for light through a double slit is a wave property understood by analogy to water waves. (b) The properties of photons having quantized energy and momentum and acting as a concentrated unit are understood by analogy to macroscopic particles.</caption></figure><para id="import-auto-id1289230">There is no doubt that EM radiation interferes and has the properties of wavelength and frequency. There is also no doubt that it behaves as particles—photons with discrete energy. We call this twofold nature the <term id="import-auto-id2731935">particle-wave duality</term>, meaning that EM radiation has both particle and wave properties. This so-called duality is simply a term for properties of the photon analogous to phenomena we can observe directly, on a macroscopic scale. If this term seems strange, it is because we do not ordinarily observe details on the quantum level directly, and our observations yield either particle <emphasis effect="italics">or</emphasis> wavelike properties, but never both simultaneously.</para>
+        <para id="import-auto-id1358647">Since we have a particle-wave duality for photons, and since we have seen connections between photons and matter in that both have momentum, it is reasonable to ask whether there is a particle-wave duality for matter as well. If the EM radiation we once thought to be a pure wave has particle properties, is it possible that matter has wave properties? The answer is yes. The consequences are tremendous, as we will begin to see in the next section.</para>
+        
+        <note xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="eip-937"><label/><title>PhET Explorations: Quantum Wave Interference</title>
+<para id="eip-id1582978">When do photons, electrons, and atoms behave like particles and when do they behave like waves? Watch waves spread out and interfere as they pass through a double slit, then get detected on a screen as tiny dots. Use quantum detectors to explore how measurements change the waves and the patterns they produce on the screen.</para>
+    
+      <figure id="eip-id1433842"><media id="Phet_module_30.5" alt="">
+
+  <image mime-type="image/png" for="online" src="quantum-wave-interference_en.jar" thumbnail="PhET_Icon.png" width="450"/>
+
+  <image mime-type="image/png" for="pdf" src="PhET_Icon.png" width="450"/>
+   
+</media>
+
+      <caption><link url="quantum-wave-interference_en.jar">Quantum Wave Interference</link></caption></figure></note><section id="fs-id2669737" class="section-summary">
+<title xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0">Section Summary</title><list xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="fs-id1416626"><item id="import-auto-id1323220">EM radiation can behave like either a particle or a wave.</item>
+        <item id="import-auto-id1271729">This is termed particle-wave duality.</item>
+</list></section>
+        
+    </content>
+    <glossary>
+        <definition id="import-auto-id1380944"><term>particle-wave duality</term> <meaning id="fs-id1555599">the property of behaving like either a particle or a wave; the term for the phenomenon that all particles have wave characteristics</meaning></definition>
+    </glossary>
+</document>

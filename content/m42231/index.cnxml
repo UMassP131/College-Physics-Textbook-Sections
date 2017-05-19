@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Thermodynamics</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/m42231/latest/</md:content-url>
+  <md:content-id>m42231</md:content-id>
+  <md:title>Introduction to Thermodynamics</md:title>
+  <md:version>1.4</md:version>
+  <md:created>2011/12/29 13:37:26 -0600</md:created>
+  <md:revised>2015/05/13 13:51:24.801 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Adiabatic</md:keyword>
+    <md:keyword>Carnot cycle</md:keyword>
+    <md:keyword>Carnot efficiency</md:keyword>
+    <md:keyword>Carnot engine</md:keyword>
+    <md:keyword>Change in internal energy</md:keyword>
+    <md:keyword>Closed system</md:keyword>
+    <md:keyword>Coefficient of performance</md:keyword>
+    <md:keyword>Conservation of energy</md:keyword>
+    <md:keyword>Cyclical process</md:keyword>
+    <md:keyword>Disorder</md:keyword>
+    <md:keyword>Dissipative processes</md:keyword>
+    <md:keyword>Efficiency</md:keyword>
+    <md:keyword>Energy efficiency rating</md:keyword>
+    <md:keyword>Entropy</md:keyword>
+    <md:keyword>First law of thermodynamics</md:keyword>
+    <md:keyword>Four-stroke engine</md:keyword>
+    <md:keyword>Heat death</md:keyword>
+    <md:keyword>Heat engine</md:keyword>
+    <md:keyword>Heat pump</md:keyword>
+    <md:keyword>Heat transfer</md:keyword>
+    <md:keyword>Ideal engine</md:keyword>
+    <md:keyword>Internal combustion engine</md:keyword>
+    <md:keyword>Internal energy</md:keyword>
+    <md:keyword>Irreversible process</md:keyword>
+    <md:keyword>Isobaric</md:keyword>
+    <md:keyword>Isochoric</md:keyword>
+    <md:keyword>Isothermal</md:keyword>
+    <md:keyword>Macrostate</md:keyword>
+    <md:keyword>Metabolism</md:keyword>
+    <md:keyword>Microstate</md:keyword>
+    <md:keyword>Otto cycle</md:keyword>
+    <md:keyword>PV diagram</md:keyword>
+    <md:keyword>Reversible process</md:keyword>
+    <md:keyword>Second law of thermodynamics</md:keyword>
+    <md:keyword>Statistical analysis</md:keyword>
+    <md:keyword>Thermodynamic process</md:keyword>
+    <md:keyword>Work</md:keyword>
+  </md:keywordlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+        
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1448498" class="splash"><media id="import-auto-id1132148" alt="A steam engine and several passenger cars are shown traveling down a train track. The train has some people on board.">
+            <image mime-type="image/png" src="Figure_15_00_01.jpg" width="350"/>
+        </media>
+
+        <caption>A steam engine uses heat transfer to do work. Tourists regularly ride this narrow-gauge steam engine train near the San Juan Skyway in Durango, Colorado, part of the National Scenic Byways Program. (credit: Dennis Adams)</caption></figure><para id="import-auto-id1466736">Heat transfer is energy in transit, and it can be used to do work. It can also be converted to any other form of energy. A car engine, for example, burns fuel for heat transfer into a gas. Work is done by the gas as it exerts a force through a distance, converting its energy into a variety of other forms—into the car’s kinetic or gravitational potential energy; into electrical energy to run the spark plugs, radio, and lights; and back into stored energy in the car’s battery. But most of the heat transfer produced from burning fuel in the engine does not do work on the gas. Rather, the energy is released into the environment, implying that the engine is quite inefficient.</para>
+        <para id="import-auto-id1496077">It is often said that modern gasoline engines cannot be made to be significantly more efficient. We hear the same about heat transfer to electrical energy in large power stations, whether they are coal, oil, natural gas, or nuclear powered. Why is that the case? Is the inefficiency caused by design problems that could be solved with better engineering and superior materials? Is it part of some money-making conspiracy by those who sell energy? Actually, the truth is more interesting, and reveals much about the nature of heat transfer.</para>
+        <para id="import-auto-id1304840">Basic physical laws govern how heat transfer for doing work takes place and place insurmountable limits onto its efficiency. This chapter will explore these laws as well as many applications and concepts associated with them. These topics are part of <emphasis effect="italics">thermodynamics</emphasis>—the study of heat transfer and its relationship to doing work.</para>
+     
+
+        </content>
+</document>

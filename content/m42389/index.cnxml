@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Electromagnetic Induction, AC Circuits and Electrical Technologies</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/m42389/latest/</md:content-url>
+  <md:content-id>m42389</md:content-id>
+  <md:title>Introduction to Electromagnetic Induction, AC Circuits and Electrical Technologies</md:title>
+  <md:version>1.5</md:version>
+  <md:created>2012/01/17 15:06:42 -0600</md:created>
+  <md:revised>2015/05/14 14:42:03.990 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>AC</md:keyword>
+    <md:keyword>back emf</md:keyword>
+    <md:keyword>balance</md:keyword>
+    <md:keyword>capacitive</md:keyword>
+    <md:keyword>capacitor</md:keyword>
+    <md:keyword>characteristic time</md:keyword>
+    <md:keyword>characteristic time constant</md:keyword>
+    <md:keyword>circuit</md:keyword>
+    <md:keyword>circuit breaker</md:keyword>
+    <md:keyword>cochlear implant</md:keyword>
+    <md:keyword>coil</md:keyword>
+    <md:keyword>cooktop</md:keyword>
+    <md:keyword>current</md:keyword>
+    <md:keyword>damping</md:keyword>
+    <md:keyword>doubly insulated</md:keyword>
+    <md:keyword>earth/ground</md:keyword>
+    <md:keyword>eddy</md:keyword>
+    <md:keyword>eddy current</md:keyword>
+    <md:keyword>electric</md:keyword>
+    <md:keyword>electric generator</md:keyword>
+    <md:keyword>electricity</md:keyword>
+    <md:keyword>electromotive force</md:keyword>
+    <md:keyword>emf</md:keyword>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>Faraday</md:keyword>
+    <md:keyword>Faraday’s Law</md:keyword>
+    <md:keyword>flux</md:keyword>
+    <md:keyword>fuse</md:keyword>
+    <md:keyword>generator</md:keyword>
+    <md:keyword>GFI</md:keyword>
+    <md:keyword>giant magnetoresistance</md:keyword>
+    <md:keyword>ground fault interrupter</md:keyword>
+    <md:keyword>Hall effect</md:keyword>
+    <md:keyword>hard drive</md:keyword>
+    <md:keyword>Henry</md:keyword>
+    <md:keyword>impedance</md:keyword>
+    <md:keyword>inductance</md:keyword>
+    <md:keyword>induction</md:keyword>
+    <md:keyword>inductive</md:keyword>
+    <md:keyword>inductor</md:keyword>
+    <md:keyword>isolation transformer</md:keyword>
+    <md:keyword>leakage current</md:keyword>
+    <md:keyword>Lenz</md:keyword>
+    <md:keyword>Lenz’s Law</md:keyword>
+    <md:keyword>live/hot</md:keyword>
+    <md:keyword>magnet</md:keyword>
+    <md:keyword>magnetic</md:keyword>
+    <md:keyword>magnetic damping</md:keyword>
+    <md:keyword>magnetic field</md:keyword>
+    <md:keyword>magnetic flux</md:keyword>
+    <md:keyword>metal detector</md:keyword>
+    <md:keyword>mine detector</md:keyword>
+    <md:keyword>motion</md:keyword>
+    <md:keyword>motor</md:keyword>
+    <md:keyword>mutual</md:keyword>
+    <md:keyword>peak emf</md:keyword>
+    <md:keyword>power</md:keyword>
+    <md:keyword>power factor</md:keyword>
+    <md:keyword>primary</md:keyword>
+    <md:keyword>problem solving strategy</md:keyword>
+    <md:keyword>reactance</md:keyword>
+    <md:keyword>recording tapes</md:keyword>
+    <md:keyword>resistor</md:keyword>
+    <md:keyword>resonant frequency</md:keyword>
+    <md:keyword>RLC</md:keyword>
+    <md:keyword>RL circuit</md:keyword>
+    <md:keyword>rod</md:keyword>
+    <md:keyword>safety</md:keyword>
+    <md:keyword>satellite</md:keyword>
+    <md:keyword>secondary</md:keyword>
+    <md:keyword>self inductance</md:keyword>
+    <md:keyword>series</md:keyword>
+    <md:keyword>shock hazard</md:keyword>
+    <md:keyword>shuttle</md:keyword>
+    <md:keyword>sleep apnea</md:keyword>
+    <md:keyword>solenoid</md:keyword>
+    <md:keyword>step-down</md:keyword>
+    <md:keyword>step-up</md:keyword>
+    <md:keyword>tether</md:keyword>
+    <md:keyword>thermal hazard</md:keyword>
+    <md:keyword>three-wire system</md:keyword>
+    <md:keyword>time constant</md:keyword>
+    <md:keyword>transcranial magnetic stimulation</md:keyword>
+    <md:keyword>transformer</md:keyword>
+    <md:keyword>trash</md:keyword>
+    <md:keyword>turn</md:keyword>
+    <md:keyword>voltage</md:keyword>
+    <md:keyword>wire</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+       <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>  
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169738006989" class="splash"><media id="import-auto-id1169737993543" alt="Wind turbine with three blades moored in shallow water.">
+            <image mime-type="image/png" src="Figure_23_00_01.jpg"/>
+        </media>
+            
+        <caption>These wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)</caption></figure><para id="import-auto-id1169736675829">Nature’s displays of symmetry are beautiful and alluring. A butterfly’s wings exhibit an appealing symmetry in a complex system. (See <link target-id="import-auto-id1169737792737"/>.) The laws of physics display symmetries at the most basic level—these symmetries are a source of wonder and imply deeper meaning. Since we place a high value on symmetry, we look for it when we explore nature. The remarkable thing is that we find it.</para>
+        
+        
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169737792737"><media id="import-auto-id1169737700733" alt="Photograph of a butterfly with its wings spread out symmetrically is shown to rest on a bunch of flowers.">
+            <image mime-type="image/png" src="Figure_24_00_02.jpg" width="250"/>
+        </media>
+ 
+        <caption>Physics, like this butterfly, has inherent symmetries. (credit: Thomas Bresson)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169738173935">The hint of symmetry between electricity and magnetism found in the preceding chapter will be elaborated upon in this chapter. Specifically, we know that a current creates a magnetic field. If nature is symmetric here, then perhaps a magnetic field can create a current. The Hall effect is a voltage caused by a magnetic force. That voltage could drive a current. Historically, it was very shortly after Oersted discovered currents cause magnetic fields that other scientists asked the following question: Can magnetic fields cause currents? The answer was soon found by experiment to be yes. In 1831, some 12 years after Oersted’s discovery, the English scientist Michael Faraday (1791–1862) and the American scientist Joseph Henry (1797–1878) independently demonstrated that magnetic fields can produce currents. The basic process of generating emfs (electromotive force) and, hence, currents with magnetic fields is known as <term>induction</term>; this process is also called magnetic induction to distinguish it from charging by induction, which utilizes the Coulomb force.</para><para id="import-auto-id1169737762340">Today, currents induced by magnetic fields are essential to our technological society. The ubiquitous generator—found in automobiles, on bicycles, in nuclear power plants, and so on—uses magnetism to generate current. Other devices that use magnetism to induce currents include pickup coils in electric guitars, transformers of every size, certain microphones, airport security gates, and damping mechanisms on sensitive chemical balances. Not so familiar perhaps, but important nevertheless, is that the behavior of AC circuits depends strongly on the effect of magnetic fields on currents.</para>
+        
+        
+        
+        </content>
+    <glossary>
+        <definition id="import-auto-id1169738093541"><term>induction</term><meaning id="fs-id1169738011437">(magnetic induction) the creation of emfs and hence currents by magnetic fields</meaning></definition>
+    </glossary>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Vision and Optical Instruments</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42478/latest/</md:content-url>
+  <md:content-id>m42478</md:content-id>
+  <md:title>Introduction to Vision and Optical Instruments</md:title>
+  <md:version>1.2</md:version>
+  <md:created>2012/01/17 15:31:00 US/Central</md:created>
+  <md:revised>2012/05/17 15:33:18.088 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">cnxcap OpenStaxCollege</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Aberrations</md:keyword>
+    <md:keyword>Accommodation</md:keyword>
+    <md:keyword>Adaptive optics</md:keyword>
+    <md:keyword>Angular magnification</md:keyword>
+    <md:keyword>Astigmatism</md:keyword>
+    <md:keyword>Chromatic aberration</md:keyword>
+    <md:keyword>Color constancy</md:keyword>
+    <md:keyword>Coma</md:keyword>
+    <md:keyword>Compound microscope</md:keyword>
+    <md:keyword>Cones</md:keyword>
+    <md:keyword>Eyepiece</md:keyword>
+    <md:keyword>Eyes</md:keyword>
+    <md:keyword>Far point</md:keyword>
+    <md:keyword>Farsightedness</md:keyword>
+    <md:keyword>Hues</md:keyword>
+    <md:keyword>Hyperopia</md:keyword>
+    <md:keyword>Laser vision correction</md:keyword>
+    <md:keyword>Myopia</md:keyword>
+    <md:keyword>Near point</md:keyword>
+    <md:keyword>Nearsightedness</md:keyword>
+    <md:keyword>Numerical aperture</md:keyword>
+    <md:keyword>Objective lens</md:keyword>
+    <md:keyword>Presbyopia</md:keyword>
+    <md:keyword>Red blood cells</md:keyword>
+    <md:keyword>Refractive indices</md:keyword>
+    <md:keyword>Retinex theory of color vision</md:keyword>
+    <md:keyword>Retinexes</md:keyword>
+    <md:keyword>Rods</md:keyword>
+    <md:keyword>Simplified theory of color vision</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>  
+        
+<figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1509642" class="splash"><media id="import-auto-id3408338" alt="Image shows the front view of a desktop computer along with a keyboard and printer with an image being displayed on the computer screen. It also depicts the back of a woman holding the mouse.">
+                <image mime-type="image/png" src="Figure_27_00_01.jpg"/>
+            </media>
+            
+        <caption>A scientist examines minute details on the surface of a disk drive at a magnification of 100,000 times. The image was produced using an electron microscope. (credit: Robert Scoble)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1904532">Explore how the image on the computer screen is formed. How is the image formation on the computer screen different from the image formation in your eye as you look down the microscope? How can videos of living cell processes be taken for viewing later on, and by many different people?</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3008903">Seeing faces and objects we love and cherish is a delight—one’s favorite teddy bear, a picture on the wall, or the sun rising over the mountains. Intricate images help us understand nature and are invaluable for developing techniques and technologies in order to improve the quality of life. The image of a red blood cell that almost fills the cross-sectional area of a tiny capillary makes us wonder how blood makes it through and not get stuck. We are able to see bacteria and viruses and understand their structure. It is the knowledge of physics that provides fundamental understanding and models required to develop new techniques and instruments. Therefore, physics is called an <emphasis effect="italics">enabling science</emphasis>—a science that enables development and advancement in other areas. It is through optics and imaging that physics enables advancement in major areas of biosciences. This chapter illustrates the enabling nature of physics through an understanding of how a human eye is able to see and how we are able to use optical instruments to see beyond what is possible with the naked eye. It is convenient to categorize these instruments on the basis of geometric optics (see <link document="m42449">Geometric Optics</link>) and wave optics (see <link document="m42496">Wave Optics</link>).</para></content>
+</document>

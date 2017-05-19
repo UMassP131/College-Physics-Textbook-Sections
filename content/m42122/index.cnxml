@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>Introduction to One-Dimensional Kinematics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42122/latest/</md:content-url>
+  <md:content-id>m42122</md:content-id>
+  <md:title>Introduction to One-Dimensional Kinematics</md:title>
+  <md:version>1.2</md:version>
+  <md:created>2011/12/28 11:52:12 US/Central</md:created>
+  <md:revised>2012/06/13 16:03:51.124 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">cnxcap OpenStaxCollege</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Acceleration</md:keyword>
+    <md:keyword>Average speed</md:keyword>
+    <md:keyword>Average velocity</md:keyword>
+    <md:keyword>Coordinate system</md:keyword>
+    <md:keyword>Deceleration</md:keyword>
+    <md:keyword>Dependent variable</md:keyword>
+    <md:keyword>Displacement</md:keyword>
+    <md:keyword>Distance</md:keyword>
+    <md:keyword>Elapsed time</md:keyword>
+    <md:keyword>Free-fall</md:keyword>
+    <md:keyword>Gravity</md:keyword>
+    <md:keyword>Independent variable</md:keyword>
+    <md:keyword>Instantaneous speed</md:keyword>
+    <md:keyword>Instantaneous velocity</md:keyword>
+    <md:keyword>Kinematic equations</md:keyword>
+    <md:keyword>Kinematics</md:keyword>
+    <md:keyword>Model</md:keyword>
+    <md:keyword>Motion</md:keyword>
+    <md:keyword>Position</md:keyword>
+    <md:keyword>Problem</md:keyword>
+    <md:keyword>Problem-solving</md:keyword>
+    <md:keyword>Scalar</md:keyword>
+    <md:keyword>Slope</md:keyword>
+    <md:keyword>Solve</md:keyword>
+    <md:keyword>Speed</md:keyword>
+    <md:keyword>Time</md:keyword>
+    <md:keyword>Vector</md:keyword>
+    <md:keyword>Velocity</md:keyword>
+    <md:keyword>y-intercept</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+  <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+    <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2758213" class="splash"><media id="import-auto-id2973543" alt="Photo of a bird in flight.">
+        <image mime-type="image/jpg" src="Figure_02_00_01_D.jpg"/>
+      </media>
+      
+    <caption>The motion of an American kestrel through the air can be described by the bird’s displacement, speed, velocity, and acceleration. When it flies in a straight line without any change in direction, its motion is said to be one dimensional. (credit: Vince Maidens, Wikimedia Commons)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1718714">Objects are in motion everywhere we look. Everything from a tennis game to a space-probe flyby of the planet Neptune involves motion. When you are resting, your heart moves blood through your veins. And even in inanimate objects, there is continuous motion in the vibrations of atoms and molecules. Questions about motion are interesting in and of themselves: <emphasis effect="italics">How long will it take for a space probe to get to Mars? Where will a football land if it is thrown at a certain angle?</emphasis> But an understanding of motion is also key to understanding other concepts in physics. An understanding of acceleration, for example, is crucial to the study of force. </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2758939">Our formal study of physics begins with <term id="import-auto-id4259538">kinematics</term> which is defined as the <emphasis effect="italics">study of motion without considering its causes</emphasis>. The word “kinematics” comes from a Greek term meaning motion and is related to other English words such as “cinema” (movies) and “kinesiology” (the study of human motion). In one-dimensional kinematics and <link document="m42126">Two-Dimensional Kinematics</link> we will study only the <emphasis effect="italics">motion</emphasis> of a football, for example, without worrying about what forces cause or change its motion. Such considerations come in other chapters. In this chapter, we examine the simplest type of motion—namely, motion along a straight line, or one-dimensional motion. In <link document="m42126">Two-Dimensional Kinematics</link>, we apply concepts developed here to study motion along curved paths (two- and three-dimensional motion); for example, that of a car rounding a curve.</para></content>
+</document>

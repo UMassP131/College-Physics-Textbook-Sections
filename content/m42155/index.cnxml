@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>Introduction to Linear Momentum and Collisions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/m42155/latest/</md:content-url>
+  <md:content-id>m42155</md:content-id>
+  <md:title>Introduction to Linear Momentum and Collisions</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2011/12/28 13:58:09 -0600</md:created>
+  <md:revised>2015/05/13 11:27:06.642 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Acceleration</md:keyword>
+    <md:keyword>Angular momentum</md:keyword>
+    <md:keyword>Center of mass</md:keyword>
+    <md:keyword>Collision</md:keyword>
+    <md:keyword>Conservation of momentum</md:keyword>
+    <md:keyword>Effective force</md:keyword>
+    <md:keyword>Elastic collisions</md:keyword>
+    <md:keyword>Force</md:keyword>
+    <md:keyword>Impulse</md:keyword>
+    <md:keyword>Inelastic collision</md:keyword>
+    <md:keyword>Internal kinetic energy</md:keyword>
+    <md:keyword>Linear momentum</md:keyword>
+    <md:keyword>Momentum</md:keyword>
+    <md:keyword>Motion</md:keyword>
+    <md:keyword>Newton’s second law</md:keyword>
+    <md:keyword>Newton’s third law</md:keyword>
+    <md:keyword>Payloads</md:keyword>
+    <md:keyword>Perfectly inelastic</md:keyword>
+    <md:keyword>Point masses</md:keyword>
+    <md:keyword>Recoil</md:keyword>
+    <md:keyword>Rockets</md:keyword>
+    <md:keyword>Rotation</md:keyword>
+    <md:keyword>Space shuttle</md:keyword>
+    <md:keyword>Two dimensional collisions</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+         <?cnx.eoc class="section-summary" title="Section Summary"?>
+         <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+         <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+  
+      <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2747734" class="splash"><media id="import-auto-id1339110" alt="Rugby players colliding during a rugby match.">
+          <image mime-type="image/png" src="Figure_08_00_01.jpg"/>
+        </media>
+        
+      <caption>Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)</caption></figure><para id="import-auto-id2702644">We use the term momentum in various ways in everyday language, and most of these ways are consistent with its precise scientific definition. We speak of sports teams or politicians gaining and maintaining the momentum to win. We also recognize that momentum has something to do with collisions. For example, looking at the rugby players in the photograph colliding and falling to the ground, we expect their momenta to have great effects in the resulting collisions. Generally, momentum implies a tendency to continue on course—to move in the same direction—and is associated with great mass and speed.</para>
+    <para id="import-auto-id2945906">Momentum, like energy, is important because it is conserved. Only a few physical quantities are conserved in nature, and studying them yields fundamental insight into how nature works, as we shall see in our study of momentum.</para>
+        </content>
+</document>

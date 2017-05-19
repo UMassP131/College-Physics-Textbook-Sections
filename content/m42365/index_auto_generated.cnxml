@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>Introduction to Magnetism</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42365/latest</md:content-url>
+  <md:content-id>m42365</md:content-id>
+  <md:title>Introduction to Magnetism</md:title>
+  <md:version>1.2</md:version>
+  <md:created>2012/01/17 15:01:50 -0600</md:created>
+  <md:revised>2012/06/11 16:56:03 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">cnxcap OpenStaxCollege</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Ampere</md:keyword>
+    <md:keyword>Ampere’s law</md:keyword>
+    <md:keyword>Biot-Savart law</md:keyword>
+    <md:keyword>Cathode ray tube</md:keyword>
+    <md:keyword>Conductor</md:keyword>
+    <md:keyword>CRT</md:keyword>
+    <md:keyword>Curie temperature</md:keyword>
+    <md:keyword>Current</md:keyword>
+    <md:keyword>Electrical charge</md:keyword>
+    <md:keyword>Electric current</md:keyword>
+    <md:keyword>Electromagnet</md:keyword>
+    <md:keyword>Electromotive force</md:keyword>
+    <md:keyword>Ferromagnet</md:keyword>
+    <md:keyword>Gauss</md:keyword>
+    <md:keyword>Hall effect</md:keyword>
+    <md:keyword>Hall emf</md:keyword>
+    <md:keyword>Lorentz force</md:keyword>
+    <md:keyword>Magnet</md:keyword>
+    <md:keyword>Magnetic attraction</md:keyword>
+    <md:keyword>Magnetic domain</md:keyword>
+    <md:keyword>Magnetic field</md:keyword>
+    <md:keyword>Magnetic field lines</md:keyword>
+    <md:keyword>Magnetic field strength</md:keyword>
+    <md:keyword>Magnetic force</md:keyword>
+    <md:keyword>Magnetic monopole</md:keyword>
+    <md:keyword>Magnetic pole</md:keyword>
+    <md:keyword>Magnetic repulsion</md:keyword>
+    <md:keyword>Magnetic resonance imaging</md:keyword>
+    <md:keyword>Magnetism</md:keyword>
+    <md:keyword>Magnetize</md:keyword>
+    <md:keyword>Mass spectrometer</md:keyword>
+    <md:keyword>Maxwell’s equations</md:keyword>
+    <md:keyword>Meter</md:keyword>
+    <md:keyword>Motor</md:keyword>
+    <md:keyword>MRI</md:keyword>
+    <md:keyword>NMR</md:keyword>
+    <md:keyword>North pole</md:keyword>
+    <md:keyword>Nuclear magnetic resonance</md:keyword>
+    <md:keyword>Right hand rule 1</md:keyword>
+    <md:keyword>Right hand rule 2</md:keyword>
+    <md:keyword>Solenoid</md:keyword>
+    <md:keyword>South pole</md:keyword>
+    <md:keyword>Spectrometry</md:keyword>
+    <md:keyword>Tesla</md:keyword>
+    <md:keyword>Voltage</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<?cnx.eoc class="section-summary" title="Section Summary"?>
+<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+  
+
+      <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1909198" class="splash"><media id="import-auto-id1947972" alt="A shimmering curtain of green lights in the sky above a snow covered landscape. Stars are visible in the dusky sky beyond the lights.">
+          <image mime-type="image/png" src="Figure_23_00_01a_D.jpg"/>
+        </media>
+        
+      <caption>The magnificent spectacle of the Aurora Borealis, or northern lights, glows in the northern sky above Bear Lake near Eielson Air Force Base, Alaska. Shaped by the Earth’s magnetic field, this light is produced by radiation spewed from solar storms. (credit: Senior Airman Joshua Strang, via Flickr)</caption></figure><para id="import-auto-id1787895">One evening, an Alaskan sticks a note to his refrigerator with a small magnet. Through the kitchen window, the Aurora Borealis glows in the night sky. This grand spectacle is shaped by the same force that holds the note to the refrigerator.</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2654896">People have been aware of magnets and magnetism for thousands of years. The earliest records date to well before the time of Christ, particularly in a region of Asia Minor called Magnesia (the name of this region is the source of words like <emphasis effect="italics">magnetic</emphasis>). Magnetic rocks found in Magnesia, which is now part of western Turkey, stimulated interest during ancient times. A practical application for magnets was found later, when they were employed as navigational compasses. The use of magnets in compasses resulted not only in improved long-distance sailing, but also in the names of “north” and “south” being given to the two types of magnetic poles.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2017450">Today magnetism plays many important roles in our lives. Physicists’ understanding of magnetism has enabled the development of technologies that affect our everyday lives. The iPod in your purse or backpack, for example, wouldn’t have been possible without the applications of magnetism and electricity on a small scale. </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1404878">The discovery that weak changes in a magnetic field in a thin film of iron and chromium could bring about much larger changes in electrical resistance was one of the first large successes of nanotechnology. The 2007 Nobel Prize in Physics went to Albert Fert from France and Peter Grunberg from Germany for this discovery of  <emphasis effect="italics">giant magnetoresistance </emphasis> and its applications to computer memory. 
+  
+
+</para><para id="import-auto-id1494704">All electric motors, with uses as diverse as powering refrigerators, starting cars, and moving elevators, contain magnets. Generators, whether producing hydroelectric power or running bicycle lights, use magnetic fields. Recycling facilities employ magnets to separate iron from other refuse. Hundreds of millions of dollars are spent annually on magnetic containment of fusion as a future energy source. Magnetic resonance imaging (MRI) has become an important diagnostic tool in the field of medicine, and the use of magnetism to explore brain activity is a subject of contemporary research and development. The list of applications also includes computer hard drives, tape recording, detection of inhaled asbestos, and levitation of high-speed trains. Magnetism is used to explain atomic energy levels, cosmic rays, and charged particles trapped in the Van Allen belts. Once again, we will find all these disparate phenomena are linked by a small number of underlying physical principles.</para>
+    <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1410698"><media id="import-auto-id2004918" alt="A group of five different iPods.">
+        <image mime-type="image/png" src="Figure_23_00_02a.jpg" width="250"/>
+      </media>
+    
+    <caption id="import-auto-id1704420">Engineering of technology like iPods would not be possible without a deep understanding magnetism. (credit: Jesse! S?, Flickr)</caption></figure></content>
+</document>

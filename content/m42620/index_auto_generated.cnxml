@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Radioactivity and Nuclear Physics</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42620/latest</md:content-url>
+  <md:content-id>m42620</md:content-id>
+  <md:title>Introduction to Radioactivity and Nuclear Physics</md:title>
+  <md:version>1.2</md:version>
+  <md:created>2012/01/18 09:30:21 -0600</md:created>
+  <md:revised>2012/06/04 16:48:09 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">cnxcap OpenStaxCollege</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Alpha decay</md:keyword>
+    <md:keyword>Alpha particle</md:keyword>
+    <md:keyword>Alpha rays</md:keyword>
+    <md:keyword>Antimatter</md:keyword>
+    <md:keyword>Atomic mass</md:keyword>
+    <md:keyword>Atomic number</md:keyword>
+    <md:keyword>Barrier penetration</md:keyword>
+    <md:keyword>Beta decay</md:keyword>
+    <md:keyword>Beta rays</md:keyword>
+    <md:keyword>Binding energy</md:keyword>
+    <md:keyword>Chart of the nuclides</md:keyword>
+    <md:keyword>Daughters</md:keyword>
+    <md:keyword>Decay</md:keyword>
+    <md:keyword>Decay constant</md:keyword>
+    <md:keyword>Decay equation</md:keyword>
+    <md:keyword>Decay series</md:keyword>
+    <md:keyword>Electron capture</md:keyword>
+    <md:keyword>Electron capture equation</md:keyword>
+    <md:keyword>Electron’s antineutrino</md:keyword>
+    <md:keyword>Electron’s neutrino</md:keyword>
+    <md:keyword>Gamma decay</md:keyword>
+    <md:keyword>Gamma rays</md:keyword>
+    <md:keyword>Geiger tube</md:keyword>
+    <md:keyword>Half-life</md:keyword>
+    <md:keyword>Ionizing radiation</md:keyword>
+    <md:keyword>Isotopes</md:keyword>
+    <md:keyword>Magic numbers</md:keyword>
+    <md:keyword>Neutrino</md:keyword>
+    <md:keyword>Neutron</md:keyword>
+    <md:keyword>Nuclear decay</md:keyword>
+    <md:keyword>Nuclear force</md:keyword>
+    <md:keyword>Nuclear radiation</md:keyword>
+    <md:keyword>Nuclear reaction energy</md:keyword>
+    <md:keyword>Nucleons</md:keyword>
+    <md:keyword>Nucleus</md:keyword>
+    <md:keyword>Nuclide</md:keyword>
+    <md:keyword>Parent</md:keyword>
+    <md:keyword>Photomultiplier</md:keyword>
+    <md:keyword>Positron decay</md:keyword>
+    <md:keyword>Protons</md:keyword>
+    <md:keyword>Quantum mechanical tunneling</md:keyword>
+    <md:keyword>Radiation</md:keyword>
+    <md:keyword>Radiation detector</md:keyword>
+    <md:keyword>Radioactive dating</md:keyword>
+    <md:keyword>Radioactivity</md:keyword>
+    <md:keyword>Radius of a nucleus</md:keyword>
+    <md:keyword>Range of radiation</md:keyword>
+    <md:keyword>Scintillators</md:keyword>
+    <md:keyword>Solid-state radiation detectors</md:keyword>
+    <md:keyword>Tunneling</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract><list>
+<item>Define radioactivity.</item>
+</list></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+	<?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2648076" class="splash"><media id="import-auto-id952944" alt="The image shows a ray of blue light being emitted from a small slit in a cylindrical source.">
+                <image mime-type="image/png" src="Figure_32_00_01a.jpg"/>
+            </media>
+            
+        <caption>The synchrotron source produces electromagnetic radiation, as evident from the visible glow. (credit: United States Department of Energy, via Wikimedia Commons) </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2683018">There is an ongoing quest to find substructures of matter. At one time, it was thought that atoms would be the ultimate substructure, but just when the first direct evidence of atoms was obtained, it became clear that they have a substructure and a tiny <emphasis effect="italics">nucleus</emphasis>. The nucleus itself has spectacular characteristics. For example, certain nuclei are unstable, and their decay emits radiations with energies millions of times greater than atomic energies. Some of the mysteries of nature, such as why the core of the earth remains molten and how the sun produces its energy, are explained by nuclear phenomena. The exploration of <emphasis effect="italics">radioactivity</emphasis> and the nucleus revealed fundamental and previously unknown particles, forces, and conservation laws. That exploration has evolved into a search for further underlying structures, such as quarks. In this chapter, the fundamentals of nuclear radioactivity and the nucleus are explored. The following two chapters explore the more important applications of nuclear physics in the field of medicine. We will also explore the basics of what we know about quarks and other substructures smaller than nuclei.</para></content>
+</document>

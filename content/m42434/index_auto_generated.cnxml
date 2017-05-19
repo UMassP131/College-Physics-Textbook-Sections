@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:m="http://www.w3.org/1998/Math/MathML" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Electromagnetic Waves</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42434/latest</md:content-url>
+  <md:content-id>m42434</md:content-id>
+  <md:title>Introduction to Electromagnetic Waves</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2012/01/17 15:14:15 -0600</md:created>
+  <md:revised>2012/07/05 21:28:15 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Amplitude</md:keyword>
+    <md:keyword>Amplitude modulation (AM)</md:keyword>
+    <md:keyword>Carrier wave</md:keyword>
+    <md:keyword>Electric field</md:keyword>
+    <md:keyword>Electric field lines</md:keyword>
+    <md:keyword>Electric field strength</md:keyword>
+    <md:keyword>Electromagnetic spectrum</md:keyword>
+    <md:keyword>Electromagnetic waves</md:keyword>
+    <md:keyword>Electromotive force (emf)</md:keyword>
+    <md:keyword>Extremely low frequency (ELF)</md:keyword>
+    <md:keyword>Frequency</md:keyword>
+    <md:keyword>Frequency modulation (FM)</md:keyword>
+    <md:keyword>Gamma rays</md:keyword>
+    <md:keyword>Hertz</md:keyword>
+    <md:keyword>Infrared radiation (IR)</md:keyword>
+    <md:keyword>Intensity</md:keyword>
+    <md:keyword>James Clerk Maxwell</md:keyword>
+    <md:keyword>Magnetic field</md:keyword>
+    <md:keyword>Magnetic field lines</md:keyword>
+    <md:keyword>Magnetic field strength</md:keyword>
+    <md:keyword>Maximum field strength</md:keyword>
+    <md:keyword>Maxwell’s equations</md:keyword>
+    <md:keyword>Microwaves</md:keyword>
+    <md:keyword>Radar</md:keyword>
+    <md:keyword>Radio waves</md:keyword>
+    <md:keyword>Resonant</md:keyword>
+    <md:keyword>RLC circuit</md:keyword>
+    <md:keyword>Speed of light</md:keyword>
+    <md:keyword>Standing wave</md:keyword>
+    <md:keyword>Thermal agitation</md:keyword>
+    <md:keyword>Transverse wave</md:keyword>
+    <md:keyword>TV</md:keyword>
+    <md:keyword>Ultra high frequency (UHF)</md:keyword>
+    <md:keyword>Ultraviolet radiation (UV)</md:keyword>
+    <md:keyword>Very high frequency (VHF)</md:keyword>
+    <md:keyword>Visible light</md:keyword>
+    <md:keyword>Wavelength</md:keyword>
+    <md:keyword>X-rays</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+        
+        <figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169738246237" class="splash"><media id="import-auto-id1169737993510" alt="A photo showing many orange and pale blue colored fish, swimming over a coral reef in the blue waters of the Gulf of Eilat.">
+                <image mime-type="image/jpg" src="Figure 25_00_01a.jpg"/>
+            </media>
+                      
+        <caption>Human eyes detect these orange “sea goldie” fish swimming over a coral reef in the blue waters of the Gulf of Eilat (Red Sea) using visible light. (credit: Daviddarom, Wikimedia Commons)</caption></figure><para id="import-auto-id1169738145264">The beauty of a coral reef, the warm radiance of sunshine, the sting of sunburn, the X-ray revealing a broken bone, even microwave popcorn—all are brought to us by <term id="import-auto-id1169738061670">electromagnetic waves</term>. The list of the various types of electromagnetic waves, ranging from radio transmission waves to nuclear gamma-ray (<m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>-ray) emissions, is interesting in itself. </para>
+        <para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169738138668">Even more intriguing is that all of these widely varied phenomena are different manifestations of the same thing—electromagnetic waves. (See <link target-id="import-auto-id1169738064876"/>.) What are electromagnetic waves? How are they created, and how do they travel? How can we understand and organize their widely varying properties? What is their relationship to electric and magnetic effects? These and other questions will be explored.</para><note id="fs-id1169738117421"><label/>
+        <title>Misconception Alert: Sound Waves vs. Radio Waves</title>
+        <para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169738164356">Many people confuse sound waves with <term id="import-auto-id1169738116090">radio waves</term>, one type of electromagnetic (EM) wave. However, sound and radio waves are completely different phenomena. Sound creates pressure variations (waves) in matter, such as air or water, or your eardrum. Conversely, radio waves are <emphasis effect="italics">electromagnetic waves</emphasis>, <emphasis effect="italics"/>like visible light, infrared, ultraviolet, X-rays, and gamma rays. EM waves don’t need a medium in which to propagate; they can travel through a vacuum, such as outer space. </para><para id="import-auto-id1169738164363">A radio works because sound waves played by the D.J. at the radio station are converted into electromagnetic waves, then encoded and transmitted in the radio-frequency range. The radio in your car receives the radio waves, decodes the information, and uses a speaker to change it back into a sound wave, bringing sweet music to your ears.</para>
+        </note>
+        <section id="fs-id1169738223563">
+        <title>Discovering a New Phenomenon</title>
+        <para id="import-auto-id1169737955449">It is worth noting at the outset that the general phenomenon of electromagnetic waves was predicted by theory before it was realized that light is a form of electromagnetic wave. The prediction was made by James Clerk Maxwell in the mid-19th century when he formulated a single theory combining all the electric and magnetic effects known by scientists at that time. “Electromagnetic waves” was the name he gave to the phenomena his theory predicted. </para>
+        <para id="import-auto-id1169736627487">Such a theoretical prediction followed by experimental verification is an indication of the power of science in general, and physics in particular. The underlying connections and unity of physics allow certain great minds to solve puzzles without having all the pieces. The prediction of electromagnetic waves is one of the most spectacular examples of this power. Certain others, such as the prediction of antimatter, will be discussed in later modules.</para>
+        
+        <figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169738064876"><media id="import-auto-id1169738012865" alt="The large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar shaped structure with a moveable tracking system that allows it to point towards a target object, send out electromagnetic waves, and collect any signals that bounce back from the target object. ">
+                <image mime-type="image/jpg" src="Figure 25_00_02a.jpg" width="150"/>
+            </media>
+            
+        <caption>The electromagnetic waves sent and received by this 50-foot radar dish antenna at Kennedy Space Center in Florida are not visible, but help track expendable launch vehicles with high-definition imagery. The first use of this C-band radar dish was for the launch of the Atlas V rocket sending the New Horizons probe toward Pluto. (credit: NASA)</caption></figure></section>
+        </content>
+</document>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Frontiers of Physics</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42683/latest/</md:content-url>
+  <md:content-id>m42683</md:content-id>
+  <md:title>Introduction to Frontiers of Physics</md:title>
+  <md:version>1.4</md:version>
+  <md:created>2012/01/18 10:34:53 US/Central</md:created>
+  <md:revised>2012/07/05 21:59:37.289 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Axions</md:keyword>
+    <md:keyword>Big Bang</md:keyword>
+    <md:keyword>Black holes</md:keyword>
+    <md:keyword>Chaos</md:keyword>
+    <md:keyword>Complexity</md:keyword>
+    <md:keyword>Cosmic microwave background</md:keyword>
+    <md:keyword>Cosmological constant</md:keyword>
+    <md:keyword>Cosmological red shift</md:keyword>
+    <md:keyword>Cosmology</md:keyword>
+    <md:keyword>Critical density</md:keyword>
+    <md:keyword>Critical temperature</md:keyword>
+    <md:keyword>Dark energy</md:keyword>
+    <md:keyword>Dark matter</md:keyword>
+    <md:keyword>Electroweak epoch</md:keyword>
+    <md:keyword>Escape velocity</md:keyword>
+    <md:keyword>Event horizon</md:keyword>
+    <md:keyword>Flat</md:keyword>
+    <md:keyword>General relativity</md:keyword>
+    <md:keyword>Gravitational waves</md:keyword>
+    <md:keyword>GUT epoch</md:keyword>
+    <md:keyword>Hubble constant</md:keyword>
+    <md:keyword>Inflationary scenario</md:keyword>
+    <md:keyword>Massive compact halo objects (MACHOs)</md:keyword>
+    <md:keyword>Microlensing</md:keyword>
+    <md:keyword>Negatively curved</md:keyword>
+    <md:keyword>Neutralinos</md:keyword>
+    <md:keyword>Neutrino oscillations</md:keyword>
+    <md:keyword>Neutron stars</md:keyword>
+    <md:keyword>Positively curved</md:keyword>
+    <md:keyword>Quantum gravity</md:keyword>
+    <md:keyword>Quasars</md:keyword>
+    <md:keyword>Schwarzschild radius</md:keyword>
+    <md:keyword>Spontaneous symmetry breaking</md:keyword>
+    <md:keyword>Superconductors</md:keyword>
+    <md:keyword>Superforce</md:keyword>
+    <md:keyword>Superstring theory</md:keyword>
+    <md:keyword>Thought experiment</md:keyword>
+    <md:keyword>TOE epoch</md:keyword>
+    <md:keyword>Weakly interacting massive particles (WIMPs)</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+        <?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+        <?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+        
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1169737735181" class="splash"><media id="import-auto-id1169738107742" alt="A photo of deep space showing a lot of bright spots on a black background. In the center is a huge ring of brownish gas that encircles an interior that is glowing white. Along the axis of the ring more brownish bluish gas is spewing out into the surrounding space.">
+                <image mime-type="image/png" src="Figure_35_00_01a_D.jpg"/>
+            </media>
+            
+        <caption>This galaxy is ejecting huge jets of matter, powered by an immensely massive black hole at its center. (credit: X-ray: NASA/CXC/CfA/R. Kraft et al.)</caption></figure><para id="import-auto-id1169738083337">Frontiers are exciting. There is mystery, surprise, adventure, and discovery. The satisfaction of finding the answer to a question is made keener by the fact that the answer always leads to a new question. The picture of nature becomes more complete, yet nature retains its sense of mystery and never loses its ability to awe us. The view of physics is beautiful looking both backward and forward in time. What marvelous patterns we have discovered. How clever nature seems in its rules and connections. How awesome. And we continue looking ever deeper and ever further, probing the basic structure of matter, energy, space, and time and wondering about the scope of the universe, its beginnings and future.</para>
+        <para id="import-auto-id1169737781750">You are now in a wonderful position to explore the forefronts of physics, both the new discoveries and the unanswered questions. With the concepts, qualitative and quantitative, the problem-solving skills, the feeling for connections among topics, and all the rest you have mastered, you can more deeply appreciate and enjoy the brief treatments that follow. Years from now you will still enjoy the quest with an insight all the greater for your efforts. </para>
+
+</content>
+</document>

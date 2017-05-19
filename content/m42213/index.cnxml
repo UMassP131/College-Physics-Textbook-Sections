@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>Introduction to Temperature, Kinetic Theory, and the Gas Laws</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/m42213/latest/</md:content-url>
+  <md:content-id>m42213</md:content-id>
+  <md:title>Introduction to Temperature, Kinetic Theory, and the Gas Laws</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2011/12/29 12:45:26 US/Central</md:created>
+  <md:revised>2015/05/13 13:40:42.275 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Absolute zero</md:keyword>
+    <md:keyword>Avogadro’s number</md:keyword>
+    <md:keyword>Boiling</md:keyword>
+    <md:keyword>Bulk modulus</md:keyword>
+    <md:keyword>Celsius</md:keyword>
+    <md:keyword>Coefficient of expansion</md:keyword>
+    <md:keyword>Coefficient of linear expansion</md:keyword>
+    <md:keyword>Coefficient of volume expansion</md:keyword>
+    <md:keyword>Critical point</md:keyword>
+    <md:keyword>Critical pressure</md:keyword>
+    <md:keyword>Critical temperature</md:keyword>
+    <md:keyword>Dalton</md:keyword>
+    <md:keyword>degree Celsius</md:keyword>
+    <md:keyword>degree Fahrenheit</md:keyword>
+    <md:keyword>Dew point</md:keyword>
+    <md:keyword>Equilibrium</md:keyword>
+    <md:keyword>Evaporation</md:keyword>
+    <md:keyword>Fahrenheit</md:keyword>
+    <md:keyword>Gas</md:keyword>
+    <md:keyword>Heat</md:keyword>
+    <md:keyword>Heat transfer</md:keyword>
+    <md:keyword>Humidity</md:keyword>
+    <md:keyword>Ideal gas</md:keyword>
+    <md:keyword>Ideal gas law</md:keyword>
+    <md:keyword>Kelvin</md:keyword>
+    <md:keyword>Kinetic energy</md:keyword>
+    <md:keyword>Linear expansion</md:keyword>
+    <md:keyword>Liquid</md:keyword>
+    <md:keyword>Maxwell-Boltzmann distribution</md:keyword>
+    <md:keyword>Molecular motion</md:keyword>
+    <md:keyword>Moles</md:keyword>
+    <md:keyword>Phase change</md:keyword>
+    <md:keyword>Phase diagram</md:keyword>
+    <md:keyword>Pressure</md:keyword>
+    <md:keyword>Real gas</md:keyword>
+    <md:keyword>Relative humidity</md:keyword>
+    <md:keyword>Relative percent humidity</md:keyword>
+    <md:keyword>Saturation</md:keyword>
+    <md:keyword>Solid</md:keyword>
+    <md:keyword>Temperature</md:keyword>
+    <md:keyword>Temperature scales</md:keyword>
+    <md:keyword>Thermal energy</md:keyword>
+    <md:keyword>Thermal equilibrium</md:keyword>
+    <md:keyword>Thermal expansion</md:keyword>
+    <md:keyword>Thermal stress</md:keyword>
+    <md:keyword>Thermometer</md:keyword>
+    <md:keyword>Triple point</md:keyword>
+    <md:keyword>Velocity</md:keyword>
+    <md:keyword>Volume expansion</md:keyword>
+    <md:keyword>Zeroth law of thermodynamics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+    <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1310131" class="splash"><media id="import-auto-id1426851" alt="Photograph of a welder wearing protective gloves and helmet, engaged in the task of welding.">
+        <image mime-type="image/jpg" src="Figure_13_00_01.jpg"/>
+      </media>
+      
+    <caption>The welder’s gloves and helmet protect him from the electric arc that transfers enough thermal energy to melt the rod, spray sparks, and burn the retina of an unprotected eye. The thermal energy can be felt on exposed skin a few meters away, and its light can be seen for kilometers. (credit: Kevin S. O’Brien/U.S. Navy) </caption></figure><para id="import-auto-id1328173">Heat is something familiar to each of us. We feel the warmth of the summer Sun, the chill of a clear summer night, the heat of coffee after a winter stroll, and the cooling effect of our sweat. Heat transfer is maintained by temperature differences. Manifestations of <term id="import-auto-id1477290">heat transfer</term>—the movement of heat energy from one place or material to another—are apparent throughout the universe. Heat from beneath Earth’s surface is brought to the surface in flows of incandescent lava. The Sun warms Earth’s surface and is the source of much of the energy we find on it. Rising levels of atmospheric carbon dioxide threaten to trap more of the Sun’s energy, perhaps fundamentally altering the ecosphere. In space, supernovas explode, briefly radiating more heat than an entire galaxy does.</para>
+    <para id="import-auto-id1805837">What is heat? How do we define it? How is it related to temperature? What are heat’s effects? How is it related to other forms of energy and to work? We will find that, in spite of the richness of the phenomena, there is a small set of underlying physical principles that unite the subjects and tie them to other fields.</para>
+    <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1202103"><media id="import-auto-id1799416" alt="Image of the lower end of a glass thermometer containing alcohol and a red dye.">
+        <image mime-type="image/jpg" src="Figure_14_00_02.jpg" width="250"/>
+      </media>
+      
+    <caption>In a typical thermometer like this one, the alcohol, with a red dye, expands more rapidly than the glass containing it. When the thermometer’s temperature increases, the liquid from the bulb is forced into the narrow tube, producing a large change in the length of the column for a small change in temperature. (credit: Chemical Engineer, Wikimedia Commons)</caption></figure></content>
+</document>

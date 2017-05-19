@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to the Physics of Hearing</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42254/latest/</md:content-url>
+  <md:content-id>m42254</md:content-id>
+  <md:title>Introduction to the Physics of Hearing</md:title>
+  <md:version>1.3</md:version>
+  <md:created>2011/12/29 15:36:41 US/Central</md:created>
+  <md:revised>2012/06/06 13:26:34.871 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>daniel@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>acoustic</md:keyword>
+    <md:keyword>air column</md:keyword>
+    <md:keyword>antinode</md:keyword>
+    <md:keyword>bow wake</md:keyword>
+    <md:keyword>cavitation</md:keyword>
+    <md:keyword>coefficient</md:keyword>
+    <md:keyword>Doppler effect</md:keyword>
+    <md:keyword>Doppler shift</md:keyword>
+    <md:keyword>frequency</md:keyword>
+    <md:keyword>fundamental</md:keyword>
+    <md:keyword>harmonics</md:keyword>
+    <md:keyword>hearing</md:keyword>
+    <md:keyword>impedance</md:keyword>
+    <md:keyword>infrasound</md:keyword>
+    <md:keyword>intensity</md:keyword>
+    <md:keyword>interference</md:keyword>
+    <md:keyword>loudness</md:keyword>
+    <md:keyword>node</md:keyword>
+    <md:keyword>overtones</md:keyword>
+    <md:keyword>phon</md:keyword>
+    <md:keyword>pitch</md:keyword>
+    <md:keyword>reflection</md:keyword>
+    <md:keyword>resonance</md:keyword>
+    <md:keyword>sonic booms</md:keyword>
+    <md:keyword>sound</md:keyword>
+    <md:keyword>sound intensity</md:keyword>
+    <md:keyword>sound intensity level</md:keyword>
+    <md:keyword>sound interference</md:keyword>
+    <md:keyword>sound pressure level</md:keyword>
+    <md:keyword>sound wave</md:keyword>
+    <md:keyword>speed of sound</md:keyword>
+    <md:keyword>standing waves</md:keyword>
+    <md:keyword>timbre</md:keyword>
+    <md:keyword>ultrasound</md:keyword>
+    <md:keyword>vibration</md:keyword>
+    <md:keyword>wave</md:keyword>
+    <md:keyword>wavelength</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3008823" class="splash"><media id="import-auto-id952944" alt="Photograph of an old tree in a forest that had fallen some time ago.">
+                <image mime-type="image/png" src="Figure_18_00_01a_D.jpg"/>
+            </media>
+            
+        <caption>This tree fell some time ago. When it fell, atoms in the air were disturbed. Physicists would call this disturbance sound whether someone was around to hear it or not. (credit: B.A. Bowen Photography)</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1570972">If a tree falls in the forest and no one is there to hear it, does it make a sound? The answer to this old philosophical question depends on how you define sound. If sound only exists when someone is around to perceive it, then there was no sound. However, if we define sound in terms of physics; that is, a disturbance of the atoms in matter transmitted from its origin outward (in other words, a wave), then there <emphasis effect="italics">was</emphasis> a sound, even if nobody was around to hear it. </para><para id="import-auto-id2697437">Such a wave is the physical phenomenon we call <emphasis effect="italics">sound</emphasis><emphasis effect="italics">.</emphasis> Its perception is hearing. Both the physical phenomenon and its perception are interesting and will be considered in this text. We shall explore both sound and hearing; they are related, but are not the same thing. We will also explore the many practical uses of sound waves, such as in medical imaging.</para>
+        </content>
+</document>

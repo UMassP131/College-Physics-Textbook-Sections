@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+    <title>Introduction to Statics and Torque</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m42167/latest</md:content-url>
+  <md:content-id>m42167</md:content-id>
+  <md:title>Introduction to Statics and Torque</md:title>
+  <md:version>1.4</md:version>
+  <md:created>2011/12/28 14:41:06 -0600</md:created>
+  <md:revised>2012/06/20 09:50:34 -0500</md:revised>
+  <md:actors>
+    <md:person userid="cnxcap">
+      <md:firstname>College</md:firstname>
+      <md:surname>Physics</md:surname>
+      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Dynamic equilibrium</md:keyword>
+    <md:keyword>Equilibrium</md:keyword>
+    <md:keyword>Force</md:keyword>
+    <md:keyword>Good posture</md:keyword>
+    <md:keyword>Input force</md:keyword>
+    <md:keyword>Lever</md:keyword>
+    <md:keyword>Lever arm</md:keyword>
+    <md:keyword>Machines</md:keyword>
+    <md:keyword>Mechanical Advantage</md:keyword>
+    <md:keyword>Neutral equilibrium</md:keyword>
+    <md:keyword>Output force</md:keyword>
+    <md:keyword>Perpendicular lever arm</md:keyword>
+    <md:keyword>Pulley</md:keyword>
+    <md:keyword>Simple machine</md:keyword>
+    <md:keyword>SI units of torque</md:keyword>
+    <md:keyword>Stability</md:keyword>
+    <md:keyword>Stable equilibrium</md:keyword>
+    <md:keyword>Static equilibrium</md:keyword>
+    <md:keyword>Statics</md:keyword>
+    <md:keyword>Torque</md:keyword>
+    <md:keyword>Unstable equilibrium</md:keyword>
+    <md:keyword>Wheelbarrow</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+        <?cnx.eoc class="section-summary" title="Section Summary"?>
+	<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+	<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?>
+
+
+        <figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1398204" class="splash"><media id="import-auto-id1449546" alt="Layered rock formation.">
+                <image mime-type="image/jpg" src="Figure_10_00_01_D.jpg" width="400"/>
+            </media>
+            
+        <caption>On a short time scale, rocks like these in Australia’s Kings Canyon are static, or motionless relative to the Earth.  (credit: freeaussiestock.com)</caption></figure><para id="import-auto-id1087215">What might desks, bridges, buildings, trees, and mountains have in common—at least in the eyes of a physicist? The answer is that they are ordinarily motionless relative to the Earth. Furthermore, their acceleration is zero because they remain motionless. That means they also have something in common with a car moving at a constant velocity, because anything with a constant velocity also has an acceleration of zero. Now, the important part—Newton’s second law states that net <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "ma"} {}</m:annotation></m:semantics></m:math>, and so the net external force is zero for all stationary objects and for all objects moving at constant velocity. There are forces acting, but they are balanced. That is, they are in <emphasis effect="italics">equilibrium</emphasis>. </para>
+        <note id="fs-id1195972"><label/>
+        <title>Statics</title>
+        <para id="import-auto-id2134272">Statics is the study of forces in equilibrium, a large group of situations that makes up a special case of Newton’s second law. We have already considered a few such situations; in this chapter, we cover the topic more thoroughly, including consideration of such possible effects as the rotation and deformation of an object by the forces acting on it.</para>
+        </note>
+        <para id="import-auto-id3044593">How can we guarantee that a body is in equilibrium and what can we learn from systems that are in equilibrium? There are actually two conditions that must be satisfied to achieve equilibrium. These conditions are the topics of the first two sections of this chapter.</para>
+        
+
+</content>
+</document>
