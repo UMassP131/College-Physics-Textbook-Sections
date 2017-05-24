@@ -1,3 +1,16 @@
 
 <!--Instructor's Note-->
-<note id="inote#"><label>Instructor's Note</label></note>
+<note id="inote#"><label>UMass Instructor's Note</label></note>
+
+<!--Intro Notes-->
+<section id="nfui">
+		<title>Notes from your UMass Instructors</title>
+		<list id="quiz">
+			<title>Your Quiz will Cover</title>
+			<item>Insert item here</item>
+		</list>
+		<list id="ttc">
+			<title>Other Things to Consider as You Read:</title>
+			<item>Insert item here</item>
+		</list>
+	</section>
