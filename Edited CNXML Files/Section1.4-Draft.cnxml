@@ -45,14 +45,35 @@
 </metadata>
 
 <content>
-    <para id="import-auto-idm246397648">This section focuses on some basic statistics facts that we will need for this class. </para>
-    <section id="import-auto-idm255950320">
+<section id="nfui">
+		<title>Notes from your UMass Instructors</title>
+		<list id="quiz">
+			<title>Your Quiz will Cover</title>
+			<item>Mean and Standard Deviation: Know the definition of both of these as well as how to calculate them for a given data set.</item>
+		</list>
+		<list id="ttc">
+			<title>Other Things to Consider as You Read:</title>
+			<item>While we won't be using sig-fig rules, there are some guidelines on the appropriate amount of digits to include in a result.</item>
+		</list>
+	</section>
+    <para id="import-auto-idm246397648">This section focuses on some basic statistics facts that we will need for this class. After the video is a transcript of it.</para>
+		<para>
+		<media id="itsvideo"
+			alt="Intro to Statistics"
+			display="block">
+		<video mime-type="video/mp4" 
+         src="intro_to_statistics.mp4"
+         autoplay="false"
+         width="800" height="600" />
+		</media>
+	</para>
+	<section id="import-auto-idm255950320">
       <title>More on digits in homework</title>
-      <para id="import-auto-idm228094736">Before we begin, I want to make a little bit more of a comment on the use of the right number of digits to present. For this course, I am assuming that you’ve already read section 1.3 in Perusall. For the problems in class and on exams, the three-digit rule discussed in that section is what we will go with. For homework on mastering physics, however, answers will be judged as correct if they are within two percent of the correct value, so my suggestion is to just put in plenty of digits. You may get a message that says something about incorrect number of significant figures if you do this.. Howeverdon’t worry about it, the problem has been graded correctly. Mastering physics is just telling you that you did your significant figures wrong. However, since I don’t care about significant figures, it’s not really a big deal; you will get full credit either way. </para>
+      <para id="import-auto-idm228094736">Before we begin, I want to make a little bit more of a comment on the use of the right number of digits to present. For this course, I am assuming that you’ve already read section 1.3. For the problems in class and on exams, the three-digit rule discussed in that section is what we will go with. For homework on mastering physics, however, answers will be judged as correct if they are within two percent of the correct value, so my suggestion is to just put in plenty of digits. You may get a message that says something about incorrect number of significant figures if you do this.. Howeverdon’t worry about it, the problem has been graded correctly. Mastering physics is just telling you that you did your significant figures wrong. However, since I don’t care about significant figures, it’s not really a big deal; you will get full credit either way. </para>
     </section>
     <section id="import-auto-idm221767392">
       <title>How to present data for laboratory exerciese</title>
-      <para id="import-auto-idm869886496">We have discussed how many digits to present in class on exams and in homework, but what will we do for the laboratories that we will do in class? For labs, we will use what people in research actually use: the ideas of mean and standard deviation. Before we talk about mean and standard deviation, we have to discuss a little bit about measurement. Most objects have some variation. People come in a variety of heights, for example, and even manufactured objects like, say pencils, will have a variety of lengths. If you can measure them precisely enough, this variation may be very small, if for objects made by machines, but it will still be there. Another example that’s not just lengths or heights is the number of blood cells passing through a capillary per second. This quantity will, of course, vary from second to second. Another example might be that if you have a spring based launcher of a ball, the ball will travel slightly different distances each time, if for no other reason than the spring coils slightly different ways on the molecular level with each launch. These types of variation are intrinsic, and result in variation in your measurement. However, sometimes measuring something directly is tough, and you need to use indirect methods, like we do for our library lab. One way to get a feel for the precision of your method is to make the measurement with a few different methods, with what we expect to have similar levels of precision. The variation in the results of the different methods can give a sense of the precision of your measurements; this is how we will evaluate our methods for the library lab. </para>
+      <para id="import-auto-idm869886496">We have discussed how many digits to present in class on exams and in homework, but what will we do for the laboratories that we will do in class? For labs, we will use what people in research actually use: the ideas of mean and standard deviation. Before we talk about mean and standard deviation, we have to discuss a little bit about measurement. Most objects have some variation. People come in a variety of heights, for example, and even manufactured objects like, say pencils, will have a variety of lengths. If you can measure them precisely enough, this variation may be very small, for objects made by machines for example, but it will still be there. Another example that’s not just lengths or heights is the number of blood cells passing through a capillary per second. This quantity will, of course, vary from second to second. Another example might be that if you have a spring based launcher of a ball, the ball will travel slightly different distances each time, if for no other reason than the spring coils slightly different ways on the molecular level with each launch. These types of variation are intrinsic, and result in variation in your measurement. However, sometimes measuring something directly is tough, and you need to use indirect methods, like we do for our library lab. One way to get a feel for the precision of your method is to make the measurement with a few different methods, with what we expect to have similar levels of precision. The variation in the results of the different methods can give a sense of the precision of your measurements; this is how we will evaluate our methods for the library lab. </para>
     </section>
     <section id="import-auto-idm253364208">
       <title>Mean and Standard Deviation</title>
@@ -192,9 +213,49 @@
         <title>Standard Deviation</title>
         <para id="import-auto-idm247324720">The mean provides a great starting point for characterizing data, but it’s insufficient because it’s missing a key feature. Just representing the mean gives us no clue on how spread out these data are. Phrased differently, we don’t have any information on what is the average distance for a random data point to the mean. So if we’re looking at this question, let’s try to translate this question into mathematics. Well, the distance from a given data point <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{x} rsub {i}</m:annotation></m:semantics></m:math> to the mean would be <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>H</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">left langle H right rangle - {x} rsub {i}</m:annotation></m:semantics></m:math>, and the average distance would be, well, take all of these different distances, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">μ- {x} rsub {i}</m:annotation></m:semantics></m:math>, add them all up and divide by the number of measurements. </para>
         <para id="import-auto-idm246042432">However, this idea has a problem. Some distances are lower than the mean. For example, person 6 is slightly shorter than our average. So, his distance to the mean will be positive, while some people are taller than the average, for example person 2, so their distance to the mean will be negative. If I add up positive numbers and negative numbers, I’ll probably get a result that’s very close to zero due to the cancellation. So how can we get around this problem? Well, you might think absolute values, but for calculus reasons, absolute values have some problems, so a better way to get around having negative numbers is to look at squaring them, because no matter what, when I take a number and square it, the result is positive. So, let’s look at the average squared distance from the mean. Mathematically, the average squared distance from the mean would be, take the distance from the data point to the mean, just mean minus data point, square it, add them all up and divide by the number of measurements. </para>
-
-        <para id="import-auto-idm252133040">Now all the numbers being added are positive, so there’s no cancellation. This quantity is called the variance, and we will label it with the variable <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:annotation encoding="StarMath 5.0">{σ} ^ {2}</m:annotation></m:semantics></m:math>, for reasons that will become apparent in a moment. Let’s calculate the variance for this data. Again, variance is kind of an ugly formula, so you really got to slow down and take it one piece at a time. So let’s take an entry I equals 1 and what do we do, take the entry and subtract it from the mean. This for I equals 1 is negative .7 cm. We repeat this for all of our data. We get these results. Next in variance, we see we should square so for I equals 1 the result is .49 cm<sup>2</sup>. I want to point out that we’ve now moved from cm to cm<sup>2</sup>, because when you square a number with units, you got to square the units too, and when we repeat it for all of our data and get these results to calculate variance, we take all of these numbers and add them up, which gives us 403.5  cm2. To get the variance divided by the number of measurements, which in this case is 20 giving us a variance of 20.2 cm<sup>2</sup>. </para>
-        <para id="import-auto-idm212167904">Now variance has different units than mean, as we’ve already seen. The mean for this data set is 177.0 cm while the variance is 20.2 cm <sup>2</sup>. It’s very difficult to compare numbers with different units, so to deal with this, we, instead of looking at the variance, look at the standard deviation, which we represent by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>σ</m:mi><m:annotation encoding="StarMath 5.0"> σ</m:annotation></m:semantics></m:math>. So, the standard deviation is the square root of the variance. This is why we represent variance with a <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:annotation encoding="StarMath 5.0">{σ} ^ {2}</m:annotation></m:semantics></m:math>. In this example to get the standard deviation, we take square root of the variance so the square root of 20.2 cm<sup>2</sup>, to give us 4.49 cm. Now we have two quantities that are both in cm, and allows us to compare them. So how do we report numbers in the laboratory exercises? In this class, most of the labs in this course will have multiple measurements. We can use these different trials to calculate a mean and a standard deviation, and we can use this standard deviation as an uncertainty and use it to tell us how many decimals we should record. In our height example, we had a mean of 177 cm and a standard deviation a 4.49 cm. An appropriate way to represent this result would be 177 plus or minus 4.5 cm. This representation has a lot of advantages; it represents the average 177, and we have the standard deviation, which gives the person reading the number a sense of the spread of the data, and we have a reasonable number of digits. I’ve gone with one digit past the decimal point, and I did this based upon the standard deviation. While our standard deviation is officially 4.49, I rounded it to 4.5, because .01 is very small relative to our standard deviation, so I can’t really trust that .01. So while I removed some certainty of nice hard sig-fig rules, this is how numbers are actually reported in research, and this is how we’ll do it in class. Part of the point of the laboratory exercises to get you some experience with this sort of usage.</para>
+		
+ <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm438928304"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>&#963;</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+<m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+                <m:mrow>
+                  <m:munderover>
+                    <m:mo stretchy="false">&#8721;</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:munderover>
+                  <m:mrow>
+					<m:mn>(</m:mn>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mi>i</m:mi>
+                    </m:msub>
+					<m:mo stretchy="false">-</m:mo>					
+					<m:mi>&#956;</m:mi>
+                    <m:msup>
+                      <m:mn>)</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">&lt;?&gt; ^ &lt;?&gt;  &lt;?&gt; over &lt;?&gt; sum from &lt;?&gt; to &lt;?&gt; {&lt;?&gt; rsub &lt;?&gt;  &lt;?&gt; ^ &lt;?&gt;}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+		
+        <para id="import-auto-idm252133040">Now all the numbers being added are positive, so there’s no cancellation. This quantity is called the variance, and we will label it with the variable <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:annotation encoding="StarMath 5.0">{σ} ^ {2}</m:annotation></m:semantics></m:math>, for reasons that will become apparent in a moment. Let’s calculate the variance for this data. Again, variance is kind of an ugly formula, so you really got to slow down and take it one piece at a time. So let’s take an entry <emphasis effect="italics">i</emphasis>=1 and what do we do, take the entry and subtract it from the mean. This for <emphasis effect="italics">i</emphasis>=1 is -0.7 cm. We repeat this for all of our data. We get these results. Next in variance, we see we should square so for <emphasis effect="italics">i</emphasis>=1 the result is .49 cm<sup>2</sup>. I want to point out that we’ve now moved from cm to cm<sup>2</sup>, because when you square a number with units, you got to square the units too, and when we repeat it for all of our data and get these results to calculate variance, we take all of these numbers and add them up, which gives us 403.5  cm2. To get the variance divided by the number of measurements, which in this case is 20 giving us a variance of 20.2 cm<sup>2</sup>. </para>
+        
+		<para id="import-auto-idm212167904">Now variance has different units than mean, as we’ve already seen. The mean for this data set is 177.0 cm while the variance is 20.2 cm <sup>2</sup>. It’s very difficult to compare numbers with different units. To deal with this we, instead of looking at the variance, look at the standard deviation, which we represent by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>σ</m:mi><m:annotation encoding="StarMath 5.0"> σ</m:annotation></m:semantics></m:math>. So, the standard deviation is the square root of the variance. This is why we represent variance with a <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:annotation encoding="StarMath 5.0">{σ} ^ {2}</m:annotation></m:semantics></m:math>. In this example to get the standard deviation, we take square root of the variance so the square root of 20.2 cm<sup>2</sup>, to give us 4.49 cm. Now we have two quantities that are both in cm, and allows us to compare them.</para> 
+		<para id="newpara">So how do we report numbers in the laboratory exercises? In this class, most of the labs in this course will have multiple measurements. We can use these different trials to calculate a mean and a standard deviation, and we can use this standard deviation as an uncertainty and use it to tell us how many decimals we should record. In our height example, we had a mean of 177 cm and a standard deviation a 4.49 cm. An appropriate way to represent this result would be 177 plus or minus 4.5 cm. This representation has a lot of advantages; it represents the average 177, and we have the standard deviation, which gives the person reading the number a sense of the spread of the data, and we have a reasonable number of digits. I’ve gone with one digit past the decimal point, and I did this based upon the standard deviation. While our standard deviation is officially 4.49, I rounded it to 4.5, because .01 is very small relative to our standard deviation, so I can’t really trust that .01. So while I removed some certainty of nice hard sig-fig rules, this is how numbers are actually reported in research, and this is how we’ll do it in class. Part of the point of the laboratory exercises to get you some experience with this sort of usage.</para>
       </section>
     </section>
   </content>
