@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Unit 1 Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Unit 1 Overview</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/05/26 15:41:04.504 GMT-5</md:created>
+  <md:revised>2017/05/26 15:41:10.453 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Physics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+	<section id="nfui">
+		<title>Notes from your UMass Instructors</title>
+		<list id="ttc">
+			<title>Things to Consider as You Read:</title>
+			<item>This section provides an overview of the first unit on mathematical tools and foundational concepts for Physics 131; we will be using concepts from this unit throughout the class.</item> 
+			<item>There are also a few hints and tips in the section on how to do the homework efficiently; I would suggest developing good homework habits early.</item>
+		</list>
+	</section>
+	<section id="overview">
+	<title>     </title>
+	<para id="secondpara">In this unit, we will explore some of the fundamental mathematical tools and basic concepts that we will need throughout the rest of the course in our study of physics, including: 
+	<list id="goals">
+	<item>An introduction to what physics is as a discipline and how that might be similar to or different from some of the other sciences you may have studied,</item>
+	<item>A review of the basic idea of units</item>
+	<item>My policy on significant figures</item>
+	<item>Introduce the basic ideas of mean and standard deviation for use in the laboratory exercises within this course</item>
+	<item>The definition of displacement, velocity, and acceleration; in particular, how velocity and acceleration are similar to and different from distance and speed</item>
+	<item>How to use iterative methods to predict the motion of objects that move with non-uniform acceleration</item> 
+	<item>On a purely mathematical note, you will be exploring what a vector is and how they can be added and subtracted. </item>
+	</list>
+	
+	</para>
+	</section>
+    <section id="import-auto-idm412884128">
+      <title>General Notes About Homework</title>
+      <para id="import-auto-idm399943776">The homework in this course is intended to provide you with some basic information. The material in the preparation will be the starting point for what we discuss in class. This helps to make sure that everyone with their varying backgrounds in physics is starting at the same point. We will then build upon this preparation in class, using in-class activities to get you ready for exams. This is somewhat different probably from your other courses where the purpose of the homework is to provide additional practice on in-class material to help you get ready for exams. <emphasis effect="bold">In this course, the homework gets you ready for class, and class is what gets you ready for the exams. </emphasis></para>
+      <section id="import-auto-idm487417488">
+        <title>How to be Successful </title>
+        <para id="import-auto-idm460161152">Each homework is divided up into sections. Within each section, the first question is your readings to do for that particular section, followed by a set of problems. The information you need to complete a set of problems will be in the readings at the beginning of that section. The readings are presented in terms of a checklist. This problem is not for a grade, it’s just presented as a checklist to make sure that you get everything done. So, you may have various readings within the OpenStax textbook UMass edition which is on Perusall, and you may also have some videos. The videos are embedded directly within Mastering and you should be able to play them right there, but if you cannot, you can go and click this link and it will take you to the course YouTube page, and you can watch the videos there. The transcripts for all of the videos are also included in the textbook themselves, so if you want to go and read the text because you prefer to read or you want to add some sort of Perusall comment to some of the content of the video, you can do that within the textbook in Perusall, so each video has an associated section in the textbook and in Perusall with the transcript of that video for you to comment. </para>
+        <para id="import-auto-idm505895936">Once you’ve completed the readings, you’re now ready to move on to the actual homework problems. These problems are there to help you check that you understood what was in the various readings and videos, and to help you refine your understanding. Most of the individual parts of each problem are one-step. If you find yourself doing long chains of calculations, come get help in the consultation room. You’re probably approaching the problem in a way that’s not very efficient. When doing the homework, don’t skip the readings and the videos. Your comments on the actual readings in Perusall are graded in accordance with the policy in the syllabus and form a part of your homework grade. We acknowledge that doing all of these readings and all of this homework is hard work, and we are here to help; we’ve provided quite a few resources to help you be successful in completing this assignment. Moreover, since it is so much work, the preparation is your entire homework for this course. There is no required end of chapter homework assignments; you only need to do this preparation. This is your big focus for your homework.</para>
+      </section>
+    </section>
+    <section id="import-auto-idm1042152384">
+      <title>What to focus on in the Unit 1 Preparation Homework</title>
+      <para id="import-auto-idm520134048">I want you to focus on, while doing this homework, the definitions of the terms <emphasis effect="bold">position</emphasis>, <emphasis effect="bold">velocity</emphasis>, and <emphasis effect="bold">acceleration</emphasis>, the few basic equations such as <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mover><m:mi mathvariant="normal">v</m:mi><m:mo stretchy="false">&#8407;</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>∆</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">acute &lt;?&gt;   = {∆x} over {∆t}</m:annotation></m:semantics></m:math> and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mover><m:mi mathvariant="normal">a</m:mi><m:mo stretchy="false">&#8407;</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>∆</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">acute &lt;?&gt;  = {∆v} over {∆t}  </m:annotation></m:semantics></m:math>, including what all the symbols mean and when these equations can be applied. Many people in studying physics for the first time understand they need to know what the symbols mean, but they tend to skip over this second element, which is just as important, if not more so, because not every equation can be applied in every situation. I will also ask you to learn how to just “turn the crank” for various types of calculations, such as iterative calculations, and vector arithmetic. Don’t worry if you don’t really understand what you’re doing when you do these calculations. If conceptually it doesn’t make sense, that’s okay; we will spend time in class working with these ideas and getting an understanding of what you’re doing. I just want you to know how to do these calculations. </para>
+      <para id="import-auto-idm468424608">Finally, I would like to have a quick philosophical comment regarding motion with constant acceleration. If you have had any physics before, you may have seen the so-called kinematic equations, which are these two here:</para>
+      <para id="import-auto-idm411119808">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">d= {v} rsub {0} t+ {1} over {2} a {t} ^ {2}</m:annotation>
+          </m:semantics>
+        </m:math>
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>v</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msup>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mrow>
+              <m:mi mathvariant="italic">ad</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{v} ^ {2} = {{v} rsub {0}} ^ {2} +2ad</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm425128688">We will NOT be using these equations in this class. We will be approaching the subject, and many others, in ways that may be different from how you may have seen them in a previous physics class. We believe that physics is not about memorizing equations and learning how to piece those equations together. We believe instead that physics is about fundamental ideas, and we will teach this course from this perspective. Occasionally, this will result in physics homework very different from what you may expect. A good example is the homework for the second unit, where you have some actual fill-in-the-blank type of questions. If you try to learn physics as a set of ideas instead of a set of equations to be pieced together, and start your analysis of situations from fundamental physical principles, then your physics experience will enrich and enhance your understanding of your other courses, as opposed to just being a course that you just “have to take for your major”.</para>
+    </section>
+    </content>
+</document>
