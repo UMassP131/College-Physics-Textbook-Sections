@@ -1,6 +1,7 @@
 
 <!--Instructor's Note-->
-<note id="inote#"><label>UMass Instructor's Note</label></note>
+<exercise id="inote(numbz)" type="check-understanding"><label/><title><media id="inote(numbz)i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote(numbz)p"><para id="inote(numbz)pp">(insert text here)</para></problem></exercise>
+
 
 <!--Intro Notes-->
 <section id="nfui">
