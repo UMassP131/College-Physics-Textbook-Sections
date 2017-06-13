@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>2017-5-23 Print Test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>2017-5-23 Print Test</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/05/23 15:01:41.198 GMT-5</md:created>
+  <md:revised>2017/05/23 15:01:41.603 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+    <section id="import-auto-idm798948752">
+      <title>How Many Digits To Include</title>
+      <para id="import-auto-idm1114535520">Here are some simple rules that apply whenever you are writing down a number:</para>
+      <para id="import-auto-idm787630480"><link url="http://www.av8n.com/physics/uncertainty.htm#intro-many">1</link> Use many enough digits to avoid unintended loss of information.</para>
+      <para id="import-auto-idm1107937408"><link url="http://www.av8n.com/physics/uncertainty.htm#intro-few">2</link>. Use few enough digits to be reasonably convenient. </para>
+      <para id="import-auto-idm760645664"><emphasis effect="bold">Important note:</emphasis> The previous two sentences tell you everything you need to know for most purposes, including real-life situations as well as academic situations at every level from primary school up to and including introductory college level. </para>
+      <para id="import-auto-idm787500560"/>
+      <para id="import-auto-idm301034592"><link url="http://www.av8n.com/physics/uncertainty.htm#intro-calculator-store">3</link>. When using a calculator, it is good practice to leave intermediate results in the machine. This is simultaneously more accurate and more convenient than writing them down and then keying them in again. </para>
+      <para id="import-auto-idm1112752208">Seriously: The primary rule is to use plenty of digits. You hardly even need to think about it. Too many is vastly better than too few. To say the same thing the other way: If you ever have more digits than you need <emphasis effect="italics">and</emphasis> they are causing major inconvenience, then you can think about reducing the number of digits.</para>
+    </section>
+    <section id="import-auto-idm292002976">
+      <title>When to Write Down Uncertainty</title>
+      <para id="import-auto-idm1120616448">In many cases, when you write down a number, you need not <emphasis effect="italics">and should not</emphasis> associate it with any notion of uncertainty.</para>
+      <list id="import-auto-idm325758496" list-type="bulleted">
+        <item>One way this can happen is if you have a number with zero uncertainty. If you roll a pair of dice and observe five spots, the number of spots is 5. This is a raw data point, with no uncertainty whatsoever. So just write down the number. Similarly, the number of centimeters per inch is 2.54, by definition, with no uncertainty whatsoever. Again: just write down the number.</item>
+        <item>Another possibility is that there is a cooked data blob, which in principle must have “some” uncertainty, but the uncertainty is too small to be interesting. It is insignificant. It is unimportant. It is immaterial. There are plenty of situations a moderately rough approximation is sufficient. There are even some situations where an <emphasis effect="italics">extremely</emphasis> rough approximation is called for. </item>
+      </list>
+      <para id="import-auto-idm317047136">Along the same lines, here is a less-extreme example that arises in the introductory chemistry class. Suppose the assignment is to balance the equation for the combustion of gasoline, namely</para>
+	  
+	  <para id="equation"><emphasis effect="italics">a </emphasis>C<sub>8</sub>H<sub>18</sub>+<emphasis effect="italics">b </emphasis>O<sub>2</sub> → <emphasis effect="italics">x </emphasis>CO<sub>2</sub>+<emphasis effect="italics">y </emphasis>H<sub>2</sub>O</para>
+      
+      <para id="import-auto-idm1351257904">by finding numerical values for the coefficients <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">x</emphasis>, and <emphasis effect="italics">y</emphasis>. The conventional answer is (<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) = (2, 25, 16, 18). The outcome of the real reaction must have “some” uncertainty, because there will generally be some non-idealities, including the presence of other molecules such as CO or C<sub>60</sub>, not to mention NO<sub>2</sub> or whatever. However, my point is that we don’t necessarily care about these non-idealities. We can perfectly well find the idealized solution to the idealized equation and postpone worrying about the non-idealities and uncertainties until much, much later.</para>
+      <para id="import-auto-idm1134254720">As another example, suppose you use a digital stopwatch to measure some event, and the reading is 1.234 seconds. We call this number the <emphasis effect="italics">indicated</emphasis> time, and we distinguish it from the <emphasis effect="italics">true</emphasis> time of the event. In principle, there is no chance that the indicated time will be exactly equal to the true time; true time is a <emphasis effect="italics">continuous variable</emphasis>, which means that it can take on an infinite amount of values, such as 1.234, 1.2341, 1.23406, 1.2360000009, and so on, whereas the indicated time is <emphasis effect="italics">quantized</emphasis>, which means that it can only take on certain values, such as, if you have a stopwatch with only three decimal places, you can have 1.234 and 1.235, but no values in between, such as 1.2347. However, in many cases you may decide that it is close enough, in which case you should just write down the indicated reading and not worry about the quantization error.</para>
+      <para id="import-auto-idm1108228288">Let us continue with the stopwatch example. Suppose we make two observations. The first reading is 1.234 seconds, and the second reading is just the same, namely 1.234 seconds. Meanwhile, however, you may believe that if you repeated the experiment many times, the resulting set of readings would have some amount of scatter, namely<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>±</m:mi><m:annotation encoding="StarMath 5.0">±</m:annotation></m:semantics></m:math>0.01 seconds. The two observations that we actually have don’t show any scatter at all, so your estimate of the uncertainty remains hypothetical and theoretical. Theoretical information is still information, and should be written down in the lab book, plain and simple. For example, you might write a sentence that says “Intuition suggests the timing data is reproducible<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>±</m:mi><m:annotation encoding="StarMath 5.0">±</m:annotation></m:semantics></m:math>0.01 seconds.” It would be even better to include some explanation of why you think so. The principle is simple: Write down what you know. Say what you mean, and mean what you say. The same principle applies to the indicated values. The recommend practice is to write down each indicated value, as-is, plain and simple.</para>
+      <para id="import-auto-idm1124284416">You are not trying write down the true values. You don’t know the true values (except insofar as the indicated values represent them, indirectly). You don’t need to know the true values, so don’t worry about it. The rule is: <emphasis effect="italics">Write down what you know.</emphasis> So write down the indicated value. Also: You are not obliged to attribute any uncertainty to the numbers you write down. Normal lab-book entries do not express an uncertainty using <emphasis effect="italics">A<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>±</m:mi><m:annotation encoding="StarMath 5.0">±</m:annotation></m:semantics></m:math>B</emphasis> notation or otherwise, and they do not “imply” an uncertainty using sig figs or otherwise. We are always uncertain about the true value, but we aren’t writing down the true value, so that’s not a concern.</para>
+      <para id="import-auto-idm316159360">Some people say there must be some uncertainty “associated” with the number you write down, and of course there is, indirectly, in the sense that the indicated value is “associated” with some range of true values. We are always uncertain about the true value, but that does not mean we are uncertain about the indicated value. These things are “associated” ... but they are not the same thing.</para>
+      <para id="import-auto-idm1327425248">In a well-designed experiment, things like readability and quantization error usually do not make a large contribution to the overall uncertainty anyway. Please do not confuse such things with “the” uncertainty. </para>
+      <para id="import-auto-idm1319966672">It is usually a good practice to keep all the original data. When reading an instrument, read it as precisely as the instrument permits, and write down the reading “as is” ... without any conversions, any roundoff, or anything else. </para>
+    </section>
+    <section id="import-auto-idm1150799568">
+      <title>Why We’re Not Using Significant Figures</title>
+      <para id="import-auto-idm1293992176">No matter what you are trying to do, significant figures are the wrong way to do it.</para>
+      <para id="import-auto-idm1118623760">When writing, do not use the number of digits to imply anything about the uncertainty. If you want to describe a distribution, describe it explicitly, perhaps using expressions such as 1.234<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>±</m:mi><m:annotation encoding="StarMath 5.0">±</m:annotation></m:semantics></m:math>0.055.</para>
+      <para id="import-auto-idm1093523600">When reading, do not assume the number of digits tells you anything about the overall uncertainty, accuracy, precision, tolerance, or anything else, unless you are absolutely sure that’s what the writer intended ... and even then, beware that the meaning is very unclear.</para>
+	  
+	  <para id="hemingway">People who care about their data don’t use sig figs. </para>
+      
+      <para id="import-auto-idm1150903056">Significant-digit dogma destroys your data and messes up your thinking in many ways, including:</para>
+      <list id="import-auto-idm812566720" list-type="bulleted">
+        <item>Given data that can be described by an expression such as <emphasis effect="italics">A<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>±</m:mi><m:annotation encoding="StarMath 5.0">±</m:annotation></m:semantics></m:math>B</emphasis>, such as 1.234<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>±</m:mi><m:annotation encoding="StarMath 5.0">±</m:annotation></m:semantics></m:math>0.055, converting it to sig figs gives you an excessively crude and erratic representation of the uncertainty, <emphasis effect="italics">B</emphasis>. </item>
+        <item>Converting to sig figs can cause excessive roundoff error in the nominal value, <emphasis effect="italics">A</emphasis>. This is a big problem.</item>
+        <item>Sig figs cause people to misunderstand the distinction between roundoff error and uncertainty. </item>
+        <item>Sig figs cause people to misunderstand the distinction between uncertainty and significance. Sig figs cause people to misunderstand the distinction between the <emphasis effect="italics">indicated value</emphasis> and the corresponding range of <emphasis effect="italics">true values</emphasis>.</item>
+        <item>Sig figs cause people to misunderstand the distinction between distributions and numbers. Distributions have width, whereas numbers don’t. Uncertainty is necessarily associated with some distribution, not with any particular point that might have been drawn from the distribution. </item>
+        <item>As a consequence, sig figs make people hesitate to write down numbers. They think they need to know the amount of supposedly “associated” uncertainty before they can write the number, when in fact they don’t. Very commonly, there simply isn’t any “associated” uncertainty anyway.</item>
+        <item>Sig figs weaken people’s understanding of the axioms of the decimal numeral system.</item>
+        <item>Sig figs provide no guidance as to the appropriate decimal representation for repeating decimals such as 80 ÷ 81, or irrational numbers such as √2 or π.</item>
+      </list>
+    </section>
+    <section id="import-auto-idm298879552">
+      <title>Crank Three Times</title>
+      <para id="import-auto-idm822865216">Here’s a simple yet powerful way of estimating the uncertainty of a result, given the uncertainty of the thing(s) it depends on.</para>
+      <para id="import-auto-idm1148736208">Here’s the procedure, in the simple case when there is only one input variable with appreciable uncertainty:</para>
+      <list id="import-auto-idm349074368" list-type="enumerated" number-style="lower-alpha">
+        <item>Set up the calculation. Do it once in the usual way, using the nominal, best-estimate values for all the input variables.</item>
+        <item>Then re-do the calculation with the uncertain variable at the end of its upper error bar.</item>
+        <item>Then re-do the calculation with the uncertain variable at the end of its lower error bar.</item>
+      </list>
+      <para id="import-auto-idm1154002416">I call this the <emphasis effect="italics">Crank Three Times </emphasis>method. Here is an example:</para>
+	  
+	  <table id="crankthreetimes" summary="crank three times example">
+		<tgroup cols="2">
+			<tbody>
+				<row>
+					<entry>x</entry>
+					<entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math></entry>
+				</row>
+				<row>
+					<entry>2.02 (high case)</entry>
+					<entry>.495</entry>
+				</row>
+				<row>
+					<entry>2 (nominal case)</entry>
+					<entry>.5</entry>
+				</row>
+				<row>
+					<entry>1.98</entry>
+					<entry>.505</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	  </table>
+      
+      <para id="import-auto-idm1120543632"><link url="https://www.av8n.com/physics/uncertainty.htm#eq-crank-3-linear">Equation 35</link> tells us that if <emphasis effect="italics">x</emphasis> is distributed according to <emphasis effect="italics">x</emphasis>=2±.02 then <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> is distributed according to <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math>=.5±.005. The Crank Three Times method is by no means an exact error analysis. It is an approximation. The nice thing is that you can understand the nature of the approximation. One of the glories of the Crank Three Times method is that in cases where it doesn’t work, it will tell you it isn’t working, provided you listen to what it’s trying to tell you. If you get asymmetrical error bars, you need to investigate further. Something bad is happening, and you need to check closely to see whether it is a little bit bad or very, very bad.</para>
+      <para id="import-auto-idm301100288">As far as I can tell, for every flaw that this method has, the sig-figs method has the same flaw plus others ... which means Crank Three Times is therefore superior.</para>
+      <para id="import-auto-idm1105339248">Crank Three Times shouldn’t require more than a few minutes of labor. Once a problem is set up, turning the crank should take only a couple of minutes; if it takes longer than that you should have been doing it on a spreadsheet all along. And if you are using a spreadsheet, Crank Three Times is super-easy and super-quick.</para>
+      <para id="import-auto-idm334249232">If you have <emphasis effect="italics">N</emphasis> variables that are (or might be) making a significant contribution to the uncertainty of the result, the Crank Three Times method could more precisely be called the Crank 2<emphasis effect="italics">N</emphasis>+1 Times method. Here’s the procedure: Set up the spreadsheet and wiggle each variable in turn, and see what happens. Wiggle them <emphasis effect="italics">one</emphasis> at a time, leaving the other <emphasis effect="italics">N</emphasis>−1 at their original, nominal values.</para>
+      <para id="import-auto-idm1140955584">For example, let’s say you’re looking for the area of a rectangle, and the length and width of the rectangle are measured to be 5±.6 and 2±.4, respectively. Using <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">lw</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">A=lw</m:annotation></m:semantics></m:math>, the nominal crank is 10 cm<sup>2</sup>. Wiggling the length results in 10±1.2 cm<sup>2</sup> and wiggling the width results in 10±2 cm<sup>2</sup>. Note that even though the width has a lower uncertainty associated with it, its uncertainty it creates in the result is higher than that of the length. </para>
+      <para id="import-auto-idm354744416">If you are worried about what happens when two of the input variables are simultaneously at the ends of their error bars, you can check that case if you want. However, beware that if there are many variables, checking all the possibilities is exponentially laborious. Furthermore, it is improbable that many variables would simultaneously take on extreme values, and checking extreme cases can lead you to overestimate the uncertainty. For these reasons, and others, if you have numerous variables and need to study the system properly, at some point you need to give up on the Crank Three Timesmethod and do something more sophisticated called a Monte Carlo analysis which we will not discuss in this class. The Crank Three Times method can be considered an ultra-simplified variation of the Monte Carlo method, suitable for introductory reconnaissance.</para>
+      <para id="import-auto-idm1094771904">In the <emphasis effect="italics">rare</emphasis> situation where you want a worst-case analysis, you can move each variable to whichever end of its error bar makes a positive contribution to the final answer, and then flip them all so that each one makes a negative contribution. In most cases, however, a worst-case analysis is wildly over-pessimistic, especially when there are more than a few uncertain variables.</para>
+      <para id="import-auto-idm302015408">Remember: there are many cases, especially when there are multiple uncertain variables and/or correlations among the variables and/or nonlinearities for which you will need to be more sophisticated.. The Crank Three Times method can be considered an ultra-simplified variation of the Monte Carlo method, suitable for introductory reconnaissance.</para>
+      <para id="import-auto-idm1239200464">Here is another example, which is more interesting because it exhibits nonlinearity:</para>
+	  
+	  <table id="crankthreetimes2" summary="crank three times example 2">
+		<tgroup cols="2">
+			<tbody>
+				<row>
+					<entry>x</entry>
+					<entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math></entry>
+				</row>
+				<row>
+					<entry>2.9 (high case)</entry>
+					<entry>.35</entry>
+				</row>
+				<row>
+					<entry>2 (nominal case)</entry>
+					<entry>.5</entry>
+				</row>
+				<row>
+					<entry>1.1 (low case)</entry>
+					<entry>.91</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	  </table>
+      
+      <para id="import-auto-idm1129331104"><link url="https://www.av8n.com/physics/uncertainty.htm#eq-crank-3-nonlinear">Equation 36</link> tells us that if <emphasis effect="italics">x</emphasis> is distributed according to <emphasis effect="italics">x</emphasis>=2±.9 then <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> is distributed according to<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:msubsup><m:mi mathvariant="normal">=5</m:mi><m:mi mathvariant="normal">+0.42</m:mi><m:mi mathvariant="normal">-0.16</m:mi></m:msubsup></m:mrow><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;  &lt;?&gt; rsub &lt;?&gt; rsup &lt;?&gt;</m:annotation></m:semantics></m:math>. Even though the error bars on <emphasis effect="italics">x</emphasis>  are symmetric, the error bars on <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> are markedly lopsided.</para>
+      <para id="import-auto-idm336519728">Lopsided error bars are fairly common in practice. Sometimes they are merely a symptom of a harmless nonlinearity, but sometimes they are a symptom of something much worse. As an example, let’s say you had a calculation that was<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x-2</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math>, and the value of x was found to be 3±2.When you do the crank three times method, the nominal crank is 1, the upper crank is<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:annotation encoding="StarMath 5.0">{1} over {3}</m:annotation></m:semantics></m:math>, and the lower crank is -1. Both the upper and lower cranks give values less than the nominal; the result is<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msubsup><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:msubsup><m:annotation encoding="StarMath 5.0">{1} rsub {-2} rsup {-2/3}</m:annotation></m:semantics></m:math>, which doesn’t make much sense. The absurdity arises because at x=2, the function <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x-2</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> is equal to <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">0</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> and the function is undefined, i.e. has a <emphasis effect="italics">singularity</emphasis><emphasis effect="bold"><emphasis effect="italics">. </emphasis></emphasis> Here’s a graph of the function and the data, which is the value of x and its uncertainty:</para>
+      <figure id="import-auto-idm793760128">
+        <media id="import-auto-idm320947488" alt="">
+          <image mime-type="image/png" src="Picture 1.png" height="498" width="578"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm764262960">Notice that for all the values above the nominal value of x (indicated by the point), the function behaves normally, but for the values below, the function has a ‘break’ in it at x=2, where the function becomes a division by zero. Notice as well that the function spikes up around the point x=2 as well. If we were to continue the function as it approaches closer and closer to 2, we would see that the function would go up to infinity and to negative infinity, and infinite values tend to break uncertainty calculations. What the nonsense result is trying to tell you is that your error bars contain a problem point, such as the one above. Results such as these are the ones you should be wary of.</para>
+
+    </section>
+  </content>
+</document>

@@ -5,30 +5,30 @@
           mdml-version="0.5">
   <!-- WARNING! The 'metadata' section is read only. Do not edit below.
        Changes to the metadata section in the source will not be saved. -->
-  <md:repository>http://legacy.cnx.org/content</md:repository>
-  <md:content-url>http://legacy.cnx.org/content/m42096/latest</md:content-url>
+  <md:repository>http://cnx.org/content</md:repository>
+  <md:content-url>http://cnx.org/content/m42096/latest/</md:content-url>
   <md:content-id>m42096</md:content-id>
   <md:title>Time, Velocity, and Speed</md:title>
   <md:version>1.4</md:version>
   <md:created>2011/12/21 11:11:25 -0600</md:created>
-  <md:revised>2013/05/16 10:01:03 -0500</md:revised>
+  <md:revised>2013/05/16 10:01:03.727 GMT-5</md:revised>
   <md:actors>
     <md:person userid="cnxcap">
       <md:firstname>College</md:firstname>
       <md:surname>Physics</md:surname>
-      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
       <md:email>info@openstaxcollege.org</md:email>
     </md:person>
     <md:organization userid="OpenStaxCollege">
-      <md:shortname>OpenStax</md:shortname>
-      <md:fullname>OpenStax</md:fullname>
-      <md:email>info@openstax.org</md:email>
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
     </md:organization>
     <md:person userid="OSCRiceUniversity">
       <md:firstname>Rice</md:firstname>
       <md:surname>University</md:surname>
       <md:fullname>Rice University</md:fullname>
-      <md:email>info@openstaxcollege.org</md:email>
+      <md:email>daniel@openstaxcollege.org</md:email>
     </md:person>
   </md:actors>
   <md:roles>
@@ -36,7 +36,7 @@
     <md:role type="maintainer">OpenStaxCollege cnxcap</md:role>
     <md:role type="licensor">OSCRiceUniversity</md:role>
   </md:roles>
-  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
   <!-- For information on license requirements for use or modification, see license url in the
        above <md:license> element.
        For information on formatting required attribution, see the URL:
@@ -72,6 +72,21 @@
 </metadata>
 
 <content>
+<section id="nfui">
+		<title>Notes from your UMass Instructors</title>
+		<list id="quiz">
+			<title>Your Quiz will Cover</title>
+			<item>Describing how velocity is different from speed</item>
+			<item>Identifying that velocity has a direction</item>
+			<item>Identifying that velocity is always parallel to the path</item>
+			<item>Solving for position as a function of time, given velocity as a function of time. Eventually, we will be using this idea with simulations.</item>
+		</list>
+		<list id="ttc">
+			<title>Other Things to Consider as You Read:</title>
+			<item>As with the previous sections, there are a couple of definitions to pay attention to. There are some terms you may have heard before, but, again, it's the specific physics definition that's important to know.</item>
+		</list>
+	</section>
+
     <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1690049"><media id="import-auto-id4016942" alt="Snails leaving slime trails as they race each other along a flat surface.">
         <image mime-type="image/png" src="Picture 6.png" width="300"/>
       </media>
@@ -84,8 +99,16 @@
     <list xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="fs-id1611737"><item id="import-auto-id2571110">motion starts at time equal to zero <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( t rSub { size 8{0} } =0 \) } {}</m:annotation></m:semantics></m:math></item>
     <item id="import-auto-id4047929">the symbol <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is used for elapsed time unless otherwise specified <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≡</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt=t rSub { size 8{f} }  equiv t \) } {}</m:annotation></m:semantics></m:math></item>
     </list></section>
+	
+	<exercise  id="inote1" type="check-understanding"><label/><title><media id="inote1i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote1p"><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="inote1pp">We will also be using this simplification; <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> will always mean <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, and initial time will always be zero, unless stated otherwise</para></problem></exercise>
+
+
+	
 <section id="fs-id1850777">
 <title>Velocity</title>
+
+<exercise id="inote2" type="check-understanding"><label/><title><media id="inote2i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote2p"><para id="inote2pp">It's difficult to understand physics without understanding velocity, so try to internalize what velocity is, and think about what negative velocity means as well.</para></problem></exercise>
+	
 
     <para id="import-auto-id1757608">Your notion of velocity is probably the same as its scientific definition. You know that if you have a large displacement in a small amount of time you have a large velocity, and that velocity has units of distance divided by time, such as miles per hour or kilometers per hour. </para>
     <note xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="fs-id3597968"><label/><title>Average Velocity</title>
@@ -174,7 +197,12 @@
           <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {t} }  "." } {}</m:annotation>
         </m:semantics>
       </m:math>
-    </equation></note><para id="import-auto-id4132060">Notice that this definition indicates that <emphasis effect="italics">velocity is a vector because displacement is a vector</emphasis>. It has both magnitude and direction. The SI unit for velocity is meters per second or m/s, but many other units, such as km/h, mi/h (also written as mph), and cm/s, are in common use. Suppose, for example, an airplane passenger took 5 seconds to move −4 m (the negative sign indicates that displacement is toward the back of the plane). His average velocity would be </para>
+    </equation></note>
+	
+	<exercise id="inote3" type="check-understanding"><label/><title><media id="inote3i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote3p"><para id="inote3pp">The equation above is a mathematical definition of velocity. If you think about physics as a series of different ideas, the equation is just another representation of the idea of velocity, along with the definition with words. It's important to know what velocity is in both words and the mathematics, as well as to connect those two definitions together. </para></problem></exercise>
+	
+	
+	<para id="import-auto-id4132060">Notice that this definition indicates that <emphasis effect="italics">velocity is a vector because displacement is a vector</emphasis>. It has both magnitude and direction. The SI unit for velocity is meters per second or m/s, but many other units, such as km/h, mi/h (also written as mph), and cm/s, are in common use. Suppose, for example, an airplane passenger took 5 seconds to move −4 m (the negative sign indicates that displacement is toward the back of the plane). His average velocity would be </para>
     <equation xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id4051374"><m:math>
         <m:semantics>
           <m:mrow>
@@ -225,6 +253,9 @@
    </section>
 <section id="fs-id3597726">
 <title>Speed</title>
+
+<exercise id="inote4" type="check-understanding"><label/><title><media id="inote4i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote4p"><para id="inote4pp">As with position and displacement, speed and velocity are also two similar ideas but with distinct differences, so focus on what each means and how the differ in meaning.</para></problem></exercise>
+
     <para id="import-auto-id1753867">In everyday language, most people use the terms “speed” and “velocity” interchangeably. In physics, however, they do not have the same meaning and they are distinct concepts. One major difference is that speed has no direction. Thus <emphasis effect="italics">speed is a scalar</emphasis>. Just as we need to distinguish between instantaneous velocity and average velocity, we also need to distinguish between instantaneous speed and average speed. </para>
     <para id="import-auto-id3539912"><term id="import-auto-id2004213">Instantaneous speed</term> is the magnitude of instantaneous velocity. For example, suppose the airplane passenger at one instant had an instantaneous velocity of −3.0 m/s (the minus meaning toward the rear of the plane). At that same time his instantaneous speed was 3.0 m/s. Or suppose that at one time during a shopping trip your instantaneous velocity is 40 km/h due north. Your instantaneous speed at that instant would be 40 km/h—the same magnitude but without a direction. Average speed, however, is very different from average velocity. <term id="import-auto-id2004216">Average speed</term> is the distance traveled divided by elapsed time. </para>
     <para id="import-auto-id1752774">We have noted that distance traveled can be greater than displacement. So average speed can be greater than average velocity, which is displacement divided by time. For example, if you drive to a store and return home in half an hour, and your car’s odometer shows the total distance traveled was 6 km, then your average speed was 12 km/h. Your average velocity, however, was zero, because your displacement for the round trip is zero. (Displacement is change in position and, thus, is zero for a round trip.) Thus average speed is <emphasis effect="italics">not</emphasis> simply the magnitude of average velocity.</para>
@@ -232,19 +263,31 @@
         <image mime-type="image/jpg" src="Figure_02_02_02.jpg" width="350"/>
       </media>
       
-    <caption>During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1797764">Another way of visualizing the motion of an object is to use a graph. A plot of position or of velocity as a function of time can be very useful. For example, for this trip to the store, the position, velocity, and speed-vs.-time graphs are displayed in <link target-id="import-auto-id1806646"/>. (Note that these graphs depict a very simplified <term id="import-auto-id1510828">model</term> of the trip. We are assuming that speed is constant during the trip, which is unrealistic given that we’ll probably stop at the store. But for simplicity’s sake, we will model it with no stops or changes in speed. We are also assuming that the route between the store and the house is a perfectly straight line.)</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1806646"><media id="import-auto-id1810795" alt="Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.">
+    <caption>During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1797764">Another way of visualizing the motion of an object is to use a graph. A plot of position or of velocity as a function of time can be very useful. For example, for this trip to the store, the position, velocity, and speed-vs.-time graphs are displayed in <link target-id="import-auto-id1806646"/>. (Note that these graphs depict a very simplified <term id="import-auto-id1510828">model</term> of the trip. We are assuming that speed is constant during the trip, which is unrealistic given that we’ll probably stop at the store. But for simplicity’s sake, we will model it with no stops or changes in speed. We are also assuming that the route between the store and the house is a perfectly straight line.)</para>
+	
+	<exercise id="inote5" type="check-understanding"><label/><title><media id="inote5i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote5p"><para id="inote5pp">The idea of modelling a situation with a more simplified version is particularly useful. For example, if you want to model the velocity of a person walking forward at a speed, you could treat their motion as a single point moving forward in a straight line. Realistically, the person could be walking in a line that's slightly off being straight, or they could be walking at slightly varying speeds, and different parts of their body could be shifting around, like their arms could be swinging, but often times you don't really have to care. When you do care, you can factor in these facts later, but often times the model is close enough to reality, and is usually only off by a few percent. This idea of modeling will come up later in this course as well, especially with forces.</para></problem></exercise>
+	
+	<figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1806646"><media id="import-auto-id1810795" alt="Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.">
         <image mime-type="image/jpg" src="Figure_02_02_03.jpg" width="300"/>
       </media>
       
-    <caption>Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. </caption></figure><note id="fs-id4030893"><label/>
+    <caption>Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. </caption></figure>
+	
+	<exercise id="inote7" type="check-understanding"><label/><title><media id="inote7i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote7p"><para id="inote7pp">Just like how there is a mathematical representation of velocity and a representation of velocity in words, the above is a graphical represntation of velocity. This will apply to other concepts that we will discuss in class, and being able to connect all of these representations together to the idea will help your understanding.</para></problem></exercise>
+	
+	<note id="fs-id4030893"><label/>
     <title>Making Connections: Take-Home Investigation—Getting a Sense of Speed</title>
     <para id="import-auto-id4070666">If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:</para>
+	
     <list id="fs-id3522190">
     <item id="import-auto-id4058974">calculate typical car speeds in meters per second</item>
     <item id="import-auto-id4058977">estimate jogging and walking speed by timing yourself; convert the measurements into both m/s and mi/h</item>
     <item id="import-auto-id4070923">determine the speed of an ant, snail, or falling leaf</item>
     </list>
     </note>
+	
+	<exercise id="inote6" type="check-understanding"><label/><title><media id="inote6i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote6p"><para id="inote6pp">I would highly suggest trying out these 'Making Connections' sections; seeing physics in the real world will not only help you better understand the physics in this class, but will make you understanding and appreciation of nature much richer.</para></problem></exercise>
+	
     <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="fs-id4173641" type="check-understanding"><label/><title>Check Your Understanding</title>
 <problem id="fs-id1744684">
     <para id="import-auto-id1988298">A commuter train travels from Baltimore to Washington, DC, and back in 1 hour and 45 minutes. The distance between the two stations is approximately 40 miles. What is (a) the average velocity of the train, and (b) the average speed of the train in m/s?</para></problem><solution id="fs-id1384034">

@@ -6,29 +6,29 @@
   <!-- WARNING! The 'metadata' section is read only. Do not edit below.
        Changes to the metadata section in the source will not be saved. -->
   <md:repository>http://legacy.cnx.org/content</md:repository>
-  <md:content-url>http://legacy.cnx.org/content/m42100/latest</md:content-url>
+  <md:content-url>http://legacy.cnx.org/content/m42100/latest/</md:content-url>
   <md:content-id>m42100</md:content-id>
   <md:title>Acceleration</md:title>
   <md:version>1.4</md:version>
   <md:created>2011/12/21 11:14:08 -0600</md:created>
-  <md:revised>2014/11/10 16:22:48 -0600</md:revised>
+  <md:revised>2014/11/10 16:22:48.948 US/Central</md:revised>
   <md:actors>
     <md:person userid="cnxcap">
       <md:firstname>College</md:firstname>
       <md:surname>Physics</md:surname>
-      <md:fullname>OpenStax College Physics</md:fullname>
+      <md:fullname>OSC Physics Maintainer</md:fullname>
       <md:email>info@openstaxcollege.org</md:email>
     </md:person>
     <md:organization userid="OpenStaxCollege">
-      <md:shortname>OpenStax</md:shortname>
-      <md:fullname>OpenStax</md:fullname>
-      <md:email>info@openstax.org</md:email>
+      <md:shortname>OpenStax College</md:shortname>
+      <md:fullname>OpenStax College</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
     </md:organization>
     <md:person userid="OSCRiceUniversity">
       <md:firstname>Rice</md:firstname>
       <md:surname>University</md:surname>
       <md:fullname>Rice University</md:fullname>
-      <md:email>info@openstaxcollege.org</md:email>
+      <md:email>daniel@openstaxcollege.org</md:email>
     </md:person>
   </md:actors>
   <md:roles>
@@ -61,6 +61,20 @@
 </metadata>
 
 <content>
+<section id="nfui">
+		<title>Notes from your UMass Instructors</title>
+		<list id="quiz">
+			<title>Your Quiz will Cover</title>
+			<item>Identifying that acceleration has a direction</item>
+			<item>Using the relationship between average velocity and position to solve problems about the motion of objects.</item>
+			<item>Describing how velocity will change given acceleration.</item>
+		</list>
+		<list id="ttc">
+			<title>Other Things to Consider as You Read:</title>
+			<item>Acceleration is a more abstract concept to wrap your head around than velocity and position, and it might take some time and practice to understand.</item>
+		</list>
+	</section>
+
       <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3514068"><media id="import-auto-id3542048" alt="An airplane flying very low to the ground, just above a beach full of onlookers, as it comes in for a landing.">
           <image mime-type="image/jpg" src="Figure_02_04_00.jpg" width="300"/>
         </media>
@@ -71,7 +85,13 @@
       <para id="import-auto-id1851238"><term id="import-auto-id2580108">Average Acceleration</term> is <emphasis effect="italics">the rate at which velocity changes</emphasis>, </para>
       <equation xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id4040806"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mn>f</m:mn></m:msub><m:mrow><m:mrow/><m:mo stretchy="false">−</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}= {  {Δv}  over  {Δt} } = {  {v"" lSub { size 8{f} }  - v rSub { size 8{0} } }  over  {t rSub { size 8{f} }  - t rSub { size 8{0} } } } } {}</m:annotation></m:semantics></m:math></equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3541636">where <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}} {}</m:annotation></m:semantics></m:math></emphasis> is average acceleration, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis> is velocity, and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math></emphasis> is time. (The bar over the <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> means <emphasis effect="italics">average</emphasis> acceleration.)</para></note>
       <para id="import-auto-id4162585">Because acceleration is velocity in m/s divided by time in s, the SI units for acceleration are <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, meters per second squared or meters per second per second, which literally means by how many meters per second the velocity changes every second.</para>
-      <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3526102">Recall that velocity is a vector—it has both magnitude and direction. This means that a change in velocity can be a change in magnitude (or speed), but it can also be a change in <emphasis effect="italics">direction</emphasis>. For example, if a car turns a corner at constant speed, it is accelerating because its direction is changing. The quicker you turn, the greater the acceleration. So there is an acceleration when velocity changes either in magnitude (an increase or decrease in speed) or in direction, or both.</para><note id="fs-id3524141"><label/>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3526102">Recall that velocity is a vector—it has both magnitude and direction. This means that a change in velocity can be a change in magnitude (or speed), but it can also be a change in <emphasis effect="italics">direction</emphasis>. For example, if a car turns a corner at constant speed, it is accelerating because its direction is changing. The quicker you turn, the greater the acceleration. So there is an acceleration when velocity changes either in magnitude (an increase or decrease in speed) or in direction, or both.</para>
+	  
+	  <exercise id="inote1" type="check-understanding"><label/><title><media id="inote1i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote1p"><para id="inote1pp">Like with velocity, try to internalize what average acceleration means, its mathematical representation above, and try to connect these two definitons.</para></problem></exercise>
+
+
+	  
+	  <note id="fs-id3524141"><label/>
       <title>Acceleration as a Vector</title>
       <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1714914">Acceleration is a vector in the same direction as the <emphasis effect="italics">change</emphasis> in velocity, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Dv} {}</m:annotation></m:semantics></m:math>. Since velocity is a vector, it can change either in magnitude or in direction. Acceleration is therefore a change in either speed or direction, or both. </para></note>
       <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id4075467">Keep in mind that although acceleration is in the direction of the <emphasis effect="italics">change</emphasis> in velocity, it is not always in the direction of <emphasis effect="italics">motion</emphasis>. When an object slows down, its acceleration is opposite to the direction of its motion. This is known as <term id="import-auto-id3583719">deceleration</term>. </para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1515319"><media id="import-auto-id3505197" alt="A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.">
@@ -85,6 +105,9 @@
         </media>
 
       <caption>(a) This car is speeding up as it moves toward the right. It therefore has positive acceleration in our coordinate system. (b) This car is slowing down as it moves toward the right. Therefore, it has negative acceleration in our coordinate system, because its acceleration is toward the left. The car is also decelerating: the direction of its acceleration is opposite to its direction of motion. (c) This car is moving toward the left, but slowing down over time. Therefore, its acceleration is positive in our coordinate system because it is toward the right. However, the car is decelerating because its acceleration is opposite to its motion. (d) This car is speeding up as it moves toward the left. It has negative acceleration because it is accelerating toward the left. However, because its acceleration is in the same direction as its motion, it is speeding up (<emphasis effect="italics">not</emphasis> decelerating).</caption></figure></note>
+	  
+	  <exercise id="inote2" type="check-understanding"><label/><title><media id="inote2i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote2p"><para id="inote2pp">This misconception is a pit many students fall into. Remember, there are precise definitions for terms such as acceleration that we want you to know, and knowing these will help you avoid these misunderstandings.</para></problem></exercise>
+
 
       <example id="fs-id2013623">
       <title>Calculating Acceleration: A Racehorse Leaves the Gate</title>
