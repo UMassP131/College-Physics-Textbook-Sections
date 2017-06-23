@@ -15,3 +15,14 @@
 			<item>Insert item here</item>
 		</list>
 	</section>
+	
+	
+<!--Intro Notes v2-->
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title>Your Quiz will Cover</title>
+			<item>Insert item here</item>
+		</list>
+		<list id="ttc">
+			<title>Other Things to Consider as You Read:</title>
+			<item>Insert item here</item>
+		</list></para></problem></exercise>

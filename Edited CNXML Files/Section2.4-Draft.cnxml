@@ -61,10 +61,9 @@
 </metadata>
 
 <content>
-<section id="nfui">
-		<title>Notes from your UMass Instructors</title>
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">
 		<list id="quiz">
-			<title>Your Quiz will Cover</title>
+			<title>Your Quiz would Cover</title>
 			<item>Identifying that acceleration has a direction</item>
 			<item>Using the relationship between average velocity and position to solve problems about the motion of objects.</item>
 			<item>Describing how velocity will change given acceleration.</item>
@@ -73,7 +72,8 @@
 			<title>Other Things to Consider as You Read:</title>
 			<item>Acceleration is a more abstract concept to wrap your head around than velocity and position, and it might take some time and practice to understand.</item>
 		</list>
-	</section>
+	</para></problem></exercise>
+
 
       <figure xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id3514068"><media id="import-auto-id3542048" alt="An airplane flying very low to the ground, just above a beach full of onlookers, as it comes in for a landing.">
           <image mime-type="image/jpg" src="Figure_02_04_00.jpg" width="300"/>

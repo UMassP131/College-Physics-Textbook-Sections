@@ -45,36 +45,18 @@
 </metadata>
 
 <content>
-<section id="nfui">
-		<title>Notes from your UMass Instructors</title>
-		<list id="quiz">
-			<title>Your Quiz will Cover</title>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title>Your Quiz would Cover</title>
 			<item>Mean and Standard Deviation: Know the definition of both of these as well as how to calculate them for a given data set.</item>
-		</list>
-		<list id="ttc">
-			<title>Other Things to Consider as You Read:</title>
-			<item>While we won't be using sig-fig rules, there are some guidelines on the appropriate amount of digits to include in a result.</item>
-		</list>
-	</section>
-    <para id="import-auto-idm246397648">This section focuses on some basic statistics facts that we will need for this class. After the video is a transcript of it.</para>
-		<para>
-		<media id="itsvideo"
-			alt="Intro to Statistics"
-			display="block">
-		<video mime-type="video/mp4" 
-         src="intro_to_statistics.mp4"
-         autoplay="false"
-         width="800" height="600" />
-		</media>
-		<emphasis effect="italics">Link to the video:</emphasis><link url="https://www.youtube.com/watch?v=sGjq350QY7c" window="new">https://www.youtube.com/watch?v=sGjq350QY7c</link>
-	</para>
-	<section id="import-auto-idm255950320">
-      <title>More on digits in homework</title>
-      <para id="import-auto-idm228094736">Before we begin, I want to make a little bit more of a comment on the use of the right number of digits to present. For this course, I am assuming that you’ve already read section 1.3. For the problems in class and on exams, the three-digit rule discussed in that section is what we will go with. For homework on mastering physics, however, answers will be judged as correct if they are within two percent of the correct value, so my suggestion is to just put in plenty of digits. You may get a message that says something about incorrect number of significant figures if you do this.. Howeverdon’t worry about it, the problem has been graded correctly. Mastering physics is just telling you that you did your significant figures wrong. However, since I don’t care about significant figures, it’s not really a big deal; you will get full credit either way. </para>
-    </section>
+			<item>Using mean and standard deviation in calculations.</item>
+		</list></para></problem></exercise>
+
+		 <para id="import-auto-idm246397648">This section focuses on some basic statistics facts that we will need for this class. This section is also available as a video. <newline /><emphasis effect="italics">Link to the video: </emphasis><link url="https://www.youtube.com/watch?v=sGjq350QY7c" window="new">https://www.youtube.com/watch?v=sGjq350QY7c</link></para>
+	
     <section id="import-auto-idm221767392">
       <title>How to present data for laboratory exerciese</title>
-      <para id="import-auto-idm869886496">We have discussed how many digits to present in class on exams and in homework, but what will we do for the laboratories that we will do in class? For labs, we will use what people in research actually use: the ideas of mean and standard deviation. Before we talk about mean and standard deviation, we have to discuss a little bit about measurement. Most objects have some variation. People come in a variety of heights, for example, and even manufactured objects like, say pencils, will have a variety of lengths. If you can measure them precisely enough, this variation may be very small, for objects made by machines for example, but it will still be there. Another example that’s not just lengths or heights is the number of blood cells passing through a capillary per second. This quantity will, of course, vary from second to second. Another example might be that if you have a spring based launcher of a ball, the ball will travel slightly different distances each time, if for no other reason than the spring coils slightly different ways on the molecular level with each launch. These types of variation are intrinsic, and result in variation in your measurement. However, sometimes measuring something directly is tough, and you need to use indirect methods, like we do for our library lab. One way to get a feel for the precision of your method is to make the measurement with a few different methods, with what we expect to have similar levels of precision. The variation in the results of the different methods can give a sense of the precision of your measurements; this is how we will evaluate our methods for the library lab. </para>
+      <para id="import-auto-idm869886496">How do people actually present data? A common method is μ ± σ, where μ is the <emphasis>mean</emphasis>, and σ is the <emphasis>standard deviation</emphasis>. Before we talk about mean and standard deviation, we have to discuss a little bit about measurement. Most objects have some variation. People come in a variety of heights, for example, and even manufactured objects like, say pencils, will have a variety of lengths. If you can measure them precisely enough, this variation may be very small, for objects made by machines for example, but it will still be there. Another example that’s not just lengths or heights is the number of blood cells passing through a capillary per second. This quantity will, of course, vary from second to second. Another example might be that if you have a spring based launcher of a ball, the ball will travel slightly different distances each time, if for no other reason than the spring coils slightly different ways on the molecular level with each launch. These types of variation are intrinsic, and result in variation in your measurement. However, sometimes measuring something directly is tough, and you need to use indirect methods, like we do for our library lab. One way to get a feel for the precision of your method is to make the measurement with a few different methods, with what we expect to have similar levels of precision. The variation in the results of the different methods can give a sense of the precision of your measurements; this is how we will evaluate our methods for the library lab. </para>
     </section>
     <section id="import-auto-idm253364208">
       <title>Mean and Standard Deviation</title>
@@ -208,7 +190,7 @@
             </m:semantics>
           </m:math>
         </para>
-        <para id="import-auto-idm1327170720">Many of the equations that you might see in this video can get pretty ugly looking, but they are manageable if you stop and parse them down and read what the equation is trying to tell you. A good tip for questions is to read actually right to left. So, let’s give that a shot with this equation. The letter <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>i</m:mi><m:annotation encoding="StarMath 5.0">i </m:annotation></m:semantics></m:math> represents an index over the measurements. Here we have 20 measurements, so <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>i</m:mi><m:annotation encoding="StarMath 5.0">i</m:annotation></m:semantics></m:math> is an integer that runs from 1 to 20. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{x} rsub {i}</m:annotation></m:semantics></m:math> is one specific measurement, so <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>x</m:mi><m:mn>5</m:mn></m:msub><m:annotation encoding="StarMath 5.0">{x} rsub {5}</m:annotation></m:semantics></m:math> is the height of the fifth person which, according to our table, is 180.4 cm. To calculate the mean, we add up all the measurements, and then divide by the number of measurements. Let’s calculate the mean. For these data, when we add up all of the measurements, we get a sum of 3540 cm. We divide by the number of measurements; take <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mrow><m:mn>3540</m:mn><m:mi mathvariant="italic">cm</m:mi></m:mrow><m:mrow><m:mn>20</m:mn><m:mi mathvariant="italic">cm</m:mi></m:mrow></m:mfrac><m:annotation encoding="StarMath 5.0">{3540cm} over {20cm}</m:annotation></m:semantics></m:math>, which gives us a result of 177 cm. This is our average or mean.</para>
+        <para id="import-auto-idm1327170720">Many of the equations that you might see in this section can get pretty ugly looking, but they are manageable if you stop and parse them down and read what the equation is trying to tell you. A good tip for questions is to read actually right to left. So, let’s give that a shot with this equation. The letter <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>i</m:mi><m:annotation encoding="StarMath 5.0">i </m:annotation></m:semantics></m:math> represents an index over the measurements. Here we have 20 measurements, so <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>i</m:mi><m:annotation encoding="StarMath 5.0">i</m:annotation></m:semantics></m:math> is an integer that runs from 1 to 20. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{x} rsub {i}</m:annotation></m:semantics></m:math> is one specific measurement, so <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>x</m:mi><m:mn>5</m:mn></m:msub><m:annotation encoding="StarMath 5.0">{x} rsub {5}</m:annotation></m:semantics></m:math> is the height of the fifth person which, according to our table, is 180.4 cm. To calculate the mean, we add up all the measurements, and then divide by the number of measurements. Let’s calculate the mean. For these data, when we add up all of the measurements, we get a sum of 3540 cm. We divide by the number of measurements; take <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mrow><m:mn>3540</m:mn><m:mi mathvariant="italic">cm</m:mi></m:mrow><m:mrow><m:mn>20</m:mn><m:mi mathvariant="italic">cm</m:mi></m:mrow></m:mfrac><m:annotation encoding="StarMath 5.0">{3540cm} over {20cm}</m:annotation></m:semantics></m:math>, which gives us a result of 177 cm. This is our average or mean.</para>
       </section>
       <section id="import-auto-idm211300000">
         <title>Standard Deviation</title>
@@ -258,6 +240,87 @@
 		<para id="import-auto-idm212167904">Now variance has different units than mean, as we’ve already seen. The mean for this data set is 177.0 cm while the variance is 20.2 cm <sup>2</sup>. It’s very difficult to compare numbers with different units. To deal with this we, instead of looking at the variance, look at the standard deviation, which we represent by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>σ</m:mi><m:annotation encoding="StarMath 5.0"> σ</m:annotation></m:semantics></m:math>. So, the standard deviation is the square root of the variance. This is why we represent variance with a <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:annotation encoding="StarMath 5.0">{σ} ^ {2}</m:annotation></m:semantics></m:math>. In this example to get the standard deviation, we take square root of the variance so the square root of 20.2 cm<sup>2</sup>, to give us 4.49 cm. Now we have two quantities that are both in cm, and allows us to compare them.</para> 
 		<para id="newpara">So how do we report numbers in the laboratory exercises? In this class, most of the labs in this course will have multiple measurements. We can use these different trials to calculate a mean and a standard deviation, and we can use this standard deviation as an uncertainty and use it to tell us how many decimals we should record. In our height example, we had a mean of 177 cm and a standard deviation a 4.49 cm. An appropriate way to represent this result would be 177 plus or minus 4.5 cm. This representation has a lot of advantages; it represents the average 177, and we have the standard deviation, which gives the person reading the number a sense of the spread of the data, and we have a reasonable number of digits. I’ve gone with one digit past the decimal point, and I did this based upon the standard deviation. While our standard deviation is officially 4.49, I rounded it to 4.5, because .01 is very small relative to our standard deviation, so I can’t really trust that .01. So while I removed some certainty of nice hard sig-fig rules, this is how numbers are actually reported in research, and this is how we’ll do it in class. Part of the point of the laboratory exercises to get you some experience with this sort of usage.</para>
       </section>
+	  
+	  <note><label/>The following section is based upon:<newline /> Denker, J. Uncertainty as Applied to Measurements and Calculations. Uncertainty as Applied to Measurments and Calculations (2011). Available at: <link url="http://www.av8n.com/physics/uncertainty.htm">http://www.av8n.com/physics/uncertainty.htm</link>. (Accessed: 26th August 2016)
+	</note>
+	  
+	  <section id="import-auto-idm298879552">
+      <title>Incorporating Mean and Standard Deviation into Calculations - Crank Three Times</title>
+      <para id="import-auto-idm822865216">Here’s a simple yet powerful way of estimating the uncertainty of a result, given the uncertainty of the thing(s) it depends on.</para>
+      <para id="import-auto-idm1148736208">Here’s the procedure, in the simple case when there is only one input variable with appreciable uncertainty:</para>
+      <list id="import-auto-idm349074368" list-type="enumerated" number-style="lower-alpha">
+        <item>Set up the calculation. Do it once in the usual way, using the nominal, best-estimate values for all the input variables.</item>
+        <item>Then re-do the calculation with the uncertain variable at the end of its upper error bar.</item>
+        <item>Then re-do the calculation with the uncertain variable at the end of its lower error bar.</item>
+      </list>
+      <para id="import-auto-idm1154002416">I call this the <emphasis effect="italics">Crank Three Times </emphasis>method. Here is an example:</para>
+	  
+	  <table id="crankthreetimes" summary="crank three times example"><label/>
+		<tgroup cols="2">
+			<tbody>
+				<row>
+					<entry>x</entry>
+					<entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math></entry>
+				</row>
+				<row>
+					<entry>2.02 (high case)</entry>
+					<entry>.495</entry>
+				</row>
+				<row>
+					<entry>2 (nominal case)</entry>
+					<entry>.5</entry>
+				</row>
+				<row>
+					<entry>1.98</entry>
+					<entry>.505</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	  </table>
+      
+      <para id="import-auto-idm1120543632">Equation 35 tells us that if <emphasis effect="italics">x</emphasis> is distributed according to <emphasis effect="italics">x</emphasis>=2±.02 then <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> is distributed according to <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math>=.5±.005. The Crank Three Times method is by no means an exact error analysis. It is an approximation. The nice thing is that you can understand the nature of the approximation. One of the glories of the Crank Three Times method is that in cases where it doesn’t work, it will tell you it isn’t working, provided you listen to what it’s trying to tell you. If you get asymmetrical error bars, you need to investigate further. Something bad is happening, and you need to check closely to see whether it is a little bit bad or very, very bad.</para>
+      <para id="import-auto-idm301100288">As far as I can tell, for every flaw that this method has, the sig-figs method has the same flaw plus others ... which means Crank Three Times is therefore superior.</para>
+      <para id="import-auto-idm1105339248">Crank Three Times shouldn’t require more than a few minutes of labor. Once a problem is set up, turning the crank should take only a couple of minutes; if it takes longer than that you should have been doing it on a spreadsheet all along. And if you are using a spreadsheet, Crank Three Times is super-easy and super-quick.</para>
+      <para id="import-auto-idm334249232">If you have <emphasis effect="italics">N</emphasis> variables that are (or might be) making a significant contribution to the uncertainty of the result, the Crank Three Times method could more precisely be called the Crank 2<emphasis effect="italics">N</emphasis>+1 Times method. Here’s the procedure: Set up the spreadsheet and wiggle each variable in turn, and see what happens. Wiggle them <emphasis effect="italics">one</emphasis> at a time, leaving the other <emphasis effect="italics">N</emphasis>−1 at their original, nominal values.</para>
+      <para id="import-auto-idm1140955584">For example, let’s say you’re looking for the area of a rectangle, and the length and width of the rectangle are measured to be 5±.6 and 2±.4, respectively. Using <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">lw</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">A=lw</m:annotation></m:semantics></m:math>, the nominal crank is 10 cm<sup>2</sup>. Wiggling the length results in 10±1.2 cm<sup>2</sup> and wiggling the width results in 10±2 cm<sup>2</sup>. Note that even though the width has a lower uncertainty associated with it, its uncertainty it creates in the result is higher than that of the length. </para>
+      <para id="import-auto-idm354744416">If you are worried about what happens when two of the input variables are simultaneously at the ends of their error bars, you can check that case if you want. However, beware that if there are many variables, checking all the possibilities is exponentially laborious. Furthermore, it is improbable that many variables would simultaneously take on extreme values, and checking extreme cases can lead you to overestimate the uncertainty. For these reasons, and others, if you have numerous variables and need to study the system properly, at some point you need to give up on the Crank Three Timesmethod and do something more sophisticated called a Monte Carlo analysis which we will not discuss in this class. The Crank Three Times method can be considered an ultra-simplified variation of the Monte Carlo method, suitable for introductory reconnaissance.</para>
+      <para id="import-auto-idm1094771904">In the <emphasis effect="italics">rare</emphasis> situation where you want a worst-case analysis, you can move each variable to whichever end of its error bar makes a positive contribution to the final answer, and then flip them all so that each one makes a negative contribution. In most cases, however, a worst-case analysis is wildly over-pessimistic, especially when there are more than a few uncertain variables.</para>
+      <para id="import-auto-idm302015408">Remember: there are many cases, especially when there are multiple uncertain variables and/or correlations among the variables and/or nonlinearities for which you will need to be more sophisticated.. The Crank Three Times method can be considered an ultra-simplified variation of the Monte Carlo method, suitable for introductory reconnaissance.</para>
+      <para id="import-auto-idm1239200464">Here is another example, which is more interesting because it exhibits nonlinearity:</para>
+	  
+	  <table id="crankthreetimes2" summary="crank three times example 2"><label/>
+		<tgroup cols="2">
+			<tbody>
+				<row>
+					<entry>x</entry>
+					<entry><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math></entry>
+				</row>
+				<row>
+					<entry>2.9 (high case)</entry>
+					<entry>.35</entry>
+				</row>
+				<row>
+					<entry>2 (nominal case)</entry>
+					<entry>.5</entry>
+				</row>
+				<row>
+					<entry>1.1 (low case)</entry>
+					<entry>.91</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	  </table>
+      
+      <para id="import-auto-idm1129331104">Equation 36 tells us that if <emphasis effect="italics">x</emphasis> is distributed according to <emphasis effect="italics">x</emphasis>=2±.9 then <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> is distributed according to<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:msubsup><m:mi mathvariant="normal">=5</m:mi><m:mi mathvariant="normal">+0.42</m:mi><m:mi mathvariant="normal">-0.16</m:mi></m:msubsup></m:mrow><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;  &lt;?&gt; rsub &lt;?&gt; rsup &lt;?&gt;</m:annotation></m:semantics></m:math>. Even though the error bars on <emphasis effect="italics">x</emphasis>  are symmetric, the error bars on <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> are markedly lopsided.</para>
+      <para id="import-auto-idm336519728">Lopsided error bars are fairly common in practice. Sometimes they are merely a symptom of a harmless nonlinearity, but sometimes they are a symptom of something much worse. As an example, let’s say you had a calculation that was<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x-2</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math>, and the value of x was found to be 3±2.When you do the crank three times method, the nominal crank is 1, the upper crank is<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:annotation encoding="StarMath 5.0">{1} over {3}</m:annotation></m:semantics></m:math>, and the lower crank is -1. Both the upper and lower cranks give values less than the nominal; the result is<m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msubsup><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:msubsup><m:annotation encoding="StarMath 5.0">{1} rsub {-2} rsup {-2/3}</m:annotation></m:semantics></m:math>, which doesn’t make much sense. The absurdity arises because at x=2, the function <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">x-2</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> is equal to <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi mathvariant="normal">1</m:mi><m:mi mathvariant="normal">0</m:mi></m:mfrac><m:annotation encoding="StarMath 5.0">&lt;?&gt; over &lt;?&gt;</m:annotation></m:semantics></m:math> and the function is undefined, i.e. has a <emphasis effect="italics">singularity</emphasis><emphasis effect="bold"><emphasis effect="italics">. </emphasis></emphasis> Here’s a graph of the function and the data, which is the value of x and its uncertainty:</para>
+      <figure id="import-auto-idm793760128"><label/>
+        <media id="import-auto-idm320947488" alt="">
+          <image mime-type="image/png" src="Picture 1.png" height="498" width="578"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm764262960">Notice that for all the values above the nominal value of x (indicated by the point), the function behaves normally, but for the values below, the function has a ‘break’ in it at x=2, where the function becomes a division by zero. Notice as well that the function spikes up around the point x=2 as well. If we were to continue the function as it approaches closer and closer to 2, we would see that the function would go up to infinity and to negative infinity, and infinite values tend to break uncertainty calculations. What the nonsense result is trying to tell you is that your error bars contain a problem point, such as the one above. Results such as these are the ones you should be wary of.</para>
+
+    </section>
     </section>
   </content>
 </document>

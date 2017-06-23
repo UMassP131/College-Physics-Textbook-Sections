@@ -72,14 +72,12 @@
 </metadata>
 
 <content>
-	<section id="nfui">
-		<title>Notes from your UMass Instructors</title>
-		<para>This section should be a refresher for most of you, and so reading this section is optional. However, if this is unfamiliar territory for you, I would suggest reading through this section, and please come and see me if you are still uncomfortable with this material and we will work something out.</para>
-		<list id="ttc">
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">
+		This section should be a refresher for most of you, and so reading this section is optional. However, if this is unfamiliar territory for you, I would suggest reading through this section, and please come and see me if you are still uncomfortable with this material and we will work something out.		<list id="ttc">
 			<title>Things to Consider as You Read:</title>
 			<item>Familiarizing yourself with the prefixes, such as nano-, milli-, centi-, will save you some trouble down the road.</item>
 		</list>
-	</section>
+	</para></problem></exercise>
     
     <figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2657097"><media id="import-auto-id3164906" alt="A view of Earth from the Moon.">
         <image mime-type="image/png" src="Figure_01_02_01b.jpg" width="300"/>

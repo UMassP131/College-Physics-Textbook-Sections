@@ -44,14 +44,16 @@
 </metadata>
 
 <content>
-	<section id="nfui">
-		<title>Notes from your UMass Instructors</title>
+	<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">
 		<list id="ttc">
 			<title>Things to Consider as You Read:</title>
 			<item>This section provides an overview of the first unit on mathematical tools and foundational concepts for Physics 131; we will be using concepts from this unit throughout the class.</item> 
 			<item>There are also a few hints and tips in the section on how to do the homework efficiently; I would suggest developing good homework habits early.</item>
+			<item>This overview is also available as a video here, or on Youtube at <link url="https://www.youtube.com/watch?v=ikLsqv2dhY8">https://www.youtube.com/watch?v=ikLsqv2dhY8</link>.</item>
 		</list>
-	</section>
+	</para></problem></exercise>
+	
+	
 	<section id="overview">
 	<title>     </title>
 	<para id="secondpara">In this unit, we will explore some of the fundamental mathematical tools and basic concepts that we will need throughout the rest of the course in our study of physics, including: 

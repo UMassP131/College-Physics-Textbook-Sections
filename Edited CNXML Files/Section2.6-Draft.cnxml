@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>2.6 Simulations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>2.6 Simulations</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/06/20 09:33:00.663 GMT-5</md:created>
+  <md:revised>2017/06/20 09:33:00.924 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Simulations</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<section id="nfui">
+		<title>Notes from your UMass Instructors</title>
+		<list id="quiz">
+			<title>Your Quiz would Cover</title>
+			<item>Given a velocity as a function of time, be able to solve for the position as a function of time iteratively.</item><item>
+Use iterative methods to solve for the motion of an object given an arbitrary (non-constant) acceleration.</item>
+		</list>
+		<para id="ttc">
+			This section is based on videos from the UMass Physics 131 YouTube page. The video really adds something beyond this text though, and so for this section, it is <emphasis>highly recommended</emphasis> that you watch the videos instead. Here are the links to the videos:
+			<list id="videokojima">
+			<item>Theory on Solving Problems with Simulation: <link url="https://www.youtube.com/watch?v=i1elRzD7HYQ">https://www.youtube.com/watch?v=i1elRzD7HYQ</link></item>
+			<item>First Example of Solving a Problem with Simulation: <link url="https://www.youtube.com/watch?v=j_HBtITs948">https://www.youtube.com/watch?v=j_HBtITs948</link></item>
+			<item>A More Complex Example of Solving a Problem with Simulation<link url="https://www.youtube.com/watch?v=6FoKBtxuEhg">https://www.youtube.com/watch?v=6FoKBtxuEhg</link></item>
+			</list>
+		</para>
+	</section>
+
+    <section id="import-auto-idm521470752">
+      <title>Theory on Solving Problems Using Simulation</title>
+      <para id="import-auto-idm477822720">Simulation is going to be a tool that we use frequently in this class to solve problems. Why? Well, many physics problems are not solvable with just algebra. Now, you might have suspected this, and figured that, okay, maybe not with algebra, but maybe if I invoke some higher math such as calculus, I can start to do real physics problems. Well, that helps, but even with calculus and some of the most sophisticated math out there, you still can’t solve most of the interesting real-world problems that we have. You can solve models, you can solve simplifications, but to try and get everything, the problems are actually undoable. </para>
+      <para id="import-auto-idm503160288">For example, just to make an extreme example, think about the Earth, the Sun, and the moon. The force on these three objects can be described by a force law from the 17th century, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi> </m:mi><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi mathvariant="italic">gmM</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">, F= {gmM} over {{r} ^ {2}}</m:annotation></m:semantics></m:math>, that says the force of gravity between two masses, say the earth and the moon, is their masses and the distance between them squared. That’s it. For two objects, say, just the Earth and the moon, you can write an equation that describes their motion using this force law. However, you <emphasis effect="italics">cannot</emphasis> write down an equation that describes the motion of the Sun, the Earth, and the moon; you need go to simulation. Moreover, the ideas of simulation that we’re going to be discussing here and throughout this class are being used more and more in essentially all fields of science to solve complex problems. In the Fall 2015 semester, one of the SIs for Physics 131 was using these same ideas to solve problems in his life science based senior honors thesis as an undergraduate. Hopefully, this impresses upon you the relevance of this technique to all fields of science and medicine in the modern day. </para>
+      <para id="import-auto-idm503145120">What’s the philosophy, the premise, behind the idea of simulation? Well, this is perhaps best done in the context of an example. Let’s say we have a runner, and we're looking at the runner at some instant, and then some small time later, say, 0.000001 seconds later. Well, if we want to model the motion of the runner, we would think about the average velocity and how that’s related to their position and the change in time. If we imagine a really small amount of time, then this runner’s velocity from, say the first instant to the next instant, does not change very much. We’re going to say that these two are super close together. If we make our time interval small enough, then the velocity essentially between both instants; it’s essentially constant. The runner could be running at, say, 5 m/s, at the first instant, and 5.0001 at the next instant, but the change is small enough where we could just say that the runner is running at the average between those two velocities, which is essentially 5 m/s anyways. </para>
+      <para id="import-auto-idm473556784">Now we’re going to do a little bit of algebra. Using <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>v</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>∆</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">left langle v right rangle =  {∆x} over {∆t}</m:annotation></m:semantics></m:math>multiplying Δt to the other side gives us </para>
+      <para id="import-auto-idm487250432"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>v</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mi>∆</m:mi><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>∆</m:mi></m:mrow><m:mi>x</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">left langle v right rangle ∆t= ∆x</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm464942544">or </para>
+      <para id="import-auto-idm448841680">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">⟨</m:mo>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">⟩</m:mo>
+              </m:mrow>
+              <m:mi>∆</m:mi>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mi>f</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left langle v right rangle ∆t= {x} rsub {f} - {x} rsub {i}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm1190782864">Bringing over the initial position of the runner gives us the final position </para>
+      <para id="import-auto-idm510629904"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>v</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mi>∆</m:mi><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">left langle v right rangle ∆t+  {x} rsub {i} =  {x} rsub {f}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm281590608">We're assuming that the speed is essentially constant, so we can use the runners initial speed for average speed, and so we can solve for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>x</m:mi><m:mi>f</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{x} rsub {f}</m:annotation></m:semantics></m:math> , where they are at the end of this time interval. In other words, if we know where I am now, and my speed now, and I’m free to assume that my speed won’t change because I’m considering just a tiny time interval, then I can use that information to predict where I’m going to be in the future. This is the idea of simulation. I use what I know about the system at any given instant to predict how things are going to be in the next small time, little bit of time later. </para>
+      <para id="import-auto-idm265399344">The same philosophy holds true for acceleration. I could have repeated the entire series of steps with acceleration. Let’s start with the definition of acceleration, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>a</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>∆</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">left langle a right rangle =  {∆v} over {∆t}</m:annotation></m:semantics></m:math>. If I’m thinking about a very small time interval then the average acceleration is going to be the acceleration; the acceleration is not going to change very much as long as this Δt is really, really small. Doing a little bit of algebra, </para>
+      <para id="import-auto-idm423931184">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">⟨</m:mo>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">⟩</m:mo>
+              </m:mrow>
+              <m:mi>∆</m:mi>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mi>∆</m:mi>
+              </m:mrow>
+              <m:mi>v</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left langle a right rangle ∆t= ∆v</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm296852208">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">⟨</m:mo>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">⟩</m:mo>
+              </m:mrow>
+              <m:mi>∆</m:mi>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mi>f</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left langle a right rangle ∆t= {v} rsub {f} - {v} rsub {i}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm428915424">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">⟨</m:mo>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">⟩</m:mo>
+              </m:mrow>
+              <m:mi>∆</m:mi>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  <m:mi>f</m:mi>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left langle a right rangle ∆t+ {v} rsub {i}  = {v} rsub {f}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm384439984">Again, if I know my speed at some instant, my acceleration at some instant, and my Δt is small enough, then I can use that information to predict what my Δv is going to be some small time later. We’ll be doing this throughout the course with a wide variety of concepts, from forces to temperature to entropy. In all cases, you’re using what you know now to predict what will happen a small time later.</para>
+    </section>
+    <section id="import-auto-idm1179247776">
+      <title>Example of Solving a Problem Using Simulation</title>
+      <para id="import-auto-idm497276640">Let’s take a very simple situation and work our way up. </para>
+      <para id="import-auto-idm452263728">A ball is dropped from 10 meters above the ground, and as we’ll see later in the course, a falling object undergoes a constant acceleration of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9.81</m:mn></m:mrow><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">-9.81  {m} over {{s} ^ {2}}</m:annotation></m:semantics></m:math>. We’ll discuss this in more detail later, and we’ll get into the physics of freefall at length, but for now, we’ll just show you how to run the mechanics of the simulation. How far above the ground is the ball 0.02 seconds later? </para>
+      <para id="import-auto-idm464472624">We’re dealing with very small amounts of time, so our assumption that things are constant will be true. To get started, we’ll set up a table:</para>
+      <table id="import-auto-idm864689472" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Time (t)</entry>
+              <entry>Position (x)</entry>
+              <entry>Velocity (v)</entry>
+              <entry>Acceleration (a)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>10</entry>
+              <entry>0</entry>
+              <entry>-9.81</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm415667968">Our table has position, velocity, acceleration, and time, as these will all play into the motion of the ball. We’ll define the beginning of the drop at t=0, with an initial position of 10 meters, and the initial velocity of 0 m/s, as the ball isn’t moving at the very beginning of the drop. For the acceleration, as stated earlier, it’s <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9.81</m:mn></m:mrow><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">-9.8  {m} over {{s} ^ {2}}</m:annotation></m:semantics></m:math>.  Again, don’t get too engrossed in the physics right now, we’ll talk about why it’s a negative and a positive much later. For now, I just want to go through the mechanics. </para>
+      <para id="import-auto-idm500383152">Now we’ll move on to some time later. We’re going to go some small amount of time later, so let’s pick our change in time to be 0.01, since it’s small and fits into 0.02 seconds nicely. Remember, this whole idea is predicated on the assumption that velocity and acceleration aren’t changing very much over the time, and the only way that can be true is if the time is small, so we need to take small time steps. For the next time step, the time is the previous time plus the change in time, or <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mi>Δ</m:mi></m:mrow><m:mi>t</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">t+ Δ t</m:annotation></m:semantics></m:math>, which comes out to be 0.01. Acceleration won’t change, so we can leave that as is. </para>
+      <para id="import-auto-idm467038336">Now what about the velocity and the position? From above, we solved for final position and final velocity as </para>
+      <para id="import-auto-idm506425008"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>v</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mi>∆</m:mi><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">left langle v right rangle ∆t+  {x} rsub {i} = {x} rsub {f}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm305716976"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>a</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mi>∆</m:mi><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">left langle a right rangle ∆t+  {v} rsub {i} = {v} rsub {f}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm496386736">We can use the initial position, initial velocity, and acceleration to solve for the final velocity and final position. Remember, since we’re taking a small time step, the velocity won’t change much, so we can replace the average velocity with just the initial velocity. Acceleration doesn’t change, so the average acceleration is just what it started as in the beginning. Plugging in the numbers gives us: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.01</m:mn><m:mi>s</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>10</m:mn><m:mi>m</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>10</m:mn></m:mrow><m:mi>m</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">left (0 {m} over {s} right ) left (0.01s right ) + left (10m right ) =10m</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm453227168"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9.81</m:mn></m:mrow><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.01</m:mn><m:mi>s</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0.0981</m:mn></m:mrow></m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">left (-9.81 {m} over {{s} ^ {2}} right ) left (0.01s right ) + 0 {m} over {s} = -0.0981 {m} over {s}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm309708656">We can use these numbers to continue our table:</para>
+      <table id="import-auto-idm285459776" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Time (t)</entry>
+              <entry>Position (x)</entry>
+              <entry>Velocity (v)</entry>
+              <entry>Acceleration (a)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>10</entry>
+              <entry>0</entry>
+              <entry>-9.8</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>10</entry>
+              <entry>-0.0981</entry>
+              <entry>-9.8</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm1460741120">We can repeat this process for the next step in time, using the values we found for the next time step as our new initial conditions. So, plugging in the numbers into the equations:</para>
+      <para id="import-auto-idm485604512">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>0.0981</m:mn>
+                    </m:mrow>
+                    <m:mfrac>
+                      <m:mi>m</m:mi>
+                      <m:mi>s</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>0.01</m:mn>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>10</m:mn>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>9.99902</m:mn>
+              </m:mrow>
+              <m:mi>m</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (-0.0981 {m} over {s} right ) left (0.01s right ) + left (10m right ) =9.99902m</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm478010448"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9.81</m:mn></m:mrow><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.01</m:mn><m:mi>s</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0.0981</m:mn></m:mrow></m:mrow><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0.1962</m:mn></m:mrow></m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">left (-9.81 {m} over {{s} ^ {2}} right ) left (0.01s right ) + -0.0981 {m} over {s} = -0.1962 {m} over {s}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm389470960">And putting out new values into the table:</para>
+      <table id="import-auto-idm389470704" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Time (t)</entry>
+              <entry>Position (x)</entry>
+              <entry>Velocity (v)</entry>
+              <entry>Acceleration (a)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>10</entry>
+              <entry>0</entry>
+              <entry>-9.81</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>10</entry>
+              <entry>-0.0981</entry>
+              <entry>-9.81</entry>
+            </row>
+            <row>
+              <entry>0.02</entry>
+              <entry>9.99902</entry>
+              <entry>9.99902</entry>
+              <entry>-9.81</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm837447312">So the answer to our initial problem is that the ball is 9.99902 meters off the ground 0.02 seconds later.</para>
+      <para id="import-auto-idm1179245296">The ball doesn’t move very far in the short amount of time; we could have figured that out probably by intuition. However, using simulations can better your understanding of concepts such as acceleration and velocity. For example, notice that the ball’s position doesn’t change in the first time step. Through this simulation, you can see that the acceleration does not result in a change in position immediately, but rather a change in velocity, and it’s this velocity that causes the change in position.</para>
+    </section>
+    <section id="import-auto-idm1179245616">
+      <title>More Complex Example</title>
+      <para id="import-auto-idm419720320">Let’s say you have a car, starting at rest, with an acceleration defined to be: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mi>a</m:mi><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mi>t</m:mi></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>5</m:mn><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:annotation encoding="StarMath 5.0">a left (t right ) =(5 {m} over {{s} ^ {2}} ) {t} ^ {2}</m:annotation></m:semantics></m:math></para>
+	  
+      <list id="complexexample" list-type="enumerated" number-style="upper-alpha"><item>How fast is it moving after 0.02s?</item>
+      <item>Where is it after 5s?</item>
+     <item>What if it changed to <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>a</m:mi><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mi>t</m:mi></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>2</m:mn><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:annotation encoding="StarMath 5.0">a left (t right ) =(2 {m} over {{s} ^ {2}} ) {t} ^ {2}</m:annotation></m:semantics></m:math>, where would it be after 10s?</item>
+	 </list>
+      <para id="import-auto-idm498617360">This example has a few different parts, where our acceleration is not the nice simple constant. In the previous example, the acceleration was constant, so you could solve it without using simulation. However, with an acceleration that’s not constant, the only way you can solve it is through simulation. </para>
+      <para id="import-auto-idm479028416">Let’s get started with part a). First, we make our table and put in our initial conditions. Again, we use time, position, velocity, and acceleration for our table. We can set time to start at 0 and position to start at 0, since the problem doesn’t specify a starting position. Initial velocity is 0, since the car starts at rest. To find the initial acceleration, we plug in our time into the acceleration given by the problem, so:</para>
+      <para id="import-auto-idm487064688">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mfrac>
+                        <m:mi>m</m:mi>
+                        <m:msup>
+                          <m:mi>s</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>0</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mfrac>
+                <m:mi>m</m:mi>
+                <m:msup>
+                  <m:mi>s</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mfrac>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">a left (0 right ) = left (5 {m} over {{s} ^ {2}} right ) {0} ^ {2} =0 {m} over {{s} ^ {2}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm403672720">So the initial acceleration is 0 as well. </para>
+      <table id="import-auto-idm269801024" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Time (t)</entry>
+              <entry>Position (x)</entry>
+              <entry>Velocity (v)</entry>
+              <entry>Acceleration (a)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm528221328">Now let’s take our first step and go to 0.01 seconds, where we’re still going to be using these two expressions.</para>
+      <para id="import-auto-idm418413616"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>v</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mi>∆</m:mi><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">left langle v right rangle ∆t+  {x} rsub {i} = {x} rsub {f}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm278423744"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>a</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mi>∆</m:mi><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">left langle a right rangle ∆t+  {v} rsub {i} = {v} rsub {f}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm1071171776"> I don’t want you to memorize these now, remember, these just come from the definitions of velocity and acceleration. These just the definitions of these quantities rewritten, so it’s not a new equation, it’s the same definitions we’ve been exploring in this entire preparation. Again, we plug in the initial values into the two expressions, so: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.01</m:mn><m:mi>s</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mi>m</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mi>m</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">left (0 {m} over {s} right ) left (0.01s right ) + left (0m right ) =0m</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm828026480"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.01</m:mn><m:mi>s</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">left (0 {m} over {{s} ^ {2}} right ) left (0.01s right ) + 0 {m} over {s} =0 {m} over {s}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm739386272">We also have to solve for our new acceleration using the formula given in the problem. Before we move on, notice that there’s a <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">∆t</m:annotation></m:semantics></m:math> in our expressions for final position and velocity, but there is a <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>t</m:mi><m:annotation encoding="StarMath 5.0">t</m:annotation></m:semantics></m:math> in the formula for acceleration. Normally, these are interchangeable, but in this problem, they mean two separate things. The change in time <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">∆t</m:annotation></m:semantics></m:math>, so the time steps, while <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>t</m:mi><m:annotation encoding="StarMath 5.0">t</m:annotation></m:semantics></m:math> is the total time up to that step, so it’s important to keep in mind this distinction. Solving for the new acceleration gives us:</para>
+      <para id="import-auto-idm423861184">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>0.01</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mfrac>
+                        <m:mi>m</m:mi>
+                        <m:msup>
+                          <m:mi>s</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>0.01</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.0005</m:mn>
+              </m:mrow>
+              <m:mfrac>
+                <m:mi>m</m:mi>
+                <m:msup>
+                  <m:mi>s</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mfrac>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">a left (0.01 right ) = left (5 {m} over {{s} ^ {2}} right ) {0.01} ^ {2} = 0.0005 {m} over {{s} ^ {2}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm1161709312">And our new table looks like:</para>
+      <table id="import-auto-idm958342240" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Time (t)</entry>
+              <entry>Position (x)</entry>
+              <entry>Velocity (v)</entry>
+              <entry>Acceleration (a)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0.0005</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm512224112">Repeating the process for 0.02 gives us:</para>
+      <para id="import-auto-idm731626448">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mfrac>
+                      <m:mi>m</m:mi>
+                      <m:mi>s</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>0.01</m:mn>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mi>m</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (0 {m} over {s} right ) left (0.01s right ) + left (0m right ) =0m</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm477683376"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.0005</m:mn><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.01</m:mn><m:mi>s</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0.000005</m:mn></m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">left (0.0005 {m} over {{s} ^ {2}} right ) left (0.01s right ) + 0 {m} over {s} =0.000005 {m} over {s}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-idm1011806368">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>0.02</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mfrac>
+                        <m:mi>m</m:mi>
+                        <m:msup>
+                          <m:mi>s</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>0.02</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.002</m:mn>
+              </m:mrow>
+              <m:mfrac>
+                <m:mi>m</m:mi>
+                <m:msup>
+                  <m:mi>s</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mfrac>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">a left (0.02 right ) = left (5 {m} over {{s} ^ {2}} right ) {0.02} ^ {2} = 0.002 {m} over {{s} ^ {2}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm496802768">Notice that 0.02 is used for the time in the acceleration. Again, keep in mind the distinction between <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>∆</m:mi><m:mi>t</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">∆t</m:annotation></m:semantics></m:math> and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>t</m:mi><m:annotation encoding="StarMath 5.0">t</m:annotation></m:semantics></m:math> in the problem. Filling out the table gives us:</para>
+      <table id="import-auto-idm490491392" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Time (t)</entry>
+              <entry>Position (x)</entry>
+              <entry>Velocity (v)</entry>
+              <entry>Acceleration (a)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0.0005</entry>
+            </row>
+            <row>
+              <entry>0.02</entry>
+              <entry>0</entry>
+              <entry>0.000005</entry>
+              <entry>0.002</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm430650208">So the answer to the question is that the car is moving 0.000005 m/s after 0.02 seconds.</para>
+      <para id="import-auto-idm478930816">Alright, so now we’ve solved this problem by hand for up to .02 seconds, great. The next question is, where is it after five seconds? Well, doing this by hand in one one-hundredth of a second increments for five seconds is going to take us a really long time. You could do it, but you’d be at it for quite a while. This is where the benefit of using a computer to solve the problem will come into play. Since simulation is mostly just a process, you can have a computer program, like Excel or Google Spreadsheets, run through the process for you. We’ll be going over how to do this in class.</para>
+    </section>
+  </content>
+</document>
