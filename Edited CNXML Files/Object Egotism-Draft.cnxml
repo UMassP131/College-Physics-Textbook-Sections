@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Object Egotism</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Object Egotism</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/06/22 15:58:23.630 GMT-5</md:created>
+  <md:revised>2017/06/22 15:58:27.658 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Defining the idea of object egotism</item>
+		</list></para></problem></exercise>
+
+
+	<note id="copyright">The following is based off of <newline />umdberg / Object egotism. Available at: <link url="http://umdberg.pbworks.com/w/page/45451187/Object%20egotism"> http://umdberg.pbworks.com/w/page/45451187/Object%20egotism.</link> (Accessed: 11th July 2017)
+
+</note>
+
+<exercise id="inote3" type="check-understanding"><label/><title><media id="inote3i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote3p"><para id="inote3pp">The essence of object egotism for forces is that the only forces that affect an object's acceleration are the forces acting on it at that instant, and the objects have no "memory" of the forces acting on it. This idea will play an important role when working with forces, so be sure you understand this concept before moving on.</para></problem></exercise>
+
+    <para id="import-auto-idm1538332064">The first thing we have to decide when we build Newton's theory of motion is this:</para>
+    <para id="import-auto-idm376372544">
+      <emphasis effect="italics">What object or collection of objects should we consider when we think about a motion?</emphasis>
+    </para>
+    <para id="import-auto-idm1538222912">After all, the world is a complicated place. Everything affects everything else in a huge tangled web of influences. To pull this web apart for laws of motion, we can succeed by going down to the simplest situation, understanding how it works, and then slowly building up principles that allow us to put together more complex situations.</para>
+    <para id="import-auto-idm1158598608">The fact that this works is not preordained, and indeed, it's a bit surprising that it does.  In biology the approach of reducing a complex system to the simplest case does not always get us very far and other methods have to be used (though now that we have the technology to take apart how living organisms function, it appears that it might provide some utility in biology as well)  But in physics, the success of this approach in this channel on cat television might be what has established the entire "go for the simplest situation first" flavor that so colors the approaches most common to physics.</para>
+    <section id="import-auto-idm1725109840">
+      <title>Thought experiment 1: Block on a table</title>
+      <para id="import-auto-idm375157888">Let's consider the simplest possible situation of motion: a block sitting on a table.  What do we have to do to get it to move?  Well, we might push it.  But to follow our guiding star of starting with the simplest possible case, let's keep that push to a short time.  Let's strike it quickly with a hammer.  What happens?  Well, the block jumps a bit and stops.  It I hit it again, it jumps again and stops.  I might hypothesize that a "tap" (what the hammer delivers to the block) produces a change in position.</para>
+      <para id="import-auto-idm384769680">But if we extend our experiments -- put some soapy water on the table or some sandpaper -- we will find that the same tap (and you will have to imagine for yourself how to create a system that can deliver identical taps) will produce different changes in position -- much more of a change if there is soapy water on the table, much less if the block is resting on a piece of taped down sandpaper.</para>
+      <para id="import-auto-idm969837776">What this shows is that "a block sitting on a table being hit by a hammer" is not the simplest situation we can conceive of.  We have the sense that the hammer is what moves the block and the surface of the table is what stops it.  So there seem to be two things going on -- the hammer starting the motion and the table stopping it.  To understand what is going on we have to focus on the block.</para>
+    </section>
+    <section id="import-auto-idm373789264">
+      <title>Thinking like a block</title>
+      <para id="import-auto-idm1496834208">To think about the block, it's best to try to put yourself in the position of the block itself.  This is a non-trivial shift of perspective.  If we are pushing a box along a concrete floor, we know we have to keep pushing if we want it to keep moving. We sense, from our view as pusher, that a single force is associated with a constant velocity. But if you imagine yourself to be the box rather than the person pushing the box, you will realize that you not only feel the person pushing on your shoulders, but the rough (and possibly painful) drag of the concrete floor on your bottom.  You feel two important interactions, not just one.</para>
+      <para id="import-auto-idm1111110048">I call this approach of "becoming the object" as physics by empathy or thinking inside the box. </para>
+      <para id="import-auto-idm1222274528">[It is very much related to the principle of "method acting" practiced by such famous actors as Sean Penn, Robert De Niro, Paul Newman, Dustin Hoffman, and Marlon Brando.  The method was invented in the 1920s by Stanislavski in Russia. The trick is to try to "become" the character -- to understand him or her and learn to think and behave like that character.]</para>
+      <para id="import-auto-idm1066581840">When you think like a block, you realize that you have no concern for what you might be doing to anything else, but only respond to what you feel.  And you have no memory of what happened earlier.  I summarize this as a fundamental assumption of Newton's theoretical framework:</para>
+      <para id="import-auto-idm1636548880">Objects respond only to influences acting upon them at the instant that those influences act.</para>
+      <para id="import-auto-idm1846133808">I sometimes summarize this as object egotism - for objects it's "me, me, me, and right now!"</para>
+      <para id="import-auto-idm1612464944">Now it's clear that while this makes sense for inert objects, for an active organism that has will and intent, it can do things to other objects -- and it may well interact with those other objects purposefully; like pushing forward on a wall when swimming laps to make yourself go backwards. While it is perfectly possible to formulate the theory so that it looks like this, it would be terrible for inert objects.  You would have to say that the block moved when hit by the hammer because the block pushed back on the hammer!</para>
+      <para id="import-auto-idm1250436160">Notice that in building our theories, we have choices which way to go. Here, we have decided to simplify as much as possible -- so as to start with pairs of objects rather than three -- and to consider inert objects as our typical example.  We'll see that we'll be able to successfully and consistently handle complex interactions with three and more objects and even active organisms in our theory built initially for pairs of inert objects -- without having to add any new principles!</para>
+    </section>
+  </content>
+</document>

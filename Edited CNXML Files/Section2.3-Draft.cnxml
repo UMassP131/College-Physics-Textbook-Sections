@@ -74,14 +74,14 @@
 <content>
 <exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">
 		<list id="quiz">
-			<title>Your Quiz would Cover</title>
+			<title><emphasis>Your Quiz would Cover</emphasis></title>
 			<item>Describing how velocity is different from speed</item>
 			<item>Identifying that velocity has a direction</item>
 			<item>Identifying that velocity is always parallel to the path</item>
 			<item>Solving for position as a function of time, given velocity as a function of time. Eventually, we will be using this idea with simulations.</item>
 		</list>
 		<list id="ttc">
-			<title>Other Things to Consider as You Read:</title>
+			<title><emphasis>Other Things to Consider as You Read:</emphasis></title>
 			<item>As with the previous sections, there are a couple of definitions to pay attention to. There are some terms you may have heard before, but, again, it's the specific physics definition that's important to know.</item>
 		</list>
 	</para></problem></exercise>

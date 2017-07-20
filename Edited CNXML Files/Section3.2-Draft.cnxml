@@ -69,7 +69,7 @@
 <content>
     
 	<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
-			<title>Your Quiz would Cover</title>
+			<title><emphasis>Your Quiz would Cover</emphasis></title>
 			<item>Given two graphical representations of vectors, be able to draw the sum or difference. There are some simple procedures to follow. Solidify your understanding of these procedures and we can work on why this makes sense in class</item>
 			<item>Describe both visually and mathematically what happens when a scalar is multiplied by a vector. If I give you a vector and a number, you should be able to turn the crank and multiply them mathematically. I am NOT expecting you to be able to do this graphically and will not ask you what it means. Just focus on the mechanics of how to do it.</item>
 			<item>Convert between magnitude/direction and component form for any vector</item>

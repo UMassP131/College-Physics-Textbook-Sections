@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Simulations: Iterative Force Calculations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Simulations: Iterative Force Calculations</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/13 15:02:20.165 GMT-5</md:created>
+  <md:revised>2017/07/13 15:02:20.430 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Use iterative methods to determine the motion of an object acted on by a force (SG2)</item>
+		</list>
+		As with the previous section on simulations, this section is a transcript of the videos on the UMass Physics 131 Youtube page, and it is highly recommended that you watch these videos. <list id="links"><title>Links</title><item><link url="https://www.youtube.com/watch?v=QFhYJrsDIP0">Iterative Force Calcluations</link></item><item><link url="https://www.youtube.com/watch?v=6v4kVX_8VF8">Iterative Force Calculations - A more complex example</link></item></list>
+		</para></problem></exercise>
+
+
+    <section id="import-auto-idm589509136">
+      <title>Iterative Force Calculations Example</title>
+      <para id="import-auto-idm318287840">In the last unit, we have looked at describing motion using iterative methods given an acceleration. We can solve for the position and the velocity step by step. Now, we want to add the idea of this unit, forces which are the causes of acceleration. A key principle in solving Newton’s second law problems iteratively is the idea of object egoism, discussed earlier in this preparation. Object egoism can be summarized through the idea of “me me me” and right now. This can be restated as that only the forces that are acting at any given instant on an object are relevant. What happened before, what happened in the future don’t really matter. The easiest way to learn how to solve Newton’s second law problems through iterative methods is probably through an example. </para>
+      <para id="import-auto-idm339051632">So, let’s begin with our first example. Say we have a 1000-kilogram car stopped at stoplight. When the light turns green, the engine of the car will begin to apply a constant force of 5000 Newtons to the car. We want to model the motion of this car for the first 0.02 seconds using iterative methods with a .01 second step. We begin by constructing our table, where we have the usual columns of time, position, velocity, and acceleration. </para>
+      <table id="import-auto-idm430924880" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>0.02</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm570022656">We’ve now added a new column force with the units Newtons, and we have our times 0.01, because we’re working at a 0.01 second step, and then .02 seconds, which is as far as we care to go for this particular problem. Let’s begin with t=0, thinking about one instant at a time. What is happening with the car at t=0? Well, we can define the stoplight to be at position equals 0, so we’ll do so. We also know that the car is stopped, which tells us that the initial velocity of the car is also 0. What else do we know at t=0? Well we know that the engine is providing a net force of 5000 newtons to the car we can now use this net force to solve for the acceleration of the car using Newton’s second law, F=ma, or rearranged, the acceleration is the force applied divided by the mass of the car. In this particular case, the force applied is 5,000 newtons, and the mass is 1,000 kilograms, giving us an acceleration of 5 meters per second squared. </para>
+      <table id="import-auto-idm360454256" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>5</entry>
+              <entry>5000</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>0.02</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm353344960">Now let’s move on to the next instant in time, .01 seconds. Again, we know that the force that the engine is applying to the car is a constant 5,000 newtons, so we can just put in 5,000 newtons for the force applied to the car. We can solve for the acceleration of the car in the same way, using F=ma, which again we have 5,000 newtons divided by 1,000 kilograms, giving us again an acceleration of 5 m/s<sup>2</sup>. The next thing we might be interested in is the velocity of the car. Now we think back to how we solve problems iteratively, a key principle that one instant predicts the next. So, in this case we’re going to use t=0 to predict t=0.01. We’re going to use the fundamental definition of acceleration as Δv/Δt. We can explode the Δv into v<sub>final</sub>-v<sub>initial</sub> and rearrange the equation into this form:v<sub>final</sub>=v<sub>initial</sub>-aΔtOur initial velocity is 0, the acceleration is 5 m/s<sup>2</sup>, from the table above, and our Δt is 0.01, the time step. Substituting in these values gives a final velocity of 0.05 m/s. </para>
+      <para id="import-auto-idm384679120">The next thing we might be interested in is to solve for the position. Again, one instant predicts the next, so we’re going to use t=0 to predict t=0.01. This time, we’re going to use the fundamental definition of velocity as Δx/Δt. We expand the Δx into x<sub>final</sub>-x<sub>initial</sub>, and do some algebraic manipulation to get this familiar form.x<sub>final</sub>=x<sub>initial</sub>-vΔtWe repeat the same process as above. Initial position is 0, velocity is 0, and our Δt is 0.01, and substituting these values in gives us a final position of 0. </para>
+      <table id="import-auto-idm436112640" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>5</entry>
+              <entry>5000</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>0</entry>
+              <entry>0.05</entry>
+              <entry>5</entry>
+              <entry>5000</entry>
+            </row>
+            <row>
+              <entry>0.02</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm295676960">Let’s think about the general procedure. First, we identify what is the force at any given instant. Second, we think about translating that force to the acceleration using Newton’s second law. Third, we move into solving for the velocity. In this case, we use one instant to predict the next, and the definition of acceleration. Finally, we move into calculating the velocity, the position, where again, one instant predicts the next, and we use the fundamental definition of velocity.  Repeating this process, we can finish the table:</para>
+      <table id="import-auto-idm321017504" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>5</entry>
+              <entry>5000</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>0</entry>
+              <entry>0.05</entry>
+              <entry>5</entry>
+              <entry>5000</entry>
+            </row>
+            <row>
+              <entry>0.02</entry>
+              <entry>0.0005</entry>
+              <entry>0.1</entry>
+              <entry>5</entry>
+              <entry>5000</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="import-auto-idm349925456">
+      <title>A More Complex Example</title>
+      <para id="import-auto-idm305181728">Let’s have a look at a second more complex example. </para>
+      <para id="import-auto-idm586789248">An object of mass five kilograms being acted upon by the empirical force law, F=-kx, where x is the position of the object, and k, equal to 50 N/m, is a constant measured from the data. The object begins at 0.1 meters with a speed of 2 m/s.  Solve for the motion of the object at 0.01s iteratively in 0.01s steps.</para>
+      <para id="import-auto-idm320493776">We want to solve for the motion of the object iteratively, for 0.01 seconds using a step of 0.01 seconds, so our table will only have two rows, t=0 and t=0.01 with the usual columns, time, position, velocity, acceleration, and force. </para>
+      <table id="import-auto-idm1630109728" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm319400064">Let’s begin with t=0. What do we know? Well, we know that the object is initially at 0.1 meters, so we can substitute in that value, and we know its initial speed is 2 m/s, so we can substitute in that value. Now we move on to the force in this problem. The force is not a simple number; it’s a function F=-kx. We know what K is, it’s 50. It’s given to us in the problem. But now we got to think about x: which x should we use? Well, the idea of object egoism tells us “me me me” and right now, so I need to think about what’s going on with the object right now. Right now, the object is at 0.1 meters, and so we substitute 0.1 meters in for x. Solving the problem, we get a force of -5 N. Now we can move on to solving for the acceleration using Newton’s second law, F=ma. A -5 N force divided by 5 kilograms gives us an acceleration of -1 m/s^2. </para>
+      <table id="import-auto-idm413271088" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0.1</entry>
+              <entry>2</entry>
+              <entry>-1</entry>
+              <entry>-5</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm314043440">So, our force and our acceleration are in opposite directions. From our velocity, our velocity is positive, acceleration is negative. Thus, from our Unit 1 knowledge, we can predict that the object should probably slow down. When we go from 0.00 to 0.01. Now, in the last problem, we started with force, so let’s try that again. Our force law is still -kx. We still know that k is equal to 50, but we don’t know what x is. We need to use “me me me” and right now. We don’t know the position of the object right now. Sure, we knew where it was, but that’s not what matters in physics, what matters is what’s going on to the object right now. Objects are stupid for the most part; they don’t remember, so we need to think what’s going on right now, and we don’t know, so consequently we should probably solve for position first, using the definition of velocity expanded into this usual form. We start looking at plugging in the numbers. The initial position is 0.1 m, the initial velocity is 2 m/s, and the Δt from 0 to 0.01 is 0.01, which comes out to 0.12 meters. Now that we have a position, we can use this position in our force law to solve for the force, and get a force of -6 N. Now we can continue in our more usual way of using F=ma to solve for the acceleration, -6 newtons divided by 5 kilograms will give us an acceleration of -1.2 m/s<sup>2</sup>. Finally, we have to deal with the velocity, and we use the definition of acceleration, expanded into this typical algebraic form, and we look at substituting our numbers. The initial velocity over this interval is 2 so we substitute 2 m/s. Our initial acceleration is - 1 m/s<sup>2</sup>, and our Δt is 0.01 s. Turning the crank on these numbers, we get a velocity of 1.99 m/s, so our object has slowed down in agreement with our expectations. </para>
+      <table id="import-auto-idm329282096" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Time (s)</entry>
+              <entry>Position (m)</entry>
+              <entry>Velocity (m/s)</entry>
+              <entry>Acceleration (m/s<sup>2</sup>)</entry>
+              <entry>Force (N)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0.1</entry>
+              <entry>2</entry>
+              <entry>-1</entry>
+              <entry>-5</entry>
+            </row>
+            <row>
+              <entry>0.01</entry>
+              <entry>0.1</entry>
+              <entry>1.99</entry>
+              <entry>-1.2</entry>
+              <entry>-6</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm356280976">Our object went from 2 m/s to 1.99 m/s, which is what we expect, given that at t=0, our velocity and our acceleration are in opposite directions. So, let’s conclude. Many of the procedures that we’ve discussed in this video are like the iterative calculations we have already discussed in unit one. Remember to think about one instant at a time, and to use one instant to predict the next. The new part introduced in this video is that the acceleration at a given instant is determined by the force at that same instant so we use the force at t=0.003 to solve for the acceleration. This is in line with our object egoism of “me me me” and right now. Similarly, if the force depends upon other variables such as position or velocity then I need to use the values for the same instant for which I want to calculate the force. So, if I want to calculate the force at 0.004 seconds and it depends upon position, then I need to use the position at 0.004 s. Again, “me me me” and right now. </para>
+    </section>
+  </content>
+</document>

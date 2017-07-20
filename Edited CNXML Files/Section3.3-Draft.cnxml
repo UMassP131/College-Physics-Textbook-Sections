@@ -66,7 +66,7 @@
 <content>
 
 <exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
-			<title>Your Quiz would Cover</title>
+			<title><emphasis>Your Quiz would Cover</emphasis></title>
 			<item>Adding vectors by components. Don’t focus too much on what it means to add vectors. Just learn the mechanics of how to do it. We will talk about the meaning in class. </item>
 		</list>
 		</para></problem></exercise>

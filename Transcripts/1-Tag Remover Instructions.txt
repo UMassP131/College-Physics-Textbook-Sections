@@ -1,0 +1,5 @@
+Go to Find and Replace.
+Enter this regular expression: <[^>]+>
+Select regular expression.
+Make sure the cursor is at the start of the document.
+Click replace all.

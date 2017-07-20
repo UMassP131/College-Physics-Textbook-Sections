@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
-  <title>Unit 1 Overview</title>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:m="http://www.w3.org/1998/Math/MathML" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>3.4 Addition of Velocities</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml"
           mdml-version="0.5">
   <!-- WARNING! The 'metadata' section is read only. Do not edit below.
        Changes to the metadata section in the source will not be saved. -->
   <md:repository>https://legacy.cnx.org/content</md:repository>
   <md:content-id>new</md:content-id>
-  <md:title>Unit 1 Overview</md:title>
+  <md:title>3.4 Addition of Velocities</md:title>
   <md:version>**new**</md:version>
-  <md:created>2017/05/26 15:41:04.504 GMT-5</md:created>
-  <md:revised>2017/05/26 15:41:10.453 GMT-5</md:revised>
+  <md:created>2017/06/19 12:09:46.478 GMT-5</md:created>
+  <md:revised>2017/06/19 12:09:46.791 GMT-5</md:revised>
   <md:actors>
     <md:person userid="davidnvn">
       <md:firstname>David</md:firstname>
@@ -32,7 +32,7 @@
        where CONTENT_URL is the value provided above in the <md:content-url> element.
   -->
   <md:keywordlist>
-    <md:keyword>Physics</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
   </md:keywordlist>
   <md:subjectlist>
     <md:subject>Science and Technology</md:subject>
@@ -42,7 +42,6 @@
   <!-- WARNING! The 'metadata' section is read only. Do not edit above.
        Changes to the metadata section in the source will not be saved. -->
 </metadata>
-
 <content>
 	<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">
 		<list id="ttc">
@@ -141,4 +140,5 @@
       <para id="import-auto-idm425128688">We will NOT be using these equations in this class. We will be approaching the subject, and many others, in ways that may be different from how you may have seen them in a previous physics class. We believe that physics is not about memorizing equations and learning how to piece those equations together. We believe instead that physics is about fundamental ideas, and we will teach this course from this perspective. Occasionally, this will result in physics homework very different from what you may expect. A good example is the homework for the second unit, where you have some actual fill-in-the-blank type of questions. If you try to learn physics as a set of ideas instead of a set of equations to be pieced together, and start your analysis of situations from fundamental physical principles, then your physics experience will enrich and enhance your understanding of your other courses, as opposed to just being a course that you just “have to take for your major”.</para>
     </section>
     </content>
+
 </document>

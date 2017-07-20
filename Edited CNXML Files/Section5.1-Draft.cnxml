@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>5.1 Categorizing Forces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>5.1 Categorizing Forces</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/17 12:30:45.307 GMT-5</md:created>
+  <md:revised>2017/07/17 12:30:45.627 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			
+			<item>Explain the origin of each force in physical terms </item>
+			<item>Categorize these forces as contact/field, fundamental/constraint/empirical</item>
+			<item>Contrast the definitions of fundamental forces, constraint forces, and empirical forces</item>
+			<item>Distinguish between the gravitational force F<sub>w</sub>=mg and the gravitational field g</item>
+			
+		</list>
+		These quiz goals apply to this whole chapter. The following four sections, 5.2-5.5, discuss these categories of forces in more detail, and it will be important to have an understanding of each of these types of forces individually, as well as how they compare and contrast to the other types as well.
+		
+		</para></problem></exercise>
+
+
+    <para id="import-auto-idm515590368">In this section, we are going to be categorizing the different types of forces that we’re going to be discussing in this class. We will categorize these different forces as either contact or field, or as fundamental, constraint, or empirical. Being able to categorize a force is very important. Every force, not just those discussed in this class, can be classified into one of these different categories. By categorizing a force appropriately, you gain deeper insight into its properties. So, we can categorize a force in one of two ways; we can categorize it as either contact or field, or we can categorize it as fundamental, constraint, or empirical. </para>
+    <para id="import-auto-idm543993376">Let’s begin by looking at the difference of contact forces and field forces. Contact forces, require the objects to, well, be in contact. A good example of this is the normal force. Let’s return to our typical example of the normal force of a book sitting on a table. You recall that the weight of gravity tends to pull the physics book down through the table. Of course, the physics book doesn’t go through the table, and the reason for this is because there’s a normal force from the table on the book, which is counterbalancing this force of gravity. For this normal force to be present, the two objects must touch. If I were to raise the physics book, the two objects are no longer in contact, and the normal force will go to zero. So, which of our forces are contact forces? Well, most all of them. The normal force, the tension force, spring forces, and the friction forces are all examples of contact forces, because the objects must be in contact for the force to be present. </para>
+    <para id="import-auto-idm261886640">In contrast to count forces, there are also field forces that do not require contact. The only example of a field force in this class is the gravitational force. Think about the example of the moon and the earth. The moon feels the gravitational pull of the earth, as exhibited by the fact that the moon orbits the earth, but the moon and the earth do not actually touch each other. Another example is electricity and magnetism. Physics 132 explores these subjects in more detail, but you can probably think that magnets don’t have to touch each other for there to be a force. Therefore, electricity and magnetism are also field forces. In the context of a field force we think about one object generating a field, in this case the earth generates a gravitational field that extends beyond the earth out into space, and the second object, in our example the moon, does touch that field. The moon doesn’t touch the earth, of course, but the moon does touch this invisible gravitational field generated by the earth, and the moon interacts with that field by feeling a force towards the Earth, keeping it in orbit. </para>
+    <para id="import-auto-idm1430479440">The second way we can categorize forces is as either fundamental, constraint, or empirical. Fundamental forces are one of the four fundamental interactions of the universe. The strong force, electric and magnetic forces, the weak force, or gravity. Again, gravity is the only one that we will deal with in this class. The fundamental forces have formulas for their strength, and these formulas are fundamental laws of nature that apply everywhere and all the time. </para>
+    <para id="import-auto-idm233586736">In contrast, constraint forces do not have the formula. They take on whatever value is necessary for Newton’s second law, F=ma, to remain true. Tension in a piece of rope can model these constraint forces. So, when the rope is loose and slack, there’s essentially no tension in the rope. However, if I begin to pull on the rope, then I begin to get some tension in the rope. If I pull just a little bit, then I have just a little bit of tension. As I pull harder, the amount of tension in the rope goes up, and up and up. Eventually, it would hit some point where the rope would break. Notice, however, there’s no formula for tension in this rope. The amount of tension in the rope is just directly related to how hard I pull on it. The more I pull, the more tension in the rope; there’s no formula. </para>
+	
+	<figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="bot1"><media id="bot2" alt="A comparison of tensions in the two strings.">
+          <image mime-type="image/jpg" src="BookonDesk.jpg" width="375"/>
+        </media><caption>The tension in the string is dependent on how it is pulled; a loose string has almost no tension, but a taut string has a higher tension.</caption></figure>
+	
+	
+    <para id="import-auto-idm1400662464">The third way we can categorize forces along this dimension are as empirical forces. Empirical forces do have equations, but these equations are not exact fundamental laws of the universe. Instead, these equations are approximations derived from data and have properties that must be measured experimentally. As an example of the empirical force, I’m going to introduce a new force: the viscous force. The viscous force is a form of resistance that comes when you move an object through a fluid, like a ball moving through air. In class, we’ll explore the properties of friction and of springs, to not spoil the surprise, I’m going to use the viscous force for this example. This is the only case in which you’ll see the viscous force in this class, but I think it illustrates the point quite nicely here. </para>
+    <para id="import-auto-idm523865808">We have a paper from Nature, March 2015, showing the viscous force in micronewtons on a droplet as a function of the speed of the droplet in millimeters per second, and we have it for different sized droplets: a quarter microliter in the blue, half microliter in the red, etc. We can see that the force of drag seems to depend linearly on the velocity. As the velocity, increases the amount of force also increases in a way that can be fit quite nicely with a line, so we would say that the empirical force law for this force is F=cv. It’s a force law that was derived from looking at data and contains a constant c which must be measured from the data. In this case, c is the slope of the line and is clearly different for each size droplet. These are characteristics of empirical forces. The force law is derived from looking at data, and often there are properties that are dependent upon what you’re looking at, in this case the size of the droplet. </para>
+    <para id="import-auto-idm1002464352">Here, I’ve highlighted three red dots, and we can see that this F=cv is not a perfect description. It’s got some noise in it. This is another characteristic of empirical forces. Empirical forces do not get things exactly, but they tend to get the general features. As I’ve already said, the empirical forces that will study in this class will be spring forces and static and kinetic friction. We’ll explore these in labs in class. In summary, empirical forces do have equations, but these equations are not exact fundamental laws of the universe as the equations that describe fundamental forces are. Instead these equations are derived from data, are approximations, they don’t get everything perfect, and typically have properties that are depending upon what you’re looking at, i.e. the size of the droplet, that must be measured from the data. </para>
+    <para id="import-auto-idm451513088">Let’s look at categorizing the forces for this class as either fundamental, constraint, or empirical. For fundamental, we of course only have the gravity or the weight force. For constraint forces, we have normal and tension forces, and static friction, kinetic friction, and springs, are examples of empirical force laws that we will develop in lab and class. We can, in fact, categorize forces in both dimensions simultaneously. Gravity and weight is a fundamental force that acts through a field, whereas normal and tension are constraint forces that require contact, while static friction, kinetic friction, drag, and viscous forces that we’ve talked about in this video require our empirical force laws that require contact. You’ll notice that there are gaps. All the constraint forces we discuss in this class our contact forces. There are no constraint forces that interact through a field. </para>
+  </content>
+</document>

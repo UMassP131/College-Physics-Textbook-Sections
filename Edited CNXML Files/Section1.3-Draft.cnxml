@@ -47,16 +47,17 @@
 <content>
 
 <exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
-			<title>Your Quiz would Cover</title>
+			<title><emphasis>Your Quiz would Cover</emphasis></title>
 			<item>Estimating the number of appropriate digits for any calculation. One big thing is that we will use properties of data to predict/determine the number of decimal points that are appropriate.</item>
 		</list>
 		<list id="ttc">
-			<title>Other Things to Consider as You Read:</title>
+			<title><emphasis>Other Things to Consider as You Read:</emphasis></title>
 			<item>While we won't be using sig-fig rules, there are some guidelines on the appropriate amount of digits to include in a result.</item>
 		</list>
+		In general, three digits after the decimal point is what we will go with.
 		</para></problem></exercise>
 
- <note><label/>The following section is based upon:<newline /> Denker, J. Uncertainty as Applied to Measurements and Calculations. Uncertainty as Applied to Measurments and Calculations (2011). Available at: <link url="http://www.av8n.com/physics/uncertainty.htm">http://www.av8n.com/physics/uncertainty.htm</link>. (Accessed: 26th August 2016)
+ <note id="copyright"><label/>The following section is based upon, with permission:<newline /> Denker, J. Uncertainty as Applied to Measurements and Calculations. Uncertainty as Applied to Measurments and Calculations (2011). Available at: <link url="http://www.av8n.com/physics/uncertainty.htm">http://www.av8n.com/physics/uncertainty.htm</link>. (Accessed: 26th August 2016)
 	</note>
 	  
 	  <section id="import-auto-idm798948752">
@@ -108,8 +109,16 @@
         <item>Sig figs provide no guidance as to the appropriate decimal representation for repeating decimals such as 80 ÷ 81, or irrational numbers such as √2 or π.</item>
       </list>
     </section>
-    <exercise id="inote64" type="check-understanding"><label/><title><media id="inote64i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote64p"><para id="inote64pp"> For the problems in class and on exams, the three-digit rule discussed in that section is what we will go with. For homework on mastering physics, however, answers will be judged as correct if they are within two percent of the correct value, so my suggestion is to just put in plenty of digits. You may get a message that says something about incorrect number of significant figures if you do this.. However, don’t worry about it, the problem has been graded correctly. Mastering physics is just telling you that you did your significant figures wrong. However, since I don’t care about significant figures, it’s not really a big deal; you will get full credit either way. </para>
+    <exercise id="inote64" type="check-understanding"><label/><title><media id="inote64i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote64p"><para id="inote64pp">For homework problems online, however, answers will be judged as correct if they are within <emphasis effect="italics"><emphasis>two percent</emphasis></emphasis> of the correct value, so my suggestion is to just put in plenty of digits. You may get a message that says something about incorrect number of significant figures if you do this.. However, don’t worry about it, the problem has been graded correctly. Mastering physics is just telling you that you did your significant figures wrong. However, since I don’t care about significant figures, it’s not really a big deal; you will get full credit either way. </para>
 	<para id="labs">In regards to how to present data in the labs, section 1.4 has all the information on how people present data, and so you should follow these guidelines for the labs as well..</para></problem></exercise>
+	
+<section id="fs-id1448204" class="section-summary">
+    <title>Summary</title>
+    <list xmlns:q="http://cnx.rice.edu/qml/1.0" id="fs-id1415321">
+	<item>Use many enough digits to avoid unintended loss of information.</item>
+	<item>Use few enough digits to be reasonably convenient.</item>
+	<item>Avoid using significant figures</item>
+</list></section>
 </content>
 
 </document>

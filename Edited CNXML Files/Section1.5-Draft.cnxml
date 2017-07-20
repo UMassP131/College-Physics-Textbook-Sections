@@ -46,7 +46,7 @@
 <content>
     
 	<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
-			<title>Your Quiz would Cover</title>
+			<title><emphasis>Your Quiz would Cover</emphasis></title>
 			<item>Intepreting data and results. This ties into understanding how mean and standard deviation relate to uncertainty.</item>
 		</list>
 		</para></problem></exercise>
@@ -396,10 +396,9 @@
  </content>
 <glossary>
     <definition id="import-auto-id2732619"><term>accuracy</term><meaning id="fs-id1590454"> the degree to which a measured value agrees with correct value for that measurement</meaning></definition>
-    <definition id="import-auto-id1292530"><term>method of adding percents</term><meaning id="fs-id2551172"> the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation</meaning></definition>
+  
     <definition id="import-auto-id2502324"><term>percent uncertainty</term><meaning id="fs-id2732929"> the ratio of the uncertainty of a measurement to the measured value, expressed as a percentage</meaning></definition>
     <definition id="import-auto-id1603950"><term>precision</term><meaning id="fs-id888171"> the degree to which repeated measurements agree with each other</meaning></definition>
-    <definition id="import-auto-id3041405"><term>significant figures</term><meaning id="fs-id1375519"> express the precision of a measuring tool used to measure a value</meaning></definition>
     <definition id="import-auto-id1320014"><term>uncertainty</term><meaning id="fs-id1618593"> a quantitative measure of how much your measured values deviate from a standard or expected value</meaning></definition>
     </glossary>
 </document>
