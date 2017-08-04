@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Second Law of Thermodynamics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Second Law of Thermodynamics</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/20 12:49:27.955 GMT-5</md:created>
+  <md:revised>2017/07/20 12:49:28.175 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<note id="copyright">The following is based off of <newline />umdberg / The 2nd Law of Thermodynamics: A Probabilistic Law (2013). Available at: <link url="http://umdberg.pbworks.com/w/page/68405604/The%202nd%20Law%20of%20Thermodynamics%3A%20%20A%20Probabilistic%20Law%20%282013%29.">http://umdberg.pbworks.com/w/page/68405604/The%202nd%20Law%20of%20Thermodynamics%3A%20%20A%20Probabilistic%20Law%20%282013%29.</link> (Accessed: 20th July 2017)
+
+
+</note>
+
+    <para id="import-auto-idm367529712">Energy conservation -- <link url="http://umdberg.pbworks.com/w/page/68405588/The%201st%20law%20of%20thermodynamics%20(2013)"><emphasis effect="underline">the 1st law of thermodynamics</emphasis></link> --suffices to rule out a lot of thermal sort of things that don't happen -- like things getting warmer without any source of warmth.  But there are a lot of thermal things that don't happen that are perfectly consistent with the 1st law; like thermal energy flowing from a cold object to a hotter object. In order to codify and elaborate our understanding of these results, we turn to the ideas of <link url="http://umdberg.pbworks.com/w/page/68375351/Probability%20(2013)"><emphasis effect="underline">probability</emphasis></link> to understand <emphasis effect="italics">how energy tends to be distributed</emphasis>.</para>
+    <section id="import-auto-idm310849824">
+      <title>A probabilistic law</title>
+      <para id="import-auto-idm379215072">That seems a bit strange. What does a discussion about probabilities have to do with a physical law? Physical laws are always true, aren't they? And isn't probability really about things that are only sometimes true? Well, in many ways, molecules in physics are like multi-sided dice, and the likelihood that a particle will be located in a particular location in space (or have a particular energy) is analogous to the likelihood that a multi-sided die will land on a particular side. There are many different ways for the molecules to move, and the details of why they move in one way or another is very sensitive to exactly where they are and how they are moving -- and is very much out of our control.</para>
+      <para id="import-auto-idm636708304">The likelihood that all the smoke particles in a smoke-filled room will move as a result of their chaotic motions into one corner of the room is analogous to the likelihood that nearly all the coins in a set of 10<sup>23</sup> tosses will land on heads.  It's very, VERY unlikely!  If you tossed that many coins over and over again for the lifetime of the universe (14 billion years) the odds that you would see all heads is still minuscule -- totally ignorable. This extremely low probability is what transforms a "probability statement" into a "physical law."</para>
+      <para id="import-auto-idm512967936">The reason you will never see the smoke particles accumulate in one small corner is that there are many, many more ways for the smoke particles to distribute themselves uniformly throughout the room than there are ways for the particles to all be located in just one corner of the room. That said, just as it is not <emphasis effect="italics">impossible</emphasis> for all 10<sup>23</sup> tosses to land on heads, it is not <emphasis effect="italics">impossible</emphasis> that all the smoke particles will spontaneously move to one corner of the room... just don't hold your breath waiting for it to happen. </para>
+      </section>
+    <section id="import-auto-idm452649520">
+      <title>Microstates and macrostates</title>
+      <para id="import-auto-idm637794848">More generally we can say that when the number of atoms or molecules in a system is large, the system will most likely move toward a thermodynamic state for which there are many possible microscopic "arrangements" of the energy.  (And they will be very unlikely to move toward a thermodynamic state for which there are very few possible microscopic arrangements.)   If this seems mysterious, go back to the discussion of <link url="http://umdberg.pbworks.com/w/page/68375351/Probability%20(2013)"><emphasis effect="underline">coin tosses</emphasis></link> - it's a pretty good analogy.  The H/T ratio (say, 5/5) -- which we refer to as a <emphasis effect="bold"><emphasis effect="italics">macrostate</emphasis></emphasis> of the system -- is analogous to a thermodynamic state of a system, where only the pressure, temperature, and density of the molecules are specified. The different ways in which that H/T ratio can be obtained (say, HTTHTTHHHT) -- which we refer to as a <emphasis effect="bold"><emphasis effect="italics">microstate</emphasis></emphasis> -- is analogous to the specification of the spatial and energetic arrangement of each of the atoms/molecules that compose a particular thermodynamic state.   As we saw in the coin toss discussion, if one only looks at the macrostate description, one is much more likely to get a H/T result that corresponds to a large number of arrangements.  Likewise, one is much more likely to get an atom/molecule distribution that corresponds to a large number of arrangements.</para>
+      </section>
+    <section id="import-auto-idm544820624">
+      <title>The second law</title>
+      <para id="import-auto-idm512053440">The Second Law of Thermodynamics can now be stated in this qualitative way: </para>
+      <para id="import-auto-idm278723056">
+        <emphasis effect="italics">When a system is composed of a large number of particles, the system is exceedingly likely to spontaneously move toward the thermodynamic (macro)state that correspond to the largest possible number of particle arrangements (microstates).  </emphasis>
+      </para>
+      <para id="import-auto-idm630332432">There are a few really important words to make note of in this definition.  First, the system must have a LARGE number of particles.  If the system has just a few particles, it is not exceedingly likely that the particles will be in one state rather than another.  Only when the number of particles is large do the statistics become overwhelming.  If one tosses a coin just twice, there is a reasonable chance (namely, 25%) that one will obtain all heads.  Secondly, the system is EXCEEDINGLY LIKELY, but not guaranteed, to move toward a state for which there are the most particle arrangements.  The larger the number of particles, the more likely it is, but it is never a guarantee.  Thirdly, this law does not specify the specific nature of these "arrangements."  It may be that we are only interested in spatial location, in which case an arrangement corresponds to the spatial location of each particle in the system.  More arrangements would then correspond to more ways of positioning the particles in space.  In other contexts we may be interested in energy, and arrangements would then correspond to the set of energies corresponding to the system's constituents.  In either case, the most likely thermodynamic state is the one for which there are the most microscopic arrangements.</para>
+      </section>
+    <section id="import-auto-idm589704944">
+      <title>Biological implications</title>
+      <para id="import-auto-idm596414800">The Second Law of Thermodynamics is a statistical law of large numbers.  But we have to be careful. Although biological systems almost always consist of a huge number of atoms and molecules, in some critical cases there are a <emphasis effect="italics">very small</emphasis> number of molecules that make a big difference. For example, a cell may contain only a single copy of a DNA molecule containing a particular gene. Yet that single molecule may be critical to the production of protein molecules that are critical to the survival of the cell. For some processes a small number of molecules in a cell (fewer than 10!) can make a big difference. On the other hand, a cubic micron of a fluid in an organism typically contains on the order of 10<sup>14</sup> molecules! The second law of thermodynamics is a law that is indispensable in analyzing biological systems in countless contexts; but it is essential to understand it well -- not to just use it mindlessly.</para>
+      <para id="import-auto-idm272246176">[Just as our probability that the number of Heads we got in flipping coins got narrower as the the number of flips got larger, the probability that our results are those predicted by statistical mechanics (most probable macrostates) gets sharper and sharper. The variation around that perfect probability (corresponding to an infinite number of flips or particles) is called <emphasis effect="italics">fluctuations</emphasis>. The scale of fluctuations can be estimated crudely as about 1/(square root of the number). So for 10<sup>14</sup> molecules, our corrections due to fluctuations are about 1 part in 10<sup>7</sup>. Whereas, if we only have 100 = 10<sup>2</sup>molecules, our fluctuations are expect to be about 1 part in 10<sup>1</sup> or 10%.]</para>
+      </section>
+    <section id="import-auto-idm565868768">
+      <title>Entropy</title>
+      <para id="import-auto-idm376736448">Since the number of microstates corresponding to a particular macrostate plays a critical role, we need a way to count them in order to quantify what's going on with the probabilities. The number of arrangements is so large, that it turns out to be convenient to work with a smaller number -- the <link url="http://umdberg.pbworks.com/w/page/68375276/Powers%20and%20exponents%20(2013)"><emphasis effect="underline">log</emphasis></link> of the number of microstates. This is just like counting the powers of 10 in a large number rather than writing out all the zeros. For a very large N, the number 10<sup>N</sup> is considerably larger! And it turns out that working with the log of the number of microstates is very much more convenient. Essentially what is happening is that when you put two systems together (imagine combining two boxes of gases into one) the number of microstates of the combination is basically the <emphasis effect="italics">product</emphasis> of the number of microstates in each. (If we flip a coin 10 times, the number of microstates is 2<sup>10</sup>.  If we flip it another 10 times, the new number of microstates is 2<sup>20</sup> -- the product of 2<sup>10</sup> with 2<sup>10</sup>.) If we take the log of the number of microstates, when we add two systems together, the logs of their number of microstates add to get the total number. This turns out to be both easier to work with and to lead to a number of nice ways of expressing things mathematically.</para>
+      <para id="import-auto-idm502783440">The log of the number of distributions of the energy that correspond to the thermodynamic state of a system is termed the "entropy" of the system, and is given the symbol <emphasis effect="italics">S</emphasis>.  Another way of stating the Second Law, therefore, is to say that systems are exceedingly likely to spontaneously move toward the state having the highest entropy <emphasis effect="italics">S</emphasis>. Using the symbol W to represent the number of arrangements of the energy that correspond to a particular thermodynamics state, we can write an expression for entropy as follows:</para>
+      <para id="import-auto-idm377161280"><emphasis effect="italics">S</emphasis> = <emphasis effect="italics">k</emphasis><emphasis effect="italics">B</emphasis> ln <emphasis effect="italics">W</emphasis></para>
+      <para id="import-auto-idm570886400">The constant <emphasis effect="italics">k</emphasis><emphasis effect="italics">B</emphasis> is called Boltzmann's constant, and its value is 1.38x10<sup>-23</sup> J/K.  (Yes, it's the same constant we ran into in our discussion of kinetic theory of gases -- the gas constant <emphasis effect="italics">R</emphasis> divided by Avogadro's number, <emphasis effect="italics">N</emphasis><sub>A</sub>.)  The important thing to take from this equation is that the entropy <emphasis effect="italics">S </emphasis>is a measure of the number of arrangements <emphasis effect="italics">W</emphasis>.  As <emphasis effect="italics">W</emphasis> goes, so goes the entropy.<emphasis effect="italics"> </emphasis></para>
+      <para id="import-auto-idm638273856">But of course the number <emphasis effect="italics">W</emphasis> is usually a HUGE number, and counting up arrangements to arrive at its value would usually take you forever.  Fortunately, it is very rarely the case that we actually need to do the counting.  Rather, we usually need only to compare two thermodynamic states and to decide which one is consistent with the greatest number of microscopic arrangements.  That is the state to which the system will evolve.<emphasis effect="italics"> </emphasis></para>
+      </section>
+    <section id="import-auto-idm647455232">
+      <title>Systems</title>
+      <para id="import-auto-idm474931552">When discussing the Second Law of Thermodynamics, it is crucial to be very careful about defining the system that one is considering.  While it is always the case that the entropy of the <emphasis effect="italics">universe</emphasis> is overwhelmingly likely to increase in any spontaneous process, it is not necessarily the case that a particular sub-system of the universe will experience an increase in entropy.  If the system being studied is isolated, i.e., if no matter or energy is allowed to enter or leave the system, then the system's entropy will increase in any spontaneous process.  But, if the system is NOT isolated, it is entirely possible its entropy will decrease.  Stated more generally, it is entirely possible that<emphasis effect="italics"> </emphasis>one <emphasis effect="italics">part</emphasis> of the universe will exhibit an entropy decrease during a spontaneous process while the rest of the universe exhibits a <emphasis effect="italics">larger increase</emphasis> in entropy, such that the overall entropy in the universe has increased.  All of this is just to say that it is of utmost importance to be clear about the system to which the Second Law of Thermodynamics is being applied.<emphasis effect="italics">  </emphasis></para>
+      <para id="import-auto-idm375104288">It is not obvious at this stage that the statement of the Second Law of Thermodynamics presented here will be practically useful in understanding which processes in nature are spontaneous and which ones are not.  What, for example, does any of this have to do with the fact that heat spontaneously transfers from hot objects to cold objects and not the other way around?  What does this have to do with chairs sliding across a room?  And what does it have to do with the electrostatic potential across a biological membrane? As it turns out, the Second Law of Thermodynamics as defined above can in fact explain those examples.</para>
+    </section>
+  </content>
+</document>

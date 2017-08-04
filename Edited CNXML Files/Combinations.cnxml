@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Combinations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Combinations</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/01 09:10:25.780 GMT-5</md:created>
+  <md:revised>2017/08/01 09:10:25.998 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>combinations</md:keyword>
+    <md:keyword>factorials</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Determine the number of ways to arrange ﻿n items into subsets of ﻿r﻿ size</item>
+		</list>
+		In order to solve combinations, you need to know how to handle factorials, so make sure you understand the material in the previous section before moving on.
+		
+		This section is also available as a video <link url="https://www.youtube.com/watch?v=hcZz9Firh6w">here</link>.
+		</para></problem></exercise>
+
+
+    <para id="import-auto-idm975264736">What are the types of questions we are looking to answer with combinations? One example is, say that I have five apples of different varieties, how many different combinations of three apples are there? Another example question would be that there are four teams in an NFL division, how many games are necessary for each team to play every other team in their division? Or another example is, say I have 10 molecules in a box, how many different combinations are there with three molecules on the left-hand side and seven on the right-hand side? </para>
+    <para id="import-auto-idm2065229184">So, what is common amongst these different situations? These problems are looking at a large pool of items and trying to choose a subset where the order of the items is not important. In the first example, I’m trying to choose three apples out of five, it doesn’t matter what order I choose the apples in. In the second example, I’m choosing two teams to play each other out of the four teams in an NFL division. It doesn’t really matter what order the teams play in in this perspective, it just matters how many games do I need. And in the last example, I’m looking to choose three molecules out of ten to be on the right. It doesn’t matter which three, just that there are three. </para>
+    <para id="import-auto-idm1652291808">So, now let’s move on and try and calculate these different combinations. I will explore this in the Apple example, wherein I have five apples of different varieties and want to know how many different combinations of three apples are there. The way to calculate the number of combinations is given by the formula </para>
+    <para id="import-auto-idm395252560">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mi>!</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mi>!</m:mi>
+              <m:mi>r</m:mi>
+              <m:mi>!</m:mi>
+            </m:mrow>
+          </m:mfrac>
+          <m:annotation encoding="StarMath 5.0">{n!} over {left (n-r right ) !r!}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1081099376">where n is the number of objects in total, in this case five for the five apples, and r is the number of objects at your sub group, in this case three, because I want three apples. Plugging in the numbers into this formula, we see</para>
+    <para id="import-auto-idm1897398576">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>5</m:mn>
+              <m:mi>!</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mi>!</m:mi>
+              <m:mn>3</m:mn>
+              <m:mi>!</m:mi>
+            </m:mrow>
+          </m:mfrac>
+          <m:annotation encoding="StarMath 5.0">{5 !} over {left (5 - 3 right ) ! 3 !}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm348345248">which is </para>
+    <para id="import-auto-idm955450272">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>5</m:mn>
+              <m:mi>!</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>!</m:mi>
+              <m:mn>3</m:mn>
+              <m:mi>!</m:mi>
+            </m:mrow>
+          </m:mfrac>
+          <m:annotation encoding="StarMath 5.0">{5 !} over {2 ! 3 !}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1125547296">Calculating out the factorials, we get </para>
+    <para id="import-auto-idm1075595312">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mfrac>
+            <m:mn>120</m:mn>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">∗</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:mfrac>
+          <m:annotation encoding="StarMath 5.0">{120} over {2*6}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm391599584">which means that there are 10 different combinations of three apples, given the five that I have.</para>
+    <para id="import-auto-idm2014676448">This calculation is called a binomial coefficient, for reasons that are somewhat sophisticated, and this calculation can be represented in several different ways, and you should be familiar with all the different ways of representing this calculation, as different fields tend to use different notation. The calculation can be represented as:</para>
+    <para id="import-auto-idm723357920">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:msubsup>
+            <m:mmultiscripts>
+              <m:mi>C</m:mi>
+              <m:mprescripts/>
+              <m:mi>n</m:mi>
+              <m:mrow/>
+            </m:mmultiscripts>
+            <m:mi>r</m:mi>
+            <m:mrow/>
+          </m:msubsup>
+          <m:annotation encoding="StarMath 5.0">{{C} lsub {n} lsup {}} rsub {r} rsup {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm372747504">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:msubsup>
+            <m:mmultiscripts>
+              <m:mi>C</m:mi>
+              <m:mprescripts/>
+              <m:mrow/>
+              <m:mi>n</m:mi>
+            </m:mmultiscripts>
+            <m:mi>r</m:mi>
+            <m:mrow/>
+          </m:msubsup>
+          <m:annotation encoding="StarMath 5.0">{{C} lsub {} lsup {n}} rsub {r} rsup {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm708825120">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mo fence="true" stretchy="true">(</m:mo>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mtd>
+                    <m:mi>n</m:mi>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd>
+                    <m:mi>r</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+            <m:mo fence="true" stretchy="true">)</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">left (binom {n} {r} right )</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm388494224">These all mean the same formula for calculating combinations.</para>
+  </content>
+</document>

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Probability</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Probability</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/28 13:25:04.480 GMT-5</md:created>
+  <md:revised>2017/07/28 13:25:04.719 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>macrostates</md:keyword>
+    <md:keyword>microstates</md:keyword>
+    <md:keyword>probability</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Define probability in terms of an infinite number of trials</item>
+			<item>Calculate the mean and standard deviation for results with different amounts of probability</item>
+			<item>Define microstate</item>
+			<item>Define macrostate</item>
+		</list>
+		This section is based off of <newline />umdberg / Probability (2013). Available at: <link url="http://umdberg.pbworks.com/w/page/68375351/Probability%20%282013%29">http://umdberg.pbworks.com/w/page/68375351/Probability%20%282013%29</link>. (Accessed: 1st August 2017)
+		<newline />
+		</para></problem></exercise>
+
+    <section id="import-auto-idm194563856">
+      <title>Introducing probability</title>
+      <para id="import-auto-idm1352585328">Probability is one of those words for which we all have an intuition, but which is surprisingly hard to define.  For example, in our discussion of <link url="http://umdberg.pbworks.com/w/page/47846016/Diffusion%20and%20random%20walks"><emphasis effect="underline">diffusion</emphasis></link>, we make the assumption that particles move either to the left or right with equal probability.  But try to define what this means.  Try, more concretely, to define what it means for a coin to have an "equal probability" of coming up heads or tails—but without using words in your definition that are synonymous to "probability" (such as "chance" and "likely").  It's really hard to do!  In fact, entire branches of philosophy have been devoted to the question of how to define what is meant by "equal probability". So if you find yourself thinking hard about the probabilities we encounter, you are in good company!</para>
+      <para id="import-auto-idm1134657680">The key idea in probability is <emphasis effect="bold">lack of control</emphasis>. When we flip a coin, it's extremely hard to control which way the coin will come down. The result is very sensitive to the starting conditions you give it at a level of sensitivity greater than you can control.  Which, of course, is the point of flipping a coin.</para>
+      <para id="import-auto-idm207605536"> One definition of "equal probability" might look something like this: </para>
+      <para id="import-auto-idm1128410000"> <emphasis effect="italics">As the number of tosses of a fair coin approaches infinity, the number of times that the coin will land heads and the number of times that the coin will land tails approach the same value.</emphasis></para>
+      <para id="import-auto-idm1178999392"> Is that a useful definition?  Maybe, but it doesn't seem to capture everything that we intuitively know to be true.  We'd like to know what the chances are that the coin will land on "heads" when we toss it just once, without having to toss it an infinite number of times.  And we all have the feeling that the answer is obvious - it's ½! - even if we have a hard time expressing it rigorously.</para>
+    </section>
+    <section id="import-auto-idm1170060912">
+      <title>How would we know if it's fair?</title>
+      <para id="import-auto-idm187459488">Of course determining whether a coin is "fair" or not would require testing it an infinite number of times. And in the real world we expect that no real coin would be perfectly fair. It might be a tiny bit unbalanced so that it consistently, over many many flips, comes out 0.1% more heads than tails. Would we accept that as a "fair" coin?</para>
+      <para id="import-auto-idm1090572704">One of the interesting questions of probability is "how do you know" that a coin is fair, for example? Or better: how well do you know that a coin "appears to be fair"? This subject carries us beyond the scope of this class into the realm of <link url="http://en.wikipedia.org/wiki/Bayesian_inference"><emphasis effect="underline">Bayesian Statistics</emphasis></link>. We won't discuss that here, though we will note that Bayesian analyses play a large role in the modern approach to medical diagnosis and both medical students and biological researchers will eventually have to master this subject!</para>
+    </section>
+    <section id="import-auto-idm1092023088">
+      <title>A simple model for thinking about probabilities: a fair coin</title>
+      <para id="import-auto-idm222153968">Rather, we will make a simplified model that we can analyze in detail mathematically. We will assume that we have a <emphasis effect="italics">(mathematically) fair coin</emphasis> -- one that if it we flipped it an infinite number of times would come up an equal number of times heads and tales.</para>
+      <para id="import-auto-idm208455152">Now we can get back to our story. Let's see if we can make some interesting observations about probabilities by relying on just our intuitions. Suppose, for example, that I toss a (mathematically) fair coin ten times.  How many times will it come up "heads"?  The correct answer is:  who knows!  In ten flips, the coin may land on heads seven times, and it may land on heads only twice.  We can't predict for sure.  But what we <emphasis effect="italics">do</emphasis> know is that if it is a fair coin it is more <emphasis effect="italics">likely</emphasis> that it will land on heads 5 times than it is that it will land on heads all 10 times.</para>
+      <para id="import-auto-idm1124589456">But why do we feel that is the case?  Why is the result of 5 heads and 5 tails more likely than the result of 10 heads and 0 tails?  If each toss is equally likely to give heads as it is to give tails, why is the 5/5 result more likely than the 10/0 result? </para>
+      <para id="import-auto-idm1122321104">The answer is that there are many more ways for us to arrive at the 5/5 result than there are ways for us to arrive at the 10/0 result.  In fact, there is precisely ONE way to arrive at the 10/0 result.  Note that in stating "5/5" we are assuming that we don't care in which order the heads and tails appear -- we only care about the total number.</para>
+    </section>
+    <section id="import-auto-idm1091469136">
+      <title>If we only care about the totals: microstates and macrostates</title>
+      <para id="import-auto-idm1162925008">If we only care about the totals there is only ONE way in which you would arrive at the result that the series of tosses produced 10 heads: HHHHHHHHHH.  You have a 50% chance the first flip will be a head, a 50% change the second will be a head, and so on. Therefore the probability of 10 heads is 1/2<sup>10</sup> or 1 in 1024.</para>
+      <para id="import-auto-idm1092496992">On the other hand, here are just a few of the 252 ways of arriving at the 5/5 result: HHHHHTTTTT, HTHTHTHTHT, TTTTTHHHHH, HTTHHTTHTH. Each of these particular strings <emphasis effect="underline">also</emphasis> only has the probability of 1 in 1024 to come up, since there is a 50-50 chance of a head or a tail on each flip. But since there are 252 ways of arriving at 5/5 the chance of finding 5/5 (in any order) is 252/1024 -- much great than finding 10/0 and in fact greater than finding any other specific mix of heads and tails.</para>
+      <para id="import-auto-idm1177725184">Another way of expressing the probabilistic intuition we have been describing is to say that a system is much more likely to be in a state that is consistent with many "arrangements" of the elements comprising the state than it is to be in a state consistent with just a few "arrangements" of the elements comprising the state.  An "arrangement" in the coin toss discussion corresponds to a particular ten toss result, say, HTTHTTHHHT.  The 10/0 result is consistent with only one such arrangement, while the 5/5 result is consistent with 252 such arrangements.  </para>
+      <para id="import-auto-idm1124164928">The difference between a specific string of heads and tails and the total count (in any order) is a model of a very important distinction we use in our development of the 2nd Law of Thermodynamics. The specific string, where every flip is identified, is called a <emphasis effect="bold">microstate</emphasis><emphasis effect="bold"><emphasis effect="italics">. </emphasis></emphasis>The softer condition -- where we only specify the total number of heads and tails that result -- is called a <emphasis effect="bold">macrostate</emphasis>. In our mathematical fair coin model, what "fair" means is that <emphasis effect="italics">every microstate has the same probability of appearing</emphasis>.</para>
+      <para id="import-auto-idm1337536640">What happens as the number of tosses increases from 10 to, say, 1000?  As you might guess, it becomes even more likely to obtain a result near 500/500 than it is to obtain a result near 1000/0.  In the jargon of statistics, the probability distribution gets "sharper."</para>
+	  
+	   <media id="graphs" alt="Probability Graphs" display="block"><image mime-type="image/jpeg" src="probex.jpg" width="700" print-width="5in"/></media>
+	  
+      <para id="import-auto-idm1060095184">In chemical and biological systems we often deal with HUGE numbers of particles, often on the scale of moles (one mole of molecules contains more than 10<sup>23</sup> particles!) so one can imagine what the probability distribution looks like in such cases.  It is incredibly sharp. The only macrostate that we ever see is the most probable one. Regularities emerge from the probability that are (as long as we are talking about many particles) as strong as laws we consider to be "absolute" instead of "probabilistic".</para>
+    </section>
+	
+	<exercise id="inote12312" type="check-understanding"><label/><title><media id="inote12312i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote12312p"><para id="inote12312pp">The following is also available as a video <link url="https://www.youtube.com/watch?v=ZFMJWn6tTSg">here</link>.</para></problem></exercise>
+	
+	 <section id="import-auto-idm897232928">
+      <title>Probability, Means and Standard Deviations</title>
+      <para id="import-auto-idm575943536">Let’s begin by giving a little bit more thought to the idea of probability that you’ve explored in some of your readings. The probability of an event is the fraction of time it occurs if the process is repeated an infinite number of times. For a coin, for example, if we flip it fair coin an infinite number of times we expect that one half of them will be heads. Similarly, for a dice, we expect that if we roll it an infinite number of times, one-sixth of the rolls will be a two. Colloquially, the higher the probability, the more likely an outcome is to occur. </para>
+      <para id="import-auto-idm359910048">If one event does not affect the next, then we say that the events are independent. In this course, we will only be dealing with independent mutually exclusive events. Let’s begin by thinking about an example of interpreting the idea of probability. Say you roll a fair dice. What is the probability that you will roll a six? Well, of course the answer is one out of six. If you were to roll the dice an infinite number of times that, you would observe that one sixth of the rolls would in fact be a six. Now, let’s say you have rolled a dice three times, and the result of each roll has been a six, i.e. you have rolled three sixes in a row. What is the probability that your next roll will also be a six? Well, the answer to this is still 1/6th. Each roll is independent of the previous, so your probability of the next roll being a six is still one out of six, regardless of what has happened in the past. Dice don’t have memory, they don’t remember, so the odds of your next roll being a six are one out of six. </para>
+      <para id="import-auto-idm307744560">Now with this idea of probability, let’s move on to thinking about how to calculate means of events with differing probabilities. Consider the following set of measurements for the height of the library, as measured, in meters: </para>
+      <para id="import-auto-idm370323408">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mn>88,</m:mn>
+              <m:mn>87,</m:mn>
+              <m:mn>88,</m:mn>
+              <m:mn>90,</m:mn>
+              <m:mn>90,</m:mn>
+              <m:mn>88,</m:mn>
+              <m:mn>85</m:mn>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">88, 87, 88, 90, 90, 88, 85</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm734676432">We know how to calculate the average of a set of numbers; you add up all the numbers and then divide by the number of measurements. In this example, we would add up 88, 87, 88, 90, 90, 88, and 85 and divide by 7, to get an average of 88, but we see in this data set that each result appears to not be equally probable. 88 occurs three-sevenths of the time, and 90 occurs two-sevenths of the time. Well, we can deal with this as we just did by adding all the numbers up and counting 88 three times, or we can readjust our definition of average to include the idea of probability:</para>
+      <para id="import-auto-idm373331616">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>μ</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:munderover>
+                  <m:mo stretchy="false">∑</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mi>n</m:mi>
+                </m:munderover>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">μ = sum from {i} to {n} {{p} rsub {i} {x} rsub {i}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm873578608"> In this new definition, we don’t just add up the events, we add up the probability multiplied by the value. So, we take each value multiplied by the probability, and then add to get the mean. In this example, we say that the probability of 88 is three out of seven, so we multiply 88 and 3/7. The probability of 90 is two out of seven, and so we multiply 88 by 2/7. 87 and 85 both have probabilities of one over seven, and so we multiply 87 and 85 by 1/7. If you churn this out in your calculator, you will see that you get the exact same result of 88. So, clearly these two methods yield the same result, however, the second is more powerful if we don’t know the full data, but, say, only know the probabilities of different outcomes.</para>
+      <para id="import-auto-idm628353920">Now let’s move on to thinking about calculating standard deviations of events with different probabilities. Here in this table,</para>
+      <table id="import-auto-idm370354464" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>Value</entry>
+              <entry>Probability</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>2</entry>
+              <entry>0.2</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>0.4</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>0.1</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>0.3</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm904501936">What is the standard deviation of these data? Well, in our formula for mean, all we did was we change the 1/N to the probability of a given event. You would do the same thing for standard deviation. You do the same thing for standard deviation; instead of multiplying by 1/N out front, you bring it inside the sum, N multiplied by the probability. So now, this equation says take each event, subtract the mean, square it, multiply by the probability, and add them all up, and that will give you the standard deviation squared. Let’s test this formula using these data. We would begin by calculating the mean itself, because the mean is an element of calculating the standard deviation. So, to calculate the mean, we say the mean is the sum of the probability of an event multiplied by the value. In this case, let’s carry out this calculation for these data.</para>
+      <para id="import-auto-idm368005584">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>0.2</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>0.4</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>0.1</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mn>0.3</m:mn>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (2 right ) left (0.2 right ) + left (4 right ) left (0.4 right ) + left (6 right ) left (0.1 right ) + left (8 right ) left (0.3 right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm345294224">Evaluating this expression gives us a mean of 5.</para>
+      <para id="import-auto-idm333325440">So, now that we have a mean, we can proceed to calculating the standard deviation. The way I’m going to do this is I’m going to add a column to my table, x minus the average, or x- μ, for each value. </para>
+      <table id="import-auto-idm456553184" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>Value</entry>
+              <entry>Probability</entry>
+              <entry>(x-μ)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>2</entry>
+              <entry>0.2</entry>
+              <entry>-3</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>0.4</entry>
+              <entry>-1</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>0.1</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>0.3</entry>
+              <entry>3</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm883020832">In our definition of standard deviation, we care about this value squared, so, let’s continue and add yet another column, squaring, which will get rid of the negatives:</para>
+      <table id="import-auto-idm360577360" summary="">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Value</entry>
+              <entry>Probability</entry>
+              <entry>(x-μ)</entry>
+              <entry>(x-μ)<sup>2</sup></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>2</entry>
+              <entry>0.2</entry>
+              <entry>-3</entry>
+              <entry>9</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>0.4</entry>
+              <entry>-1</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>0.1</entry>
+              <entry>1</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>0.3</entry>
+              <entry>3</entry>
+              <entry>9</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm398406640"> Now we want to multiply each value of x minus mu squared by the probability. So, I’m going to add yet another column, probability times (x-μ)<sup>2</sup>. </para>
+      <table id="import-auto-idm650250992" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Value</entry>
+              <entry>Probability</entry>
+              <entry>(x-μ)</entry>
+              <entry>(x-μ)<sup>2</sup></entry>
+              <entry>p(x-μ)<sup>2</sup></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>2</entry>
+              <entry>0.2</entry>
+              <entry>-3</entry>
+              <entry>9</entry>
+              <entry>1.8</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>0.4</entry>
+              <entry>-1</entry>
+              <entry>1</entry>
+              <entry>0.4</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>0.1</entry>
+              <entry>1</entry>
+              <entry>1</entry>
+              <entry>0.1</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>0.3</entry>
+              <entry>3</entry>
+              <entry>9</entry>
+              <entry>2.7</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-idm307614512">Adding these numbers up as instructed gets me a standard deviation squared of 5; turns out that for this data set, the standard deviation squared, and the average are the same. That will not generally be true. I get the standard deviation itself by taking the square root of the standard deviation squared, giving me a standard deviation of 2.24. </para>
+      <para id="import-auto-idm432440816">In summary, the probability is the frequency something occurs after an infinite number of trials, and colloquially, we say that the higher the probability, the more likely a given event is to occur. With this idea of probability, we can adjust our definitions of mean and standard deviation by swapping out the 1/N out front, and instead multiplying inside the sum by the probability of each occurrence. </para>
+    </section>
+	
+  </content>
+</document>

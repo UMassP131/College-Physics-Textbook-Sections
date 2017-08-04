@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>2017-5-23 Print Test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>2017-5-23 Print Test</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/05/23 15:01:41.198 GMT-5</md:created>
+  <md:revised>2017/05/23 15:01:41.603 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<example id="customrobo">
+	<title>UMDBerg / Example: The impulse-momentum theorem</title>
+    <para id="import-auto-idm215391888">
+      <emphasis effect="italics">A box rests on an air table and can slide freely without friction. If a small frictionless puck is slid towards the box consider two situations: it bounces straight back with about the same velocity or it is captured. If the interaction times between the box and the puck are the same, which puck exerts a greater force on the box? </emphasis>
+    </para>
+	
+	<para id="image1"><media id="image1i" alt="exampleimage1" display="block"><image mime-type="image/jpeg" src="image1.jpg"/></media></para>
+	
+    <para id="import-auto-idm1729125184">This is a rather trivial problem and doesn't seem very interest. We'll see however, in the next problem that it has interesting implications. </para>
+    <para id="import-auto-idm237263488">This is a qualitative problem, but we can still use an equation to solve it: the Impulse-momentum theorem. The change in momentum of the puck is equal to the impulse it receives from the box. The box seems much bigger than the puck so lets ignore the box's motion at first.  If the puck has mass <emphasis effect="italics">m</emphasis> and velocity <emphasis effect="italics">v</emphasis> in the captured case the magnitude of the change in momentum is about <emphasis effect="italics">mv</emphasis> -- it goes from <emphasis effect="italics">mv</emphasis> to 0. In the bounces back case, the momentum of the puck goes from <emphasis effect="italics">mv</emphasis> to -<emphasis effect="italics">mv, </emphasis>so the magnitude of the change is 2<emphasis effect="italics">mv</emphasis>. (Remember that momentum is a vector quantity. It first decrease to 0, then decreases even further to negative values.) So the impulse received by the puck from the box is twice as big in the bounces back case as in the captured case. If the interaction times are the same (given) then the force the box exerts in the bounces back case is twice as big as in the captured case.</para>
+    <para id="import-auto-idm203099984">But that's the force of the box on the puck. What about the force of the puck on the box? Of course these two forces are related by <link url="http://umdberg.pbworks.com/w/page/68390209/Newton's%203rd%20law%20(2013)"><emphasis effect="underline">Newton's 3rd law</emphasis></link>: In any interaction, the force that two objects exert on each other is equal and opposite. So if we know the force the box exerts on the puck, we know the force the puck exerts on the box.</para>
+    <para id="import-auto-idm234295616">This trivial case can be imbedded in a much more interesting case: molecules hitting a wall. Again, we will take only a simple case -- a stream of molecules in a vacuum. But we will see later that the same reasoning will allow us to understand how a gas exerts pressure and to extract the physical meaning of the ideal gas law in terms of molecules. </para>
+    <para id="import-auto-idm243267648">
+      <emphasis effect="italics">Suppose of stream of gas having cross sectional area A is traveling in a vacuum and is directed at a wall. If the density of molecules in the gas is n (number of molecules per cubic meter) and they are traveling with a speed v, what will be the average force that the molecules exert on the wall if (a) they stick to the wall, and (b) they bounce off the wall with the same speed they hit the wall with? </emphasis>
+    </para>
+	
+	<para id="image2"><media id="image2i" alt="exampleimage2" display="block"><image mime-type="image/jpeg" src="image2.jpg"/></media></para>
+	
+    <para id="import-auto-idm259706528">As is typical in any problem, there are assumptions hidden in the way the problem is stated and we have to figure out how to treat it. The wall is being bombarded by lots of little molecules. Each one that hits it will exert a sudden quick force on the wall and then so will the next, and the next, etc. So there will be lots of tiny little forces that vary quickly. The problem can't mean for us to calculate those -- there isn't enough information about the wall molecule interaction. But the fact that the problem uses a macroscopic word ("wall") and a microscopic word ("molecule") suggests that we might make some reasonable approximations. </para>
+    <para id="import-auto-idm214754928">So let's assume that we have lots of molecules in the gas and that they are moving fast. The word "average" suggests that we shouldn't focus on the individual fluctuations of the force but rather on the result of lots of molecules. Since "wall" implies much, much bigger than a molecule, let's assume that the wall doesn't move significantly when a molecule hits it. (A typical molecule has a mass on the order of 10<sup>-26</sup> kg and a wall might have a mass of a few kgs.)</para>
+    <para id="import-auto-idm1708244000">Each molecule that hits the wall changes its momentum. To get a force, we might use the impulse-momentum theorem. But that gives the force the wall exerts on the molecule. We want the force the molecule exerts on the wall! Of course these two forces are related by <link url="http://umdberg.pbworks.com/w/page/68390209/Newton's%203rd%20law%20(2013)"><emphasis effect="underline">Newton's 3rd law</emphasis></link>: In any interaction, the force that two objects exert on each other is equal and opposite. So if we know the force the wall exerts on the molecule, we know the force the molecule exerts on the wall. Since the times during the interaction are equal, the impulse that the wall gives to the molecule must be equal and opposite to the impulse that the molecule gives to the wall.</para>
+    <para id="import-auto-idm1725390032">This also resolves the time issue. On a time scale natural for the wall, lots of molecules will hit it. The impulse momentum theorem tells us the amount of impulse the wall must provide to a bunch of molecules in a certain time interval, Δ<emphasis effect="italics">t</emphasis>. This will then tell us the amount of impulse the molecules provide to the wall in that time. Since we are told what happens to the velocities of the molecules, we can figure out their momentum change. Then we can calculate the average force the molecules exert on the wall.</para>
+	
+	<para id="image3"><media id="image3i" alt="exampleimage3" display="block"><image mime-type="image/jpeg" src="image3.jpg" width="300" print-width="3in"/></media></para>
+	
+    <para id="import-auto-idm200780752">This is a rather standard way to use the Impulse-Momentum theorem. If you know the momentum change in a time interval, you can infer the impulse and therefore something about the average forces during that interval.</para>
+    <para id="import-auto-idm1720051440">Let's see how that works here. Consider case (a): the molecules stick to the wall. In that case, the molecule initially had momentum mv and after the collision it basically stops. (Assuming that the wall doesn't recoil significantly. This of course depends on our assumptions about how big the wall is and how big the stream of gas is.) This means each molecule changes its momentum by an amount mv: from mv to 0.</para>
+    <para id="import-auto-idm1494275792">Now let's consider a time interval in which many molecules will hit the wall. In a time interval, Δ<emphasis effect="italics">t, </emphasis>how many will hit? To get this, look at the figure above. In a time interval, Δ<emphasis effect="italics">t</emphasis>, a molecule will move a distance <emphasis effect="italics">d = vΔt</emphasis>. If we take our distance <emphasis effect="italics">d </emphasis>in the figure to be <emphasis effect="italics">vΔt</emphasis> then all the molecules in there will hit the wall and stick. How many is that? Well, we know the density and the volume of molecules hitting the wall is <emphasis effect="italics">A</emphasis> x <emphasis effect="italics">d</emphasis> = <emphasis effect="italics">AvΔt.</emphasis> So the total number, <emphasis effect="italics">N</emphasis>, hitting the wall in that time is the density times the volume or</para>
+    <para id="import-auto-idm1726844816"><emphasis effect="italics">N</emphasis> = number hitting the wall in time <emphasis effect="italics">Δt </emphasis>=  <emphasis effect="italics">nAvΔt</emphasis></para>
+    <para id="import-auto-idm1491296416">So since each molecule changes its momentum by <emphasis effect="italics">mv</emphasis>, the total change in momentum of the molecules in that time is <emphasis effect="italics">Nmv</emphasis>, which gives a force</para>
+	
+	<para id="image4"><media id="image4i" alt="exampleimage4" display="block"><image mime-type="image/jpeg" src="image4.jpg" width="300" print-width="3in"/></media></para>
+	
+    <para id="import-auto-idm258232240">For case (b), if each molecule bounces back with the same speed as it entered it changes its momentum from <emphasis effect="italics">mv</emphasis> to -<emphasis effect="italics">mv</emphasis>, a total change of 2<emphasis effect="italics">mv</emphasis>. Therefore, the result will be twice as big as if the molecule stuck to the wall.</para>
+    <para id="import-auto-idm258773904">Joe Redish 8/6/15</para>
+	</example>
+  </content>
+</document>

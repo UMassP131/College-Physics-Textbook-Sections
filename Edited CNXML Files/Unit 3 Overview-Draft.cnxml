@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Unit 3 Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Unit 3 Overview</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/21 11:05:08.134 GMT-5</md:created>
+  <md:revised>2017/07/21 11:05:08.207 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">This overview is also available as a video <link url="https://www.youtube.com/watch?v=rzGwxTZtnrA">here</link>.</para></problem></exercise>
+
+    <para id="import-auto-idm1160749968">What is the meaning of the title of this unit? Well in our last unit, we introduced the ideas of forces and Newton’s laws, and while forces are sufficient to determine the acceleration, there are clearly other quantities that are interesting if we stop and think about it. For example, it is easier to open a door by pushing on the door on the far side from the hinge where the knob is located than by pushing on the door near the hinge. If you’ve never really thought about this while opening a door, I encourage you to go try it. Similarly, if I apply a force to a ball for a short time, I get a different result than if I apply that same force for a long amount of time. If I apply the force for a long amount of time, the final velocity of the ball will be larger. For these reasons, we will be exploring in this unit forces in conjunction with other quantities. All our principles from the last unit still work, and many of these situations could be analyzed solely within the context of Newton’s laws if you need it to. However, the new ideas we’re going to introduce in this unit are often simpler to think about and to work with. However, with all the new concepts, choosing which concept to apply in each situation becomes its own unique challenge. </para>
+    <para id="import-auto-idm590280848">So, let’s do a quick overview of the different concepts we’re going to talk about in this unit. The first unit we will discuss is torque, and this is the fact that where forces are applied can matter. So, this goes back to the door; applying a force near the hinge results in a different experience than applying a force far away from the hinge at the knob. The next quantity is impulse; how long we apply a force also matters. We will also introduce the idea of pressure. Pressure is the fact the area over which the force is applied can matter. This quantity is particularly relevant when we discuss fluids, which, remember, include both gases and liquids. The final quantity we will discuss in this unit is work. Work is the fact that the distance over which the forces applied matters. If I apply a force over a long distance, I can get a different result than if I apply that same force over a short distance. Work can also be expressed in terms of pressure to talk about the work done on, or by, fluids. </para>
+    <para id="import-auto-idm1015198032">There are some new symbols to learn when discussing these quantities. Torque is represented by the τ. Impulse is represented by <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="true">⃗</m:mo></m:mover><m:annotation encoding="StarMath 5.0">widevec {J}</m:annotation></m:semantics></m:math>; note that it is a vector quantity. Pressure, represented by the capital P, and work, I will use the capital W. Along the way in discussing these concepts, we will meet some other important ideas. </para>
+    <para id="import-auto-idm1136933456">When we discuss torque, it will be important to introduce the idea of center of gravity. Torque is when you’re interested about where the forces are being applied. If you’re interested in where the forces are being applied, then you need to think about where does the force of gravity act. This is the idea behind center of gravity. When we discuss impulse, we will introduce the quantity momentum which uses a lowercase p, and you can see is also a vector. Momentum is a quantity connected to impulse, which we will revisit in greater detail in our unit on conserved quantities. The final quantity we will introduce in this unit is the quantity of kinetic energy represented by a capital K. Kinetic energy is connected to work, and again, we will revisit this quantity in our unit on conserved quantities. </para>
+    <para id="import-auto-idm179788416">Because of all the different quantities we’re introducing in this unit, a nice way to organize them might be map. </para>
+	
+	<figure id="map"><media id="map2" alt="Map of the ideas in Unit 3" display="block"><image mime-type="image/jpeg" src="mappingunit3.jpg" width="500" /></media></figure>
+	
+    <para id="import-auto-idm148041200">So, we can think of the idea of forces from the last unit. So, a force applied at a point takes us to a torque, which we represent by the Greek τ, and the idea of torque is going to be connected to the idea of center of mass, as the center of mass dictates where gravity acts. We can also talk about forces being applied over an area, and this brings us to the idea of pressure, which again we represent by a capital P, and pressure will connect to our study of fluids. We can talk about forces being applied for some amount of time, and this brings us to the idea of impulse, J, which is connected to the idea of momentum as we’ll see in this prep, which is represented by the lowercase p. And we can talk about forces being applied for a distance, bringing us to work, W, which is related to the idea of kinetic energy, K, and both will be related to our conserved quantities unit. Also, during this prep, you will see how work connects to the idea of pressure as work being pressure times the change in volume. This idea of a map to help you sort of organize all the information is a great study tool when studying physics, and I encourage you to maybe build your own using this as a core as you go through this unit. </para>
+  </content>
+</document>

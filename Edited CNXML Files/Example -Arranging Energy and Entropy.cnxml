@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Example: Arranging energy and entropy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Example: Arranging energy and entropy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/20 13:37:19.971 GMT-5</md:created>
+  <md:revised>2017/07/20 13:37:20.242 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+
+<note id="copyright">The following is based off of <newline />1.umdberg / Example: Arranging energy and entropy. Available at:<link url="http://umdberg.pbworks.com/w/page/104869513/Example%3A%20Arranging%20energy%20and%20entropy."> http://umdberg.pbworks.com/w/page/104869513/Example%3A%20Arranging%20energy%20and%20entropy.</link> (Accessed: 20th July 2017)
+</note>
+
+
+
+    <para id="import-auto-idm573710864">The 2nd law of thermodynamics says that energy will tend to spontaneously distribute itself so that it is, on the average (and this phrase is <emphasis effect="underline">very</emphasis> important -- see <link url="http://umdberg.pbworks.com/w/page/104491534/How%20energy%20is%20distributed%3A%20Fluctuations"><emphasis effect="underline">How Energy is distributed: Fluctuations</emphasis></link>), spread equally to all degrees of freedom. It is not easy to see what this means, so let's consider a problem and work out a simple example in detail.</para>
+    <para id="import-auto-idm580675680">The entropy of a particular macrostate is proportional to the logarithm of the number of microstates corresponding to that macrostate. To see what that means and why entropy tells us about how a system will spontaneously tend to redistribute its energy, let's consider a "toy model" -- one that is sufficiently simplified that we can understand clearly the mechanism behind the mathematics.</para>
+    <para id="import-auto-idm993182384">One of the reasons that it is difficult to understand entropy as about energy distribution is that many of the degrees of freedom we deal with -- kinetic energy in three directions, energy of rotation,... -- are continuous. The energy in them can take any value. This makes it hard to see that entropy is actually about <emphasis effect="italics">counting</emphasis> -- counting the number of ways energy can be distributed. That math showing this involves breaking the continuum up into bits, counting the arrangements of those bits, and then taking a limit as the size of the bits go to zero. This involves more math than we would like to get into at this point.</para>
+    <para id="import-auto-idm160957392">Fortunately, some degrees of freedom are not continuous: they are discrete -- their energies can only take on specific values. Here are two.</para>
+	
+	
+	<figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="fig1"><media id="fig2" alt="Protons in ABField">
+          <image mime-type="image/jpg" src="ProtonsInABField.jpg" width="375"/>
+        </media>
+        
+              <caption>The alignment of the magnetic moment of protons in a magnetic field --  The protons that make up the nucleus of hydrogen atoms are little bar magnets. Because of the laws of quantum mechanics, if they are placed in a magnetic field they can only either line up with or against the magnetic field. If it's lined up with the magnetic field it has a lower energy, which, if we are only discussing magnetic energy, we can call 0. (This is the way it "wants" to be.) If it is lined up in the opposite direction from the magnetic field, it has a higher energy, which we will call E0.* </caption></figure>
+	
+    <para id="import-auto-idm169743504">If you start with a bunch of protons in a magnetic field and you have some energy, you can distribute it by flipping some number of protons against the field.  In the figure at the left, we have 6 protons, all aligned with the magnetic field, so the (magnetic) energy of the system is 0. In the figure at the right, we have flipped 3 of the protons to be anti-aligned with the magnetic field, so the energy of the system is 3<emphasis effect="italics">E</emphasis><sub>0</sub>. </para>
+	
+		<figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="fig3"><media id="fig4" alt="Protons in ABField-iots">
+          <image mime-type="image/jpg" src="ProtonsInABField-lots.jpg" width="375"/>
+        </media></figure>
+	
+	
+    <para id="import-auto-idm362138384">The orientation of the proton in a magnetic field is not only a discrete degree of freedom, it can only hold one "packet" of energy. It either has the energy <emphasis effect="italics">E</emphasis><sub>0</sub> or it has none. It can't hold 2 or 3 packets. It's like an on-or-off switch.</para>
+    <para id="import-auto-idm920289840">This system has relevance to how an MRI works.</para>
+    <para id="import-auto-idm1100077104">Now that we have (we hope!) convinced you that a model with discrete packets of energy is "not just a toy" but also useful in real physical situations, let's solve a typical problem.</para>
+	
+	<para id="question1">1. Consider a system consisting of four discrete degrees of freedom, each of which can only hold 1 packet of energy. Suppose we have 2 packets of energy to distribute. This system of 4 bins with 2 packets is a macrostate -- it's a system with a given amount of energy. How many microstates -- states corresponding to specific ways of distributing those energy packets -- correspond to that macrostate?
+ 
+What is the entropy of the macrostate with 4 bins and 2 energy packets?</para>
+	
+	<section id="questions"><title>Questions</title>
+	
+	<figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="fig56"><media id="fig23423" alt="Problem1figure">
+          <image mime-type="image/jpg" src="ArrangingEnergyF1.jpg" width="375"/>
+        </media></figure>
+	
+	<para id="question2">2. What if we have two adjacent identical systems, A and B, of 4 bins each. What is the entropy of the state with 4 packets of energy all residing in A? Compare that to the entropy of the state with 2 packets of energy in A and 2 packets in B.</para>
+	
+	<figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="fig1235125235"><media id="fig1235231521352135" alt="PProblem2figure">
+          <image mime-type="image/jpg" src="ArrangingEnergyF2.jpg" width="375"/>
+        </media></figure>
+	</section>
+	
+	<section id="solutions"><title>Solutions</title>
+    <para id="import-auto-idm205906576">1. How many ways can we put 2 packets of energy into 4 bins? Let's label the bins 1, 2, 3, and 4. We can only have one packet in a bin or none, so counting is pretty straightforward. We can put the first packet into our bins in any of 4 ways. The second packet can't go in the bin that we have used, so we have only three places to put it. So we have 12 (= 4 x 3) ways in which we can place our 2 bits of energy into 4 places. But energy is energy. If we have one packet in bin 1 and one packet in bin 3, it doesn't matter whether we put a packet into 1 first and 3 second or the other way round. Counting 4 x 3 counts both those ways separately. So we have calculated each arrangement twice. The real results is half of 4 x 3 or 6. We can easily enumerate them: We can have the bins occupied by an energy packet as: (12), (13), (14), (23), (24), and (34). A total of 6, just as we calculated.</para>
+    <para id="import-auto-idm1418703120">So there are 6 ways (microstates) of making a state with 2 energy packets in 4 bins (a macrostate). Since the entropy is</para>
+    <para id="import-auto-idm1256223216"><emphasis effect="italics">S</emphasis> = <emphasis effect="italics">k</emphasis><sub>B</sub> ln <emphasis effect="italics">W</emphasis></para>
+    <para id="import-auto-idm372160192">where W is the number of microstates, we have <emphasis effect="italics">S</emphasis> = ln 6 <emphasis effect="italics">k</emphasis><sub>B</sub> = 1.79 <emphasis effect="italics">k</emphasis><sub>B</sub>. Note that entropy has the units of <emphasis effect="italics">k</emphasis><sub>B</sub> -- energy per degree Kelvin.</para>
+    <para id="import-auto-idm206057280">2. For the second situation, our macrostate is specified by how many energy packets are in A and how many in B. (This is like specifying the temperature of each object.) Our number of microstates is the number of ways to get that result.</para>
+    <para id="import-auto-idm1327457984">For the first situation, all 4 packets in A, there is only one way we can do it. Since each bin can only hold one packet, we have to put one in each. Since there is only one way, the entropy of this macrostate is <emphasis effect="italics">S</emphasis> = <emphasis effect="italics">k</emphasis><sub>B</sub> ln <emphasis effect="italics">W </emphasis>= <emphasis effect="italics">k</emphasis><sub>B</sub> ln 1 = 0.</para>
+    <para id="import-auto-idm208762688">For the second situation, since the order doesn't matter (all energy packets being equivalent), we can put 2 packets into A first and then 2 packets into B. In part 1 we calculates that there were 6 ways to put 2 packets into 4 bins. So there are 6 ways to put 2 packets into A and 6 ways to put 2 packets into B. You can enumerate them just as we did in part 1. So how many total ways are there? Just the product of 6 x 6 = 36. We can easily see this by looking at what a particular microstate looks like. For A we have a list of 6 possibilities: (12), (13), (14), (23), (24), (34). For B we have a similar list. Any AB microstate is a specification something like: </para>
+    <para id="import-auto-idm764207552">A(13)B(24). Clearly there are 6 x 6 possibilities. So the entropy of this macrostate is <emphasis effect="italics">S</emphasis> = <emphasis effect="italics">k</emphasis><sub>B</sub> ln <emphasis effect="italics">W </emphasis>= <emphasis effect="italics">k</emphasis><sub>B</sub> ln 36 = 3.58 <emphasis effect="italics">k</emphasis><sub>B</sub>. (It should be no surprise that this is twice the entropy of the state found in 1.)</para>
+    <para id="import-auto-idm607282768">This tells us that the transition from all the energy in A (A hot, B cold -- entropy = 0) can spontaneously go to a state where A and B have equal energies (same temperature -- entropy =3.58 <emphasis effect="italics">k</emphasis><sub>B</sub>.)</para>
+	
+	</section>
+    <para id="import-auto-idm684823472">* This has the value <emphasis effect="italics">μB</emphasis>, where <emphasis effect="italics">μ</emphasis> is the magnetic moment of the proton and <emphasis effect="italics">B</emphasis> is the strength of the magnetic field.</para>
+    <para id="import-auto-idm370242944">** The reduced mass of two masses, m<sub>1</sub> and m<sub>2</sub>, is equal to m<sub>1</sub>m<sub>2</sub>/(m<sub>1</sub>+m<sub>2</sub>). This adjusts the KE for the fact that both masses are moving in coordinated ways. See <link url="http://umdberg.pbworks.com/w/page/99210514/Center%20of%20Mass%3A%20General%20(technical)"><emphasis effect="underline">Center of Mass</emphasis></link> and <link url="http://umdberg.pbworks.com/w/page/53869907/Diatomic%20vibrations"><emphasis effect="underline">Diatomic Vibrations</emphasis></link>.</para>
+    <para id="import-auto-idm910847056">Joe Redish 2/4/16</para>
+  </content>
+</document>

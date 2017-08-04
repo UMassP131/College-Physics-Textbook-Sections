@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Torque</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Torque</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/31 11:50:01.051 GMT-5</md:created>
+  <md:revised>2017/07/31 11:50:01.292 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>torque</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<!--Intro Notes v2-->
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Calculate the net torque exerted by any force on any object including sign</item>
+			<item>Describe how to get the maximum torque on an object for a given force</item>
+			<item>Contrast force and torque</item>
+			<item>Identify the net torque and net force acting on an object at rest</item>
+		</list>
+		This section is also available as a video lecture, available here:
+		<list id="links">
+		<item><link url="https://www.youtube.com/watch?v=gWHELBPNNKU">Introduction to Torque</link></item>
+		<item><link url="https://www.youtube.com/watch?v=HjEojBTKveo">Torque Examples</link></item>
+		</list>
+		</para></problem></exercise>
+
+    <para id="import-auto-idm1137778192">Before we go into torque, here’s a little exercise to try out (yes, it involves doors). With a friend and a door, have your friend push the door open normally, by the doorknob. While they are pushing the door open, try and push back door close to the hinge (be careful not to apply too much force and slam the door into each other). Notice how much force you need to apply to resist the door opening. Now switch positions; notice how much force you need to apply to open the door.</para>
+    <para id="import-auto-idm907327920">This raises an interesting question; why does the person pushing near the hinge need a lot more force to overcome the force being applied near the doorknob? To understand what’s happening here, we need to add another tool to our physics toolbox: torque.</para>
+    <para id="import-auto-idm919916416">Torque is the turning effect of a force. If a force would cause an object to rotate, like pushing on a door, that force is applying a torque. Mathematically, we represent torque as</para>
+    <para id="import-auto-idm336783264">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>τ</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>r</m:mi>
+            </m:mrow>
+            <m:msub>
+              <m:mi>F</m:mi>
+              <m:mi>⊥</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">τ =r {F} rsub {⊥}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm840718432">The r is the distance from the axis of rotation in which the force is being applied, and the F is the force perpendicular to the r. Notice that torque is a vector, and therefore has a direction. However, for torque, we don’t apply the traditional up, down, left, right, and so on. Instead, we consider torque to be acting in two directions, clockwise and counterclockwise. A net torque of zero means that all the torque going counterclockwise is equal to the force going clockwise. The units of torque or Nm.</para>
+    <para id="import-auto-idm379411280">Let’s go back to our door example, and try to figure out why the person pushing the door by the doorknob will generally beat out the person pushing near the hinge. If both pushers are pushing at relatively the same amount of force, we can say the force part of the torque is the same for both pushers. However, torque is both dependent on force and the distance from the axis of rotation, in this case the hinge. The person pushing closer to the hinge has a smaller r than that of the person pushing by the doorknob. Notice that in the equation for torque, if r increases, torque increases as well. Thus, we can see why the doorknob pusher has the advantage; their r is larger, so their torque will generally be larger as well.</para>
+    <para id="import-auto-idm1592784000">The r in our equation above references an axis of rotation; what if the object is not rotating at all? This situation gives a freedom when working with problems. If the net torque is zero, then we can put the axis of rotation wherever we want along the axis of (something something). For example, in the case with the door, if it’s not rotating, then we can put the axis of rotation anywhere along the axis of the door; we could put it on the doorknob, the hinge, the middle of the door, or even miles away from the door, as long as the door is not rotating. A general rule of thumb is to put the axis of rotation on a point where a force is acting that we do not know and we’re not looking for.</para>
+    <example id="example1"><para id="import-auto-idm1150327520">The pedals of a bicycle rotate in a circle with a diameter of 40cm. What is the maximum force a 55-kg rider can apply by putting all her weight on one pedal?</para>
+    <para id="import-auto-idm879254608">Let’s start by considering the situation. The rider applies their force at the end of the pedal, and the pedal rotates at the center, so the distance away from the axis of rotation the force is being applied to should be the distance of the pedal from the center, or the radius of the circle the pedal makes. The diameter is 40 cm, so the radius is 20 cm, or 0.2 m. Next, if the maximum force the rider can apply is all their weight, then the maximum force is equal to the force of weight on the rider, mg. The mass of the rider is 55 kg, so the force is (55 kg)(9.81 kg/N), or 539.55 N. Now we can take our definition of torque and solve for these values, so: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo fence="true" stretchy="true">(</m:mo><m:mrow><m:mrow><m:mn>0.2</m:mn><m:mi>m</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="true">)</m:mo></m:mrow></m:mrow><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>539.55</m:mn><m:mi>N</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">τ = left (0.2 m right ) (539.55 N)</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-idm1324887552">Evaluating this gives us 107.91 Nm, which is the maximum torque. </para>
+   </example>
+   <example id="example2">
+ 
+    <para id="import-auto-idm370611408">A bolt is screwed into a machine you are trying to disassemble, and it needs a torque of 20 Nm to unscrew.  How much force do you need to apply to the end of a 30 cm wrench, at an angle of 30 degrees from the wrench, to unscrew the bolt?</para>
+    <para id="import-auto-idm912049088">A good starting place with any problem is a simple drawing of the problem:</para>
+	
+	<media id="wrench1" alt="A simplified picture of the wrench" display="block"><image mime-type="image/jpg" src="wrenchexample1.jpg" width="300" print-width="3in"/></media>
+	
+    <para id="import-auto-idm915323328">Here, r is the length of the wrench, F is the force applied, and θ is the angle the force makes with the wrench. Going back to our definition of torque,</para>
+    <para id="import-auto-idm1596225360">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtext mathvariant="bold">τ</m:mtext>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>r</m:mi>
+            </m:mrow>
+            <m:msub>
+              <m:mi>F</m:mi>
+              <m:mi>⊥</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">τ =r {F} rsub {⊥}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm912208080">we have the torque, which is the minimum torque needed to unscrew the bolt, and we have the distance from the axis of rotation to the force, which is the length of the screw. Since the force we’re looking for is the force perpendicular to the lever arm, in this case the wrench, and so we need to find the perpendicular part of the force: </para>
+	
+	<media id="wrench2" alt="A simplified picture of the wrench with the perpendicular forcee as well" display="block"><image mime-type="image/jpg" src="wrenchexample2.jpg" width="300" print-width="3in"/></media>
+	
+    <para id="import-auto-idm1565661600">Since the perpendicular part of the force is perpendicular to the wrench, we know the angle it makes is 90 degrees, and so we know that the angle between the force and its perpendicular part is (90-30) degrees, or 60 degrees. F<sub>⊥</sub> is the adjacent to the force, which tells us that F<sub>⊥</sub>=Fcos(60). Now we have all the parts to solve for F. Substituting our values into the definition of torque:</para>
+    <para id="import-auto-idm803990560">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>20</m:mn>
+            <m:mrow>
+              <m:mi mathvariant="italic">Nm</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>.3</m:mn>
+                    <m:mi>m</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow>
+              <m:mo fence="true" stretchy="false">(</m:mo>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="italic">Fcos</m:mi>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mn>60</m:mn>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mo fence="true" stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">20Nm = (.3 m)(Fcos(60))</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1316432224">Solving for F brings us to:</para>
+    <para id="import-auto-idm1594329040">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>F</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>20</m:mn>
+                <m:mi mathvariant="italic">Nm</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>.3</m:mn>
+                <m:mi>m</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>cos</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="true">(</m:mo>
+                        <m:mrow>
+                          <m:mn>60</m:mn>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="true">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">F = {20Nm} over {.3m ( cos  {left (60 right )} )}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm894689664">Which gives us a force of 133.33 N, which is the force needed to unscrew the bolt.</para>
+   </example>
+  </content>
+</document>

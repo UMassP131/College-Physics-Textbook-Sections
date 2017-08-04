@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Unit 5 Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Unit 5 Overview</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/28 10:28:32.917 GMT-5</md:created>
+  <md:revised>2017/07/28 10:28:33.259 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>entropy</md:keyword>
+    <md:keyword>probability</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+    <para id="import-auto-idm1046050320">This is our last unit of the course. Throughout this course, we have been progressing from more concrete concepts to more abstract. If you think back, we began with the concept of velocity, which people are familiar with from speedometers on their cars. Then, we move to the idea of force which people can physically feel, you can feel a push or pull, then we moved into “forces and...”, torque, impulse, work. These ideas are a little bit more abstract but rooted heavily in the idea of force. Energy is a bit more abstract of an idea, most people have some experience with energy from previous science courses, but trying to define what energy really is and getting used to thinking about it on a huge variety of distance scales can be a bit of a challenge. Now we are going to cover the one last idea of this course, which is yet still a little bit more abstract, this idea of entropy. </para>
+    <para id="import-auto-idm847362320">So, why are we covering entropy? Well, I have two answers. First, a practical answer. Many of you have seen entropy in a previous class, typically chemistry. For example, here is a slide from Chem 112 at UMass, and many of you will see this idea again. Entropy changes can help determine if reactions proceed spontaneously or not, and appears in the all-important Gibbs free energy. Typically, up to this point, you’ve either done qualitative arguments about entropy increases or decreases, or looked up standard entropies of formation in tables, but what is this quantity that you’re using, in, say, Chem 112? Well, the typical answer in many courses that introduced the idea of entropy is disorder, but what is disorder? How do you quantify it? And disordered by whose perspective? Disorder, that’s a very nebulous idea. Who gets to decide what’s an ordered state and what’s a disordered state? And it turns out that this definition isn’t even correct, so I think that if you’re going to deal with the topic, as much as many of you will deal with the idea of entropy, you should know what it is. </para>
+    <para id="import-auto-idm870646640">There’s another, second more physicist answer as to why I think we should cover entropy. In a sense the whole discipline of physics, not just this course, but the whole discipline of physics, from this course to the very frontiers of modern research can really be boiled down to a few key ideas. </para>
+	
+		  <media id="keyideas" alt="Three Fundamental Ideas of Physics" display="block"><image mime-type="image/jpeg" src="threemainideas.jpg" width="700" print-width="5in"/></media>
+	
+    <para id="import-auto-idm350073136">Forces and Newton’s laws, here written as ∆p/∆t and Newton’s third law, energy and its conservation, and the last one is entropy. So, in this green box, we have the definition of entropy here and what’s known as the second law of thermodynamics. No matter how much physics you study, you’re still looking at how different objects respond to forces, how energy is conserved, what is the entropy in the system and how is it changing. Since forces, energy, and entropy are three of the fundamental pillars of physics, I feel it would be remiss to leave entropy out. </para>
+    <para id="import-auto-idm358370576">So, what is entropy then? If it’s not disorder what is it? Well, let’s think about what is going on at the microscopic level. At the microscopic level, things are of course always changing. Molecules are moving around, chemical reactions are always proceeding, but many of these changes do not affect the microscopic picture. For example, from chemistry, when you add two reactants, the reaction never really stops, we just reach an equilibrium point where the number of reactions going in one direction equals the number of reactions going in the other direction. The molecules are constantly interacting with each other, forming bonds, dissociating bonds. At the microscopic picture, we have a hubbub of activity but at our macroscopic scale we don’t see a lot of change. So, what do I mean when we say we don’t see a lot of change at the macroscopic level? We mean the total energy in the system, the pressure, if it’s a gas, the volume, all these types of quantities that are easily measured in macroscopic level. Entropy is the number of ways that I can rearrange things on the microscopic level, which we call the number of microstates, which we will indicate by a letter W (no, this is not the work W, this is a different W, conventions are conventions). So, how many ways can I rearrange things, how many different microstates, are there that don’t change the macroscopic world: that is what entropy is. So, it turns out that counting the number of ways energy can be distributed microscopically while leaving the macroscopic world unchanged has important implications, which is weird when you stop and think about it. I mean, the number of possible ways I can arrange things seems like a very theoretical construct, and to make matters more interesting, the numbers we’ll be dealing with will be ginormous. 10 to the 10 to the 23 is not a surprising number to deal with when you start talking about the number of ways to arrange energy amongst all the molecules in a room. These types of numbers start to appear. That is a one with a mole of zeros after it. That’s a big number. These huge and seemingly theoretical numbers are the basis of what entropy is. </para>
+    <para id="import-auto-idm364214768">So, what do I want you to get out of this unit? I want you to have a beginning of a grasp of what entropy is and how we can quantify it. I want you to understand why some processes proceed spontaneously due to entropy considerations. And finally, I want you to understand how entropy can drive processes in a way that results in final states that might seem more ordered to us, but are in actuality an increase in the number of microstates when you consider the whole system. The following prep videos and reading and homework problems will lay the groundwork of some of the basic mathematics you will need to study this topic. This concludes this video. </para>
+  </content>
+</document>

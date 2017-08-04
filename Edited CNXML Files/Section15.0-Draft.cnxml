@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>15.0 Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>15.0 Introduction</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/20 12:36:55.156 GMT-5</md:created>
+  <md:revised>2017/07/20 12:36:56.416 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			
+			<item>Define entropy in terms of the number of microstates</item>
+			<item>State the fundamental principle of statistical mechanics; that all microstates are equally likely</item>
+			<item>Calculate the entropy for simple configurations</item>
+			<item>From the entropy, determine the number of microstates available</item>
+			
+			
+		</list>
+		
+		These topics apply to this entire chapter, so keep these in mind as you read on.
+		
+		</para></problem></exercise>
+
+
+    <para id="import-auto-idm807052608">Entropy is a weird and abstract concept. However, you might have encountered entropy before. The entropy we will discuss in this class is the same entropy in Gibbs free energy that you may have seen in one of your chemistry classes. You may have also heard of entropy before as being “disorder”. If this is the case, <emphasis effect="italics">please forget this idea</emphasis>, as a lot of confusion surrounding entropy involves this concept of disorder. The idea of entropy as disorder is an outdated one, and is sometimes simply not true.</para>
+    <para id="import-auto-idm1020128480">Consider a bowl of ice sitting in water. Eventually, the ice will melt, and we’ll be left with just a bowl of water. While a bowl of ice inside water may seem more “disorderly” than a uniform bowl of water, the water is a higher entropy state than the water with ice. We’ll discuss why this is in more detail in class. </para>
+    <para id="import-auto-idm899628448">Getting a handle on the concept of entropy will take some time. We are not expecting you to fully understand it through the readings, and we will work in class to help develop this concept. As always, what we do expect you to know will be listed at the top of each section, under the UMass instructor’s notes.</para>
+  </content>
+</document>

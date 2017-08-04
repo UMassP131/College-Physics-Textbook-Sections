@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Weight and Gravity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Weight and Gravity</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/24 14:59:03.678 GMT-5</md:created>
+  <md:revised>2017/07/24 14:59:04.306 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>gravity</md:keyword>
+    <md:keyword>Newton</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+    <md:keyword>weight</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">This section is also available as a video, available here: <link url="https://www.youtube.com/watch?v=5RiNj5IiTbg">https://www.youtube.com/watch?v=5RiNj5IiTbg</link></para></problem></exercise>
+
+    <para id="import-auto-idm210666880">Gravity is one of the fundamental forces. We’re going to explain gravitational interactions in terms of the idea of the gravitational field, which we indicate by the little letter g. We’ll discover that this field is a vector, hence the little vector symbol above the variable. We’re going to describe when the so-called flat earth gravity is a valid approximation. </para>
+    <para id="import-auto-idm652050064">So, let’s think a little bit about the history of physics’ understanding of the force of gravity. The first real description of the force of gravity comes from Isaac Newton in 1687. Isaac Newton was the first person to think about the fact that the same force that causes an apple to fall from a tree keeps the moon in orbit around the Earth. Both are consequences of the force of gravity. But, you might say to yourself, the apple falls straight down, while everyone knows that the moon goes around and around and around. These seem like fundamentally different motions. </para>
+    <para id="import-auto-idm623034624">Here’s an applet that can help us think about gravity like Isaac Newton did: <link url="http://waowen.screaming.net/revision/force&amp;motion/ncananim.htm">http://waowen.screaming.net/revision/force&amp;motion/ncananim.htm</link> (if you cannot get the applet to work, the YouTube version of this section has a run through of this applet). Play around with the velocities; try launching the ball at 2000 m/s, 3000 m/s, and 4500 m/s. For the 2000 m/s and 3000 m/s launch, the cannonball shoots out, goes some distance, and then falls to the earth. However, the cannonball at 4500 m/s acts differently. The cannonball never actually hits the earth. It keeps falling around and around and around and around, without ever hitting, and this is the crux of what an orbit is. It’s falling and then missing. The reason you miss is because the earth falls away faster than you fall towards the center, and this was Isaac Newton’s realization, that the same force of attraction that pulls an apple to the ground holds the moon in orbit around the earth. </para>
+    <para id="import-auto-idm692229632">This was a very revolutionary idea for the time because back in the 17th century it was thought that different physical laws operated on earth then operated in “the heavens”, as they called it at that time. So, apple falling and moon orbiting related by the fundamental idea of gravity. This is one of the most powerful and first examples of a single fundamental idea explaining a variety of different phenomena, and really shows you the power of fundamental ideas in physics. </para>
+    <para id="import-auto-idm737011584">So, let’s stop and think for a second. How does the moon, or if you prefer, the apple know that the earth is there? I mean, the moon is very far away from the earth. It’s not touching the earth; how does the moon know that the earth is there? Well, Isaac Newton himself could not come up with a particularly good answer to this question. He called it “action at a distance” and sort of left it at that. Now, the way we modern physicists envision this is we say that the earth generates what’s known as a gravitational field, and this gravitational field is an invisible field that extends out from the earth in all directions. This is the gravitational field that we indicate in this class by little g, and it has a direction so it’s a vector, hence the little vector symbol above the g. The moon does touch the gravitational field, because this gravitational field, these are just some sample lines, the gravitational field goes everywhere, so the moon does touch the gravitational field of the earth, and it responds to this gravitational field by feeling a force, and the magnitude of the moon’s force, or the magnitude of the force from the earth on the moon, is the magnitude of the gravitational field from the earth at the spot of the moon multiplied by the mass of the moon. </para>
+    <para id="import-auto-idm1143516928">This is the fundamental idea of the field. This field concept will be used at great more length in Physics 132 in the context of the electric field. Looking at this definition of force in terms of gravitational field, we can see the units of gravitational field. The units of force are newtons, the units of mass are kilograms, and therefore the units of the gravitational field must be newtons over kilograms, or people will say it newtons per kilogram. </para>
+    <para id="import-auto-idm668192784">So, let’s review the fundamental features of this gravitational field. Every object with mass, not just planets but every object with mass, including yourself, generates a gravitational field, little g. Now, planets are the only things that generate big enough gravitational fields to matter, but everything generates a gravitational field. Every object with mass interacts with all the fields around it by feeling a force. </para>
+    <para id="import-auto-idm644258240">So, in the case of our apple the earth generates a gravitational field down, and the apple interacts with that field by feeling a force towards the Earth. You might ask yourself, “well, doesn’t the apple generate its own field?”. Yes, the apple does generate its own field, albeit a very tiny one, so the apple will also generate a very tiny field towards it, and the earth will respond to that tiny field by feeling a force upwards. We’ll talk a little bit more about this seeming paradox, we don’t see the earth move, in class, but it is true. So, every object interacts with all the other fields by feeling a force, m times g. It’s important to keep in mind that objects don’t or interact with their own field, they only interact with the surrounding fields. So, the apple interacts with the field of the earth and the earth interacts with the field from the apple. The earth doesn’t interact with its own field. We’ve already talked about the fact that the units of g are newtons per kilogram, and the consequence of this is that every object in the universe with mass attracts each other. So, any two objects with mass in the entire universe attract each other, which might lead you to the question, “why doesn’t the whole universe just collapse?”. If everything with mass is attracting each other, it seems like everything we just fall into one big giant heap. Well the answer is that the field, and therefore the force, since the force is equal to the mass of an object times the field, gets smaller with distance. So, if the field gets smaller, the force will get smaller, and this gets smaller with distance from the center of the object. That’s the relevant quantity not distance from the surface, but distance from the center. This has important implications for our class. </para>
+    <para id="import-auto-idm707585904">So, how are we going to deal with gravity in this class? Remember. the gravitational field gets weaker as the distance from the center of the object. in our case. the earth. because we’re all on the earth. increases. In this course, we’re going to be dealing with everyday heights that we all can experience. These are all very small compared to the radius of the Earth. The radius of the Earth is 10^6 meters: 6 million meters. Even if you were to go to the top of Mount Everest, which is the highest mountain on Earth, as you probably, know that’s still an only an extra 8,000 meters, and you’ve only increased your distance from the center of the earth by a very tiny amount. Thus, for this course we are always essentially the radius of the earth from the center. This is called the “flat-earth approximation” now this might seem like a very strange idea; you’re in a university physics class and we’re talking about the earth being flat. Well, we’re not really. We’re making an approximation at the earth is flat, and the approximation is in other words that the earth is very big compared to anything else we’re dealing with. Even compared to Mount Everest the earth is huge, and so we can treat it as very big, in which case it is essentially flat. We don’t have to worry about the fact that the earth is round so thus it’s called the “flat-earth approximation”. Now, if you were to go to, say, the moon, which is many times further away than the size of the earth, this approximation would no longer be valid, but if you’re close to the surface of the earth and this approximation is good, then the gravitational field is going to be essentially constant. We’re only moving very tiny amounts relative to the radius of the earth, so the gravitational field as far as we are ever going to experience is not really going to change. It’s going to be constant. This constant value has been measured to be 9.8 newtons per kilogram. Therefore, in this class, we will say that the force of gravity from the earth on an object, whatever it is, and forces are vectors, will be the mass of the object, say an apple, times g, where this g is 9.8 newtons per kilogram. </para>
+    <para id="import-auto-idm662684576">We will also occasionally speak of this force of gravity as the weight force. This is just equivalent terminology, two different names for the same thing. The weight force is often indicated by a w. Again, it’s a vector, so again, it would be, the weight force would be the mass of the object times g, where this g is still the 9.8 newtons per kilogram. This is how we will deal with weight force and gravitational forces in this class, but I thought it relevant to bring up why the moon goes around the earth, how this is connected to falling objects, because it demonstrates the power of fundamental ideas. </para>
+  </content>
+</document>

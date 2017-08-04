@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Units of Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Units of Energy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/03 12:24:59.823 GMT-5</md:created>
+  <md:revised>2017/08/03 12:25:00.693 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+    <para id="import-auto-idm189775872">If energy is defined as the ability to do work, then energy and work must have the same units. Thus, the SI unit of the energy is the Joule (recall 1J=1Nm=1kgms2). Energy, however, is one quantity where there are many other units in common use in scientific literature including electron-Volts (eV), kilowatt-hours (kW∙hr), calories, and Calories. In this course, we will be using Joules and electron-Volts exclusively. We are including these other units for your reference. </para>
+    <section id="import-auto-idm201879408">
+      <title>Electron-Volts</title>
+      <para id="import-auto-idm198323296">A common quantity in chemistry is the electron-Volt or eV. One electron-Volt is the amount of energy gained by an electron as it travels between the two ends of a 1 Volt battery (a concept that will be discussed in more detail when you study electricity). Numerically, 1eV = 1.602×10<sup>-19</sup>J. The reason this unit is common in chemistry is that the energies of atomic bonds are typically about 1eV as shown in the table below</para>
+      <table id="import-auto-idm181666400" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>Bond</entry>
+              <entry>Bond-dissociation energy at 298K (eV/Bond)</entry>
+              <entry>Comment</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>C-C</entry>
+              <entry>3.60-3.69</entry>
+              <entry>Strong, but weaker than C–H bonds</entry>
+            </row>
+            <row>
+              <entry>Cl-Cl</entry>
+              <entry>2.51</entry>
+              <entry>Indicated by the yellowish colour of this gas</entry>
+            </row>
+            <row>
+              <entry>H-H</entry>
+              <entry>4.52</entry>
+              <entry>Strong, nonpolarizable bondCleaved only by metals and by strong oxidants</entry>
+            </row>
+            <row>
+              <entry>O-H</entry>
+              <entry>4.77</entry>
+              <entry>Slightly stronger than C–H bonds</entry>
+            </row>
+            <row>
+              <entry>OH-H</entry>
+              <entry>2.78</entry>
+              <entry>Far weaker than C–H bonds</entry>
+            </row>
+            <row>
+              <entry>C-O</entry>
+              <entry>11.16</entry>
+              <entry>Far stronger than C–H bonds</entry>
+            </row>
+            <row>
+              <entry>O-CO</entry>
+              <entry>5.51</entry>
+              <entry>Slightly stronger than C–H bonds</entry>
+            </row>
+            <row>
+              <entry>O=O</entry>
+              <entry>5.15</entry>
+              <entry>Stronger than single bondsWeaker than many other double bonds</entry>
+            </row>
+            <row>
+              <entry>N=N</entry>
+              <entry>9.79</entry>
+              <entry>One of the strongest bondsLarge activation energy in production of ammonia</entry>
+            </row>
+            <row>
+              <entry>H<sub>3</sub>C-H</entry>
+              <entry>4.550</entry>
+              <entry>One of the strongest aliphatic C–H bonds</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="import-auto-idm1094094000">
+      <title>Kilowatt Hours</title>
+      <para id="import-auto-idm1116150672">When you buy electricity from the power company, the bill says how many kilowatt hours you have purchased. A Watt is a unit of a quantity called <emphasis effect="italics">power</emphasis> and 1 Watt is equal to 1 Joule/second: 1W = 1 J/s. Thus, a kilowatt hour is: </para>
+      <para id="import-auto-idm179945920">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">kW</m:mi>
+                      <m:mo stretchy="false">∗</m:mo>
+                      <m:mi mathvariant="italic">hr</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1000</m:mn>
+                      <m:mi>W</m:mi>
+                    </m:mrow>
+                    <m:mi mathvariant="italic">kW</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mi>J</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>W</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>3600</m:mn>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                      <m:mi mathvariant="italic">hr</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>3.6106</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>J</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>3.6</m:mn>
+              </m:mrow>
+              <m:mi mathvariant="italic">MJ</m:mi>
+              <m:mi>s</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (1 kW * hr  right ) left ({1000 W} over {kW} right ) left ({1 J/s} over {W} right ) left ({3600 s} over {hr} right ) =3.6106   J=3.6   MJ s</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm1134580480">The calorie is an imperial unit of energy that is still in common use in the nutritional sciences in the United States. One calorie (lowercase c) is the amount of energy needed to raise 1g of water 1<sup>o</sup>C or 1 cal = 4.814J. On food labels, you will see energy listed in Calories (capital C). One Calorie is equal to 1kilocalorie; in other words, 1 Cal = 1000 cal. Thus, one 1 Cal = 4814 J. In other countries, you will see food labels in both Calories and Joules like the one shown in Figure 1.</para>
+      </section>
+	  
+	  <figure id="import-auto-id1563742">
+      <media id="import-auto-id2600697" alt="">
+        <image mime-type="image/jpg" src="calories.jpg" width="200"/>
+      </media>
+       <caption>A food label from the UK showing the energy of the food in both Joules and kcal (or Calories).</caption>
+    </figure>
+	  
+  </content>
+</document>

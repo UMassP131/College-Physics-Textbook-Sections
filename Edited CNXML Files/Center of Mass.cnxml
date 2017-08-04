@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Center of Mass</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Center of Mass</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/07/26 09:41:51.966 GMT-5</md:created>
+  <md:revised>2017/07/26 09:41:52.213 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>center of mass</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+	
+	<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Given a series of masses, be able to calculate the position of the center of mass</item>
+			<item>Construct a definition of center of mass that contains all of its attributes</item>
+		</list>
+		</para></problem></exercise>
+		<section id="import-auto-idm492150192">
+      <title>What is Center of Mass?</title>
+      <para id="import-auto-idm219783360">Center of mass is an idea with multiple facets that are all related. The center of mass is the mass weighted average location of an object. Furthermore, the center of mass is the point at which gravity acts. When we get into our discussion of torque, we’re going to be interested in the location at which each force is applied, which means we’re going to need to figure out where the force of gravity acts. The force of gravity acts at the center of mass. So, the first part of the definition of center of mass is a mass weighted average location of an object. Another term for center of mass is center of gravity; there are some differences between the two, but for this course, these two terms will be synonymous. </para>
+      <para id="import-auto-idm494493312">Now, this is a lot going on, so, let’s think about what a weighted average is first in a context with which you are probably more familiar with the idea. Think about your grades; not each assignment in a course counts the same. For example, in this class, the weights for the different assignments are provided in the table on the left.</para>
+	  
+	  <media id="grades" alt="Grading Scheme of Physics 131" display="block"><image mime-type="image/jpeg" src="gradetable.jpg" width="700" print-width="5in"/></media>
+	  
+      <para id="import-auto-idm267331392"> Now, if you got the grades in the table on the right, what would your final grade be in this course? The weighted average is equal to the sum of all the values times its worth over the total, or</para>
+      <para id="import-auto-idm263604432">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mo stretchy="false">∑</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi mathvariant="italic">Value</m:mi>
+                  <m:mo stretchy="false">∗</m:mo>
+                  <m:mi mathvariant="italic">Worth</m:mi>
+                </m:mrow>
+                <m:mi mathvariant="italic">Total</m:mi>
+              </m:mfrac>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">sum {Value* {Worth} over {Total}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm492572544">Let’s work this through for this example. So, in this example this hypothetical student achieved in 95, so that would be the value on the online homework, and the online homework is worth 10 out of a total of 100.</para>
+      <para id="import-auto-idm523709872">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mn>95</m:mn>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">∗</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>10</m:mn>
+                    <m:mn>100</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (95 right ) *( {10} over {100} )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm498288640"> Now I just repeat this for all the different categories, and then add them all up.</para>
+      <para id="import-auto-idm494634736">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mn>95</m:mn>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>10</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>75</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>9</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>70</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>14</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>70</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>14</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>70</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>14</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>70</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>14</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>90</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>18</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>95</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>9</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>85</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>85</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>100</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mn>85</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>100</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (95 right ) left ({10} over {100} right ) + left (75 right ) left ({9} over {100} right ) + left (70 right ) left ({14} over {100} right ) + left (70 right ) left ({14} over {100} right ) + left (70 right ) left ({14} over {100} right ) + left (70 right ) left ({14} over {100} right ) + left (90 right ) left ({18} over {100} right ) + left (95 right ) left ({9} over {100} right ) + left (85 right ) left ({4} over {100} right ) + left (85 right ) left ({4} over {100} right ) + left (85 right ) left ({4} over {100} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm510908672"> If you do out this calculation, you get an 81.05, which if you go and look at the syllabus is a B+. This is a weighted average of scores for the course. </para>
+      <para id="import-auto-idm510908240">Center of mass is similarly a weighted average, only we’re using mass to weight our average, and we’re averaging position. So, let’s look at this example of a 5-kilogram object and a 2-kilogram object, and let’s calculate the center of mass for these two objects. </para>
+	  
+	  <media id="example1" alt="Center of mass of two point masses" display="block"><image mime-type="image/jpeg" src="cogexample.jpg" width="400" print-width="5in"/></media>
+	  
+      <para id="import-auto-idm510907696">The first step is to establish a coordinate system. We’re talking about positions I need a coordinate system, so I’m going to establish the positive x direction to be towards the right. Now we can apply the same idea with the grades here with the weight. We can set the position of the 5-kilogram to 0m, and the 2kg to 2m, and the weighted totals will be the position of each weight times its mass over the total mass, or:</para>
+      <para id="import-auto-idm637713616">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mi>m</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                        <m:mi mathvariant="italic">kg</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mi mathvariant="italic">kg</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>m</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (0m right ) left ({5kg} over {7kg} right ) + left (2m right ) left ({2kg} over {7kg} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm521528144">Notice that the kilograms units will cancel out, leaving it in meters. Since meters is what we’re looking for, since we’re looking for the position of the center of mass, this makes sense. If I plug this into a calculator, we can see that I get a numerical value of 0.57 meters, which means that the center of mass is somewhere here, much closer to the 5-kilogram object than to the 2-kilogram. </para>
+      <para id="import-auto-idm521527472">Now let’s consider a 2-dimensional example.</para>
+      
+	  <example id="example2d">
+      <para id="import-auto-idm492453344">The drawing shows a sulfur dioxide molecule. The sulfur atom is twice as massive as the oxygen atom. Using this information and the data provided in the drawing, find the x and y coordinates of the center of mass of the sulfur dioxide molecule.</para>
+	  
+	  	  <media id="so2" alt="Sulfur dioxide molecule" display="block"><image mime-type="image/png" src="cogexample2.png" width="400" print-width="5in"/></media>
+	  
+      <para id="import-auto-idm492452832">As usual, when working in two dimensions, we separate the x and y directions. There’s no mass given in this problem, but we can just give the mass of the oxygen the variable M, which would make the mass of the sulfur atom 2M, since it’s twice as massive. We also need to set up our coordinate system; let’s have the positive x direction be towards the right, the positive y direction to be up, and we can set the sulfur atom to be at 0m in the x and 0m in the y. </para>
+      <para id="import-auto-idm203608528">Let’s look at the sulfur atom to start. The set up for the center of mass contribution of the sulfur atom in the x-direction is:</para>
+      <para id="import-auto-idm203608256">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mi mathvariant="italic">cm</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>M</m:mi>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>M</m:mi>
+                      <m:mi mathvariant="italic">tot</m:mi>
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{x} rsub {cm} = left (x right ) left ({2M} over {{M} rsub {tot}} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm537445728">M<sub>tot</sub> will be the sum of the masses, which will be the mass of both oxygen atoms and the sulfur atom, or 4M. x is 0m, since we set the position of the sulfur atom to be at 0m. This 0m will make the whole value go to zero, so x<sub>cm</sub> is 0 for the sulfur. Similarly, since the y position is also 0m, y<sub>cm </sub>is also 0m.</para>
+      <para id="import-auto-idm527215056">Now let’s look at the oxygen atoms. Again, we use the same setup, and we can substitute M<sub>tot</sub> with 4M:</para>
+      <para id="import-auto-idm490897360">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mi mathvariant="italic">cm</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>M</m:mi>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mi>M</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{x} rsub {cm} = left (x right ) left ({M} over {4M} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm219394640">The Ms cancel out here, giving us:</para>
+      <para id="import-auto-idm219394384">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mi mathvariant="italic">cm</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{x} rsub {cm} = left (x right ) left ({1} over {4} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm489936016">Doing a little trigonometry will give us our x-distance; making a triangle with the line going from the sulfur atom to the oxygen atom and the oxygen atom to the y-axis gives us an x distance sin(60)*0.153nm, or 0.124nm. For the oxygen atom on the left, this value is negative, since it’s going left from the origin, and the one on the right is positive, since it’s going right of the origin. Plugging these into the center of mass calculation gives us:</para>
+      <para id="import-auto-idm489935280">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0.124</m:mn>
+                    <m:mi mathvariant="italic">nm</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>0.124</m:mn>
+                      </m:mrow>
+                      <m:mi mathvariant="italic">nm</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (0.124nm right ) left ({1} over {4} right ) + left (-0.124nm right ) left ({1} over {4} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm490198096">Doing the calculation out gives us 0nm.</para>
+      <para id="import-auto-idm490197840">Alternatively, you can consider the symmetry of the problem. Since the masses are symmetrical both to the left and the right, we can conclude that the center of mass is going to fall along the y-axis at x=0nm. Noticing these symmetries can save you some time, and give you a way to check if your answer makes sense.</para>
+      <para id="import-auto-idm490197248">Moving on to the y-direction, we can do the same set up as the x-direction. Doing the trigonometry for the y position gives us cos(60)0.143nm, or 0.072nm. Since both oxygen atoms are above the origin, they are both positive distances away, so our calculation would be:</para>
+      <para id="import-auto-idm490196704">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0.072</m:mn>
+                    <m:mi mathvariant="italic">nm</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>0.072</m:mn>
+                      <m:mi mathvariant="italic">nm</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (0.072nm right ) left ({1} over {4} right ) + left (0.072nm right ) left ({1} over {4} right )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm651840368">Note that unlike the x-components, the y-components do not cancel out. Doing the calculation gives us 0.036nm. We can write our final answer in coordinates as (0nm, 0.036nm).</para>
+		</example>
+    </section>
+    <section id="import-auto-idm492570928">
+      <title>Non-point particles</title>
+      <para id="import-auto-idm651839360">But what about objects that aren’t collections of point particles? Well, if the object is uniform, and this is a very important caveat, then the center of mass will be at the geometric center of the object. For example, if we have say a meter stick, then the center of mass will be at the 50-centimeter mark as that’s the middle of the meter stick. If I have a metal washer, then the center of mass will be at the geometric center, right in the middle. You can notice that the center of mass does not need to be inside the body of the object. It can in fact be some random point in space. The center of mass of the washer is not within the metal, it’s within the center of the hole. </para>
+	  
+	   <media id="example6" alt="Center of mass examples" display="block"><image mime-type="image/jpeg" src="comnonpoint1.jpg" width="400" print-width="4in"/></media>
+	  
+      <para id="import-auto-idm203484880">But what about objects that are not uniform? Well, the answer in this case is divide the object up into uniform chunks, find the center of mass of each chunk, treat each chunk is a point particle located at the center of mass, and then calculate as usual. </para>
+      <para id="import-auto-idm651838704">So, here I have a nice example problem of a slab made of a light half and a heavy half, and let’s think about trying to find the center of mass of this object. Thinking ahead, I expect it to be on this side of the middle, because this is the heavier side of the object. Furthermore, I can already say from the symmetry of the problem that the center of mass is going to lie along this line, right in the middle, vertically, of the object. </para>
+	  
+	   <media id="comexample2" alt="Non-point Mass" display="block"><image mime-type="image/jpeg" src="comnonpoint2.jpg" width="400" print-width="5in"/></media>
+	  
+      <para id="import-auto-idm203484288">Now we follow the same procedure with point masses. First, we establish a coordinate system; we’ll set the origin to be at the center of mass of the left chunk. This will simplify our calculation for reasons we’ll explore in a bit. We’ll also have to break down the problem into x and y coordinates. However, like earlier in this section, we can look at the symmetry of the problem to simplify it. You’ll notice that the object is symmetrical in the y direction, and therefore we can assume that the center of mass will be at y=0m. Next, we set up our center of mass calculations for each chunk. For the left chunk, we have:</para>
+      <para id="import-auto-idm489662960">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mi>m</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">∗</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi mathvariant="italic">kg</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mrow>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (0m right ) *( {2kg} over {2kg+8kg} )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm655237344">Again, we take the position of the point mass and weight it with its mass over the total mass. Since the position is at 0m, however, we know it’ll go to 0; this is why we set the origin to be at the center of mass of one of the objects. Moving on to the right chunk, we’ll need to find the position of its center of mass. The center of mass of the object will be at its geometric center, and we can see that there’s 1 meter on each side of the center of mass, and 2 meters separating both center of masses. So, we have:</para>
+      <para id="import-auto-idm655236544">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>m</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">∗</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi mathvariant="italic">kg</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mrow>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (2m right ) *( {8kg} over {2kg+8kg} )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm224115856">And the total weighted average of the center of mass will be:</para>
+      <para id="import-auto-idm224115600">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mi mathvariant="italic">com</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">∗</m:mo>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                          <m:mi mathvariant="italic">kg</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mrow>
+                            <m:mi mathvariant="italic">kg</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>8</m:mn>
+                          </m:mrow>
+                          <m:mi mathvariant="italic">kg</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{x} rsub {com} =0+ left (2m right ) *( {8kg} over {2kg+8kg} )</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm231352992">Doing the calculation, we get 1.6m, so the center of mass will be just to the left of the center of mass of the right chunk.</para>
+      <para id="import-auto-idm231352592">So, that’s one part of the definition for center of mass, the mass weighted average position of the object. The center of mass is also the location where gravity can be said to act. As I said at the beginning of this video, when we discuss torque, we’ll be interested in where each force acts. For example, when I open a door, I tend to apply the force at the knob in the door. Gravity acts at the center of mass. </para>
+      <para id="import-auto-idm231352336">So, if we look at this chicken and we were to make a free body diagram, we would say there are two normal forces, one for each foot, and the weight force, but now we’re going to start thinking about where each force is being applied. The two normal forces are being applied one on each foot, so they’re being applied there, and the weight force is applied at the center of mass, or the center of gravity, remember that these are synonymous terms as far as this class is concerned, which is roughly in the middle of the chicken. </para>
+	  
+	  <media id="example12414" alt="You're just a little chicken ch-ch-ch-ch-cheep cheep cheep" display="block"><image mime-type="image/jpeg" src="comnonpoint3.jpg" width="500" print-width="4in"/></media>
+	  
+      <para id="import-auto-idm254128256">So, the normal forces get applied where the feet meet the ground and the weight force gets applied at the center of gravity, or the center of mass. So, this is the second part of the definition of center of mass. The center of mass is the point where gravity can be set to act. This part of the definition of center of mass has some consequences. The first piece is that if an object is suspended from a point, then the center of mass will be below the point from which it is hung. </para>
+	  
+	  <media id="example098120980980" alt="balancing act" display="block"><image mime-type="image/jpeg" src="comnonpoint4.jpg" width="500" print-width="4in"/></media>
+	  
+      <para id="import-auto-idm254127504">So, let’s say we have some oddly shaped object, and I suspend it from a point like here, and I draw a nice line hanging straight down. The center of mass is somewhere on that line. Now, if I take this same object and hang it from a different point, I know that the center of mass is somewhere on this line. Where the two lines cross will be the center of mass. This technique is useful for finding the center of mass of irregular objects. Another consequence of the definition of center of mass as being the point where gravity is said to act means that the center of mass is what follows the parabolic path that we know and love for objects and projectile motion. So, this hammer follows a rather complicated path, but the center of mass, which is closer to the head of the hammer, follows a nice parabolic path just like a ball would. </para>
+	  
+	  <media id="example123125152" alt="Hammer time" display="block"><image mime-type="image/jpeg" src="comnonpoint5.jpg" width="400" print-width="4in"/></media>
+	  
+      <para id="import-auto-idm209957472">A final consequence of the center of mass being the point which gravity said to act deals with the balance of an object. Now, if you hold an object under its center of mass, it will balance. So, for the hammer in the previous example, if I put my finger close to the head of the hammer, I can balance the hammer at that point. However, more complicated objects we’re usually interested in not balancing on a single point, so we need to define a quantity known as base of support, and the base of support is the region where the object contacts the ground, plus the space in between. </para>
+      <para id="import-auto-idm209956608">So, for the example of our chicken the base of support is this area between the feet of the chicken, or if you were to look at a person in some rather fancy shoes, the base of support is everywhere the foot contacts the ground, so, this line here connected by a line, plus all the region in between. All of this is the base of support. if the center of mass of an object is above the base of support, then an object will balance. We will explore this in a laboratory activity in class in more tail and become more comfortable with this idea. Right now, what I want you to take away from it is the definition of base of support, and the fact that center of mass sort of has an aspect of its definition, which is that if the center of mass is over the base of support than an object or balance.</para>  
+    </section>
+    <section id="import-auto-idm651839664">
+      <title>Summary</title>
+      <para id="import-auto-idm655824112">The center of mass in the center of gravity are, as far as this course is concerned, the same idea, so we might alternate between these two different terms, but as far as we’re concerned, they’re the same. And the definition of center of mass has many different aspects. The first aspect is that the center of mass is the mass weighted average position of an object, and that this point does not need to be inside the object itself, as we saw in the example of the washer. Second aspect of the center of mass is the center of mass is the point at which the force of gravity can be thought to act, and this aspect of the center of mass is definition has a couple of important consequences. The first is that, if an object is suspended, then the center of mass will be below this suspension point on a straight line. We can also say that the center of mass is what follows the parabolic path in projectile motion. A perhaps subtler consequence of this aspect of the center of mass’ definition, as being the point at which gravity can be thought to act, is that an object will balance if its center of mass is over its base of support which again, base of support is defined as all of the points where an object meets the ground connected by straight lines, and all of the area inside. </para>
+    </section>
+  </content>
+</document>

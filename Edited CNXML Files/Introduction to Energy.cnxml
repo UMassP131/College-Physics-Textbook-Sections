@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Introduction to Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Introduction to Energy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/03 09:37:14.502 GMT-5</md:created>
+  <md:revised>2017/08/03 09:37:14.767 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+	<?cnx.eoc class="section-summary" title="Section Summary"?>
+<?cnx.eoc class="conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="problems-exercises" title="Problems & Exercises"?> 
+<?chapter-toc label="Key Concepts"?>
+	
+
+    <para id="import-auto-idm434994736">Up to this point in the course, we’ve really been talking about forces. Now we’re going to change things up and talk about a quantity that you may be familiar with from previous science courses: the idea of energy. This chapter introduces this idea. In the next chapter, we’ll begin our formal study of energy by looking at some of the same macroscopic phenomena we have been discussing already: falling objects, sliding with friction, and other such situations. We’ll just be looking at these same situations from a different viewpoint. It turns out that you can describe any phenomenon we’ve talked about in the course up to this point either way, either with energy or with forces, although often, one is easier than the other. In the subsequent chapter we’ll move on and use our idea of energy at the microscopic scale to understand completely new phenomena that are very directly related to ideas you might have discussed in the chemistry or a biology course. </para>
+    <para id="import-auto-idm435567808">So, what is energy? in short, energy is the ability to do work. That’s the definition that we’ll be using in this course. You can also flip this on its head with the change of perspective, however, and say that work is one way of transferring this quantity known as energy. Before we get too deep into it, it’s probably worth comparing briefly the idea of energy and the idea forces. So, up to this point we’ve been talking about forces, and forces are an idea of instance. We look at the forces that are acting on an object “right now”, and “right now” is all that matters, and then we can work instant by instant like we did in our simulations to study the motion of an object. Most physics courses begin with the idea of forces because they’re easy to get a feel for what a force is., we’ve all experienced pushes and pulls.</para>
+    <para id="import-auto-idm677013136"> Energy, on the other hand, is an example of a conservation law. Energy is a quantity that never changes through a process. This allows us to relate two points in time that are not directly next to each other. So, with forces, we had to take very tiny little time steps. With energy, we can go from the beginning of a process all the way to the end, not care too much about the middle, and know that energy is going to be conserved. So, why don’t we start with energy? Well, energy can be conceptually a little bit more difficult to get your head around. What exactly is energy; it’s a little bit more abstract of an idea, which is why most physics courses, including this one, put it off until after a discussion of forces. </para>
+    <para id="import-auto-idm390375504">So, what’s the big point of the next three chapters? So, you’ve probably dealt with energy before in a previous science class. Our goal is to develop a coherent picture of energy across different scientific disciplines and across a large variety of different distant scales, from the sizes that we experience in our everyday world of people and cars and trees, all the way down to the atomic and molecular scale. We will, therefore, deal with several different ideas that can seem unrelated. We’ll talk about boxes on hills and fish on springs and the kinetic energy of, say, cars, but we’ll also talk about the kinetic energy of molecules, which we’ll find out is directly related to the idea of temperature, and we’ll talk about energy transfer through random collisions of particles on the atomic scale, which we’ll talk about as the idea of heat. These different ideas and others including chemical bonds are connected by the idea of energy. </para>
+    <para id="import-auto-idm682626576">So, again, let’s review how the next three chapters are laid out this current chapter provides a basic overview of what energy is, identifies the two main types of energy, kinetic and potential energy, identifies two main scales of energy we’ll discuss in this class, the macroscopic scale of people, cars, etc., and the microscopic scale of atoms and molecules. The next chapter discusses energy on this macroscopic scale of people cars and so forth, and the chapter after that really gets into energy on the microscopic scale, atoms, molecules, and temperature. </para>
+  </content>
+</document>
