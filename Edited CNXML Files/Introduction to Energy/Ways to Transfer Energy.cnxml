@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Ways to Transfer Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Ways to Transfer Energy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/03 14:32:20.913 GMT-5</md:created>
+  <md:revised>2017/08/03 14:32:21.046 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>heat</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Understanding the difference between heat and temperature</item>
+			<item>Understanding the differences between the different types of heat transfer</item>
+		</list>
+		</para></problem></exercise>
+		
+
+    <para id="import-auto-idm1135701664">So what ways are there to transfer energy into or out of a system? Well we already know of one way: work. If we do positive work on a system (the force we apply is in roughly the same direction as the displacement), then we will add energy <emphasis effect="italics">in</emphasis>. Conversely, if we do negative work on a system (force essentially opposing the displacement) then energy is leaving the system. This should make some intuitive sense: we expect for positive work that the object will speed up - the object will gain kinetic energy. On the other hand, if we do negative work, we expect that the object will lose kinetic energy. </para>
+    <para id="import-auto-idm1695333792">There is another way to transfer energy into or out of a system: heat which we represent by the letter Q. At its core, <emphasis effect="italics">heat is the transfer of energy by collisions at the microscopic scale</emphasis>.</para>
+    <section id="import-auto-idm1707378016">
+      <title>Heat</title>
+      <para id="import-auto-idm1661153856">We already know that work is one way in which we can transfer energy, but you might be thinking to yourself, is there another way we can transfer energy into or out of a system? We know, for example, that if I place a warm soda in contact with the cold ice cube, the soda cools and some of the ice cube melts until the two come to a constant temperature. It certainly seems that energy is being transferred in this process; how is the energy being transferring in a process like this? </para>
+      <para id="import-auto-idm1255395328">This method of energy transfer is known as heat. Heat is a transfer of energy; an object cannot have heat any more than an object can have work. It’s also important to keep in mind the distinction between heat and temperature. The symbol for heat that we will use is the letter Q. Since it is a measure of transferred energy, heat will have the unit of joules, just like work and energy do. The sign convention for heat that we will adopt is that when energy flows into a system, Q is positive, and when energy flows out of a system, heat is negative. </para>
+      <para id="import-auto-idm927473568">There are three main ways to transfer heat into or out of a system. The first method is conduction, which is essentially when you place a metal stick in a fire, the other end of the stick gets hot, the second method is convection, which occurs when you have say a pot of water over a flame, and the third method is radiation, where light from the Sun warms the earth. Let’s now explore these three processes in a little bit more detail. </para>
+      <section id="import-auto-idm336711216">
+        <title>Conduction</title>
+        <para id="import-auto-idm1050487008">Conduction occurs when atoms in a material collide with each other. So. let’s assume we have some sort of solid, and of course inside the solid the atoms are arranged in some regular pattern. When we place one end the solid in the flame, the atoms nearest the flame gain energy and begin to vibrate more vigorously, increasing their temperature. These atoms bump into the atoms next to them, which bump into the atoms next for them, and so on and so on, transferring energy up the rod. This transfer of energy through the molecular collisions of the atoms within the rod is known as heat. In a solid, the atoms are very close together and can easily bump into each other, and therefore solids transfer heat quite well. In liquids and gases, on the other hand, the atoms are a little further apart, and so don’t collide as often. They can still transfer energy as heat through conduction, just not as well, because the collisions won’t be as frequent. in a metal on the other hand, the C electrons that bind the metal together are free to move around and collide with each other. These C electrons, since they can travel so far, result in a lot of collisions, and result in metals conducting heat very well. Heat will quickly result in the transfer of energy from one end of a piece of metal to the other, which is why it’s easy to burn your hand on a piece of metal that’s hot on one end. </para>
+      </section>
+      <section id="import-auto-idm1077702512">
+        <title>Radiation</title>
+        <para id="import-auto-idm321998416">So, in our first example, the fire caused the atoms nearest to it in the solid to begin to move. Well, how did this happen? Well the fire generates particles of light energy called photons that will be discussed in some detail in Physics 132. These photons, some of them travel and collide with the atoms in the solid, giving them their energy and causing them to move, and setting off the chain that we talked about in conduction. This transfer of energy through molecular collisions involving photons is called heat by radiation. This is the mechanism by which the earth gets its energy from the Sun. There is no matter in between the earth and the Sun to provide a mechanism for conduction. The only mechanism of heat transfer is through radiation of photons emitted by the Sun, which can travel through the vacuum of space. </para>
+      </section>
+      <section id="import-auto-idm1074304704">
+        <title>Convection</title>
+        <para id="import-auto-idm1195384000">The final way the transfer heat is called convection. Now, convection is a little bit more complicated than the other mechanisms, so we won’t go into it in detail, but in short, convection is the transfer of energy through the bulk motion of a fluid, so a fluid in physics means either a liquid or a gas, and by the bulk motion, we mean giant currents of liquid or gas moving through the material. In our example of a pot of water on a stove, the liquid near the bottom of the pot gains energy through conduction. Flame gets the bottom of the pot warm through radiation, and the bottom of the pot is in contact with the liquid and transfers energy by conduction. Now the water at the bottom of the pot is warmer than the surrounding. Warmer fluids tend to have lower density, so this warm fluid near the bottom rises to the top carrying its energy with it, and cooler liquid settles to the bottom, and thus we get this current up in the middle and down the outside, bulk motion of the water transferring energy through the system. This is something that we see a lot and is of critical importance in the motion of the oceans. Cool water from the poles sinks to the bottom of the ocean, travels down to the equator, where it’s warmed up by the Sun, and then rises back to the top, distributing energy and nutrients throughout the ocean. </para>
+      </section>
+      <section id="import-auto-idm1195056480">
+        <title>Summary</title>
+        <para id="import-auto-idm1279930576">So, now we’ve talked about the three methods of heat transfer, conduction, radiation, and convection. What’s the commonality between these three different methods? These three different methods are, at the microscopic level, the transfer of energy through random collisions. In conduction, the atoms are colliding with each other, in radiation you have the collision of photons with atoms, and in convection you have the transfer of energy through the motion of the fluid itself. And this is what heat really is, it’s the transfer of energy through collisions at the microscopic scale. </para>
+        <para id="import-auto-idm1246373520">In summary, heat which we will use the letter Q to represent, is another way of transferring energy. Energy entering the system has positive heat in our convention, and energy leaving the system has negative heat in our convention. This energy transfer can occur in one of three ways, conduction, convection, or radiation, but these methods are, at the molecular level, collisions between particles. This concludes this video. </para>
+      </section>
+    </section>
+  </content>
+</document>

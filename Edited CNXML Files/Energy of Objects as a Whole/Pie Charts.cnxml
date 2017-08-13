@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Graphical Tools for Analyzing Situations Using Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Graphical Tools for Analyzing Situations Using Energy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/10 12:30:20.924 GMT-5</md:created>
+  <md:revised>2017/08/10 12:30:32.051 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+    <para id="import-auto-idm399753840">As we have seen throughout this course, being able to represent concepts in multiple formats can be useful. Throughout the course, we have represented ideas in words, equations and graphs. Graphical representations can also be a useful way of analyzing situations involving energy, albeit we will need a new type of graph: a pie chart. </para>
+    <para id="import-auto-idm298825584">Pie charts are particularly useful in the, common, case where there is little to no energy entering or leaving the system of interest. In these cases, the total amount of energy is constant and the only changes are from one form of energy to another. The quantity of interest is then: what fraction of the total energy is in each form? Representing such fractions of a whole is the strength of the pie chart. </para>
+    <example id="import-auto-idm757314224">
+      <title>14.7.1 A First Example</title>
+      <para id="import-auto-idm381159600">
+        <emphasis effect="bold">Problem</emphasis>
+      </para>
+      <para id="import-auto-idm493599472">The use of pie charts is probably best illuminated by an example. As per the usual approach in physics, we will start with the simplest possible case to get the fundamental principles and then add complications. Consider the case of a ball being dropped straight down as in <emphasis effect="bold">FIGURE</emphasis>. We will only look at the situation before the ball hits the floor and ignore any impacts of air resistance. Let’s think about the energy for the four instants shown: </para>
+      <list id="import-auto-idm292279152" list-type="bulleted">
+        <item>The instant the ball is released</item>
+        <item>A short time after the ball </item>
+        <item>Halfway to the ground</item>
+        <item>Just before the ball hits the ground</item>
+      </list>
+      <figure id="import-auto-idm773996336">
+        <media id="import-auto-idm446359056" alt="">
+          <image mime-type="image/png" src="image42.png" height="491" width="302"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm238249952">
+        <emphasis effect="bold">
+          <emphasis effect="italics">FIGURE: </emphasis>
+        </emphasis>
+        <emphasis effect="italics">A ball falls from a height. Four instants in the fall are shown: the ball as it is just released, the ball after falling a short distance, the ball after falling ½ the way, and the ball just before it hits the ground. The arrows to the side get longer to represent that the ball is moving faster as it falls. </emphasis>
+      </para>
+      <para id="import-auto-idm414896336">
+        <emphasis effect="bold">Solution</emphasis>
+      </para>
+      <para id="import-auto-idm280475600">The instant the ball is released the ball is not moving at all and therefore has no kinetic energy. All of the ball’s energy is gravitational potential energy. We would represent this with a simple pie chart showing 100% of the energy as gravitational potential energy</para>
+      <figure id="import-auto-idm281305504">
+        <media id="import-auto-idm591062448" alt="">
+          <image mime-type="image/png" src="image47.png" height="374" width="625"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm453274624">A short time after the ball is released, the ball has gained a little bit of kinetic energy, but most of the energy is still gravitational potential energy. Now, not enough information was provided to be quantitative, but we can say that most of the pie should still be gravitational potential energy and our graph might look like the one below. </para>
+      <figure id="import-auto-idm744567792">
+        <media id="import-auto-idm385491712" alt="">
+          <image mime-type="image/png" src="image14.png" height="378" width="624"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm944945344">When the ball is halfway to the ground we can be a bit more specific. Initially the ball was at some height <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>y</m:mi><m:annotation encoding="StarMath 5.0">y</m:annotation></m:semantics></m:math>, and therefore had an initial gravitational potential energy <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:msub><m:mi>U</m:mi><m:msub><m:mi>i</m:mi><m:mi>g</m:mi></m:msub></m:msub><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">mgy</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{U} rsub {{i} rsub {g}} =mgy</m:annotation></m:semantics></m:math>. Now that the ball is halfway to the ground, the height must be <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mfrac><m:mi>y</m:mi><m:mn>2</m:mn></m:mfrac><m:annotation encoding="StarMath 5.0">{y} over {2}</m:annotation></m:semantics></m:math> and the gravitational potential energy is <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:msub><m:mi>f</m:mi><m:mi>g</m:mi></m:msub></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi mathvariant="italic">mgy</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{U} rsub {{f} rsub {g}} = {1} over {2} mgy</m:annotation></m:semantics></m:math> or ½ of its initial value. Since the total energy must be constant, the rest of the energy MUST be kinetic and we end up with a pie chart that is 50% potential energy and 50% kinetic energy as shown. </para>
+      <figure id="import-auto-idm592670016">
+        <media id="import-auto-idm415712416" alt="">
+          <image mime-type="image/png" src="image18.png" height="372" width="625"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm293696544">At the instant before the ball hits the ground, the height of the ball is essentially zero and therefore the ball has no more potential energy and all of its energy must be kinetic. Therefore, at this instant, we get a pie-chart that is 100% kinetic energy as shown. </para>
+      <figure id="import-auto-idm452356752">
+        <media id="import-auto-idm252848800" alt="">
+          <image mime-type="image/png" src="image40.png" height="375" width="624"/>
+        </media>
+      </figure>
+    </example>
+    <example id="import-auto-idm759709840">
+      <title>14.7.2 Another Example with Two Objects</title>
+      <para id="import-auto-idm416158592">
+        <emphasis effect="bold">Problem</emphasis>
+      </para>
+      <para id="import-auto-idm402987920">In this case, we have two objects of unequal mass tied together over a frictionless pulley as shown. The heavier object is suspended above the ground on which the lighter object, which has half the mass rests. Draw the energy pie charts for:</para>
+      <list id="import-auto-idm905276736" list-type="bulleted">
+        <item>The initial condition </item>
+        <item>The situation where the large mass has fallen halfway to the floor and the small block has, due to the fact that they are tied together, risen the same distance. </item>
+      </list>
+      <figure id="import-auto-idm734878512">
+        <media id="import-auto-idm472329568" alt="">
+          <image mime-type="image/png" src="image15.png" height="495" width="624"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm916903248">
+        <emphasis effect="bold">
+          <emphasis effect="italics">FIGURE: </emphasis>
+        </emphasis>
+        <emphasis effect="italics">The setup for this example as described in the text where the large block of mass <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>M</m:mi><m:annotation encoding="StarMath 5.0">M</m:annotation></m:semantics></m:math> is suspended a height <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>h</m:mi><m:annotation encoding="StarMath 5.0">h</m:annotation></m:semantics></m:math> above the ground on which a small block of mass <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">M/2</m:annotation></m:semantics></m:math> rests. </emphasis>
+      </para>
+      <figure id="import-auto-idm286143552">
+        <media id="import-auto-idm281777696" alt="">
+          <image mime-type="image/png" src="image16.png" height="499" width="616"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm715214656">
+        <emphasis effect="bold">
+          <emphasis effect="italics">FIGURE: </emphasis>
+        </emphasis>
+        <emphasis effect="italics">The final condition of the situation of interest, the large block has fallen half of its initial height while the small block has, because they are tied together, risen the same distance. </emphasis>
+      </para>
+      <para id="import-auto-idm299911984">
+        <emphasis effect="bold">Solution</emphasis>
+      </para>
+      <para id="import-auto-idm746869760">For the initial conditions, all of the energy is in the gravitational potential energy of the large block. The total energy in the system is <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:msub><m:mi>E</m:mi><m:mi mathvariant="italic">tot</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>U</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">Mgh</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{E} rsub {tot} = {U} rsub {g} =Mgh</m:annotation></m:semantics></m:math></para>
+      <figure id="import-auto-idm298496768">
+        <media id="import-auto-idm239310240" alt="">
+          <image mime-type="image/png" src="image45.png" height="370" width="624"/>
+        </media>
+      </figure>
+      <para id="import-auto-idm414933104">This situation is a bit more interesting and it would be best to look at the different elements of the system one at a time. Remember the total energy of the system cannot change and is <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:msub><m:mi>E</m:mi><m:mi mathvariant="italic">tot</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">Mgh</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{E} rsub {tot} =Mgh</m:annotation></m:semantics></m:math> Potential Energy of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>M</m:mi><m:annotation encoding="StarMath 5.0">M</m:annotation></m:semantics></m:math>: The block is now at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">h/2</m:annotation></m:semantics></m:math> which means that its potential energy is now <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:msub><m:mi>g</m:mi><m:mi>M</m:mi></m:msub></m:msub><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">Mg</m:mi></m:mrow><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">{U} rsub {{g} rsub {M}} =Mg( {h} over {2} )</m:annotation></m:semantics></m:math> which is half the total energy of the system so the potential energy of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>M</m:mi><m:annotation encoding="StarMath 5.0">M</m:annotation></m:semantics></m:math> should be 50% of our pie. <figure id="import-auto-idm775861024"><media id="import-auto-idm464804032" alt=""><image mime-type="image/png" src="image38.png" height="366" width="624"/></media></figure> Potential Energy of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">M/2</m:annotation></m:semantics></m:math>: This block has risen <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">h/2</m:annotation></m:semantics></m:math> (the distances must be the same as the two blocks are tied together). Thus, the potential energy of this block is now <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:msub><m:mi>g</m:mi><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:msub></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mfrac><m:mi>M</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:mi>g</m:mi><m:mrow><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mi mathvariant="italic">Mgh</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{U} rsub {{g} rsub {M/2}} =( {M} over {2} )g( {h} over {2} )= {1} over {4} Mgh</m:annotation></m:semantics></m:math> or ¼ of the total. Thus the potential energy of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">M/2</m:annotation></m:semantics></m:math> should be 25% of our pie. <figure id="import-auto-idm960990160"><media id="import-auto-idm422495200" alt=""><image mime-type="image/png" src="image41.png" height="374" width="624"/></media></figure> This leaves the two kinetic energies, which by conservation of energy MUST add up to 25% of the total. Moreover, the two blocks MUST be going at the same speed (again, because they are tied together). However, the two blocks do NOT share the kinetic energy equally. The block <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mi>M</m:mi><m:annotation encoding="StarMath 5.0">M</m:annotation></m:semantics></m:math> is twice the mass of the block <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">M/2</m:annotation></m:semantics></m:math>! If the two kinetic energies add up to 25%, then we have <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mi mathvariant="italic">tot</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>K</m:mi><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">{1} over {4} {E} rsub {tot} = {K} rsub {M} + {K} rsub {M/2}</m:annotation></m:semantics></m:math>.Knowing that <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">{K} rsub {M/2} = {1} over {2} {K} rsub {M}</m:annotation></m:semantics></m:math> and substituting we can see <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mi mathvariant="italic">tot</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">{1} over {4} {E} rsub {tot} = {K} rsub {M} + {1} over {2} {K} rsub {M} </m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mi mathvariant="italic">tot</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">{1} over {4} {E} rsub {tot} = {3} over {2} {K} rsub {M} </m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow><m:msub><m:mi>E</m:mi><m:mi mathvariant="italic">tot</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">{K} rsub {M} = {1} over {6} {E} rsub {tot} </m:annotation></m:semantics></m:math> or <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>K</m:mi><m:mi>M</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{K} rsub {M}</m:annotation></m:semantics></m:math> should be 16.67% of our pie! Finally, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline"><m:semantics><m:msub><m:mi>K</m:mi><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:msub><m:annotation encoding="StarMath 5.0">{K} rsub {M/2}</m:annotation></m:semantics></m:math> must be half of that or 8.33%. The result is the final pie shown below</para>
+      <figure id="import-auto-idm295574352">
+        <media id="import-auto-idm264838832" alt="">
+          <image mime-type="image/png" src="image46.png" height="374" width="624"/>
+        </media>
+      </figure>
+    </example>
+    <example id="import-auto-idm448011360">
+      <title>14.7.3 How Energy Pie Charts can be Used to Analyze Situations (Take-away)</title>
+      <para id="import-auto-idm270728320">Energy pie-graphs are a useful tool to analyze situations in terms of energy. The pie graphs can be used to:</para>
+      <list id="import-auto-idm300546208" list-type="bulleted">
+        <item>Make sure that you have taken all possible types of energy into account</item>
+        <item>Get a feel for how much of the total energy is being carried in each form</item>
+        <item>Visualizing the transformation of energy from one form into another</item>
+      </list>
+      <para id="import-auto-idm729311984">Conservation of energy only holds if you take all the different forms of energy into account. Thus, making sure that you have everything is critical, as you have seen in the algebraic examples solved in section 14.6. Pie graphs are a good way to separate the analysis and just think about the types of energy you have before getting into the math. At the same time, getting a feel for what is going on which can allow you to check your result. </para>
+    </example>
+  </content>
+</document>

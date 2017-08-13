@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Derived copy of Kinetic Energy and the Work-Energy Theorem</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Derived copy of Kinetic Energy and the Work-Energy Theorem</md:title>
+  <md:version>1.5</md:version>
+  <md:created>2017/08/09 09:21:49.008 GMT-5</md:created>
+  <md:revised>2013/05/16 20:12:07 +0000</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:derived-from url="https://legacy.cnx.org/content/m42147/1.5/">
+  </md:derived-from>
+  <md:keywordlist>
+    <md:keyword>kinetic energy</md:keyword>
+    <md:keyword>net work</md:keyword>
+    <md:keyword>work-energy theorem</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+  </md:subjectlist>
+  <md:abstract><list>
+<item>Explain work as a transfer of energy and net work as the work done by the net force.</item>
+<item>Explain and apply the work-energy theorem.</item>
+</list></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Identifying when an object has kinetic energy</item>
+		</list>
+		</para></problem></exercise>
+
+    <para id="import-auto-idm1525090096">Our goal in this section is to figure out an expression for the kinetic energy. </para>
+	
+
+	
+    <section id="import-auto-idm168527792">
+      <title>Figuring Out the Expression for Kinetic Energy</title>
+      <para id="import-auto-idm180764624">To achieve this objective, let’s begin our study of energy with, as usual the simplest possible situation. Consider a one-dimensional situation where a force is used to accelerate an object in a direction parallel to its initial velocity. Such a situation occurs for the package on the roller belt conveyor system shown in Figure 1.</para>
+	  
+	   <figure id="fig3">
+      <media id="med3" alt="">
+        <image mime-type="image/jpg" src="keexample.jpg" width="500"/>
+      </media>
+       <caption>A package on a roller belt is pushed horizontally through a distance d</caption>
+    </figure>
+
+      <para id="import-auto-idm461016672">In this case, there is no transfer of energy by molecular collisions, i.e. there is no heat and Q=0. Meaning that our statement of conservation of energy goes from </para>
+      <para id="import-auto-idm177264272">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>E</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mi>Q</m:mi>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mi>W</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">E=Q+W</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm864071904">to</para>
+      <para id="import-auto-idm202038944">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>E</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>W</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">E=W</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm191646016">Similarly, there is no ability to do work due to position; the box cannot fall because of the rollers. Thus, there is no potential energy in this problem and all of our energy is kinetic energy: E=K. Therefore, our statement of conservation of energy for this situation is just </para>
+      <para id="import-auto-idm1538025552">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>∆</m:mi>
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mi>W</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">∆K=W</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm422665856">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>K</m:mi>
+                  <m:mi>f</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">−</m:mo>
+                <m:msub>
+                  <m:mi>K</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>W</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{K} rsub {f} - {K} rsub {i} =W</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm567763328">The effect of the net force Fnet is to accelerate the package from <emphasis effect="italics">v</emphasis><sub>0</sub> to <emphasis effect="italics">v</emphasis>. The kinetic energy of the package increases, indicating that the net work done on the system is positive. (See<link url="https://cnx.org/contents/Ax2o07Ul@9.86:P_-6tVsN@5/Kinetic-Energy-and-the-Work-En#fs-id1703845"><emphasis effect="underline"/></link><link url="https://cnx.org/contents/Ax2o07Ul@9.86:P_-6tVsN@5/Kinetic-Energy-and-the-Work-En#fs-id1703845"><emphasis effect="underline">Example</emphasis></link>.) By using Newton’s second law, and doing some algebra, we can reach an expression for kinetic energy. </para>
+      <para id="import-auto-idm549587664">The force of gravity and the normal force acting on the package are perpendicular to the displacement and do no work. Moreover, they are also equal in magnitude and opposite in direction so they cancel in calculating the net force. The net force arises solely from the horizontal applied force Fapp and the horizontal friction force f. Thus, as expected, the net force is parallel to the displacement, so that <emphasis effect="italics">θ</emphasis>=0º and cos<emphasis effect="italics">θ</emphasis>=1, and the net work is given by</para>
+      <para id="import-auto-idm183500224"><emphasis effect="italics">W</emphasis>net=<emphasis effect="italics">F</emphasis>net<emphasis effect="italics">d</emphasis>.</para>
+      <para id="import-auto-idm211032368">Substituting <emphasis effect="italics">F</emphasis>net=<emphasis effect="italics">ma </emphasis>from Newton’s second law gives</para>
+      <para id="import-auto-idm201784560">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi mathvariant="italic">Wnet</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi mathvariant="italic">mad</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">Wnet=mad</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm406065808">To get a relationship between net work and the speed given to a system by the net force acting on it, we take</para>
+      <para id="import-auto-idm206251904">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">−</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">d=x- {x} rsub {0}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm1523637472">and use the equation studied in<link url="https://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@9.86:ea2bb23c-4fce-4e9d-a46b-3754125da988@9"><emphasis effect="underline"/></link><link url="https://cnx.org/contents/031da8d3-b525-429c-80cf-6c8ed997733a@9.86:ea2bb23c-4fce-4e9d-a46b-3754125da988@9"><emphasis effect="underline">Motion Equations for Constant Acceleration in One Dimension</emphasis></link> for the change in speed over a distance <emphasis effect="italics">d</emphasis> if the acceleration has the constant value <emphasis effect="italics">a</emphasis>; namely, <emphasis effect="italics">v</emphasis><sup>2</sup>=<emphasis effect="italics">v</emphasis><sub>0</sub><sup>2</sup>+2<emphasis effect="italics">ad</emphasis> (note that <emphasis effect="italics">a</emphasis> appears in the expression for the net work). Solving for acceleration gives <emphasis effect="italics">a</emphasis>=(<emphasis effect="italics">v</emphasis><sup>2</sup>−<emphasis effect="italics">v</emphasis><emphasis effect="italics">0</emphasis><emphasis effect="italics">2</emphasis><emphasis effect="italics">)</emphasis>/2<emphasis effect="italics">d</emphasis>. When <emphasis effect="italics">a</emphasis> is substituted into the preceding expression for <emphasis effect="italics">W</emphasis><sub>net</sub>, we obtain</para>
+      <para id="import-auto-idm880938400">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>W</m:mi>
+                  <m:mi mathvariant="italic">net</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mi>m</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>v</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msubsup>
+                        <m:mi>v</m:mi>
+                        <m:mn>0</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msubsup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{W} rsub {net} =m( {{v} ^ {2} - {v} rsub {0} rsup {2}} over {2d} )d</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-idm562714416">The <emphasis effect="italics">d </emphasis>cancels, and we rearrange this to obtain</para>
+      <para id="import-auto-idm214707584">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>W</m:mi>
+                  <m:mi mathvariant="italic">net</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+              <m:mi>m</m:mi>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>v</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+              <m:mi>m</m:mi>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mn>0</m:mn>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{W} rsub {net} = {1} over {2} m {v} ^ {2} - {1} over {2} m {v} rsub {0} rsup {2}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+    </section>
+	
+	<exercise id="inote34" type="check-understanding"><label/><title><media id="inote34i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote34p"><para id="inote34pp">The following subsection is based on <newline /> umdberg / Kinetic energy and the work-energy theorem (2013). Available at: <link url="http://umdberg.pbworks.com/w/page/68405433/Kinetic%20energy%20and%20the%20work-energy%20theorem%20(2013)">http://umdberg.pbworks.com/w/page/68405433/Kinetic%20energy%20and%20the%20work-energy%20theorem%20(2013).</link> (Accessed: 9th August 2017)
+</para></problem></exercise>
+	
+    <section id="import-auto-idm630797808">
+      <title>Interpreting the Result: Kinetic Energy</title>
+      <para id="import-auto-idm366338320">
+        <emphasis effect="italics">David: This section is taken from </emphasis>
+        <link url="http://umdberg.pbworks.com/w/page/68405433/Kinetic%20energy%20and%20the%20work-energy%20theorem%20(2013)">
+          <emphasis effect="italics">http://umdberg.pbworks.com/w/page/68405433/Kinetic%20energy%20and%20the%20work-energy%20theorem%20(2013)</emphasis>
+        </link>
+        <emphasis effect="italics">  with a few edits</emphasis>
+      </para>
+      <para id="import-auto-idm483030624">What has come out after all our manipulations is a that the work in this case is related to a change in a quantity associated with motion, 1/2<emphasis effect="italics">mv</emphasis><sup>2</sup>.  This is kind of like momentum in that it counts both the mass and the velocity, but it differs in that momentum is proportional to the velocity vector -- so it is very directional. Reversing momentum is a big deal even if the speed doesn't change. For our new quantity, since it is proportional to <emphasis effect="italics">v</emphasis><sup>2</sup> instead of to <emphasis effect="italics">v</emphasis>, the direction of motion doesn't matter. You get the same <emphasis effect="italics">v</emphasis><sup>2</sup> whether <emphasis effect="italics">v</emphasis> is positive or negative. If our general result turns out to only depend on the magnitude of <emphasis effect="italics">v</emphasis> and not the direction (it will), we will have solved our problem and learned what it is that changes an object's speed (not caring about direction).</para>
+      <para id="import-auto-idm151817056">When you compare the result of our manipulations to our analysis in terms of energy, you can see that 1/2<emphasis effect="italics">mv</emphasis><sup>2</sup> must be the <emphasis effect="italics">kinetic energy</emphasis>.  It is a measure of "the energy associated with how much an object is moving".</para>
+    </section>
+  </content>
+</document>

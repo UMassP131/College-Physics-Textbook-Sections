@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>2017-5-23 Print Test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>2017-5-23 Print Test</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/05/23 15:01:41.198 GMT-5</md:created>
+  <md:revised>2017/05/23 15:01:41.603 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<section id="pzero"><title>The Zero of Potential Energy</title>
+    <para id="import-auto-idm570100192">This is perhaps a slightly subtler topic than you might first imagine. Let’s think about this quantity of gravitational potential energy written as mgh. Here we have Mr. clumsy dropping a ball. </para>
+     <figure id="fig32">
+      <media id="med32" alt="">
+        <image mime-type="image/jpg" src="mrclumsy.jpg" width="500"/>
+      </media>
+       <caption>Mr. Clumsy dropping the ball.</caption>
+    </figure>
+    <para id="import-auto-idm209590080">Where is the gravitational potential energy of the ball equal to zero? Well, m and g are both numbers, m is the mass of the ball and g is 9.8 m/s<sup>2</sup>, so essentially this is the same question as where is height equal to 0, h. Well, the logical place you might think for h to be equal to 0 would be the ground. We define the ground to be h=0, then the gravitational potential energy on the ground, U<sub>g</sub>, is going to be zero when the ball is on the ground. Now let’s move Mr. Clumsy to a platform on the top of a skyscraper.</para>
+	<figure id="fig33">
+      <media id="med33" alt="">
+        <image mime-type="image/jpg" src="mrclumsysky.jpg" width="500"/>
+      </media>
+       <caption>Mr. Clumsy dropping the ball on top of a skyscraper, with a subway tunnel below.</caption>
+    </figure>
+    <para id="import-auto-idm480316784">Now where is h=0? This is a perhaps a little bit trickier question; do we define h=0 to be at the platform, or do we define it to be in the ground, or do we even define it to be in the subway tunnel underneath the skyscraper? Which of these should we choose for h=0, or which of these should we choose for the zero of gravitational potential energy? Well, the universe doesn’t care where we choose h to be equal to 0. so due to that, any of these choices, the platform, the ground, the subway tunnel, they’re all fine, doesn’t matter which we pick. You should just be very explicit with your choice, so when you’re approaching a problem with gravitational potential energy, explicitly write down that I am going to choose the zero of gravitational potential energy to be the platform, for example. If I choose the ground, say, to have zero potential gravitational potential energy, then points in the subway tunnel below the ground have negative gravitational potential energy. There’s absolutely nothing wrong with that. </para>
+    <para id="import-auto-idm688550560">Why is there nothing wrong with negative potential energy? Well, the work done by gravity is equal to the negative of the change in gravitational potential energy, or</para>
+    <para id="import-auto-idm843677168">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>W</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mi>Δ</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mi>U</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W=- Δ U</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm429635472"> ΔU is always U<sub>f</sub>-U<sub>i</sub>, so the work done is</para>
+    <para id="import-auto-idm424347200">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>W</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">−</m:mo>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W= {U} rsub {i} - {U} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm572549488"> or using mgh for potential energy</para>
+    <para id="import-auto-idm173137152">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>W</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi mathvariant="italic">mgh</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">−</m:mo>
+              <m:msub>
+                <m:mi mathvariant="italic">mgh</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W= {mgh} rsub {i} - {mgh} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm168492992"> The key point in all of this is that the work done does not depend upon the value of potential energy itself, only the change in the potential energy is a relevant quantity, and the change in potential.</para>
+	</section>
+  </content>
+</document>

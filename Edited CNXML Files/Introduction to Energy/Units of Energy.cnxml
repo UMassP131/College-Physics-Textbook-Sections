@@ -44,6 +44,13 @@
 </metadata>
 
 <content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
+			<title><emphasis>Your Quiz will Cover</emphasis></title>
+			<item>Converting between the different units of energy</item>
+		</list>
+		</para></problem></exercise>
+
     <para id="import-auto-idm189775872">If energy is defined as the ability to do work, then energy and work must have the same units. Thus, the SI unit of the energy is the Joule (recall 1J=1Nm=1kgms2). Energy, however, is one quantity where there are many other units in common use in scientific literature including electron-Volts (eV), kilowatt-hours (kW∙hr), calories, and Calories. In this course, we will be using Joules and electron-Volts exclusively. We are including these other units for your reference. </para>
     <section id="import-auto-idm201879408">
       <title>Electron-Volts</title>
@@ -114,6 +121,9 @@
           </tbody>
         </tgroup>
       </table>
+	  <exercise id="inote49" type="check-understanding"><label/><title><media id="inote49i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote49p"><para id="inote49pp">Note that the eV is significantly smaller than the joule; eV will generally be the smallest unit of energy used in this course.</para></problem></exercise>
+
+	  
     </section>
     <section id="import-auto-idm1094094000">
       <title>Kilowatt Hours</title>

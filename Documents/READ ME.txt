@@ -1,0 +1,116 @@
+Greetings traveler,
+
+If you are reading this, then I presume you have been placed in charge of the noble task of handling this book. If so, congratulations and good luck. Here's an overview of how this folder is set up:
+
+-.git is github stuff, no need to touch it, unless you are more in tune with how to use github then I am (i.e. more familiar than not really at all) then by all means.
+
+-content is where the raw data for the original OpenStax book is; this primarily includes all the pictures and the CNXML files that make up the textbook. 
+
+-Documents is full of. well, documents. What's in here is any of the original writing that needed to be done for the book, edited transcripts of YouTube lectures, and Word versions of websites.
+
+-Edited CNXML Files is the meat and taters of the book, and has all of the CNXML files of the new textbook. This is where most of the editing has been done. Each of these files represents a different section within the book, or "modules", as they're called on the website. The collection is the compilation of all these modules, with subcollections within marking the chapters. Opening up the textbook collection in our workgroup will make this a lot clearer.
+
+-Pictures is where any new pictures added to the book are. There's one of me pulling a rope in case you were curious who that was.
+
+-UMassWordMark is the official wordmark of UMass, and you should use these whenever you want to use the UMass logo anywhere
+
+-Videos are videos that are included into the textbook. The videos don't work well in Perusall, so currently there's only one, but this may change in the future
+
+-Zipped section is a bit outdated. Originally, I zipped the files in the content folder and uploaded those to the CNX site, but there is an issue involving the copyright with this method, so we're not using this anymore. This is just here cause why not might come in handy later maybe.
+
+-OpenStax College Physics.pdf is the original book, for reference.
+
+-UMass Textbook in Progress.pdf: I think you can figure this one out on your own. I updated this whenever we needed to present the book somewhere or when making edits. It'll probably be the full book by the time you're reading this. It'll probably be good practice to keep this PDF updated with the latest version of the book.
+
+----------------------------------------------------------------------------
+
+Here's where to start:
+
+----------------------------------------------------------------------------
+
+-Make an account on legacy.cnx.org. Note: if you weren't around for dial up or don't remember it, this is your chance to experience life back in the early 2000's. Since it's the legacy version of the site, they  don't really update it anymore, but the new website doesn't have the functionality to work with the book, so this will have to do for the time being. I'd look into it, though, in case they have.
+
+-Email me about being an author for the book; my email is dnguyen@umass.edu. Eventually, if you pass this book onto someone else, you should be able to give them author priveleges as well. You'll also be added to the UMass workgroup, which should have all of the sections of the book
+
+-Once you are, you should be able to edit everything freely. For the sections already on the site that we've published, you can open that up from the workpage and go to town. For any sections from the original openstax textbook, or any openstax resource, you can find it on the legacy site by looking it up and deriving a copy, under Reuse/Edit on the top of the page. Again, this is slower than molasses going uphill in the winter, so be prepared to do other things as well. Any additional sections has to be added as its own "module", which you can create from the workgroup page.
+----------------------------------------------------------------------------
+
+Pro tips:
+
+----------------------------------------------------------------------------
+
+-You can upload content to the page in a few different ways. The ones I used the most were Word documents and the CNXML files. Word documents were generally used for brand spankin' new sections, since uploading a Word document overwrites ALL of the content in a module, while editing the CNXML files was used to make edits to the sections. You can export a CNXML file from a section by going to its module, checking it out if it's not already, and then using the export option. I would suggest adding these CNXML files to our folder as well.
+
+-Editing the CNXML files directly is way faster than dealing with the website, plus if you want to add, say, figures, this is the only way to do it. This does, however, require you to know some coding and how to work with XML. I would download Notepad++ to edits these files; make sure you have the language set to XML. I wrote a short guide at the bottom of the document that should help you get started
+
+-MathML is hard. Word equations are less hard. Therefore, an easy way to get equations into a section is to write it in the Word equation editor, uploading that word document to some sandbox module, exporting it as a CNXML file, copying the code inside the CNXML for the equation, and then pasting it into the CNXML file for the section. This has been effective most of the time; there were one or two times where I had to rework the code to make it display properly, but it's generally cooperative.
+
+-On the subject of copy and pasting, everything in the Code Repo is for you to copy and paste into the section. The instructor's notes need to have (numbz) replaced with any number, and this is easily done using the replace function in Notepad++ (Ctrl+H). Use Intro Notes v2, the older version is outdated. There's a file inside the pictures folder called umasslogo5.jpg that needs to be added to the module in order to be used. All the modules in the textbook should already have it, but if it's not working, then you can upload it to the module by going to the module, files, and then upload. Feel free to update the code repo to have code that you use frequently, as copy and pasting things will make things a lot faster.
+
+-A couple of the sections are transcripts of youtube videos, and you may also need to transcribe a youtube video. The process to do this is also written at the bottom of this document.
+
+-Update to GitHub frequently. I've been pretty bad at this, and as you can see, most of our updates are a big pile of hot garbage that doesn't really tell you much about what's changed. Don't be me. Make it a habit to update github at the end of each day, writing down any updates you've made, as this will save you some headache down the road.
+
+
+----------------------------------------------------------------------------
+
+HOW TO XML
+
+----------------------------------------------------------------------------
+
+-XML is basically working with tags, which are things such as <para> or <emphasis> or <figure>, and these are usually closed by a tag with the same name but a slash in front of it, like </para> or </emphasis>. Everything in the middle of these tags is the content that will show up. So, working with our previous examples, the <para> tag denotes the start of some text, and the </para> tag denotes the end, so it might look something like
+
+<para>Whatever is in your paragraph goes in here.</para>
+
+<emphasis> bolds a word, so if I wanted to bold the word paragraph, it would look like:
+ 
+<para>Whater is in your <emphasis>paragraph</emphasis> goes in here</para>.
+
+Tags can also have attributes inside of them. The <emphasis> tag can also italicise a word, but it needs to have the attribute added in it, which goes <emphasis effect="italics">. The effect is the attribute, which we are setting to italics. Each tag has its own attributes, and some tags even have required attributes, so you should look up how a tag works whenever you use it.
+
+Here's a website with all the tags that can be used in CNXML: https://legacy.cnx.org/eip-help/tags
+
+These ones are the only one's that will work outside of MathML and QML, which are also XML-esque languages that are used in the textbook that you should also look into.
+
+----------------------------------------------------------------------------
+
+HOW TO TRANSCRIPT
+
+----------------------------------------------------------------------------
+
+-Log into the youtube account with the video you want to transcribe.
+
+-Go to video and click the edit button below it
+
+-Go to the Subtitles/CC section. You'll see that there's the google automatic transcript there. Open that up
+
+-The google transcript is pretty good, but it's missing punctuation and has some mistakes, so go through and edit this through the youtube page. It's important for these videos to have the subtitles correct for accessibility reasons anyways.
+
+-Once you're done with the transcript open up the video page again.
+
+-If you're using chrome, right click on the page, click on inspect, and then the network tab
+
+-Back on the actual page, click on more, and then transcript. A timetext line should've appeared in the network section. Right click it and click on open in new tab.
+
+-Now you should have a page with all of the text of the videos and a bunch of tag. Copy and paste this text and put it into the tagremover document in the Documents folder.
+
+-Right click on the document and edit it with Notepad++.
+
+-Open up Tag Remover Instructions and follow those
+
+-With the tags gone, copy this new text and put it into a word document
+
+-Using the replace function, click on more, then special, then paragraph mark, and replace those with a space. This should compress the lines together.
+
+-Get rid of all the double spaces by replacing a double space with a single space using the replace function multiple times.
+
+-Edit away
+
+----------------------------------------------------------------------------
+
+
+If I forgot anything or if you have any additional questions, feel free to email me at dnguyne@umass.edu
+
+Godspeed my dood
+
+-Dave

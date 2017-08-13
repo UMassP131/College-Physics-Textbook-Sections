@@ -3,20 +3,6 @@
 <exercise id="inote(numbz)" type="check-understanding"><label/><title><media id="inote(numbz)i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote(numbz)p"><para id="inote(numbz)pp">(insert text here)</para></problem></exercise>
 
 
-<!--Intro Notes-->
-<section id="nfui">
-		<title>Notes from your UMass Instructors</title>
-		<list id="quiz">
-			<title>Your Quiz will Cover</title>
-			<item>Insert item here</item>
-		</list>
-		<list id="ttc">
-			<title><emphasis>Other Things to Consider as You Read:</emphasis></title>
-			<item>Insert item here</item>
-		</list>
-	</section>
-	
-	
 	
 	<!--Intro Additions-->
 	
@@ -35,3 +21,12 @@
 			<title><emphasis>Other Things to Consider as You Read:</emphasis></title>
 			<item>Insert item here</item>
 		</list></para></problem></exercise>
+		
+		
+<!--Figures-->
+ <figure id="fig(numbz)">
+      <media id="med(numbz)" alt="">
+        <image mime-type="image/jpg" src="calories.jpg" width="500"/>
+      </media>
+       <caption>(insert text here)</caption>
+    </figure>

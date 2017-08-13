@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>2017-5-23 Print Test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>2017-5-23 Print Test</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/05/23 15:01:41.198 GMT-5</md:created>
+  <md:revised>2017/05/23 15:01:41.603 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<example id="heath"><title>Deep Space 1</title>
+    <para id="import-auto-idm397777472">Deep Space 1 was a space probe, launched on October 24, 1998, and it used a type of engine called a ion propulsion drive. This engine generates a weak force, but it can do so over a long period of time and using only a small amount of fuel. The probe has a mass of 474 kg and is traveling with an initial speed of 275 m/s. The only force acting on the probe is from the ion drive, at a force of 0.056N parallel to the probe’s displacement, which is 2.42 million km. What is the final speed of the probe?</para>
+    <para id="import-auto-idm907788832">
+      <emphasis effect="bold">Solution</emphasis>
+    </para>
+    <para id="import-auto-idm435276160">In this problem, we’re looking for a change in speed, which tells us that we’re looking for a change in the kinetic energy. With the only force on the probe being the ion drive, we can use the work-energy theorem to find the change in energy:</para>
+    <para id="import-auto-idm388270864">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>W</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>Δ</m:mi>
+            </m:mrow>
+            <m:mi>E</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W= Δ E</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm924362736">Then, we can expand the energy: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>E</m:mi><m:mi>f</m:mi></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>E</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">W= {E} rsub {f} - {E} rsub {i}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-idm656422192">Since the only energy in this system is the kinetic energy, we can substitute the energies with our definition of kinetic energy:</para>
+    <para id="import-auto-idm467398000">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>W</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:mrow>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+              <m:mo stretchy="false">−</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mi>i</m:mi>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W= {1} over {2} m {v} rsub {f} rsup {2} - {1} over {2} m {v} rsub {i} rsup {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm910156400">Since it’s the final velocity that we’re looking for, we can solve this equation for the final velocity:</para>
+    <para id="import-auto-idm372896544">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msqrt>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>W</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:msubsup>
+                    <m:mi>v</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msubsup>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:msqrt>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>W</m:mi>
+                  </m:mrow>
+                  <m:mi>m</m:mi>
+                </m:mfrac>
+                <m:mo stretchy="false">+</m:mo>
+                <m:msubsup>
+                  <m:mi>v</m:mi>
+                  <m:mi>i</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {{W+ {1} over {2} m {v} rsub {i} rsup {2}} over {{1} over {2} m}} = sqrt {{2W} over {m} + {v} rsub {i} rsup {2}}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm634005424">The mass and the initial velocity are both given, but we need to find the work done on the probe. We can use our definition of work to calculate it:</para>
+    <para id="import-auto-idm444878976">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>W</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>F</m:mi>
+            </m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.056</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>N</m:mi>
+              <m:mo stretchy="false">∗</m:mo>
+              <m:mn>2.42</m:mn>
+            </m:mrow>
+            <m:mi>x</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>9</m:mn>
+            </m:msup>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>135520</m:mn>
+            </m:mrow>
+            <m:mn>000</m:mn>
+            <m:mi>J</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W=F Δ x=0.056N*2.42x {10} ^ {9}  m =135520 000  J</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm474868240">Substituting our values and calculating the final velocity: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mi>f</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>135520000</m:mn><m:mi>J</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>474</m:mn><m:mi mathvariant="italic">kg</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:msup><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>275</m:mn><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo stretchy="false">=</m:mo><m:mn>804</m:mn></m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {{2(135520000 J)} over {474 kg} + {(275 m/s)} ^ {2}} =804  m/s</m:annotation></m:semantics></m:math></para>
+	</example>
+  </content>
+</document>
