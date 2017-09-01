@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Gibbs Free Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Gibbs Free Energy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/24 22:14:13.206 GMT-5</md:created>
+  <md:revised>2017/08/24 22:14:13.530 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inote1232323242" type="check-understanding"><label/><title><media id="inote1232323242i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote1232323242p"><para id="inote1232323242pp">This sections is also available as a video: <link url="https://www.youtube.com/watch?v=2WlkLcGbbfo">https://www.youtube.com/watch?v=2WlkLcGbbfo</link></para></problem></exercise>
+
+    <para id="import-auto-idm1031156704">The Gibbs free energy is a concept that often comes up in chemistry and biology courses. The definition of the Gibbs free energy is that the change in the Gibbs free energy</para>
+    <para id="import-auto-idm398621296">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">ΔG</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mi mathvariant="italic">ΔH</m:mi>
+              <m:mo stretchy="false">−</m:mo>
+              <m:mi mathvariant="italic">TΔS</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">ΔG=ΔH-TΔS</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm397689408">Let’s deconstruct this equation a minute, ΔG is the change in the Gibbs free energy, this new quantity that we’re introducing, ΔH is the change in enthalpy, not the change in energy, the change in enthalpy that we discussed back in Unit 4, but you may remember from unit 4 that when we’re talking about processes under constant pressure, and most everything is at constant pressure in biology, as most things are open to the air and therefore take place at air pressure, under this situation, enthalpy is the same as heat, so ΔH=Q at constant pressure, which will be the case for most processes that you will encounter and all of the processes that we will discuss. </para>
+    <para id="import-auto-idm1043827712">T in this expression is what you might expect; it’s the temperature. Why do we need the temperature in this equation? Well, is a heat, or enthalpy change, of five joules per mole big or small? Well, you can’t say that unless you have something to compare that five joules per mole to. So, what energy in the system can you compare that five joules per mole to? Well, you could compare it to the average energy available, and as we saw in unit 4 the average energy is the temperature, so that’s why the temperature is in this expression. It provides a comparison point for the enthalpy. The last quantity is ΔS, the change in the entropy. It turns out that the sign, but interestingly not the magnitude of ΔG tells you if a process will happen spontaneously. If ΔG is negative, then the process will occur spontaneously. So, clearly if you want to use this Gibbs free energy to understand if processes will be spontaneous or not, you need to know what entropy is. </para>
+    <para id="import-auto-idm369925664">How can I get a spontaneous process using this definition of ΔG? Well, there’s two sorts of ways. One, I can be energy-releasing. If I release energy as heat, i.e. I’m an exothermic reaction, then the Q will be negative, and thus if I’m at constant pressure the enthalpy will be negative, and this will push us towards a negative Gibbs free energy change in negative ΔG. The other way is to increase the entropy. If the entropy ΔS increases, then because of this negative sign, the Gibbs free energy change ΔG will actually be pushed negative, so an increase in entropy, i.e. the number of ways to arrange things. will push towards a negative change in Gibbs free energy. </para>
+    <para id="import-auto-idm353228784">In summary, the Gibbs free energy is an important concept in the chemical and life sciences, at constant pressure which most processes in the chemical and life sciences are, the sign of the Gibbs free energy indicates if a process will be spontaneous or not. If the change in the Gibbs free energy, ΔG, is negative, less than zero, then the process will be spontaneous. The Gibbs free energy looks at a balance of the change in enthalpy ΔH and the average energy in a system, the temperature, and a change in the entropy. </para>
+    <para id="import-auto-idm1211657600">Thus, entropy is an important concept for us to understand to help us understand this idea of the Gibbs free energy. We’ll see along the way that this idea of understanding what entropy is will also help us gain a greater insight into certain processes. </para>
+  </content>
+</document>

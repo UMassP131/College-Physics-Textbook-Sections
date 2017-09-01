@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Work in Terms of Pressure</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Work in Terms of Pressure</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/24 22:04:50.288 GMT-5</md:created>
+  <md:revised>2017/08/24 22:04:50.540 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inote23223" type="check-understanding"><label/><title><media id="inote23223i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote23223p"><para id="inote23223pp">This sections is also available as a video: <link url="https://www.youtube.com/watch?v=7F4kS0tXkCU">https://www.youtube.com/watch?v=7F4kS0tXkCU</link></para></problem></exercise>
+
+
+    <para id="import-auto-idm1175144048">Let’s explore another way to think about work. So, why do we need another way to think about work, why do we need another definition for this idea of work? Well the definition of work that we have, Fdcos(θ), works really well for objects like people and cars and blocks. However, in the life sciences and beginning in the next unit as well, we are often interested in the behavior of things that physicists call fluids, which means gases and liquids. For gases and liquids, you tend to not be interested in the force you apply to them but instead the pressure. To remind you, pressure is the force divided by the area, which means that it would have units of N/m^2. Some other common units of pressure that you might have seen are Pascals or atmospheres. Think about the air pressure in a tire. You might see that quoted as N/cm^2 or in atmospheres. Or, you might also think about the osmotic pressure of a fluid inside of a cell. It is therefore useful to be able to think about the work done on the fluid in terms of pressure. </para>
+    <para id="import-auto-idm1476343680">How will we figure out the expression for work in terms of pressure? Well, we will do this simple example of a gas inside of a container with a piston. </para>
+     <figure id="fig12321">
+      <media id="med12321" alt="">
+        <image mime-type="image/jpg" src="piston.jpg" width="500"/>
+      </media>
+       <caption>A gas being compressed by a piston. The piston does work on the gas equal to the force exerted on it times the distance it moves.</caption>
+    </figure>
+
+    <para id="import-auto-idm1349636352">As we compress the gas, we apply a force on the piston for some distance. We are doing work on the gas, and since the force and the displacement are in the same direction, we know that that work is positive. Most the time in the life sciences in particular, we are interested in gases at what we call constant pressure, because organisms and chemical reactions are open to the air and therefore everything happens at a constant pressure of one at. In our example up to this point, the gas is going to increase in pressure as we compress. So, to solve that problem, let’s puncture a little hole in the bottom, and let some gas escape to maintain constant pressure of the gas as we compress it. </para>
+    <para id="import-auto-idm1197326800">How much work is done on the gas by our force in this admittedly very contrived case? Well, let’s think about this. The gas has some amount of volume before we compress it. We can think about the area of the bottom of the container A, and the height h, and if you multiply these two quantities together, you’ll get the volume, Ah. As we apply our force to the piston, compressing it and having some of the gas leak out to maintain constant pressure, the area stays the same, but the height shrinks, and it in shrinks by the exact amount of the displacement d that we compress the piston. So, we can say the change in height is equal to -d, where we have this negative sign because the height is getting smaller as the distance is getting larger. </para>
+    <para id="import-auto-idm1244775120">The change in volume of the gas is then A, the area, which doesn’t change, times the change in height or, -Ad. If we multiply this change in volume by the pressure of the gas inside, PΔV, and then we replace the pressure with this definition of force over area and volume AΔh, and then we use our relationship we’ve just discovered that the change in height is equal to negative the change in distance, then we see that the area’s cancel out, and we are left with just a force times the distance. We’re left with the amount of work that we did, Fd is the amount of work we did on this piston. The only difference is we get a negative sign. </para>
+    <para id="import-auto-idm1382273728">Therefore, we can conclude that the work done on the gas is minus the pressure of the gas times the change in volume. We’re getting this negative sign because if the force and the displacement are in the same direction, that means the volume of the gas is going to get smaller. So, a positive work on the gas will result in a smaller volume, a -ΔV.</para>
+    <para id="import-auto-idm184271360">In summary, for a fluid, i.e. a gas or liquid, at constant pressure, the work done by some external force on the fluid can be written in terms of the pressure of the fluid and the change in the volume of the fluid. Mathematically, we say that the work is equal to the -PΔV. Mathematically, we say that the W=-PΔV, and this negative sign results because positive work done on the gas will result in the gas compressing, and therefore shrinking volume. This concludes this video. </para>
+  </content>
+</document>

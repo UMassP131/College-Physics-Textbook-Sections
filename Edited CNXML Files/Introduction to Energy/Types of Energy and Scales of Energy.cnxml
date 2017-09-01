@@ -47,13 +47,10 @@
 
 <content>
 
-<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp"><list id="quiz">
-			<title><emphasis>Your Quiz will Cover</emphasis></title>
-			<item>Evaluating the relationship between the different types of forces</item>
-		</list>
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">This section provides the definitions of the terms kinetic and potential energy and defines the microscopic and macroscopic scales. Details and formulae will be provided in upcoming chapters.
 		</para></problem></exercise>
 
-    <para id="import-auto-idm870491168">Fundamentally, there are only two kinds of energy: kinetic energy and potential energy<emphasis effect="italics">. Kinetic energy (K) is the ability to do work associated with motion and potential energy (U) is the ability to do work arising from the relative positions of objects. </emphasis>As an example, the car in motion in the left image of Figure 2 has the capability to do work due to its motion - the car has <emphasis effect="italics">kinetic energy</emphasis>. If the car were to crash, then a force would be exerted over a distance deforming the car (right image in Figure 2). The sheer fact that the car is moving means that it <emphasis effect="italics">can</emphasis> do work. Similarly, the larger block in Figure 3 could do work if the system were released. As the large block fell, it would lift the small block. The large block has <emphasis effect="italics">potential energy </emphasis>- an ability to do work due to its position relative to the earth. </para>
+    <para id="import-auto-idm870491168">Fundamentally, there are only two kinds of energy: kinetic energy and potential energy<emphasis effect="italics">. Kinetic energy (K) is the ability to do work associated with motion and potential energy (U) is the ability to do work arising from the relative positions of two or more objects. </emphasis>As an example, the car in motion in the left image of Figure 2 has the capability to do work due to its motion - the car has <emphasis effect="italics">kinetic energy</emphasis>. If the car were to crash, then a force would be exerted over a distance deforming the car (right image in Figure 2). The sheer fact that the car is moving means that it <emphasis effect="italics">can</emphasis> do work. Similarly, the larger block in Figure 3 could do work if the system were released. As the large block fell, it would lift the small block. The large block has <emphasis effect="italics">potential energy </emphasis>- an ability to do work due to its position relative to the earth. </para>
 	
 	<figure id="fig451">
       <media id="med451" alt="cars1.jpg">
@@ -79,7 +76,7 @@
        <caption>The relationships between different types of energy</caption>
     </figure>
 
-	<exercise id="inote82846128" type="check-understanding"><label/><title><media id="inote82846128i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote82846128p"><para id="inote82846128pp">As we move on in this unit, it may seem like there's a lot of different types of energy to keep track of. Thinking in terms of the relationships like in the chart above will help mentally organize them.</para></problem></exercise>
+	<exercise id="inote82846128" type="check-understanding"><label/><title><media id="inote82846128i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote82846128p"><para id="inote82846128pp">This chart provides a way to organize the different types of energy. We will flush out this chart in upcoming sections.</para></problem></exercise>
 	
     </content>
 </document>

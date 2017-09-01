@@ -51,10 +51,17 @@
 		</list>
 		</para></problem></exercise>
 
-    <para id="import-auto-idm189775872">If energy is defined as the ability to do work, then energy and work must have the same units. Thus, the SI unit of the energy is the Joule (recall 1J=1Nm=1kgms2). Energy, however, is one quantity where there are many other units in common use in scientific literature including electron-Volts (eV), kilowatt-hours (kW∙hr), calories, and Calories. In this course, we will be using Joules and electron-Volts exclusively. We are including these other units for your reference. </para>
+    <para id="import-auto-idm189775872">If energy is defined as the ability to do work, then energy and work must have the same units. Thus, the SI unit of the energy is the Joule (recall 1J=1Nm=1kgms2). Energy, however, is one quantity where there are many other units in common use in scientific literature including electron-Volts (eV), kilowatt-hours (kW∙hr), calories, and Calories. 
+
+	<exercise id="inote23" type="check-understanding"><label/><title><media id="inote23i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote23p"><para id="inote23pp">In this course, we will be using Joules and electron-Volts exclusively. We are including these other units for your reference.</para></problem></exercise>
+
+	
+	</para>
     <section id="import-auto-idm201879408">
       <title>Electron-Volts</title>
-      <para id="import-auto-idm198323296">A common quantity in chemistry is the electron-Volt or eV. One electron-Volt is the amount of energy gained by an electron as it travels between the two ends of a 1 Volt battery (a concept that will be discussed in more detail when you study electricity). Numerically, 1eV = 1.602×10<sup>-19</sup>J. The reason this unit is common in chemistry is that the energies of atomic bonds are typically about 1eV as shown in the table below</para>
+      <para id="import-auto-idm198323296">A common quantity in chemistry is the electron-Volt or eV. One electron-Volt is the amount of energy gained by an electron as it travels between the two ends of a 1 Volt battery (a concept that will be discussed in more detail when you study electricity). Numerically, 1eV = 1.602×10<sup>-19</sup>J. The reason this unit is common in chemistry is that the energies of atomic bonds are typically about 1eV as shown in the table below<footnote id="bdenergy"> “Bond-Dissociation Energy - Wikipedia.” Accessed August 1, 2017. https://en.wikipedia.org/wiki/Bond-dissociation_energy.
+</footnote>. The bond-dissociation energy is the energy released when the bond is formed.
+</para>
       <table id="import-auto-idm181666400" summary="">
         <tgroup cols="3">
           <colspec colnum="1" colname="c1"/>

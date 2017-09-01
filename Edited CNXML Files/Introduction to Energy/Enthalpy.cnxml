@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Enthalpy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Enthalpy</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/22 14:15:09.742 GMT-5</md:created>
+  <md:revised>2017/08/22 14:15:09.811 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>enthalpy</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">For your quiz, you will need to know the distinctions between enthalpy, energy, heat, and work</para></problem></exercise>
+		
+
+    <para id="import-auto-idm207406288">
+      <emphasis effect="italics">The following is a modification of content from 5.3 in OpenStax Chemistry </emphasis>
+    </para>
+    <para id="import-auto-idm263432288">Chemists and biologists often use enthalpy (H) to describe the thermodynamics of chemical and physical processes instead of the energy (E) and you may have seen this quantity before. Both enthalpy and energy have the same units and the words are similar so students often confuse these two ideas. However, while enthalpy and energy are related, enthalpy is not the same thing as energy. Energy is the ability to do work. Enthalpy is defined as the sum of a system’s microscopic or internal energy (E) and the mathematical product of its pressure (P) and volume (V):</para>
+    <para id="import-auto-idm632344720">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>H</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mi>E</m:mi>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mi mathvariant="italic">PV</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">H=E+PV</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm232975888">Enthalpy values for specific substances cannot be measured directly; only enthalpy <emphasis effect="italics">changes</emphasis> for chemical or physical processes can be determined. For processes that take place at constant pressure (a common condition for many chemical and biological processes due to the fact that they are open to the air which is at a constant pressure of 1 atm), the enthalpy change (Δ<emphasis effect="italics">H</emphasis>) is:</para>
+    <para id="import-auto-idm260624592">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">ΔH</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mi mathvariant="italic">ΔU</m:mi>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mi mathvariant="italic">PΔV</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">ΔH=ΔU+PΔV</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm625911312">Recall from the chapter on work that the mathematical product <emphasis effect="italics">P</emphasis>Δ<emphasis effect="italics">V</emphasis> represents work (<emphasis effect="italics">W</emphasis>). If I compress the gas in Figure 1, we see that the work is positive (the applied force is in the same direction as displacement of the piston) and energy is flowing into the system. However, the volume of the gas is shrinking. This example illustrates the general concept that the arithmetic signs of Δ<emphasis effect="italics">V</emphasis> and <emphasis effect="italics">w</emphasis> will always be opposite:</para>
+    <para id="import-auto-idm481204496">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">PΔV</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mo stretchy="false">−</m:mo>
+              <m:mi>W</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">PΔV =- W</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <figure id="import-auto-idm445398112">
+      <media id="import-auto-idm1494646848" alt="">
+        <image mime-type="image/png" src="Picture 1.png" height="277" width="539"/>
+      </media>
+	     <caption>A gas being compressed by a piston. The force on the piston is in the same direction as the piston’s motion implying positive work. However, the volume of the gas is shrinking meaning <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mi mathvariant="italic">ΔV</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">ΔV&lt;0</m:annotation></m:semantics></m:math></caption>
+    </figure>
+    <para id="import-auto-idm519945632">Substituting this equation and the definition of internal energy into the enthalpy-change equation yields:</para>
+    <para id="import-auto-idm420683568">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">ΔH</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mi mathvariant="italic">ΔE</m:mi>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mi mathvariant="italic">PΔV</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">ΔH=ΔE+PΔV</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm520660928">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">ΔH</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>Q</m:mi>
+                    <m:mrow>
+                      <m:mi>P</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>W</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">−</m:mo>
+              <m:mi>W</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">ΔH=(Q P +W) - W</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1707623728">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi mathvariant="italic">ΔH</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>Q</m:mi>
+            </m:mrow>
+            <m:mi>P</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">ΔH=Q P</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm235415104">where <emphasis effect="italics">Q</emphasis><emphasis effect="italics">P</emphasis> is the heat of reaction under conditions of constant pressure. <emphasis effect="bold">Thus, if a chemical, biological, or physical process is carried out at constant pressure with the only work done caused by expansion or contraction, then the heat flow (</emphasis><emphasis effect="bold"><emphasis effect="italics">Q</emphasis></emphasis><emphasis effect="bold"><emphasis effect="italics">P</emphasis></emphasis><emphasis effect="bold">) and enthalpy change (Δ</emphasis><emphasis effect="bold"><emphasis effect="italics">H</emphasis></emphasis><emphasis effect="bold">) for the process are equal. </emphasis></para>
+    <para id="import-auto-idm1730135664">This condition, while it may seem restrictive, covers a significant fraction of the situations you will encounter. For example, the heat given off when you operate a Bunsen burner is equal to the enthalpy change of the methane combustion reaction that takes place, since it occurs at the essentially constant pressure of the atmosphere. On the other hand, the heat produced by a reaction measured in a bomb calorimeter (<link url="https://cnx.org/contents/85abf193-2bd2-4908-8563-90b8a7ac8df6@9.480:0d364b67-be96-44fc-bee5-a368a42c2c82@11#CNX_Chem_05_02_BombCalor">[link]</link>) is not equal to <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mi mathvariant="italic">ΔH</m:mi><m:annotation encoding="StarMath 5.0">ΔH </m:annotation></m:semantics></m:math> because the closed, constant-volume metal container prevents expansion work from occurring. Chemists and biologists usually perform experiments under normal atmospheric conditions, which results in a constant external pressure making <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">ΔH</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">Q = ΔH</m:annotation></m:semantics></m:math>.</para>
+  </content>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Unit 4 Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Unit 4 Overview</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/23 11:27:26.469 GMT-5</md:created>
+  <md:revised>2017/08/23 11:27:26.718 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+
+<para id="cite"><emphasis effect="italics">This overview is based on <newline /> umdberg / Reductionism and emergence (2015). Available at: <link url="http://umdberg.pbworks.com/w/page/68371403/Reductionism%20and%20emergence%20(2015)">http://umdberg.pbworks.com/w/page/68371403/Reductionism%20and%20emergence%20(2015)</link>. (Accessed: 23rd August 2017)</emphasis></para>
+
+
+    <para id="import-auto-idm455967504">Science considers a wide variety of scales. In physics and biology we consider</para>
+    <list id="import-auto-idm264916144" list-type="bulleted">
+      <item>the nanoscale of atoms and molecules -- distances of nanometers (atomic size) and timescales of microseconds;</item>
+      <item>the microscopic scale used in cellular biology -- distances of microns to millimeters and times of fractions of a second;</item>
+      <item>the macroscopic human scale we are used to in everyday life -- distances of meters to miles and times of seconds to years;</item>
+      <item>the global/deep time scale of ecology and evolution -- distances spanning thousands of kilometers and times of millions of years.</item>
+    </list>
+    <para id="import-auto-idm243909600">Physics considers scales beyond this including subatomic and even subnuclear structures and cosmological scales to the size of the entire visible universe and timescales of the lifetime of the universe.  </para>
+    <para id="import-auto-idm288376544">We tend to analyze each system on its own terms using the concepts appropriate to the scale. But some of the most interesting scientific insights come from crossing scales. When we explain the properties of systems at one scale in terms of its component parts at a finer scale it's called <emphasis effect="bold"><emphasis effect="italics">reductionism</emphasis></emphasis>. So when we analyze the conductivity of copper in terms of the bonding properties of copper atoms and how they share electrons from one atom in a crystal to the next, it's reductionism. When a patient experiences palpitations, sweating, dizziness, and headache, a caregiver might interpret this as occurring as a result of an imbalance in a chemical in the bloodstream -- insulin. Both of these explanations of a macro event in terms of microscopic properties are reductionism. We are looking at a system at a large scale and its characteristics are explained by something happening at a smaller scale.</para>
+    <para id="import-auto-idm266785936">We can consider the phenomenon of scale crossing in the other direction. If we are looking at a system at one scale, we might find that effects that seem very small add coherently to produce a dramatic and important effect when we step back and look at things at a larger scale. When the properties of a system at the scale we are considering have effects on a system of a larger scale, it's called <emphasis effect="bold"><emphasis effect="italics">emergence</emphasis></emphasis>, especially when the phenomenon might be almost un-noticable at the scale we are considering.</para>
+    <para id="import-auto-idm266051504">A physical example is polarization. If we put an atom in an electric field of typical macroscopic values (a few volts per meter), the electrons and the nucleus are pulled apart -- but only by a very tiny amount, perhaps 1 part in 100,000 of the atom's diameter. We might assume this is so tiny an effect that it can be ignored; but if every atom in a macroscopic object undergoes the same slight separation, the total effect might be that we can pick up the object, lifting it against gravity with the sum of the tiny electric forces we are exerting on each atom. The fact that we have so many atoms multiplies what looked to be a tiny effect. A similar phenomenon occurs in biology when there is a small survivability advantage to a mutation. One might not see any effect for many generations, but given thousands of generations, the gene pool of a population can be completely transformed by natural selection.</para>
+    <para id="import-auto-idm217432544">Of course, these are the same phenomenon, just looked at from different angles. But whatever scale we are considering, keeping these two perspectives in mind will help us to look for structures both at smaller scales that might provide reductionist explanations and at larger scales that might have emergent properties.</para>
+  </content>
+</document>

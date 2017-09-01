@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:m="http://www.w3.org/1998/Math/MathML" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Derived copy of Kinetic Energy and the Work-Energy Theorem</title>
+<metadata mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Derived copy of Kinetic Energy and the Work-Energy Theorem</md:title>
+  <md:version>1.5</md:version>
+  <md:created>2011/12/21 19:20:03 +0000</md:created>
+  <md:revised>2013/05/16 20:12:07 +0000</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:derived-from url="https://legacy.cnx.org/content/m42147/1.5/">
+  </md:derived-from>
+  <md:keywordlist>
+    <md:keyword>kinetic energy</md:keyword>
+    <md:keyword>net work</md:keyword>
+    <md:keyword>work-energy theorem</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+  </md:subjectlist>
+  <md:abstract><list>
+<item>Explain work as a transfer of energy and net work as the work done by the net force.</item>
+<item>Explain and apply the work-energy theorem.</item>
+</list></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+     <section id="fs-id2004741"><title>Net Work and the Work-Energy Theorem</title>
+    <para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1046274">We know from the study of Newton’s laws in <link document="m42129">Dynamics: Force and Newton's Laws of Motion</link> that net force causes acceleration. We will see in this section that work done by the net force gives a system energy of motion, and in the process we will also find an expression for the energy of motion.
+</para><para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id2010722">Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work done by all external forces—that is, <term>net work</term> is the work done by the net external force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math>. In equation form, this is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } =F rSub { size 8{"net"} } d"cos"θ} {}</m:annotation></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle between the force vector and the displacement vector.</para><para xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1664782"><link target-id="import-auto-id1046634"/>(a) shows a graph of force versus displacement for the component of the force in the direction of the displacement—that is, an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> vs. <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> graph. In this case, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> is constant. You can see that the area under the graph is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math>, or the work done. <link target-id="import-auto-id1046634"/>(b) shows a more general process where the force varies. The area under the curve is divided into strips, each having an average force <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msub><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( F"cos"θ \)  rSub { size 8{i \( "ave" \) } } } {}</m:annotation></m:semantics></m:math>. The work done is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msub><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( F"cos"θ \)  rSub { size 8{i \( "ave" \) } } d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> for each strip, and the total work done is the sum of the <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>. Thus the total work done is the total area under the curve, a useful property to which we shall refer later.</para><figure xmlns:q="http://cnx.rice.edu/qml/1.0" id="import-auto-id1046634"><media id="import-auto-id1663873" alt="Two drawings labele a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.">
+        <image mime-type="image/jpg" src="Figure_08_02_02a.jpg" width="250"/>
+      </media>
+    
+<caption>(a) A graph of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> vs. <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>, when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> is constant. The area under the curve represents the work done by the force. (b) A graph of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"q} {}</m:annotation></m:semantics></m:math> vs. <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.</caption></figure>
+</section>    
+  </content>
+
+
+</document>

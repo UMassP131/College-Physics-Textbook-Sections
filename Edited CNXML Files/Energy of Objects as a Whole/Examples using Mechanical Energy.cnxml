@@ -1,0 +1,785 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>Examples where Mechanical Energy is Conserved</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Examples where Mechanical Energy is Conserved</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/14 11:13:04.203 GMT-5</md:created>
+  <md:revised>2017/08/14 11:13:04.404 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>gravitational potential energy</md:keyword>
+    <md:keyword>kinetic energy</md:keyword>
+    <md:keyword>mechanical energy</md:keyword>
+    <md:keyword>potential energy</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+    <para id="import-auto-idm1481507120">When working with conservation of energy problems, there are a lot of different energies to consider, so it may seem daunting to figure out where to start. However, most of these problems start with the statement of the conservation of energy and that work done on a system results in a change in energy, or</para>
+    <para id="import-auto-idm199216384">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>i</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{E} rsub {i} = {E} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1305966656">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>W</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>Δ</m:mi>
+            </m:mrow>
+            <m:mi>E</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">W= Δ E</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm162998848">In fact, there some problems where you’ll have to implement both ideas to solve them, where you can use the conservation of energy to solve as if there were no non-conservative forces, and then figure out how the energy changes with the addition of these forces.</para>
+    <para id="import-auto-idm1429142288">When working with mechanical energies, the two that are mostly used are gravitational potential and kinetic, or: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:msub><m:mi>U</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">mgh</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{U} rsub {g} =mgh</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-idm214079344">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>K</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:mi>v</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">K= {1} over {2} m {v} ^ {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm211529808">The h in gravitational potential will be relative to where we put h=0 to be, which can be anywhere. Usually, it’s a good idea to put h=0 in a position that makes either the final energy or the initial energy have zero gravitational potential, as this creates one less energy you need to work out. </para>
+    <para id="import-auto-idm1157848992">Energy is not a vector, so there’s no direction associated with energy, although you can still have positive and negative energies. Notice that the velocity in kinetic energy is always squared. Since mass is always positive, and any value squared will always be positive, kinetic energy will also always be positive, and if you’re solving for velocity given a kinetic energy, the velocity will always be positive. This, however, does not mean that the velocity will always be in the positive direction. The velocity in kinetic energy is the <emphasis effect="italics">magnitude</emphasis> of the velocity, so you will need to figure out what the direction of the velocity.</para>
+    <example id="import-auto-idm213990944"><title>Conceptual Example</title>
+    <para id="import-auto-idm1104013360">A car sits at rest at the top of a hill. A small push sends it rolling it down a hill. After its height has dropped by 5.0 m, it is moving at a good clip. Write down the equation for conservation of energy, noting the initial and final state, and what energy transformation has taken place.</para>
+    <para id="import-auto-idm1464266016">
+      <emphasis effect="bold">Solution</emphasis>
+    </para>
+    <para id="import-auto-idm153830144">Since the only force acting on the car is gravity, and gravitational force is conservative, we can use the conservation of energy:</para>
+    <para id="import-auto-idm203125808">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>i</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{E} rsub {i} = {E} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1192736784">Before we move on to calculating the values for these energies, let’s just think about the energy of the car in both the initial and the final state. In the initial state, the car sits at rest at the top of the hill, so that means it’s velocity is 0 at the beginning, and therefore it has no kinetic energy. In the final state, the car does have some velocity, which means that it has some kinetic energy, and it dropped a few meters, so that means that its gravitational potential has decreased. If we set the final point the car reaches to be at h=0, we can say that the car has zero gravitational potential in its final position and some gravitational potential in its initial position.</para>
+    <para id="import-auto-idm1192736528">Now we can go back to our equations. We can expand our energies to be:</para>
+    <para id="import-auto-idm155881616">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mi>i</m:mi>
+                </m:mrow>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mrow>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{U} rsub {g i} + {K} rsub {i} = {U} rsub {g f} + {K} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm216025184">Earlier, we found that K<sub>i</sub> is 0 and U<sub>f</sub> is 0, so we’re left with</para>
+    <para id="import-auto-idm1438178416">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>U</m:mi>
+              <m:mi mathvariant="italic">gi</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msub>
+              <m:mi>K</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{U} rsub {gi} = {K} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm214020096">Substituting in our definitions for kinetic energy and gravitational potential energy gives us</para>
+    <para id="import-auto-idm974289520">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">mg</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>h</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">mg {h} rsub {i} = {1} over {2} m {{v} rsub {f}} ^ {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1093207696">We can simplify this even further; notice that we can cancel mass out on both sides of the equation. Doing this and solving for v<sub>f</sub> gives us</para>
+    <para id="import-auto-idm966776080">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>g</m:mi>
+                <m:msub>
+                  <m:mi>h</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {2g {h} rsub {i}}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1007089664">Since we set the height to be zero in the final position, we know the height in the initial is 5 m above that, so that makes h<sub>i</sub> 5 m. Solving for v<sub>f</sub> gives us</para>
+    <para id="import-auto-idm154006144">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>9.8</m:mn>
+                        <m:mfrac>
+                          <m:mi>m</m:mi>
+                          <m:msup>
+                            <m:mi>s</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:msqrt>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>9.89</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">/</m:mo>
+              <m:mi>s</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {2(9.8 {m} over {{s} ^ {2}} )(5m)} =9.89 m/s</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1350239824">We can see that the energy transformation here is gravitational potential energy into kinetic energy.</para>
+	</example>
+    <example id="import-auto-idm1350239456"><title>Kingda Ka</title>
+    <para id="import-auto-idm1350239200">The Kingda Ka is a giant rollercoaster located in New Jersey. The ride includes a vertical drop of 127 m. Suppose the coaster has a speed of 6 m/s at the top of the drop. Find the speed of the riders at the bottom, ignoring friction and air resistance.</para>
+    <para id="import-auto-idm153373840">
+      <emphasis effect="bold">Solution</emphasis>
+    </para>
+    <para id="import-auto-idm153373216">Again, since there are no non-conservative forces in play here, we can use the conservation of energy here:</para>
+    <para id="import-auto-idm1319286800">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>i</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{E} rsub {i} = {E} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1179450832">Expanding these into potential and kinetic energies gives us:</para>
+    <para id="import-auto-idm1179450576">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mrow>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{U} rsub {i} + {K} rsub {i} = {U} rsub {f} + {K} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1161099568">Since the coaster is moving at both the top and bottom of the drop, we know it has both initial and final kinetic energy. If we set the bottom of the drop to be h=0, we can say that the top has some gravitational potential and the bottom has no gravitational potential. So our new equation becomes:</para>
+    <para id="import-auto-idm1198789328">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi mathvariant="italic">gi</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mrow>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msub>
+              <m:mi>K</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{U} rsub {gi} + {K} rsub {i} = {K} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1627065328">Expanding these terms out</para>
+    <para id="import-auto-idm1627065072">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">mg</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>h</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:mrow>
+              <m:msup>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">mg {h} rsub {i} + {1} over {2} m {{v} rsub {i}} ^ {2} = {1} over {2} m {{v} rsub {f}} ^ {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1465930720">The mass cancels out on both sides, leaving us with</para>
+    <para id="import-auto-idm1465930464">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>h</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:msup>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">g {h} rsub {i} + {1} over {2} {{v} rsub {i}} ^ {2} = {1} over {2} {{v} rsub {f}} ^ {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm972261280">Solving for the final velocity and putting in our values gives us</para>
+    <para id="import-auto-idm972261024">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mi>i</m:mi>
+                      </m:msub>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:msub>
+                    <m:mi>h</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:msqrt>
+              <m:mo stretchy="false">=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                            <m:mfrac>
+                              <m:mi>m</m:mi>
+                              <m:mi>s</m:mi>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>9.8</m:mn>
+                        <m:mfrac>
+                          <m:mi>m</m:mi>
+                          <m:msup>
+                            <m:mi>s</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>127</m:mn>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:msqrt>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>50.25</m:mn>
+            </m:mrow>
+            <m:mfrac>
+              <m:mi>m</m:mi>
+              <m:mi>s</m:mi>
+            </m:mfrac>
+            <m:mi>≈</m:mi>
+            <m:mn>112</m:mn>
+            <m:mi mathvariant="italic">mph</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {{{v} rsub {i}} ^ {2} +2g {h} rsub {i}} = sqrt {{(6 {m} over {s} )} ^ {2} +2(9.8 {m} over {{s} ^ {2}} )(127 m)} =50.25 {m} over {s} ≈112 mph</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+	</example>
+    <example id="import-auto-idm1191086448"><title>Wrecking Ball</title>
+    <para id="import-auto-idm1191086192">A wrecking ball is suspended from a 6.5 m long cable that makes a 45 degree angle with the vertical. The ball is released and swings down. What is the ball’s speed at the lowest point?</para>
+    <para id="import-auto-idm980516624">
+      <emphasis effect="bold">Solution</emphasis>
+    </para>
+    <para id="import-auto-idm980515968">No non-conservative forces here, so we can start with conservation of energy again, and expand it out.</para>
+    <para id="import-auto-idm177765952">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>i</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msub>
+              <m:mi>E</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{E} rsub {i} = {E} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1735587232">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mrow>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi>U</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{U} rsub {i} + {K} rsub {i} = {U} rsub {f} + {K} rsub {f}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1431037248">The wrecking ball is not moving at the top, but is moving at the lowest part of its swing, so it has no initial kinetic energy but some final kinetic energy. If we set h=0 at the lowest part of its swing, we can say that there’s no final potential gravitational energy, but some initial gravitational potential energy. So our new equation is: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"/><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:msub><m:mi>U</m:mi><m:mi mathvariant="italic">gi</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>K</m:mi><m:mi>f</m:mi></m:msub></m:mrow><m:annotation encoding="StarMath 5.0">{U} rsub {gi} = {K} rsub {f}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-idm967655968">Substituting in our definitions for these energies:</para>
+    <para id="import-auto-idm1473946656">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi mathvariant="italic">mg</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>h</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">mg {h} rsub {i} = {1} over {2} m {{v} rsub {f}} ^ {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1199683312">Canceling the mass on both sides and solving for v<sub>f:</sub></para>
+    <para id="import-auto-idm1200214592">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>f</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>g</m:mi>
+                <m:msub>
+                  <m:mi>h</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {2g {h} rsub {i}}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm1181279808">Fortunately, the mass canceled out, so we don’t need to know the mass of the wrecking ball. However, we do need to know its initial height. Here, it’s helpful to draw a picture. Let’s create a picture with the wrecking ball in both its initial position and its final position</para>
+	
+	<figure id="fig2313">
+      <media id="med2313" alt="">
+        <image mime-type="image/jpg" src="wreckball.jpg" width="500"/>
+      </media>
+       <caption>The wrecking ball in boths its initial position and its final position.</caption>
+    </figure>
+
+	
+    <para id="import-auto-idm1421657952">As you can see, the difference in the y distance from the top of the cable to the wrecking ball in both positions will be our h<sub>i</sub>. For the final position, the y distance is just the length of the cable, 6.5 m. For the initial position, we can use the angle the cable makes with the vertical and the length of the cable to solve for the y distance:</para>
+    <para id="import-auto-idm1421656928">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>cos</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">(</m:mo>
+              <m:mrow>
+                <m:mn>45</m:mn>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">)</m:mo>
+            </m:mrow>
+            <m:mn>6.5</m:mn>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>3.41</m:mn>
+            </m:mrow>
+            <m:mi>m</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">y= cos {left (45 right )} 6.5 m=3.41 m</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-idm201639616">The difference between these is 6.5 m – 3.41 m, which is 3.09 m, our initial height. Now we can plug this into our equation for final velocity:</para>
+    <para id="import-auto-idm201639200">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>9.8</m:mn>
+                        <m:mrow>
+                          <m:mi>m</m:mi>
+                          <m:mo stretchy="false">/</m:mo>
+                          <m:msup>
+                            <m:mi>s</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3.09</m:mn>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:msqrt>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>7.78</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">/</m:mo>
+              <m:mi>s</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{v} rsub {f} = sqrt {2 (9.8 m/ {s} ^ {2} )(3.09 m)} =7.78 m/s</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+	</example>
+  </content>
+</document>

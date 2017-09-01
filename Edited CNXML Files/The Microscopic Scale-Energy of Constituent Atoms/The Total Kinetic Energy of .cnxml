@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7">
+  <title>The Total Kinetic Energy in and Object Associated with its Temperature</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>The Total Kinetic Energy in and Object Associated with its Temperature</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2017/08/21 15:51:07.531 GMT-5</md:created>
+  <md:revised>2017/08/21 15:51:07.838 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="davidnvn">
+      <md:firstname>David</md:firstname>
+      <md:surname>Nguyen</md:surname>
+      <md:fullname>David Nguyen</md:fullname>
+      <md:email>dnguyen@umass.edu</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">davidnvn</md:role>
+    <md:role type="maintainer">davidnvn</md:role>
+    <md:role type="licensor">davidnvn</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>energy</md:keyword>
+    <md:keyword>kinetic energy</md:keyword>
+    <md:keyword>temperature</md:keyword>
+    <md:keyword>umassphysics</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm570793168">We now know that temperature is the average kinetic energy in an atom per degree of freedom (with a factor of 2 and a <m:math display="inline"><m:semantics><m:msub><m:mi>k</m:mi><m:mi>B</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{k} rsub {B}</m:annotation></m:semantics></m:math> thrown in). How much energy in total is in an object just due to the kinetic energy of all of its molecules wiggling around due to their temperature? If the average energy per atom is </para><para id="import-auto-idm715976448"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>K</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>n</m:mi><m:mi mathvariant="italic">dof</m:mi></m:msub><m:mn>2</m:mn></m:mfrac></m:mrow><m:msub><m:mi>k</m:mi><m:mi>B</m:mi></m:msub><m:mi>T</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">left langle K right rangle  =  {{n} rsub {dof}} over {2} {k} rsub {B} T</m:annotation></m:semantics></m:math>,</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm548138128">then to get the total kinetic energy due to temperature <m:math display="inline"><m:semantics><m:msub><m:mi>K</m:mi><m:mi mathvariant="italic">therm</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{K} rsub {therm}</m:annotation></m:semantics></m:math>, we take the average and multiply by the number of atoms <m:math display="inline"><m:semantics><m:mi>N</m:mi><m:annotation encoding="StarMath 5.0">N</m:annotation></m:semantics></m:math></para><para id="import-auto-idm728331728"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mi mathvariant="italic">therm</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi>N</m:mi></m:mrow><m:mrow><m:mo fence="true" stretchy="true">⟨</m:mo><m:mrow><m:mi>K</m:mi></m:mrow><m:mo fence="true" stretchy="true">⟩</m:mo></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">{K} rsub {therm} =N left langle K right rangle</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-idm711771952">Making a substitution we have</para>
+    <para id="import-auto-idm195178080"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mi mathvariant="italic">therm</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi>N</m:mi></m:mrow><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>n</m:mi><m:mi mathvariant="italic">dof</m:mi></m:msub><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mi>B</m:mi></m:msub><m:mi>T</m:mi></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">{K} rsub {therm} =N( {{n} rsub {dof}} over {2} {k} rsub {B} T)</m:annotation></m:semantics></m:math>.</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm700569120">Dealing with numbers of molecules can be unwieldy, so let’s convert to moles <m:math display="inline"><m:semantics><m:mi>n</m:mi><m:annotation encoding="StarMath 5.0">n</m:annotation></m:semantics></m:math>. You will recall from section 12.4 that</para><para id="import-auto-idm513301392">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>N</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>k</m:mi>
+                <m:mi>B</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi mathvariant="italic">nR</m:mi>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">N {k} rsub {B} =nR</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm737161008">where <m:math display="inline"><m:semantics><m:mi>R</m:mi><m:annotation encoding="StarMath 5.0">R</m:annotation></m:semantics></m:math> is the gas constant 8.314 J/(mol∙K), meaning we can rewrite our expression as </para><para id="import-auto-idm499998256">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mi mathvariant="italic">therm</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mi mathvariant="italic">dof</m:mi>
+                </m:msub>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mi mathvariant="italic">nRT</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{K} rsub {therm} = {{n} rsub {dof}} over {2} nRT</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <example id="import-auto-idm618517264">
+      <title>Comparing total thermal energy to gravitational potential energy</title>
+      <para id="import-auto-idm590037360">Consider a block of lead with about the same mass as a person, 70kg, sitting on the second floor of a building, 3m above the ground, at room temperature of 20<sup>o</sup>C. What is the ratio of gravitational potential energy to the total thermal energy due to the block’s temperature? </para>
+      <section id="import-auto-idm508953696">
+        <title>Solution</title>
+        <para id="import-auto-idm515802800">The gravitational potential energy of the block is given by </para>
+        <para id="import-auto-idm718344992">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>U</m:mi>
+                  <m:mi>g</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mi mathvariant="italic">mgh</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{U} rsub {g} =mgh</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm504507120">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>U</m:mi>
+                    <m:mi>g</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>70</m:mn>
+                        <m:mi mathvariant="italic">kg</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>9.8</m:mn>
+                      <m:mrow>
+                        <m:mi>N</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi mathvariant="italic">kg</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>m</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{U} rsub {g} =(70 kg)(9.8 N/kg)(3 m)</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm742483280">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>U</m:mi>
+                    <m:mi>g</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>2000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>J</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">kJ</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{U} rsub {g} =2000 J=2 kJ</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm753303328">The thermal energy is given by </para>
+        <para id="import-auto-idm753303072">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>K</m:mi>
+                    <m:mi mathvariant="italic">therm</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>n</m:mi>
+                      <m:mi mathvariant="italic">dof</m:mi>
+                    </m:msub>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi mathvariant="italic">nRT</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{K} rsub {therm}  =  {{n} rsub {dof}} over {2} nRT</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm550359280">Since lead is a 3-D solid, we know that the number of degrees of freedom is 6. To get the number of moles, we look up the molar mass of lead and find it to be 207 g/mol which means that 70kg of lead is</para>
+        <para id="import-auto-idm550358800">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>70</m:mn>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                      <m:mi mathvariant="italic">Pb</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mi>⋅</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1000</m:mn>
+                        <m:mi>g</m:mi>
+                      </m:mrow>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mi>⋅</m:mi>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mi mathvariant="italic">mol</m:mi>
+                          <m:mi mathvariant="italic">Pb</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>207.2</m:mn>
+                          <m:mi>g</m:mi>
+                          <m:mi mathvariant="italic">Pb</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>337.8</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi mathvariant="italic">Pb</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">(70 kg Pb)⋅ left ({1000 g} over {kg} right ) ⋅ left ({1 mol Pb} over {207.2 g Pb} right ) =337.8 mol Pb</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm491213952">Putting it all together (and converting 20<sup>o</sup>C to Kelvin) we get a total thermal energy of </para>
+        <para id="import-auto-idm566994032">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>K</m:mi>
+                    <m:mi mathvariant="italic">therm</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>6</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>337.8</m:mn>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mi>⋅</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>8.314</m:mn>
+                      <m:mfrac>
+                        <m:mi>J</m:mi>
+                        <m:mrow>
+                          <m:mi mathvariant="italic">mol</m:mi>
+                          <m:mi>⋅</m:mi>
+                          <m:mi>K</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>293.15</m:mn>
+                      <m:mi>K</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{K} rsub {therm} = {6} over {2} (337.8 mol)⋅ left (8.314  {J} over {mol⋅K} right ) (293.15 K)</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm511558624">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>K</m:mi>
+                    <m:mi mathvariant="italic">therm</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>2.47</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:mn>1</m:mn>
+                <m:msup>
+                  <m:mn>0</m:mn>
+                  <m:mn>6</m:mn>
+                </m:msup>
+                <m:mrow>
+                  <m:mi>J</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>2.47</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">MJ</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{K} rsub {therm} =2.47×1 {0} ^ {6}  J=2.47 MJ</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm159344656">Giving us a ratio of </para>
+        <para id="import-auto-idm507421104">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>U</m:mi>
+                      <m:mi>g</m:mi>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>K</m:mi>
+                      <m:mi mathvariant="italic">therm</m:mi>
+                    </m:msub>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>8</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:mn>1</m:mn>
+                <m:msup>
+                  <m:mn>0</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{{U} rsub {g}} over {{K} rsub {therm}} =8×1 {0} ^ {-4}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm579113824">i.e. the thermal energy is over 1000x bigger than the gravitational potential energy!</para>
+      </section>
+      <section id="import-auto-idm613059776">
+        <title>Analysis</title>
+        <para id="import-auto-idm579113312">We see that the internal thermal energy in this case is MUCH bigger than the gravitational potential energy, a common result. This disparity is why, when considering the energies at the microscopic scale, the macroscopic energies can usually be ignored. However, there are situations where energy moves from one scale to another such as a car engine which converts microscopic potential energy in the gasoline into microscopic kinetic energy of hot gas in the engine, into motion of the car. Clearly in these situations, you need to think about both the microscopic and macroscopic scales. </para>
+      </section>
+	  </example>
+      <example id="import-auto-idm695486656">
+        <title>Argon Gas</title>
+        <para id="import-auto-idm695486272">Say we have a container with 0.25mol of argon gas which we can treat as being an ideal gas. How much energy do we need to add as heat to raise the temperature 10<sup>o</sup>C assuming no work is done?</para>
+      <section id="import-auto-idm527044416">
+        <title>Solution</title>
+        <para id="import-auto-idm503431968">We begin with the First Law of Thermodynamics (Conservation of Energy)</para>
+        <para id="import-auto-idm503431712">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi mathvariant="italic">ΔE</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mi>Q</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mi>W</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">ΔE=Q+W</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm714117360">which, given that no work is done goes to</para>
+        <para id="import-auto-idm714117104">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi mathvariant="italic">ΔE</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mi>Q</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">ΔE=Q</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm524207504"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mi>f</m:mi></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>E</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>Q</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{E} rsub {f} - {E} rsub {i} =Q</m:annotation></m:semantics></m:math>.</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm698896640">All of the energy in this case is thermal kinetic energy. Replacing <m:math display="inline"><m:semantics><m:mi>E</m:mi><m:annotation encoding="StarMath 5.0">E</m:annotation></m:semantics></m:math> with <m:math display="inline"><m:semantics><m:msub><m:mi>K</m:mi><m:mi mathvariant="italic">therm</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{K} rsub {therm}</m:annotation></m:semantics></m:math>, therefore, we have</para><para id="import-auto-idm709047952"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mi mathvariant="italic">ther</m:mi><m:msub><m:mi>m</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>K</m:mi><m:mrow><m:mi mathvariant="italic">ther</m:mi><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>Q</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{K} rsub {ther {m} rsub {f}} - {K} rsub {ther {m} rsub {i}} =Q</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-idm606918464">Now, we put in the definition of total thermal kinetic energy to get</para>
+        <para id="import-auto-idm606918208">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:msub>
+                    <m:mi>n</m:mi>
+                    <m:mi mathvariant="italic">dof</m:mi>
+                  </m:msub>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mi mathvariant="italic">Rn</m:mi>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mi>f</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>n</m:mi>
+                      <m:mi mathvariant="italic">dof</m:mi>
+                    </m:msub>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi mathvariant="italic">Rn</m:mi>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>Q</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{{n} rsub {dof}} over {2} Rn {T} rsub {f} - {{n} rsub {dof}} over {2} Rn {T} rsub {i} =Q</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm698812544">which after factorization becomes (note this equation for the next section!)</para>
+        <para id="import-auto-idm491432496"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mfrac><m:msub><m:mi>n</m:mi><m:mi mathvariant="italic">dof</m:mi></m:msub><m:mn>2</m:mn></m:mfrac><m:mi mathvariant="italic">Rn</m:mi><m:mrow><m:mrow><m:mo fence="true" stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>f</m:mi></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mrow><m:mo fence="true" stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>Q</m:mi></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">{{n} rsub {dof}} over {2} Rn( {T} rsub {f} - {T} rsub {i} )=Q</m:annotation></m:semantics></m:math>.</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="import-auto-idm699491984">Argon is an ideal gas, so <m:math display="inline"><m:semantics><m:mrow><m:msub><m:mi>n</m:mi><m:mi mathvariant="italic">dof</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">{n} rsub {dof} =3</m:annotation></m:semantics></m:math>. We know the number of moles <m:math display="inline"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0.25</m:mn></m:mrow><m:mi mathvariant="italic">mol</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">n=0.25 mol</m:annotation></m:semantics></m:math> and <m:math display="inline"><m:semantics><m:mi>R</m:mi><m:annotation encoding="StarMath 5.0">R</m:annotation></m:semantics></m:math> is the gas constant <m:math display="inline"><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mn>8.314</m:mn></m:mrow><m:mfrac><m:mi>J</m:mi><m:mrow><m:mi mathvariant="italic">mol</m:mi><m:mi>⋅</m:mi><m:mi>K</m:mi></m:mrow></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">R=8.314  {J} over {mol ⋅ K}</m:annotation></m:semantics></m:math>. Moreover, we know the temperature difference <m:math display="inline"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>f</m:mi></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mn>0</m:mn><m:mi>∘</m:mi></m:msup><m:mi>C</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{T} rsub {f} - {T} rsub {i} =1 {0} ^ {∘} C</m:annotation></m:semantics></m:math>. We, as always, need to convert to Kelvins. However, the size of <m:math display="inline"><m:semantics><m:mrow><m:msup><m:mn>1</m:mn><m:mi>∘</m:mi></m:msup><m:mi>C</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{1} ^ {∘} C</m:annotation></m:semantics></m:math> is the same as <m:math display="inline"><m:semantics><m:mrow><m:mn>1</m:mn><m:mi>K</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">1K</m:annotation></m:semantics></m:math>, only the zero points are different. Therefore <m:math display="inline"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mi>f</m:mi></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>10</m:mn></m:mrow><m:mi>K</m:mi></m:mrow><m:annotation encoding="StarMath 5.0">{T} rsub {f} - {T} rsub {i} =10K</m:annotation></m:semantics></m:math>. Substituting these values in, we get</para><para id="import-auto-idm526447136">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>8.314</m:mn>
+                      <m:mfrac>
+                        <m:mi>J</m:mi>
+                        <m:mrow>
+                          <m:mi mathvariant="italic">mol</m:mi>
+                          <m:mi>⋅</m:mi>
+                          <m:mi>K</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>0.25</m:mn>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>10</m:mn>
+                        <m:mi>K</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>31</m:mn>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi>J</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{3} over {2} left (8.314  {J} over {mol⋅K} right ) (0.25 mol)(10K)= +31 J</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-idm585047088">The result is positive, so we need to add 31J of heat energy to the system to get the temperature to increase 10<sup>o</sup>C (which makes sense intuitively). </para>
+      </section>
+    </example>
+  </content>
+</document>

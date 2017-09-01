@@ -77,8 +77,14 @@
       <section id="import-auto-idm1195056480">
         <title>Summary</title>
         <para id="import-auto-idm1279930576">So, now we’ve talked about the three methods of heat transfer, conduction, radiation, and convection. What’s the commonality between these three different methods? These three different methods are, at the microscopic level, the transfer of energy through random collisions. In conduction, the atoms are colliding with each other, in radiation you have the collision of photons with atoms, and in convection you have the transfer of energy through the motion of the fluid itself. And this is what heat really is, it’s the transfer of energy through collisions at the microscopic scale. </para>
-        <para id="import-auto-idm1246373520">In summary, heat which we will use the letter Q to represent, is another way of transferring energy. Energy entering the system has positive heat in our convention, and energy leaving the system has negative heat in our convention. This energy transfer can occur in one of three ways, conduction, convection, or radiation, but these methods are, at the molecular level, collisions between particles. This concludes this video. </para>
+        <para id="import-auto-idm1246373520">Heat, which we will use the letter Q to represent, is another way of transferring energy. Energy entering the system has positive heat in our convention, and energy leaving the system has negative heat in our convention. This energy transfer can occur in one of three ways, conduction, convection, or radiation, but these methods are, at the molecular level, collisions between particles.</para>
       </section>
+	  <exercise id="inote4124" type="check-understanding"><label/><title><media id="inote4124i" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inote4124p"><para id="inote4124pp">(insert text here)</para></problem></exercise>
+
+
+	  <para id="lastsection"> This paragraph summarizes things nicely and is important for your quiz!
+<newline />
+You need to know what heat is and how it is different from temperature. You also need to know that if energy is going into a system, then we count it as positive heat or work. Energy leaving is negative heat or work.</para>
     </section>
   </content>
 </document>

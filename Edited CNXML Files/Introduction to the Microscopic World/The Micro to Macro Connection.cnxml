@@ -46,11 +46,18 @@
 
 <content>
 	
-<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">For a lot of you, this chapter will be review, especially if you've taken any of the chemistry courses here at UMass. For the quiz, what you should know is:<list id="quiztopics">
-<item>Converting from moles to mass and vice versa (Section 12.3)</item>
-<item>Identifying the uses and limitations of the ideal gas law (Section 12.4)</item>
+<exercise id="inotei" type="check-understanding"><label/><title><media id="inoteii" alt="the umass logo" display="inline"><image mime-type="image/png" src="umass-logo5.png" width="300" print-width="3in"/></media></title><problem id="inoteip"><para id="inoteipp">
+We expect that all of the material in this chapter is review for you from other courses, and is included here for reference. 
+The topics with which you are least likely to be familiar are:<list id="quiztopics">
+<item>The expression of the ideal gas law in terms of molecules instead of moles and k<sub>B</sub> vs R in section 12.5</item>
+<item>The limitations of the ideal gas law in section 12.5</item>
+<item>The Einsteinian Solid in section 12.6</item>
 </list>
-If you are familiar with these ideas, you can skip this chapter. However, if you are unfamiliar with these ideas, or perhaps want a refresher on the material, I would suggest going through this chapter.</para><para id="cite">This introduction is based from <newline />umdberg / The micro to macro connection (2013). Available at: <link url="http://umdberg.pbworks.com/w/page/68405576/The%20micro%20to%20macro%20connection%20(2013)">http://umdberg.pbworks.com/w/page/68405576/The%20micro%20to%20macro%20connection%20(2013)</link>. (Accessed: 2nd August 2017)
+Your quiz will cover:
+<list id="quiztopics2">
+<item>Converting between atoms, grams, and moles for any compound given a periodic table.</item>
+<item>The limitations of the ideal gas law</item>
+</list></para><para id="cite">This introduction is based from <newline />umdberg / The micro to macro connection (2013). Available at: <link url="http://umdberg.pbworks.com/w/page/68405576/The%20micro%20to%20macro%20connection%20(2013)">http://umdberg.pbworks.com/w/page/68405576/The%20micro%20to%20macro%20connection%20(2013)</link>. (Accessed: 2nd August 2017)
 </para></problem></exercise>
 	
     <para id="import-auto-idm252301136">Much of what we have done so far -- the Newtonian framework, describing the properties of solids and liquids, and the concepts of heat and temperature -- are <emphasis effect="italics">macroscopic</emphasis> concepts: they describe things we see, feel, and experience. They express the regularities and consistencies of the behavior of physical systems. Much of this was well known by the middle of the nineteenth century. But one of the most extraordinary and important pieces of knowledge that humanity has garnered since then is the idea of the <emphasis effect="italics">microscopic</emphasis>.  By this, physicists don't mean "what you can see in a microscope", but rather the fact that everything we regularly experience is made up of a small number of different kinds of atoms (91 in the natural world, a few more that have been created by humans). The essential point about this is that we believe that all properties of the macroscopic world are ultimately due to the properties and interactions of those 91 distinct elements. Although some phenomena require a description at a higher level (see the discussion of emergent phenomena), at some level (even if it's not convenient or useful for us to explicate), everything we see is a result of atomic properties.</para>
